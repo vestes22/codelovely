@@ -488,3 +488,7 @@ a.wp-block-button__link{
     color: #800000;
     font-size: 2em;
   }
+
+  .wp-block-ub-content-toggle-accordion-title-wrap .wp-block-ub-content-toggle-accordion-state-indicator {
+    color: #f9f1ec;
+  }
