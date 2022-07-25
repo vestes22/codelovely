@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'GD Sherpa';
+	src: url(//img6.wsimg.com/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2)
+	format('woff2');
+	font-weight: 300 700;
+	font-display: swap;
+}
+
+mark.mwc-payments-godaddy-onboarding-status {
+	font-family: 'GD Sherpa';
+	padding: 4px 12px;
+	border-radius: 15px;
+	background: #A6FFF8;
+	color: #004249;
+	font-size: 14px;
+	font-weight: 300;
+	white-space: nowrap;
+}
+mark.mwc-payments-godaddy-onboarding-status.connected {
+	background: #9FFFB8;
+	color: #003A15;
+}
+mark.mwc-payments-godaddy-onboarding-status.declined,
+mark.mwc-payments-godaddy-onboarding-status.terminated {
+	background: #FFBBBB;
+	color: #600801;
+}
+mark.mwc-payments-godaddy-onboarding-status.disconnected,
+mark.mwc-payments-godaddy-onboarding-status.incomplete{
+	background: #D8EFEF;
+	color: #004249;
+}
+mark.mwc-payments-godaddy-onboarding-status.needs_attention,
+mark.mwc-payments-godaddy-onboarding-status.pending,
+mark.mwc-payments-godaddy-onboarding-status.connecting,
+mark.mwc-payments-godaddy-onboarding-status.suspended {
+	background: #FFEEA9;
+	color: #111111;
+}
+
+.wc_payment_gateways_wrapper .onboarding-action a.remove {
+	color: #AE1302;
+	border-color: #AE1302;
+}
+
+.wc-backbone-modal.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-content {
+	width: 600px;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'GD Sherpa';
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main .wc-backbone-modal-header {
+	border-bottom: none;
+	border-radius: 4px;
+	padding: 30px 32px;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main .wc-backbone-modal-header h1 {
+	font-size: 32px;
+	line-height: 40px;
+	color: #111111;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link {
+	border-left: none;
+	height: 30px;
+	width: 30px;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link::before {
+	font: normal 22px/40px dashicons!important;
+	color: #111111;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link:hover {
+	background: none;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main article {
+	padding: 0 32px 30px;
+	color: #000000;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main article .description {
+	margin-bottom: 20px;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main article .details {
+	background: #F5F5F5;
+	border-radius: 4px;
+	padding: 20px 30px;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main article .details .callout {
+	float: left;
+	width: 320px;
+	padding-right: 24px;
+	border-right: #D4DBE0 1px solid;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main article .details .pricing {
+	float: right;
+	width: 140px;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 8px;
+	line-height: 18px;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main article .details .pricing .cost {
+	display: block;
+	font-size: 24px;
+	line-height: 20px;
+	padding-bottom: 4px;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main footer {
+	border-top: none;
+	box-shadow: none;
+	border-radius: 4px;
+	padding: 20px 30px;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main footer .button {
+	padding: 10px 24px;
+	background: #111111;
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	border: none;
+	border-radius: 0;
+}
+.mwc-payments-godaddy-onboarding-start .wc-backbone-modal-main footer .button.button-clean {
+	color: #09757A;
+	background: none;
+}
+.mwc-payments-godaddy-settings-title mark {
+	margin-left: 50px;
+}
+
+.mwc-payments-godaddy-settings-description a {
+	text-decoration: none;
+}

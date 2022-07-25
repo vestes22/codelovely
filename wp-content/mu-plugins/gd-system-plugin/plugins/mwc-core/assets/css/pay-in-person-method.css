@@ -1,0 +1,86 @@
+div#mwc-payments-godaddy-sip-settings + .submit button {
+	background-color: var(--mwc-color-primary);
+	font-family: var(--mwc-font-sans);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: var(--mwc-color-primary);
+	border: 1px solid;
+	border-color: var(--mwc-color-primary);
+	border-radius: var(--mwc-radius-sm);
+	box-shadow: var(--mwc-shadow-default);
+	color: var(--mwc-color-white);
+	cursor: pointer;
+	display: inline-block;
+	font-size: var(--mwc-font-size-3);
+	font-weight: var(--mwc-font-weight-medium);
+	line-height: none;
+	padding-top: 0.4375rem;
+	padding-right: var(--mwc-space-3);
+	padding-bottom: 0.4375rem;
+	padding-left: var(--mwc-space-3);
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+div#mwc-payments-godaddy-sip-settings + .submit button:hover {
+	background: var(--mwc-color-gray-600);
+}
+
+div#mwc-payments-godaddy-sip-settings + .submit button:focus {
+	border-radius: var(--mwc-radius-default);
+	box-shadow: 0 0 0 2px white, 0 0 0 4px #000, 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+}
+
+div#mwc-payments-godaddy-sip-settings + .submit {
+	margin-top: var(--mwc-space-0);
+	padding-top: var(--mwc-space-5);
+	padding-bottom: var(--mwc-space-5);
+	background-color: var(--mwc-color-white);
+	padding-left: var(--mwc-space-5);
+	border-top: 1px solid;
+	border-color: var(--mwc-color-white);
+}
+
+.mwc-payments-godaddy-sip {
+	background: var(--mwc-color-white);
+	padding-top: var(--mwc-space-0);
+	padding-right: var(--mwc-space-5);
+	padding-left: var(--mwc-space-5);
+	padding-bottom: var(--mwc-space-5);
+	border-radius: var(--mwc-radius-md);
+}
+
+.mwc-payments-godaddy-sip .form-table th {
+	width: 230px;
+}
+
+.mwc-payments-godaddy-sip .titledesc label {
+	font-size: var(--mwc-font-size-4);
+	font-family: var(--mwc-font-sans);
+	font-weight: var(--mwc-font-weight-medium);
+}
+
+.mwc-payments-godaddy-sip input, .mwc-payments-godaddy-sip textarea  {
+	color: #444444;
+	font-size: 14px;
+	font-weight: var(--mwc-font-weight-normal);
+}
+
+.mwc-payments-godaddy-sip__title {
+	font-family: var(--mwc-font-sans);
+	font-size: var(--mwc-font-size-4);
+	font-weight: 600;
+	color: var(--mwc-color-black);
+	border-bottom: 1px solid;
+	border-color: var(--mwc-color-border);
+	padding-top: var(--mwc-space-5);
+	padding-right: var(--mwc-space-5);
+	padding-left: var(--mwc-space-5);
+	padding-bottom: var(--mwc-space-5);
+	margin-left: -24px;
+	margin-right: -24px;
+}

@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"POT-Creation-Date: 2021-02-17T11:00:58-08:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "MWC Core"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://hk.godaddy.com"
+
+#. Description of the plugin
+msgid "Simplified eCommerce for WordPress by GoDaddy."
+msgstr ""
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""

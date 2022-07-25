@@ -1,0 +1,667 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: System Plugin 4.1.4\n"
+"POT-Creation-Date: 2021-02-24 16:29:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: gd-system-plugin/includes/admin/class-bar.php:228
+#: gd-system-plugin/includes/admin/class-bar.php:239
+#: gd-system-plugin/includes/admin/class-bar.php:411
+#: gd-system-plugin/includes/admin/class-bar.php:468
+#: gd-system-plugin/includes/class-hotfixes.php:195
+msgid "Managed WordPress"
+msgstr "Administrert WordPress"
+
+#: gd-system-plugin/includes/admin/class-bar.php:290
+msgid "Flush Cache"
+msgstr "Tøm cache"
+
+#: gd-system-plugin/includes/admin/class-bar.php:309
+msgid "Hosting Overview"
+msgstr "Hosting-oversikt"
+
+#: gd-system-plugin/includes/admin/class-bar.php:331
+msgid "Hosting Settings"
+msgstr "Hosting-innstillinger"
+
+#: gd-system-plugin/includes/admin/class-bar.php:359
+msgid "Connection Management"
+msgstr "Tilkoblingsbehandling"
+
+#: gd-system-plugin/includes/admin/class-bar.php:384
+msgid "Help &amp; Support"
+msgstr "Hjelp og support"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Site"
+msgstr "Mitt nettsted"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Dashboard"
+msgstr "Mitt instrumentbord"
+
+#: gd-system-plugin/includes/admin/class-bar.php:460
+msgid "Logout"
+msgstr "Logg av"
+
+#: gd-system-plugin/includes/admin/class-bar.php:475
+#: gd-system-plugin/includes/admin/class-bar.php:487
+msgid "Design Editor"
+msgstr "Designredigering"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:71
+msgid "PHP Update Required"
+msgstr "PHP-oppdatering påkrevd"
+
+#: gd-system-plugin/includes/admin/class-growl.php:102
+msgid "Success"
+msgstr "Suksess"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:220
+#. translators: %s: Plugin author.
+msgid "By %s"
+msgstr "Av %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:242
+#. translators: %s: Plugin name and version.
+msgid "Install %s now"
+msgstr "Installer %s nå"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:247
+msgid "Install Now"
+msgstr "Installer nå"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:263
+#. translators: %s: Plugin name and version.
+msgid "Update %s now"
+msgstr "Oppdater %s nå"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:268
+msgid "Update Now"
+msgstr "Oppdater nå"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:284
+#: gd-system-plugin/includes/admin/class-themes-tab.php:146
+#: gd-system-plugin/includes/admin/class-themes-tab.php:308
+msgid "Activate"
+msgstr "Aktiver"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:327
+#. translators: %s: Plugin name and version.
+msgid "More information about %s"
+msgstr "Mer informasjon om %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:329
+msgid "More Details"
+msgstr "Flere detaljer"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:143
+msgid "GoDaddy Recommended"
+msgstr "Anbefales av GoDaddy"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:70
+msgid "Go to your Dashboard to install plugins, manage users and more."
+msgstr "Gå til instrumentbordet ditt for å installere plugin-moduler, administrere brukere og mer."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:74
+msgid "Add a new page or blog post to organize your content or engage visitors."
+msgstr "Legg til en ny side eller et nytt blogginnlegg for å organisere innhold eller engasjere besøkende."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:78
+msgid "Edit the page you're currently on."
+msgstr "Rediger siden du for øyeblikket befinner deg på."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:82
+msgid "Change your website's design, color palette and more."
+msgstr "Endre designet, fargepaletten og mer på nettstedet ditt."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:86
+msgid "Find help, troubleshooting and how to get back to your Hosting Dashboard."
+msgstr "Finn hjelp, feilsøk og hvordan du kommer deg tilbake til Hosting-instrumentbordet."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:96
+msgid ""
+"Add pages, blog posts, and products to engage visitors and keep your shop "
+"organized."
+msgstr ""
+"Legg til sider, blogginnlegg og produkter for å engasjere besøkende og holde "
+"butikken din organisert."
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:304
+msgid "Installed"
+msgstr "Installert"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:145
+msgid "Error Installing Theme"
+msgstr "Det oppstod en feil ved installering av tema"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:147
+#: gd-system-plugin/includes/admin/class-themes-tab.php:310
+msgid "Live Preview"
+msgstr "Direkte forhåndsvisning"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:148
+msgid "Theme Install"
+msgstr "Tema-installering"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:288
+msgid "Install %s"
+msgstr "Installer %s"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:291
+msgid "Install"
+msgstr "Installer"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:322
+msgid "View Demo"
+msgstr "Vis demo"
+
+#: gd-system-plugin/includes/class-blacklist.php:94
+#. translators: Name of the disallowed plugin
+msgid "%s is not allowed on our system. It has been automatically deactivated."
+msgstr "%s er ikke tillatt på vårt system. Det har blitt automatisk deaktivert."
+
+#: gd-system-plugin/includes/class-blacklist.php:229
+msgid "Not Available"
+msgstr "Ikke tilgjengelig"
+
+#: gd-system-plugin/includes/class-blacklist.php:230
+msgid ""
+"This plugin is not allowed on our system due to performance, security, or "
+"compatibility concerns. Please contact support with any questions."
+msgstr ""
+"Denne plugin-modulen er ikke tillatt på vårt system på grunn av bekymringer i "
+"forhold til ytelse, sikkerhet eller kompatibilitet.  Kontakt vår støtte med "
+"eventuelle spørsmål."
+
+#: gd-system-plugin/includes/class-cache.php:116
+msgid "Cache cleared"
+msgstr "Cache tømt"
+
+#: gd-system-plugin/includes/class-change-domain.php:61
+#: gd-system-plugin/includes/class-change-domain.php:149
+#. translators: Title of alert in bold
+msgid "%s Your domain cannot be changed here."
+msgstr "%s Domenet ditt kan ikke endres her."
+
+#: gd-system-plugin/includes/class-change-domain.php:62
+#: gd-system-plugin/includes/class-change-domain.php:78
+#: gd-system-plugin/includes/class-change-domain.php:138
+#: gd-system-plugin/includes/class-change-domain.php:150
+#: gd-system-plugin/includes/class-temp-domain.php:117
+#: gd-system-plugin/includes/class-temp-domain.php:125
+msgid "Note:"
+msgstr "Merk:"
+
+#: gd-system-plugin/includes/class-change-domain.php:69
+#: gd-system-plugin/includes/class-temp-domain.php:132
+msgid "Change domain"
+msgstr "Endre domene"
+
+#: gd-system-plugin/includes/class-change-domain.php:77
+#: gd-system-plugin/includes/class-change-domain.php:137
+#. translators: Title of alert in bold
+msgid "%s This is your staging site and the domain cannot be changed."
+msgstr "%s Dette er visningsområdet ditt og domenet kan ikke endres."
+
+#: gd-system-plugin/includes/class-debug-mode.php:457
+msgid ""
+"Changes in safe mode are not saved and are not visible by visitors to your "
+"site."
+msgstr ""
+"Endringer i sikker modus blir ikke lagret og er ikke synlige for besøkende "
+"til nettstedet ditt."
+
+#: gd-system-plugin/includes/class-debug-mode.php:542
+msgid "Safe Mode"
+msgstr "Sikker modus"
+
+#: gd-system-plugin/includes/class-debug-mode.php:558
+msgid "Themes"
+msgstr "Temaer"
+
+#: gd-system-plugin/includes/class-debug-mode.php:566
+msgid "Safe mode"
+msgstr "Sikker modus"
+
+#: gd-system-plugin/includes/class-debug-mode.php:582
+#. translators: total number of themes installed.
+msgid "Installed (%d)"
+msgstr "Installert (%d)"
+
+#: gd-system-plugin/includes/class-debug-mode.php:585
+msgid "Select one"
+msgstr "Velg en"
+
+#: gd-system-plugin/includes/class-debug-mode.php:603
+msgid "Plugins"
+msgstr "Utvidelser"
+
+#: gd-system-plugin/includes/class-debug-mode.php:610
+msgid "Active"
+msgstr "Aktiv"
+
+#: gd-system-plugin/includes/class-debug-mode.php:611
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: gd-system-plugin/includes/class-debug-mode.php:629
+msgid "Preview"
+msgstr "Forhåndsvis"
+
+#: gd-system-plugin/includes/class-debug-mode.php:630
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No active plugins."
+msgstr "Ingen aktive plugin-moduler."
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No inactive plugins."
+msgstr "Ingen inaktive plugin-moduler."
+
+#: gd-system-plugin/includes/class-hotfixes.php:191
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: gd-system-plugin/includes/class-hotfixes.php:192
+msgid "Media Temple"
+msgstr "Media Temple"
+
+#: gd-system-plugin/includes/class-hotfixes.php:464
+#. translators: 1. Original translated error text. 2. URL to the hosting
+#. environment where users can update the PHP version.
+msgid ""
+"You can update to the most recent version of PHP in your hosting settings "
+"<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">here</a>."
+msgstr ""
+"Du kan oppdatere til den nyeste versjonen av PHP i vertsinnstillingene dine "
+"<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">her</a>."
+
+#: gd-system-plugin/includes/class-hotfixes.php:466
+msgid "Update PHP version"
+msgstr "Oppdater PHP-versjonen"
+
+#: gd-system-plugin/includes/class-sso.php:194
+msgid "Log in with GoDaddy"
+msgstr "Logg på med GoDaddy"
+
+#: gd-system-plugin/includes/class-sso.php:199
+msgid "Or"
+msgstr "Eller"
+
+#: gd-system-plugin/includes/class-sso.php:203
+msgid "Log in with username and password"
+msgstr "Logg på med brukernavn og passord"
+
+#: gd-system-plugin/includes/class-sso.php:313
+msgid ""
+"We were unable to log you in automatically. Please enter your WordPress "
+"username and password."
+msgstr ""
+"Vi kunne ikke logge deg på automatisk. Angi ditt brukernavn og passord for WordPress."
+
+#: gd-system-plugin/includes/class-temp-domain.php:45
+#. translators: 1: Current domain. 2: Domain name change URL.
+msgid ""
+"<strong>Note:</strong> Your site is using <strong>%1$s</strong>. Did you "
+"want to use your domain? <a href=\"%2$s\" target=\"_blank\">Add Domain</a>"
+msgstr ""
+"<strong>Merk:</strong> Nettstedet ditt bruker <strong>%1$s</strong>. Ønsket "
+"du å bruke domenet ditt? <a href=\"%2$s\" target=\"_blank\">Legg til domene</a>"
+
+#: gd-system-plugin/includes/class-temp-domain.php:116
+#. translators: 1: "Note:" wrapped in strong tags
+msgid "%s This is your staging site and it cannot be indexed by search engines."
+msgstr "%s Dette er visningsområdet ditt og det kan ikke indekseres av søkemotorer."
+
+#: gd-system-plugin/includes/class-temp-domain.php:124
+#. translators: 1: "Note:" wrapped in strong tags
+msgid ""
+"%s Your site is using a temporary domain that cannot be indexed by search "
+"engines."
+msgstr ""
+"%s Nettstedet ditt bruker et midlertidig domene som ikke kan indekseres av søkemotorer."
+
+#: gd-system-plugin/includes/class-worker.php:117
+msgid ""
+"This is already included as a must-use plugin on your site and is required "
+"for backups and other important hosting platform benefits to function "
+"properly. It cannot be removed or deactivated. It should not be installed "
+"as a normal plugin and will be automatically removed if uploaded manually."
+msgstr ""
+"Dette er allerede inkludert som en plugin-modul du må bruke på nettstedet "
+"ditt og kreves for at sikkerhetskopieringer og andre viktige "
+"hostingplattformfordeler skal fungere riktig. Det kan ikke fjernes eller "
+"deaktiveres. Det skal ikke installeres som en vanlig plugin-modul og vil bli "
+"fjernet automatisk hvis det lastes opp manuelt."
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:75
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" drafted"
+msgstr "Beaver Builder %2$s \"%1$s\"-utarbeidet"
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:99
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" discarded"
+msgstr "Beaver Builder %2$s \"%1$s\" forkastet"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:25
+msgid "Background Attachment"
+msgstr "Bakgrunn – vedlegg"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:26
+msgid "Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:27
+msgid "Background Image"
+msgstr "Bakgrunnsbilde"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:28
+msgid "Background Position"
+msgstr "Bakgrunn – posisjon"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:29
+msgid "Background Repeat"
+msgstr "Bakgrunn – gjenta"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:30
+msgid "Base Color Scheme"
+msgstr "Grunnleggende fargevalg"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:31
+msgid "Logo"
+msgstr "Logo"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:32
+msgid "Header and Sidebar Background Color"
+msgstr "Bakgrunnsfarge på topptekst og sidestolpe"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:33
+msgid "Header Image"
+msgstr "Topptekstbilde"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:34
+msgid "Display Site Title and Tagline"
+msgstr "Vis sidetittel og slagord"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:35
+msgid "Header Text Color"
+msgstr "Farge på topptekst"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:36
+msgid "Link Color"
+msgstr "Koblingsfarge"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:37
+msgid "Main Text Color"
+msgstr "Farge på hovedtekst"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:38
+msgid "Page Background Color"
+msgstr "Farge på bakgrunnsside"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:39
+msgid "Secondary Text Color"
+msgstr "Sekundær farge på tekst"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:40
+msgid "Header and Sidebar Text Color"
+msgstr "Farge på topptekst og sidestolpetekst"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:93
+#. translators: 1. Option name, 2. Theme name
+msgid "\"%1$s\" updated for the %2$s theme"
+msgstr "\"%1$s\" oppdatert for %2$s-temaet"
+
+#: gd-system-plugin/includes/log/components/class-option.php:28
+msgid "Site Title"
+msgstr "Nettstedstittel"
+
+#: gd-system-plugin/includes/log/components/class-option.php:29
+msgid "Tagline"
+msgstr "Slagord"
+
+#: gd-system-plugin/includes/log/components/class-option.php:30
+msgid "Posts page"
+msgstr "Post-side"
+
+#: gd-system-plugin/includes/log/components/class-option.php:31
+msgid "Front page"
+msgstr "Forside"
+
+#: gd-system-plugin/includes/log/components/class-option.php:32
+msgid "Front page displays"
+msgstr "Forsidevisninger"
+
+#: gd-system-plugin/includes/log/components/class-option.php:33
+msgid "Site Icon"
+msgstr "Nettstedsikon"
+
+#: gd-system-plugin/includes/log/components/class-option.php:34
+msgid "Site Language"
+msgstr "Nettstedsspråk"
+
+#: gd-system-plugin/includes/log/components/class-option.php:79
+#. translators: Option name
+msgid "\"%s\" option updated"
+msgstr "\"%s” alternativ oppdatert"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:29
+#. translators: Plugin name
+msgid "\"%s\" plugin activated"
+msgstr "\"%s\" plugin-modul aktivert"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:36
+#. translators: Plugin name
+msgid "\"%s\" plugin activated network wide"
+msgstr "\"%s\" plugin-modul aktivert for hele nettverket"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:61
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated"
+msgstr "\"%s\" plugin-modul deaktivert"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:68
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated network wide"
+msgstr "\"%s\" plugin-modul deaktivert for hele nettverket"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:95
+#. translators: Plugin name
+msgid "\"%s\" plugin deleted"
+msgstr "\"%s\" plugin-modul slettet"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:191
+#. translators: Plugin name
+msgid "\"%s\" plugin installed"
+msgstr "\"%s\" plugin-modul installert"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:226
+#. translators: 1: Plugin name, 2: New plugin version
+msgid "\"%1$s\" plugin updated to %2$s"
+msgstr "\"%1$s\" plugin-modul oppdatert til %2$s"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:233
+#. translators: 1: Plugin name, 2: Old plugin version, 3: New plugin version
+msgid "\"%1$s\" plugin updated from %2$s to %3$s"
+msgstr "\"%1$s\" plugin-modul oppdatert fra %2$s til %3$s"
+
+#: gd-system-plugin/includes/log/components/class-post.php:49
+#: gd-system-plugin/includes/log/components/class-post.php:57
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s updated"
+msgstr "\"%1$s\" %2$s oppdatert"
+
+#: gd-system-plugin/includes/log/components/class-post.php:66
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s created"
+msgstr "\"%1$s\" %2$s opprettet"
+
+#: gd-system-plugin/includes/log/components/class-post.php:75
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s restored from trash"
+msgstr "\"%1$s\" %2$s gjenopprett fra papirkurven"
+
+#: gd-system-plugin/includes/log/components/class-post.php:83
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s unpublished"
+msgstr "\"%1$s\" %2$s ikke publisert"
+
+#: gd-system-plugin/includes/log/components/class-post.php:91
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s drafted"
+msgstr "\"%1$s\" %2$s utarbeidet"
+
+#: gd-system-plugin/includes/log/components/class-post.php:99
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s pending review"
+msgstr "\"%1$s\" %2$s venter på gjennomgang"
+
+#: gd-system-plugin/includes/log/components/class-post.php:107
+#. translators: 1: Post title, 2: Post type singular name, 3: Scheduled post
+#. date
+msgid "\"%1$s\" %2$s scheduled for %3$s"
+msgstr "\"%1$s\" %2$s planlagt for %3$s"
+
+#: gd-system-plugin/includes/log/components/class-post.php:115
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" scheduled %2$s published"
+msgstr "\"%1$s\" planlagt %2$s publisert"
+
+#: gd-system-plugin/includes/log/components/class-post.php:123
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s published"
+msgstr "\"%1$s\" %2$s publisert"
+
+#: gd-system-plugin/includes/log/components/class-post.php:131
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s privately published"
+msgstr "\"%1$s\" %2$s publisert privat"
+
+#: gd-system-plugin/includes/log/components/class-post.php:140
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s trashed"
+msgstr "\"%1$s\" %2$s forkastet"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:49
+#. translators: Theme name.
+msgid "\"%s\" theme activated"
+msgstr "\"%s\" tema aktivert"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:118
+#. translators: Theme name.
+msgid "\"%s\" theme installed"
+msgstr "\"%s\"-tema installert"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:154
+#. translators: 1: Theme name, 2: New theme version
+msgid "\"%1$s\" theme updated to %2$s"
+msgstr "\"%1$s\"-tema oppdatert til %2$s"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:161
+#. translators: 1: Theme name, 2: Old theme version, 3: New theme version
+msgid "\"%1$s\" theme updated from %2$s to %3$s"
+msgstr "\"%1$s\"-tema oppdatert fra %2$s til %3$s"
+
+#: gd-system-plugin/includes/log/components/class-user.php:102
+#. translators: 1. User display name, 2. User role
+msgid "%1$s's user account deleted (%2$s)"
+msgstr "%1$ss brukerkonto slettet (%2$s)"
+
+#: gd-system-plugin/includes/log/components/class-user.php:141
+#. translators: User display name
+msgid "%s's user profile updated"
+msgstr "%ss brukerprofil oppdatert"
+
+#: gd-system-plugin/includes/log/components/class-user.php:183
+#. translators: 1: User display name, 2: Old role, 3: New role
+msgid "%1$s's role changed from %2$s to %3$s"
+msgstr "%1$ss rolle endret fra %2$s til %3$s"
+
+#: gd-system-plugin/includes/log/components/class-user.php:228
+#. translators: User display name
+msgid "%s logged in"
+msgstr "%s logget på"
+
+#: gd-system-plugin/includes/log/components/class-user.php:261
+#. translators: User display name
+msgid "%s logged out"
+msgstr "%s logget av"
+
+#: gd-system-plugin/includes/log/components/class-user.php:295
+#. translators: User display name
+msgid "%s requested a password reset"
+msgstr "%s ba om tilbakestilling av passord"
+
+#: gd-system-plugin/includes/log/components/class-user.php:327
+#. translators: User display name
+msgid "%s's password reset"
+msgstr "S%ss passord er tilbakestilt"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:85
+msgid "Post"
+msgstr "Post"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:149
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i"
+
+#: gd-system-plugin.php:142
+msgid "Note: This is a staging site."
+msgstr "Merk: Dette er et testnettsted."
+
+#. Plugin Name of the plugin/theme
+msgid "System Plugin"
+msgstr "Systemplugin"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:59
+msgctxt "The name of our company blog found at https://www.godaddy.com/garage"
+msgid "GoDaddy Garage"
+msgstr "GoDaddy-garasje"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:197
+msgctxt "Plugin installer group title"
+msgid "Performance"
+msgstr "Ytelse"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:198
+msgctxt "Plugin installer group title"
+msgid "Social"
+msgstr "Sosial"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:199
+msgctxt "Plugin installer group title"
+msgid "Tools"
+msgstr "Verktøy"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:279
+#: gd-system-plugin/includes/class-worker.php:112
+msgctxt "plugin"
+msgid "Active"
+msgstr "Aktiv"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:287
+#. translators: %s: Plugin name.
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "Aktiver %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:309
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Installert"

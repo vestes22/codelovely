@@ -1,0 +1,776 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-11-16T20:16:39+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "次世代の WordPress 体験"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "一般"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "画像カテゴリー。"
+
+#: includes/class-publish-guide.php:142
+msgid "Display Publish Guide."
+msgstr "公開ガイドを表示する。"
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "リクエストの処理中にエラーが発生しました。"
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "design_styleがパスされる必要があります。"
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "利用可能なdesign_styleがパスされる必要があります。"
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr ""
+
+#: build/editorPreferenceModal.js:1
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "GoDaddy サイトエディターを引き続き使用しますか ?"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"サイトの作成に適したツールをお持ちかどうか確認させてください。現在ご利用の "
+"GoDaddy サイトエディターには、WordPress のすべてに加え、デザインのカスタマイ"
+"ズ、ページの編集、ページの管理をすべて一箇所で行える機能が備わっています。"
+
+#: build/editorPreferenceModal.js:1
+msgid "Yes, keep using it"
+msgstr "はい、引き続き使用します"
+
+#: build/editorPreferenceModal.js:1
+msgid "No, I want to see other options"
+msgstr "いいえ、他のオプションを表示します"
+
+#: build/editorPreferenceModal.js:1
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "お客様のご要望にそえず申し訳ございませんでした"
+
+#: build/editorPreferenceModal.js:1
+msgid "Could you tell us why?"
+msgstr "理由を教えていただけませんか ?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "この製品がご要望にそわなかった理由を教えてください…"
+
+#: build/editorPreferenceModal.js:1
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "戻る"
+
+#: build/editorPreferenceModal.js:1
+msgid "Skip"
+msgstr "スキップ"
+
+#: build/editorPreferenceModal.js:1
+msgid "Continue"
+msgstr "続行"
+
+#: build/editorPreferenceModal.js:1
+msgid "Let’s find you a better fit"
+msgstr "より適した選択肢を見つけましょう"
+
+#: build/editorPreferenceModal.js:1
+msgid "Here are some other options to explore:"
+msgstr "こちらのオプションをご検討ください"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to the default WordPress editor"
+msgstr "デフォルトの WordPress エディターに切り替える"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to a 3rd party page builder"
+msgstr "他社のページビルダーに切り替える"
+
+#: build/editorPreferenceModal.js:1
+msgid "Talk to someone about my options"
+msgstr "選択肢について相談する"
+
+#: build/editorPreferenceModal.js:1
+msgid "Hire our experts to build your site for you"
+msgstr "弊社のエキスパートを雇ってサイト制作を任せる"
+
+#: build/editorPreferenceModal.js:1
+msgid "Learn More"
+msgstr "詳細"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to the default WordPress editor"
+msgstr "デフォルトの WordPress エディターに切り替えています"
+
+#: build/editorPreferenceModal.js:1
+msgid "You should switch to the default WordPress editor if:"
+msgstr ""
+"以下のような場合にデフォルトの WordPress エディターに切り替えてください。"
+
+#: build/editorPreferenceModal.js:1
+msgid "You want to use a different theme"
+msgstr "別のテーマを使用したい"
+
+#: build/editorPreferenceModal.js:1
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr ""
+"デフォルトの WordPress に慣れている、またはデフォルトの WordPress エディター"
+"を使用したい"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"一度切り替えると、このサイトを GoDaddy サイトエディターで利用することができな"
+"くなり、戻って来られなくなります。"
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr "デフォルトの WordPress エディターに切り替える準備はできましたか ?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to Default"
+msgstr "デフォルトに切り替える"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "他社のページビルダーに切り替えています"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"他社のページビルダーとは、サイトにインストールする WordPress プラグインで、"
+"ページの作成やデザインに使用します。"
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr "このサイトを他社のページビルダーに切り替える準備はできましたか ?"
+
+#: build/editorPreferenceModal.js:1
+msgid "View Plugins"
+msgstr "プラグインを表示"
+
+#: build/editorPreferenceModal.js:1
+msgid "Expert help is on the way"
+msgstr "専門家がお手伝いします"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact our GoDaddy guides to get started."
+msgstr "始めるには GoDaddy ナビゲーターにお問い合わせください。"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact Us"
+msgstr "お問い合せ"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"あなたのビジネスに合わせてカスタマイズした、魅力的なプロフェッショナル Webサ"
+"イトを制作いたします。"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "WordPress Admin にリダイレクトしています…"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to WordPress plugins…"
+msgstr "WordPress プラグインにリダイレクトしています…"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"サイトの作成に適したツールをお持ちかどうか確認するため、フィードバックの提供"
+"にご協力ください。現在ご利用の GoDaddy サイトエディターには、WordPress のすべ"
+"てに加え、デザインのカスタマイズ、ページの編集、ページの管理をすべて一箇所で"
+"行える機能が備わっています。"
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+msgid "Document"
+msgstr "ドキュメント"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+msgid "%s (selected)"
+msgstr "%s（選択済み）"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+msgid "Block (selected)"
+msgstr "ブロック（選択済み）"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+msgid "Block"
+msgstr "ブロック"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+msgid "Visibility"
+msgstr "可視性"
+
+#: build/editSite.js:20
+msgid "Publish"
+msgstr "公開"
+
+#: build/editSite.js:20 packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "削除してもよろしいですか？"
+
+#: build/editSite.js:20
+msgid "Delete this page"
+msgstr "このページを削除"
+
+#: build/editSite.js:20
+msgid "Title"
+msgstr "タイトル"
+
+#: build/editSite.js:20
+msgid "Display on page"
+msgstr "ページに表示"
+
+#: build/editSite.js:20
+msgid "Page details"
+msgstr "ページ詳細"
+
+#: build/editSite.js:20
+msgid "Featured image"
+msgstr "注目の画像"
+
+#: build/editSite.js:20
+msgid "Settings"
+msgstr "設定"
+
+#: build/editSite.js:20
+msgid "Close settings"
+msgstr "設定を閉じる"
+
+#: build/editSite.js:20
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: build/editSite.js:20
+msgid "More"
+msgstr "詳細"
+
+#: build/editSite.js:20
+msgid "More tools & options"
+msgstr "その他のツールとオプション"
+
+#: build/editSite.js:20
+msgid "Add"
+msgstr "追加"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15
+msgid "Cache cleared"
+msgstr "キャッシュをクリアしました"
+
+#: build/logoMenu.js:15
+msgid "Site Editor"
+msgstr "サイトエディター"
+
+#: build/logoMenu.js:15
+msgid "Main menu"
+msgstr "メインメニュー"
+
+#: build/logoMenu.js:15
+msgid "WordPress Management"
+msgstr "WordPress 管理"
+
+#: build/logoMenu.js:15
+msgid "Manage Plugins"
+msgstr "プラグインを管理"
+
+#: build/logoMenu.js:15
+msgid "Manage Site Menus"
+msgstr "サイトメニューを管理"
+
+#: build/logoMenu.js:15
+msgid "Customize Site Design"
+msgstr "サイトデザインをカスタマイズ"
+
+#: build/logoMenu.js:15
+msgid "Manage Users"
+msgstr "ユーザーを管理"
+
+#: build/logoMenu.js:15
+msgid "Manage Comments"
+msgstr "コメントを管理"
+
+#: build/logoMenu.js:15
+msgid "WordPress Admin"
+msgstr "WordPress管理者"
+
+#: build/logoMenu.js:15
+msgid "Hosting"
+msgstr "ホスティング"
+
+#: build/logoMenu.js:15
+msgid "Hosting Overview"
+msgstr "ホスティング概要"
+
+#: build/logoMenu.js:15
+msgid "Hosting Settings"
+msgstr "ホスティング設定"
+
+#: build/logoMenu.js:15
+msgid "Tools"
+msgstr "ツール"
+
+#: build/logoMenu.js:15
+msgid "Editor Preference"
+msgstr "エディター設定"
+
+#: build/logoMenu.js:15
+msgid "Is this editor right for you?"
+msgstr "このエディターは適していますか？"
+
+#: build/logoMenu.js:15
+msgid "Learn about other WordPress site building options here."
+msgstr "こちらで、その他の WordPress サイト作成オプションをご覧ください。"
+
+#: build/logoMenu.js:15
+msgid "Flush Cache"
+msgstr "キャッシュをフラッシュ"
+
+#: build/logoMenu.js:15
+msgid "Connection Management"
+msgstr "接続管理"
+
+#: build/logoMenu.js:15
+msgid "Support"
+msgstr "サポート"
+
+#: build/logoMenu.js:15
+msgid "Give Feedback"
+msgstr "フィードバックを行う"
+
+#: build/logoMenu.js:15
+msgid "Help & Support"
+msgstr "ヘルプ＆サポート"
+
+#: packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "情報"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "あなたの体験についてお聞かせください…（任意）"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "送信"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "フィードバックをお寄せいただき誠にありがとうございます"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "閉じる"
+
+#: packages/feedback-modal/src/index.js:99
+#: packages/feedback-modal/src/index.js:107
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "フィードバックを行う"
+
+#: packages/feedback-modal/src/index.js:108
+msgid "How would you rate your experience?"
+msgstr "ご自身の経験をどのように評価しますか？"
+
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "サイトの内容:"
+
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "ファッション"
+
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "室内装飾"
+
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "コーヒー"
+
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "建設"
+
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "アート"
+
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "パン・菓子作り"
+
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "フィットネス"
+
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "造園"
+
+#: packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "検索"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "ドメインの追加"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr "よりプロらしく整え、お客様がWebサイトを見つけやすいようにします。"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:39
+msgid "Change"
+msgstr "変更"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "ドメインを追加"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "レビューとページの追加"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr "最初は身軽に始めています。ページやコンテンツをさらに追加しましょう。"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "ページの管理"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "自分らしいデザインにする"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "色やフォントを変更して、サイトの外観に手を加えます。"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "カスタマイズ"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "Webサイトロゴ"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "サイト情報とブランドの追加"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr "サイトの名称と目的は何ですか？ロゴがあれば追加しましょう。"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "編集"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "サイトのタイトル"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "サイトの説明"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "サイトロゴのアップロード"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "ロゴを置き換える"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "ロゴを削除"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "保存"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "後で"
+
+#: packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "サイトが公開されました"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "お祝いして、この素晴らしい"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "ニュースをシェアしましょう。"
+
+#: packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "新しいWebサイトをご覧ください！"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"私たちのWebサイトを%1$sに公開しました。ぜひご覧になって、感想をお寄せくださ"
+"い。"
+
+#: packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "このガイドを非表示にする"
+
+#: packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "操作を選択"
+
+#: packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "名前変更"
+
+#: packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "本当にホームページとして設定しますか？"
+
+#: packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "ホームページとして設定"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "投稿のピン留めをはずす"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "投稿をピン留めする"
+
+#: packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "複製"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "ページを削除"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "投稿を削除"
+
+#: packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "カラー"
+
+#: packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "カラーパレット"
+
+#: packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "カスタム"
+
+#: packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "デザインスタイル"
+
+#: packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"厳選されたデザインスタイルを手軽に選んでから、色やフォントをカスタマイズし"
+"て、完璧に仕上げます。"
+
+#: packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "カスタム フォント オプション"
+
+#: packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "見出し"
+
+#: packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "フォント"
+
+#: packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "太字"
+
+#: packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "サイズ"
+
+#: packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "見出しのフォントサイズ"
+
+#: packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "本文"
+
+#: packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "フォント"
+
+#: packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "フォントペア"
+
+#: packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr ""
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "フォントサイズを非表示"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "フォントサイズを編集"
+
+#: packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "小"
+
+#: packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "標準"
+
+#: packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "大"
+
+#: packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "ベースサイズ"
+
+#: packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "フォントサイズ"
+
+#: packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "見出しのスケール"
+
+#: packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "サイトデザイン"
+
+#: packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "デザイン"
+
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "更新が完了しました。"
+
+#: packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "優れた最新版に更新中"
+
+#: packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "エディターに最新のアップデートを適用しています。少々お待ちください。"
+
+#: packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "まもなく完了します。"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "これによってサイトエディターも変更されます。"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"現在ご利用の Go テーマの GoDaddy サイトエディターには、WordPress のすべてに加"
+"え、デザインのカスタマイズ、ページの編集、ページの管理をすべて一箇所で行える"
+"機能が備わっています。"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"新しいテーマを有効化すると、このサイトを GoDaddy サイトエディターで利用するこ"
+"とができなくなります。代わりに、デフォルトの WordPress エディターに切り替わり"
+"ます。"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"新しいテーマを有効化して、デフォルトの WordPress エディターに切り替える準備は"
+"できましたか ?"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "有効化"

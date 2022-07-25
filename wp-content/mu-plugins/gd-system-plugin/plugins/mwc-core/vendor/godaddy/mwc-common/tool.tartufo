@@ -1,0 +1,10 @@
+[tool.tartufo]
+exclude-paths="./exclude-patterns.txt"
+repo-path = "."
+default-regexes = true
+json = false
+regex = true
+entropy = true
+exclude-signatures = [
+  "1e272f8b5d1aef9be75f867711d27745f7e47c384ff1a3d508e9a69e87d21b7d"
+]

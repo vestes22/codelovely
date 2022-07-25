@@ -1,0 +1,661 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: System Plugin 4.1.4\n"
+"POT-Creation-Date: 2021-02-24 16:29:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: gd-system-plugin/includes/admin/class-bar.php:228
+#: gd-system-plugin/includes/admin/class-bar.php:239
+#: gd-system-plugin/includes/admin/class-bar.php:411
+#: gd-system-plugin/includes/admin/class-bar.php:468
+#: gd-system-plugin/includes/class-hotfixes.php:195
+msgid "Managed WordPress"
+msgstr "WordPress تمت إدارته"
+
+#: gd-system-plugin/includes/admin/class-bar.php:290
+msgid "Flush Cache"
+msgstr "مسح ذاكرة التخزين المؤقتة"
+
+#: gd-system-plugin/includes/admin/class-bar.php:309
+msgid "Hosting Overview"
+msgstr "استعراض الاستضافة"
+
+#: gd-system-plugin/includes/admin/class-bar.php:331
+msgid "Hosting Settings"
+msgstr "إعدادات الاستضافة"
+
+#: gd-system-plugin/includes/admin/class-bar.php:359
+msgid "Connection Management"
+msgstr "إدارة الاتصال"
+
+#: gd-system-plugin/includes/admin/class-bar.php:384
+msgid "Help &amp; Support"
+msgstr "التعليمات &amp; الدعم"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Site"
+msgstr "موقعي"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Dashboard"
+msgstr "لوحة المعلومات الخاصة بي"
+
+#: gd-system-plugin/includes/admin/class-bar.php:460
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: gd-system-plugin/includes/admin/class-bar.php:475
+#: gd-system-plugin/includes/admin/class-bar.php:487
+msgid "Design Editor"
+msgstr "محرر التصميم"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:71
+msgid "PHP Update Required"
+msgstr "يلزم تحديث PHP‏"
+
+#: gd-system-plugin/includes/admin/class-growl.php:102
+msgid "Success"
+msgstr "نجاح"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:220
+#. translators: %s: Plugin author.
+msgid "By %s"
+msgstr "من %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:242
+#. translators: %s: Plugin name and version.
+msgid "Install %s now"
+msgstr "قم بتثبيته %s الآن"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:247
+msgid "Install Now"
+msgstr "قم بتثبيته الآن"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:263
+#. translators: %s: Plugin name and version.
+msgid "Update %s now"
+msgstr "قم بالتحديث %s الآن"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:268
+msgid "Update Now"
+msgstr "قم بالتحديث الآن"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:284
+#: gd-system-plugin/includes/admin/class-themes-tab.php:146
+#: gd-system-plugin/includes/admin/class-themes-tab.php:308
+msgid "Activate"
+msgstr "تنشيط"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:327
+#. translators: %s: Plugin name and version.
+msgid "More information about %s"
+msgstr "المزيد من المعلومات حول %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:329
+msgid "More Details"
+msgstr "المزيد من التفاصيل"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:143
+msgid "GoDaddy Recommended"
+msgstr "يوصى بـ GoDaddy‏"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:70
+msgid "Go to your Dashboard to install plugins, manage users and more."
+msgstr "قم بالذهاب إلى لوحة المعلومات لتثبيت المكونات الإضافية وإدارة المستخدمين وغير ذلك."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:74
+msgid "Add a new page or blog post to organize your content or engage visitors."
+msgstr "قم بإضافة صفحة جديدة أو بعمل منشور على مدونة لتنظيم محتواك أو لإشراك الزوار."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:78
+msgid "Edit the page you're currently on."
+msgstr "قم بتعديل الصفحة الحالية"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:82
+msgid "Change your website's design, color palette and more."
+msgstr "قم بتغيير تصميم الموقع ولوحة الألوان وغير ذلك."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:86
+msgid "Find help, troubleshooting and how to get back to your Hosting Dashboard."
+msgstr "ابحث عن المساعدة، واستكشاف الأعطال وإصلاحها وطريقة الرجوع إلى لوحة المعلومات المستضيفة."
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:96
+msgid ""
+"Add pages, blog posts, and products to engage visitors and keep your shop "
+"organized."
+msgstr "قم بإضافة صفحات ومدونات ومنتجات لإشراك الزوار وللحفاظ على تنظيم متجرك."
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:304
+msgid "Installed"
+msgstr "تم التثبيت"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:145
+msgid "Error Installing Theme"
+msgstr "حدث خطأ في تثبيت السمة"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:147
+#: gd-system-plugin/includes/admin/class-themes-tab.php:310
+msgid "Live Preview"
+msgstr "استعراض مباشر"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:148
+msgid "Theme Install"
+msgstr "تثبيت السمة"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:288
+msgid "Install %s"
+msgstr "تثبيت %s‏"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:291
+msgid "Install"
+msgstr "تثبيت"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:322
+msgid "View Demo"
+msgstr "عرض النسخة التجريبية"
+
+#: gd-system-plugin/includes/class-blacklist.php:94
+#. translators: Name of the disallowed plugin
+msgid "%s is not allowed on our system. It has been automatically deactivated."
+msgstr "%s غير مسموح بذلك في نظامنا. تم إلغاء التنشيط تلقائيًا."
+
+#: gd-system-plugin/includes/class-blacklist.php:229
+msgid "Not Available"
+msgstr "غير متاح"
+
+#: gd-system-plugin/includes/class-blacklist.php:230
+msgid ""
+"This plugin is not allowed on our system due to performance, security, or "
+"compatibility concerns. Please contact support with any questions."
+msgstr ""
+"لا يُسمح بهذا المكون الإضافي في نظامنا، وذلك لدواعي الأداء، أو الأمان أو "
+"التوافق. يرجى التواصل مع الدعم لطرح أي أسئلة."
+
+#: gd-system-plugin/includes/class-cache.php:116
+msgid "Cache cleared"
+msgstr "تم مسح ذاكرة التخزين المؤقت"
+
+#: gd-system-plugin/includes/class-change-domain.php:61
+#: gd-system-plugin/includes/class-change-domain.php:149
+#. translators: Title of alert in bold
+msgid "%s Your domain cannot be changed here."
+msgstr "%s لا يمكن تغيير مجالك هنا."
+
+#: gd-system-plugin/includes/class-change-domain.php:62
+#: gd-system-plugin/includes/class-change-domain.php:78
+#: gd-system-plugin/includes/class-change-domain.php:138
+#: gd-system-plugin/includes/class-change-domain.php:150
+#: gd-system-plugin/includes/class-temp-domain.php:117
+#: gd-system-plugin/includes/class-temp-domain.php:125
+msgid "Note:"
+msgstr "ملاحظة:"
+
+#: gd-system-plugin/includes/class-change-domain.php:69
+#: gd-system-plugin/includes/class-temp-domain.php:132
+msgid "Change domain"
+msgstr "تغيير المجال"
+
+#: gd-system-plugin/includes/class-change-domain.php:77
+#: gd-system-plugin/includes/class-change-domain.php:137
+#. translators: Title of alert in bold
+msgid "%s This is your staging site and the domain cannot be changed."
+msgstr "%s هذا هو موقع الإعداد الخاص بك ولا يمكن تغيير المجال."
+
+#: gd-system-plugin/includes/class-debug-mode.php:457
+msgid ""
+"Changes in safe mode are not saved and are not visible by visitors to your "
+"site."
+msgstr ""
+"لا يتم حفظ التغييرات التي تحدث في الوضع الآمن ولا يمكن لزوار الموقع رؤيتها."
+
+#: gd-system-plugin/includes/class-debug-mode.php:542
+msgid "Safe Mode"
+msgstr "الوضع الآمن"
+
+#: gd-system-plugin/includes/class-debug-mode.php:558
+msgid "Themes"
+msgstr "سمات"
+
+#: gd-system-plugin/includes/class-debug-mode.php:566
+msgid "Safe mode"
+msgstr "الوضع الآمن"
+
+#: gd-system-plugin/includes/class-debug-mode.php:582
+#. translators: total number of themes installed.
+msgid "Installed (%d)"
+msgstr "تم التثبيت (%d)‏"
+
+#: gd-system-plugin/includes/class-debug-mode.php:585
+msgid "Select one"
+msgstr "اختر واحدة"
+
+#: gd-system-plugin/includes/class-debug-mode.php:603
+msgid "Plugins"
+msgstr "المكونات الإضافية"
+
+#: gd-system-plugin/includes/class-debug-mode.php:610
+msgid "Active"
+msgstr "نشط"
+
+#: gd-system-plugin/includes/class-debug-mode.php:611
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: gd-system-plugin/includes/class-debug-mode.php:629
+msgid "Preview"
+msgstr "استعراض"
+
+#: gd-system-plugin/includes/class-debug-mode.php:630
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No active plugins."
+msgstr "بدون مكونات إضافية نشطة"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No inactive plugins."
+msgstr "بدون مكونات إضافية غير نشطة"
+
+#: gd-system-plugin/includes/class-hotfixes.php:191
+msgid "GoDaddy"
+msgstr "GoDaddy‏"
+
+#: gd-system-plugin/includes/class-hotfixes.php:192
+msgid "Media Temple"
+msgstr "قالب الوسائط"
+
+#: gd-system-plugin/includes/class-hotfixes.php:464
+#. translators: 1. Original translated error text. 2. URL to the hosting
+#. environment where users can update the PHP version.
+msgid ""
+"You can update to the most recent version of PHP in your hosting settings "
+"<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">here</a>."
+msgstr ""
+"يمكنك تحديث آخر نسخة من PHP من إعدادات الاستضافة الخاصة بك <a href=\"%1$s\" "
+"target=\"_blank\" title=\"%2$s\">هنا</a>."
+
+#: gd-system-plugin/includes/class-hotfixes.php:466
+msgid "Update PHP version"
+msgstr "قم بتحديث نسخة PHP‏"
+
+#: gd-system-plugin/includes/class-sso.php:194
+msgid "Log in with GoDaddy"
+msgstr "قم بتسجيل الدخول باستخدام GoDaddy‏"
+
+#: gd-system-plugin/includes/class-sso.php:199
+msgid "Or"
+msgstr "أو"
+
+#: gd-system-plugin/includes/class-sso.php:203
+msgid "Log in with username and password"
+msgstr "قم بتسجيل الدخول باسم المستخدم وكلمة المرور"
+
+#: gd-system-plugin/includes/class-sso.php:313
+msgid ""
+"We were unable to log you in automatically. Please enter your WordPress "
+"username and password."
+msgstr ""
+"تعذر تسجيل دخولك تلقائياً. يرجى إدخال اسم مستخدم WordPress وكلمة المرور"
+
+#: gd-system-plugin/includes/class-temp-domain.php:45
+#. translators: 1: Current domain. 2: Domain name change URL.
+msgid ""
+"<strong>Note:</strong> Your site is using <strong>%1$s</strong>. Did you "
+"want to use your domain? <a href=\"%2$s\" target=\"_blank\">Add Domain</a>"
+msgstr ""
+"<strong>ملاحظة:</strong> يستخدم موقعك <strong>%1$s</strong>‏. هل تود استخدام "
+"مجالك؟ <a href=\"%2$s\" target=\"_blank\">قم بإضافة مجال</a>"
+
+#: gd-system-plugin/includes/class-temp-domain.php:116
+#. translators: 1: "Note:" wrapped in strong tags
+msgid "%s This is your staging site and it cannot be indexed by search engines."
+msgstr "%s هذا هو موقع الإعداد الخاص بك ولا يمكن فهرسته باستخدام محركات البحث."
+
+#: gd-system-plugin/includes/class-temp-domain.php:124
+#. translators: 1: "Note:" wrapped in strong tags
+msgid ""
+"%s Your site is using a temporary domain that cannot be indexed by search "
+"engines."
+msgstr "%sيستخدم موقعك مجالاً مؤقتًا لا يمكن فهرسته بمحركات البحث."
+
+#: gd-system-plugin/includes/class-worker.php:117
+msgid ""
+"This is already included as a must-use plugin on your site and is required "
+"for backups and other important hosting platform benefits to function "
+"properly. It cannot be removed or deactivated. It should not be installed "
+"as a normal plugin and will be automatically removed if uploaded manually."
+msgstr ""
+"تم إدراج ذلك باعتباره مكوناً إضافياً يجب استخدامه على موقعك، ولا بد منه لعمل "
+"النسخ الاحتياطية وغيرها من مزايا منصة الاستضافة المهمة لتؤدي وظيفتها بشكل "
+"صحيح. لا يمكن إزالتها أو تعطيلها. يجب عدم تثبيته باعتباره مكون إضافي عادي "
+"سيتم إزالته تلقائياً إذا تم تحميله يدوياً."
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:75
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" drafted"
+msgstr "Beaver Builder %2$s \"%1$s\" تمت صياغته"
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:99
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" discarded"
+msgstr "Beaver Builder %2$s \"%1$s\" تم تجاهله"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:25
+msgid "Background Attachment"
+msgstr "مرفق الخلفية"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:26
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:27
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:28
+msgid "Background Position"
+msgstr "وضع الخلفية"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:29
+msgid "Background Repeat"
+msgstr "تكرار الخلفية"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:30
+msgid "Base Color Scheme"
+msgstr "مخطط الألوان الأساسية"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:31
+msgid "Logo"
+msgstr "شعار"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:32
+msgid "Header and Sidebar Background Color"
+msgstr "لون خلفية رأس الصفحة والشريط الجانبي"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:33
+msgid "Header Image"
+msgstr "صورة رأس الصفحة"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:34
+msgid "Display Site Title and Tagline"
+msgstr "عرض عنوان موقع وسطر العلامة"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:35
+msgid "Header Text Color"
+msgstr "لون نص رأس الصفحة"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:36
+msgid "Link Color"
+msgstr "لون الرابط"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:37
+msgid "Main Text Color"
+msgstr "لون النص الرئيسي"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:38
+msgid "Page Background Color"
+msgstr "لون خلفية الصفحة"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:39
+msgid "Secondary Text Color"
+msgstr "لون النص الثانوي"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:40
+msgid "Header and Sidebar Text Color"
+msgstr "لون نص رأس الصفحة والشريط الجانبي"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:93
+#. translators: 1. Option name, 2. Theme name
+msgid "\"%1$s\" updated for the %2$s theme"
+msgstr "\"%1$s\"تم التحديث %2$s للسمة"
+
+#: gd-system-plugin/includes/log/components/class-option.php:28
+msgid "Site Title"
+msgstr "عنوان الموقع"
+
+#: gd-system-plugin/includes/log/components/class-option.php:29
+msgid "Tagline"
+msgstr "سطر العلامة"
+
+#: gd-system-plugin/includes/log/components/class-option.php:30
+msgid "Posts page"
+msgstr "صفحة المنشورات"
+
+#: gd-system-plugin/includes/log/components/class-option.php:31
+msgid "Front page"
+msgstr "الصفحة الأمامية"
+
+#: gd-system-plugin/includes/log/components/class-option.php:32
+msgid "Front page displays"
+msgstr "عروض الصفحة الأمامية"
+
+#: gd-system-plugin/includes/log/components/class-option.php:33
+msgid "Site Icon"
+msgstr "أيقونة الموقع"
+
+#: gd-system-plugin/includes/log/components/class-option.php:34
+msgid "Site Language"
+msgstr "لغة الموقع"
+
+#: gd-system-plugin/includes/log/components/class-option.php:79
+#. translators: Option name
+msgid "\"%s\" option updated"
+msgstr "\"%s\" تم تحديث الخيار"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:29
+#. translators: Plugin name
+msgid "\"%s\" plugin activated"
+msgstr "\"%s\" تم تنشيط المكون الإضافي"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:36
+#. translators: Plugin name
+msgid "\"%s\" plugin activated network wide"
+msgstr "\"%s\" تم تنشيط المكون الإضافي على نطاق الشبكة"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:61
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated"
+msgstr "\"%s\" تم تعطيل المكون الإضافي"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:68
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated network wide"
+msgstr "\"%s\" تم تعطيل المكون الإضافي على نطاق الشبكة"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:95
+#. translators: Plugin name
+msgid "\"%s\" plugin deleted"
+msgstr "\"%s\" تم حذف المكون الإضافي"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:191
+#. translators: Plugin name
+msgid "\"%s\" plugin installed"
+msgstr "\"%s\" تم تثبيت المكون الإضافي"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:226
+#. translators: 1: Plugin name, 2: New plugin version
+msgid "\"%1$s\" plugin updated to %2$s"
+msgstr "\"%1$s\" تم تحديث المكون الإضافي%2$s"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:233
+#. translators: 1: Plugin name, 2: Old plugin version, 3: New plugin version
+msgid "\"%1$s\" plugin updated from %2$s to %3$s"
+msgstr "\"%1$s\"تم تحديث المكون الإضافي %2$s إلى %3$s"
+
+#: gd-system-plugin/includes/log/components/class-post.php:49
+#: gd-system-plugin/includes/log/components/class-post.php:57
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s updated"
+msgstr "\"%1$s\" %2$s تم التحديث"
+
+#: gd-system-plugin/includes/log/components/class-post.php:66
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s created"
+msgstr "\"%1$s\" %2$s تم الإنشاء"
+
+#: gd-system-plugin/includes/log/components/class-post.php:75
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s restored from trash"
+msgstr "\"%1$s\" %2$s تم استرجاعها من سلة المحذوفات"
+
+#: gd-system-plugin/includes/log/components/class-post.php:83
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s unpublished"
+msgstr "\"%1$s\" %2$s لم تُنشر"
+
+#: gd-system-plugin/includes/log/components/class-post.php:91
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s drafted"
+msgstr "\"%1$s\" %2$s تمت الصياغة"
+
+#: gd-system-plugin/includes/log/components/class-post.php:99
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s pending review"
+msgstr "\"%1$s\" %2$s قيد الاستعراض"
+
+#: gd-system-plugin/includes/log/components/class-post.php:107
+#. translators: 1: Post title, 2: Post type singular name, 3: Scheduled post
+#. date
+msgid "\"%1$s\" %2$s scheduled for %3$s"
+msgstr "\"%1$s\" %2$sالمجدولة لـ %3$s"
+
+#: gd-system-plugin/includes/log/components/class-post.php:115
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" scheduled %2$s published"
+msgstr "\"%1$s\" من المقرر%2$s نشرها"
+
+#: gd-system-plugin/includes/log/components/class-post.php:123
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s published"
+msgstr "\"%1$s\" %2$s تم نشرها"
+
+#: gd-system-plugin/includes/log/components/class-post.php:131
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s privately published"
+msgstr "\"%1$s\" %2$s تم نشرها بشكل خاص"
+
+#: gd-system-plugin/includes/log/components/class-post.php:140
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s trashed"
+msgstr "\"%1$s\" %2$s تم حذفها"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:49
+#. translators: Theme name.
+msgid "\"%s\" theme activated"
+msgstr "\"%s\"تم تنشيط السمة"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:118
+#. translators: Theme name.
+msgid "\"%s\" theme installed"
+msgstr "\"%s\"تم تثبيت السمة"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:154
+#. translators: 1: Theme name, 2: New theme version
+msgid "\"%1$s\" theme updated to %2$s"
+msgstr "\"%1$s\"تم تحديث السمة إلى %2$s‏"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:161
+#. translators: 1: Theme name, 2: Old theme version, 3: New theme version
+msgid "\"%1$s\" theme updated from %2$s to %3$s"
+msgstr "\"%1$s\" تم تحديث السمة من %2$s إلى%3$s‏"
+
+#: gd-system-plugin/includes/log/components/class-user.php:102
+#. translators: 1. User display name, 2. User role
+msgid "%1$s's user account deleted (%2$s)"
+msgstr "حذف حساب المستخدم الخاص بـ %1$s (%2$s)‏"
+
+#: gd-system-plugin/includes/log/components/class-user.php:141
+#. translators: User display name
+msgid "%s's user profile updated"
+msgstr "%s'تم تحديث صفحة المستخدم"
+
+#: gd-system-plugin/includes/log/components/class-user.php:183
+#. translators: 1: User display name, 2: Old role, 3: New role
+msgid "%1$s's role changed from %2$s to %3$s"
+msgstr "تغير الدور الخاص بـ %1$s من %2$s إلى %3$s‏"
+
+#: gd-system-plugin/includes/log/components/class-user.php:228
+#. translators: User display name
+msgid "%s logged in"
+msgstr "%sتسجيل الدخول"
+
+#: gd-system-plugin/includes/log/components/class-user.php:261
+#. translators: User display name
+msgid "%s logged out"
+msgstr "%s تسجيل الخروج"
+
+#: gd-system-plugin/includes/log/components/class-user.php:295
+#. translators: User display name
+msgid "%s requested a password reset"
+msgstr "%s إعادة تعيين كلمة المرور"
+
+#: gd-system-plugin/includes/log/components/class-user.php:327
+#. translators: User display name
+msgid "%s's password reset"
+msgstr "%s's إعادة تعيين كلمة المرور"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:85
+msgid "Post"
+msgstr "منشور"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:149
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i‏"
+
+#: gd-system-plugin.php:142
+msgid "Note: This is a staging site."
+msgstr "ملاحظة: هذا هو الموقع المرحلي."
+
+#. Plugin Name of the plugin/theme
+msgid "System Plugin"
+msgstr "نظام المكون الإضافي"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:59
+msgctxt "The name of our company blog found at https://www.godaddy.com/garage"
+msgid "GoDaddy Garage"
+msgstr "مرآب GoDaddy‏"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:197
+msgctxt "Plugin installer group title"
+msgid "Performance"
+msgstr "أداء"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:198
+msgctxt "Plugin installer group title"
+msgid "Social"
+msgstr "اجتماعي"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:199
+msgctxt "Plugin installer group title"
+msgid "Tools"
+msgstr "أدوات"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:279
+#: gd-system-plugin/includes/class-worker.php:112
+msgctxt "plugin"
+msgid "Active"
+msgstr "نشط"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:287
+#. translators: %s: Plugin name.
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "تنشيط %s‏"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:309
+msgctxt "plugin"
+msgid "Installed"
+msgstr "تم التثبيت"

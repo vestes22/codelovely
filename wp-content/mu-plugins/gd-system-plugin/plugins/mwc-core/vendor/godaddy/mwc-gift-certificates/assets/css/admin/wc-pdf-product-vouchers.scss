@@ -1,0 +1,960 @@
+@import '../../../vendor/skyverge/wc-plugin-framework/woocommerce/assets/css/mixins';
+@import '../mixins';
+
+$green:         #7ad03a;
+$red:           #a00;
+$orange:        #ffba00;
+$blue:          #2ea2cc;
+
+.post-type-wc_voucher,
+.post-type-wc_voucher_template {
+	table.wp-list-table .column-thumb {
+		width: 100px;
+		white-space: nowrap;
+	}
+}
+
+/* =Voucher Screen
+-------------------------------------------------------------- */
+
+/* Voucher Data Meta Box */
+#wc-pdf-product-vouchers-voucher-data {
+	.hndle,
+	.handlediv {
+		display: none;
+	}
+
+	.inside {
+		display: block !important;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+#voucher_data {
+	padding: 23px 24px 12px 24px;
+
+	h2 {
+		margin: 0;
+		font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+		font-size: 21px;
+		font-weight: normal;
+		line-height: 1.2;
+		text-shadow: 1px 1px 1px white;
+		padding: 0;
+	}
+
+	h3 {
+		font-size: 14px;
+	}
+
+	h3, h4 {
+		color: #333;
+		margin: 1.33em 0 0;
+	}
+
+	p {
+		color: #777;
+	}
+
+	.voucher_data_order {
+		margin: 0;
+		line-height: 1.6em;
+		font-size: 16px;
+		font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+		font-weight: 400;
+		color: #777;
+	}
+
+	.voucher_data_column_container {
+		clear: both;
+	}
+
+	.voucher_data_column {
+		width: 32%;
+		padding: 0 2% 0 0;
+		float: left;
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+		p {
+			padding: 0 !important;
+		}
+
+		.address {
+			strong {
+				display: block;
+			}
+		}
+
+		.form-field {
+			float: left;
+			width: 48%;
+			padding: 0;
+			margin: 9px 0 0 0;
+
+			label {
+				display: block;
+				padding: 0 0 3px;
+			}
+
+			input,
+			textarea {
+				width: 100%;
+			}
+
+			select {
+				width: 100%;
+			}
+
+			.select2-container {
+				width: 100% !important;
+			}
+
+			.date-picker {
+				width: 50%;
+			}
+
+			.hour,
+			.minute {
+				width: 3.5em;
+			}
+
+			small {
+				display: block;
+				margin: 5px 0 0 0;
+				color: #999;
+			}
+		}
+
+		.form-field.last {
+			float: right;
+		}
+
+		.form-field-wide {
+			width: 100%;
+			clear: both;
+
+			input,
+			textarea,
+			select,
+			.wc-enhanced-select,
+			.wc-customer-search {
+				width: 100%;
+			}
+		}
+
+		p.none_set {
+			color: #999;
+		}
+
+		._purchaser_email_field,
+		._recipient_email_field {
+			float: right;
+		}
+
+		._message_field {
+			width: 100%;
+		}
+
+		div.edit-details {
+			display: none;
+			zoom: 1;
+			padding-right: 1px;
+		}
+
+		.wc-customer-user, .wc-order-status {
+			label a {
+				float: right;
+			}
+		}
+		a.edit-voucher-details,
+		a.load-customer-details,
+		a.copy-purchaser-details {
+			width: 14px;
+			height: 0;
+			padding: 14px 0 0 0;
+			margin: 0 0 0 6px;
+			overflow: hidden;
+			position: relative;
+			color: #999;
+			border: 0;
+			float: right;
+			&:hover, &:focus {
+				color: #000;
+			}
+			&:after {
+				font-family: 'WooCommerce';
+				position: absolute;
+				top: 0;
+				left: 0;
+				text-align: center;
+				vertical-align: top;
+				line-height: 14px;
+				font-size: 14px;
+				font-weight: 400;
+				-webkit-font-smoothing: antialiased;
+			}
+		}
+		a.edit-voucher-details {
+			&:after {
+				font-family: "Dashicons";
+				content: "\f464";
+			}
+		}
+		a.load-customer-details {
+			&:after {
+				font-family: "Dashicons";
+				content: "\f110";
+			}
+		}
+		a.copy-purchaser-details {
+			&:after {
+				font-family: "Dashicons";
+				content: "\f310";
+			}
+		}
+	}
+}
+
+/* Voucher Actions Meta Box */
+#wc-pdf-product-vouchers-voucher-actions {
+
+	.inside {
+		margin: 0;
+		padding: 0;
+	}
+
+	.voucher_actions {
+		margin: 0;
+		overflow: hidden;
+		zoom: 1;
+
+		li {
+			box-sizing: border-box;
+			border-top: 1px solid #fff;
+			border-bottom: 1px solid #ddd;
+			padding: 6px 0;
+			margin: 0;
+			line-height: 1.6em;
+			float: left;
+			width: 50%;
+			text-align: center;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+
+			&.wide {
+				width: auto;
+				float: none;
+				clear: both;
+				padding: 6px;
+				text-align: left;
+				overflow: hidden;
+			}
+
+			a {
+				float: none;
+				text-align: center;
+				text-decoration: underline;
+			}
+
+			#delete-action {
+				line-height: 25px;
+				vertical-align: middle;
+				text-align: left;
+				float: left;
+			}
+
+			.save_voucher {
+				float: right;
+			}
+
+			&#actions {
+				overflow: hidden;
+
+				.button {
+					width: 24px;
+					box-sizing: border-box;
+					float: right;
+				}
+
+				select {
+					width: 225px;
+					box-sizing: border-box;
+					float: left;
+				}
+			}
+		}
+	}
+}
+
+/* Voucher Notes Meta Box */
+#wc-pdf-product-vouchers-voucher-notes {
+
+	.inside {
+		margin: 0;
+		padding: 0;
+	}
+
+	ul.voucher-notes {
+		padding: 2px 0 0 0;
+
+		li {
+			padding: 0 10px;
+
+			.note-content {
+				padding: 10px;
+				background: #efefef;
+				position: relative;
+
+				p {
+					margin: 0;
+					padding: 0;
+					word-wrap: break-word;
+				}
+			}
+
+			p.meta {
+				padding: 10px;
+				color: #999;
+				margin: 0;
+				font-size: 11px;
+
+				.exact-date {
+					border-bottom: 1px dotted #999;
+				}
+			}
+
+			a.delete-note {
+				color: $red;
+			}
+
+			.note-content:after {
+				content: "";
+				display: block;
+				position: absolute;
+				bottom: -10px;
+				left: 20px;
+				width: 0;
+				height: 0;
+				border-width: 10px 10px 0 0;
+				border-style: solid;
+				border-color: #efefef transparent;
+			}
+		}
+	}
+
+	.add-note {
+		border-top: 1px solid #ddd;
+		padding: 10px 10px 0;
+
+		h4 {
+			margin-top: 5px !important;
+		}
+
+		#voucher-note {
+			width: 100%;
+			height: 50px;
+		}
+	}
+}
+
+
+/* Voucher Preview Meta Box */
+#wc-pdf-product-vouchers-voucher-preview {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.unsaved-notice {
+		font-style: italic;
+	}
+}
+
+/* Voucher Balance Meta Box */
+#wc-pdf-product-vouchers-voucher-balance {
+
+	.inside {
+		display: block !important;
+		margin: 0;
+		padding: 0;
+		background: #fefefe;
+	}
+
+	.hndle, .handlediv {
+		display: none;
+	}
+
+	.wc-voucher-balance-wrapper {
+		margin: 0;
+
+		table.wc-voucher-balance {
+			width: 100%;
+			background: #fff;
+
+			thead {
+				th {
+					text-align: left;
+					padding: 1em;
+					font-weight: normal;
+					color: #999;
+					background: #f8f8f8;
+					-webkit-touch-callout: none;
+					-webkit-user-select: none;
+					-khtml-user-select: none;
+					-moz-user-select: none;
+					-ms-user-select: none;
+					user-select: none;
+					&:last-child {
+						padding-right: 2em;
+					}
+					&:first-child {
+						padding-left: 2em;
+					}
+					.wc-arrow {
+						float: right;
+						position: relative;
+						margin-right: -1em;
+					}
+				}
+			}
+
+			tbody th, td {
+				padding: 1.5em 1em 1em;
+				text-align: left;
+				line-height: 1.5em;
+				vertical-align: top;
+				border-bottom: 1px solid #f8f8f8;
+
+				textarea {
+					width: 100%;
+				}
+
+				select {
+					width: 50%;
+				}
+
+				input, textarea {
+					font-size: 14px;
+					padding: 4px;
+					color: #555;
+				}
+				&:last-child {
+					padding-right: 2em;
+				}
+				&:first-child {
+					padding-left: 2em;
+				}
+			}
+
+			tbody tr {
+				&.selected {
+					background: #F5EBF3;
+					td {
+						border-color: #E6CCE1;
+						opacity: 0.8;
+					}
+				}
+			}
+
+			tbody tr:last-child td {
+				border-bottom: 1px solid #dfdfdf;
+			}
+
+			tbody tr:first-child td {
+				border-top: 8px solid #f8f8f8;
+			}
+
+			tbody#order_line_items tr:first-child td {
+				border-top: none;
+			}
+
+			td.thumb {
+				text-align: left;
+				width: 38px;
+				padding-bottom: 1.5em;
+				.wc-voucher-product-thumbnail {
+					width: 38px;
+					height: 38px;
+					border: 2px solid #e8e8e8;
+					background: #f8f8f8;
+					color: #ccc;
+					position: relative;
+					font-size: 21px;
+					display: block;
+					text-align: center;
+					&:before {
+						@include dashicon( "\f128" );
+						width: 38px;
+						line-height: 38px;
+						display: block;
+					}
+					img {
+						width: 100%;
+						height: 100%;
+						margin: 0;
+						padding: 0;
+						position: relative;
+					}
+				}
+			}
+			td.name {
+				.wc-voucher-product-sku, .wc-voucher-product-variation {
+					display: block;
+					margin-top: .5em;
+					font-size: 0.92em !important;
+					color: #888;
+				}
+			}
+
+			.item {
+				min-width: 200px;
+			}
+
+			.center,
+			.variation-id {
+				text-align: center;
+			}
+
+			.value,
+			.tax {
+				text-align: right;
+
+				label {
+					white-space: nowrap;
+					color: #999;
+					font-size: 0.833em;
+
+					input {
+						display: inline;
+					}
+				}
+
+				input {
+					width: 70px;
+					vertical-align: middle;
+					text-align: right;
+					float: right;
+				}
+
+				select {
+					width: 85px;
+					height: 26px;
+					vertical-align: middle;
+					font-size: 1em;
+				}
+
+				.view {
+					white-space: nowrap
+				}
+
+				.edit {
+					text-align: left;
+				}
+
+				small.times, del {
+					font-size: 0.92em !important;
+					color: #888;
+				}
+
+				small.times {
+					margin-right: .25em;
+				}
+			}
+
+			.tax .tax_label {
+				display: inline-block;
+				white-space: nowrap;
+				margin-top: 5px;
+			}
+
+			.calculated {
+				border-color: #ae8ca2;
+				border-style: dotted;
+			}
+
+			tr.redemption {
+				.thumb div {
+					@include dashicon-ir;
+					font-size: 1.5em;
+					line-height: 1em;
+					vertical-align: middle;
+					margin: 0;
+
+					&:before {
+						@include dashicon( "\f310" );
+						color: #ccc;
+					}
+				}
+			}
+
+			tr.void {
+				.thumb div {
+					@include dashicon-ir;
+					font-size: 1.5em;
+					line-height: 1em;
+					vertical-align: middle;
+					margin: 0;
+
+					&:before {
+						@include dashicon( "\f534" );
+						color: #ccc;
+					}
+				}
+			}
+
+			table.redemption-meta {
+				margin: .5em 0 0 0;
+				font-size: 0.92em !important;
+				color: #888;
+				border-spacing: 0;
+
+				tr {
+					th {
+						border: 0;
+						padding: 0 4px .5em 0;
+						line-height: 1.5em;
+						width: 20%;
+					}
+					td {
+						padding: 0 4px .5em 0;
+						border: 0;
+						line-height: 1.5em;
+
+						input {
+							width: 100%;
+							margin: 0;
+							position: relative;
+							border-bottom: 0;
+							box-shadow: none;
+						}
+
+						textarea {
+							width: 100%;
+							height: 4em;
+							margin: 0;
+							box-shadow: none;
+						}
+
+						input:focus + textarea {
+							border-top-color: #999;
+						}
+
+						p {
+							margin: 0 0 .5em;
+							line-height: 1.5em;
+						}
+
+						p:last-child {
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.actions {
+		padding-left: 0;
+		button.restore-action {
+			float: left;
+		}
+	}
+
+	.wc-voucher-edit-item-actions {
+		width: 44px;
+		text-align: right;
+		padding-left: 0;
+		vertical-align: middle;
+		a {
+			color: #ccc;
+			display: inline-block;
+			cursor: pointer;
+			padding: 0 0 .5em 0;
+			margin: 0 0 0 8px;
+			vertical-align: middle;
+			text-decoration: none;
+			line-height: 16px;
+			width: 16px;
+			overflow: hidden;
+			&:before {
+				margin: 0;
+				padding: 0;
+				font-size: 16px;
+				width: 16px;
+				height: 16px;
+			}
+			&:hover {
+				&:before {
+					color: #999;
+				}
+			}
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+
+		.edit-voucher-item {
+			&:before {
+				@include dashicon( "\f464" );
+				position: relative;
+			}
+		}
+
+		.delete-voucher-item {
+			&:before {
+				@include dashicon( "\f158" );
+				position: relative;
+			}
+			&:hover {
+				&:before {
+					color: $red;
+				}
+			}
+		}
+	}
+
+	tbody tr .wc-voucher-edit-item-actions {
+		visibility: hidden;
+	}
+	tbody tr:hover .wc-voucher-edit-item-actions {
+		visibility: visible;
+	}
+
+	.wc-voucher-data-row {
+		border-bottom: 1px solid #DFDFDF;
+		padding: 1.5em 2em;
+		background: #f8f8f8;
+		line-height: 2em;
+		text-align: right;
+		p {
+			margin: 0;
+			line-height: 2em;
+		}
+	}
+
+	.wc-voucher-totals {
+		float: right;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		text-align: right;
+
+		.amount {
+			font-weight: 700;
+		}
+
+		.label {
+			vertical-align: top;
+		}
+
+		.total {
+			font-size: 1em !important;
+			width: 10em;
+			margin: 0 0 0 .5em;
+			box-sizing: border-box;
+
+			input[type="text"] {
+				width: 96%;
+				float: right;
+				&#redemption_amount {
+					text-align: right;
+				}
+			}
+		}
+
+		.redeemed-total,
+		.voided-value {
+			color: $red;
+		}
+	}
+}
+
+
+.wc-voucher-edit-modal {
+	.wc-backbone-modal-content article {
+		overflow: visible; // so that the validation tooltip stays visible
+	}
+}
+
+
+/* =Voucher List Screen
+-------------------------------------------------------------- */
+
+.wc-pdf-product-vouchers-voucher-template {
+	width: 240px !important;
+}
+
+.widefat {
+	.column-voucher_actions {
+		width: 110px;
+
+		a.button {
+			float: left;
+			margin: 0 4px 2px 0;
+			cursor: pointer;
+			padding: 3px 4px;
+			height: auto;
+
+			img {
+				display: block;
+				width: 12px;
+				height: auto;
+			}
+		}
+	}
+	.column-voucher_status {
+		width: 45px;
+		text-align: center;
+
+		mark {
+			@include dashicon-ir;
+			background: none;
+			font-size: 1.4em;
+			margin: 0 auto;
+		}
+
+		mark.pending:after {
+			@include dashicon( "\f159" );
+			color: $orange;
+		}
+
+		mark.active:after {
+			@include dashicon( "\f502" );
+			color: $blue;
+		}
+
+		mark.redeemed:before {
+			@include dashicon( "\f159" );
+			color: $green;
+		}
+		mark.redeemed:after {
+			@include dashicon( "\f147" );
+			color: $green;
+		}
+
+		mark.expired:after {
+			@include dashicon( "\f469" );
+			color: $red;
+		}
+
+		mark.voided:after {
+			@include dashicon( "\f534" );
+			color: $red;
+		}
+
+	}
+
+	td.column-voucher_status {
+		padding-top: 9px;
+	}
+}
+
+.voucher_actions {
+	.redeem,
+	.void,
+	.download,
+	.view {
+		@include dashicon-ir;
+		padding: 0 !important;
+		height: 2em !important;
+		width:2em;
+	}
+
+	.redeem:after {
+		@include dashicon( "\f147" );
+	}
+
+	.void:after {
+		@include dashicon( "\f158" );
+	}
+
+	.download:after {
+		@include dashicon( "\f316" );
+	}
+
+	.view:after {
+		@include dashicon( "\f177" );
+	}
+}
+
+h3.wc-pdf-product-vouchers-voucher-redeem-voucher:before,
+h3.wc-pdf-product-vouchers-voucher-create-voucher:before {
+	content: '\f524';
+}
+
+h3.wc-pdf-product-vouchers-voucher-void-voucher:before {
+	content: '\f534';
+}
+
+.redeem-voucher-pointer.wp-pointer-top .wp-pointer-arrow,
+.void-voucher-pointer.wp-pointer-top .wp-pointer-arrow {
+	left: auto;
+	right: 50px;
+}
+
+
+@include tiptip();
+
+
+/* =Edit Order Screen
+-------------------------------------------------------------- */
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items td.name .wc-order-item-voucher {
+	display: block;
+	margin-top: .5em;
+	font-size: .92em!important;
+	color: #888;
+}
+
+
+/* =Barcode Redeem Screen
+-------------------------------------------------------------- */
+.text-italic {
+	font-style: italic;
+}
+
+.barcode-voucher-wrap {
+  #canvas {
+	width: 240px;
+	height: auto;
+  }
+
+  #redeem-voucher,
+  #barcode-value {
+	display: inline-block;
+  }
+
+  #redeem-voucher {
+	width: 20%;
+	height: 40px;
+	vertical-align: top;
+  }
+
+  #barcode-value {
+	width: 78%;
+  }
+  @media screen and (min-width: 768px) {
+	#canvas {
+		width: 100%;
+	}
+	#scan-qr {
+		display: block;
+		width: 100%;
+	}
+	#redeem-voucher {
+	  width: auto;
+	  height: auto;
+	}
+
+	#barcode-value {
+	  width: auto;
+	  height: 29px;
+	}
+  }
+}

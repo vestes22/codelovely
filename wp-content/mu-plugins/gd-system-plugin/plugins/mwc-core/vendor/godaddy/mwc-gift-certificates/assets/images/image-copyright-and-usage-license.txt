@@ -1,0 +1,66 @@
+WooCommerce PDF Product Vouchers - Voucher Images
+
+All images and assets within the WooCommerce PDF Product vouchers plugin are copyright and property of SkyVerge, Inc.
+
+Copyright (c) 2016 - 2017, SkyVerge, Inc
+http://skyverge.com
+
+THIS IS A LEGAL AGREEMENT BETWEEN YOU ("LICENSEE") AND SKYVERGE, INC, AND ITS LEGAL AGENTS AND REPRESENTATIVES ("SKYVERGE"). THIS AGREEMENT IS APPLICABLE TO DIGITAL AND ANALOGUE (PHYSICAL) DELIVERY OF LICENSED MATERIAL.
+
+This is a license agreement between you and SkyVerge that explains how you can use images, illustrations, video clips, and other digital media that you purchase from SkyVerge, either directly or via WooCommerce.com. By downloading content from SkyVerge, you accept the terms of this agreement.
+
+1. Definitions. -- The following definitions apply in this Agreement:
+
+	1.1 "Licensed Material" means any image, visual representation generated electronically, digitally or by any other means, original digital files, including any negatives, prints, or any Reproductions thereof, or any other product protected by copyright, trademark, patent or other intellectual property right, which is licensed to Licensee by SkyVerge under the terms of this Agreement. Any reference in this Agreement to the Licensed Material shall be to each individual item within the Licensed Material and also to the Licensed Material taken as a whole.
+	1.2	"Reproduction" and "Reproduce" mean any form of copying or publication of the whole or part of any Licensed Material, via any medium by whatever means, and the distortion or manipulation of the whole or any part of the Licensed Material and the creation of any derivative work from the Licensed Material.
+	1.3	"User" means any employee or subcontractor of the Licensee who manipulates, edits, or modifies the original digital file containing the Licensed Material or incorporates the Licensed Material within any derivative work.
+
+2. Grant of Rights and Permissions. -- Subject to the terms of this Agreement:
+
+	2.1	Upon purchasing the Licensed Material from SkyVerge directly or via the WooCommerce.com marketplace, the Licensee has the perpetual, non-exclusive, non-transferable, non-sub-licensable right to use the Licensed Material via the WooCommerce PDF Product Vouchers plugin.
+	2.2 The Licensee may not sell, rent, lease, or sublicense the images to any other companies or entities not mentioned in this license agreement.
+	2.3 Licensee may store the Licensed Material in a digital library, network configuration or similar arrangement to allow the Licensed Material to be viewed by employees, partners and clients of Licensee.
+	2.4 Licensee has permission to use the Licensed Material as part of the function of the WooCommerce PDF Product Vouchers plugin to generate store vouchers, certificates, and similar items for customers, and to distribute them to customers in a downloadable or printed format via the Licensee's online store.
+
+Licensees have perpetual, non-exclusive, non-transferable, non-sub-licensable permission to use the Licensed Materials as part of the regular (default) usage of the WooCommerce PDF Product Vouchers plugin to generate vouchers or certificates for a WooCommerce store. Other usage, reproduction, re-sale, or distribution of the Licensed Materials are expressly prohibited.
+
+3. Restrictions.
+
+	3.1 Licensee may not sublicense, sell, assign, convey or transfer this Agreement or any of its rights under this Agreement.
+	3.2 Licensee must purchase the Licensed Materials directly from SkyVerge, either via skyverge.com or woocommerce.com, to be permitted to use Licensed Materials as outlined in this agreement. Use of Licensed Materials without purchasing them directly constitutes a violation of this agreement.
+	3.3 Licensee may not place the Licensed Material in a downloadable format on the Internet, electronic bulletin board, enable it to be distributed via mobile telephone devices, or allow access to the photos via P2P file sharing networks or utilities, except where permitted by this agreement.
+	3.4	Licensee may not sell, license or distribute any derivative work containing the Licensed Material in a way that would allow a third party to download, extract or access the Licensed Material as a standalone file.
+	3.5	Licensed Material shall not be incorporated into a logo, trademark, or service mark.
+	3.6	The Licensed Material may not be used in a defamatory or otherwise illegal manner, whether directly or in context or juxtaposition with other materials.
+	3.7	Licensee must retain information that is invisibly embedded in the electronic file containing the original Licensed Material, including without limitation, the copyright symbol, the name of SkyVerge, the Licensed Material's identification number and any other information.
+	3.8	Licensee must abide by any restriction on use notified to it by SkyVerge before or at the time of delivery of the Licensed Material, either in the information accompanying the Licensed Material or otherwise.
+
+4. Copyright.
+
+All Licensed Material are copyright SkyVerge and are protected by United States Copyright Laws, International treaty provisions, and other applicable laws. No title, copyright, or intellectual property rights in the Licensed Material are transferred with this license. Full rights and copyright remain with SkyVerge, without exception.
+
+Attribution is not required for usage of Licensed Materials pursuant to this agreement.
+
+5. Warranty and Limitation of Liability.
+
+	5.1	SkyVerge warrants that it has all necessary rights and authority to enter into and perform this Agreement.
+	5.2	SkyVerge makes no other warranties, express or implied, regarding the licensed material, including, without limitation, any implied warranties of merchantability or fitness for a particular purpose. SkyVerge shall not be liable to Licensee or any other person or entity for any general, punitive, special, indirect, consequential or incidental damages, or lost profits or any other damages, costs or losses arising out of Licensee's use of the licensed material or otherwise, even if SkyVerge has been advised of the possibility of such damages, costs or losses.
+	5.3	The representations and warranties made by SkyVerge in this agreement apply only to the licensed material as delivered by SkyVerge and will be invalid if the licensed material is used by Licensee in any manner not specifically authorized in this agreement or if Licensee is otherwise in breach of this agreement.
+	5.4 SkyVerge warrants that the Licensed Materials are free from defects in material. Any files or media that are found to be defective can be replaced with the same item or content. SkyVerge makes no other warranty either expressed or implied. SkyVerge will not be liable for any damages that may occur from the usage of the Licensed Materials.
+
+6. Indemnification.
+
+Licensee agrees to indemnify and hold SkyVerge harmless against any and all claims or liabilities asserted against SkyVerge, arising out of access to the Licensed Matieral or in any connection with the breach of any of the terms of this agreement.
+
+7. Termination and Revocation.
+
+	7.1	The license contained in this Agreement will terminate automatically without notice from SkyVerge if Licensee fails to comply with any provision of this Agreement. Upon termination, Licensee must immediately (i) stop using the Licensed Material; (ii) destroy or, upon the request of SkyVerge, return the Licensed Material to SkyVerge; and (iii) delete or remove the Licensed Material from Licensee's premises, computer systems and storage (electronic or physical).
+	7.2	SkyVerge reserves the right to revoke the license to use the Licensed Material for good cause and elect to replace such Licensed Material with alternative Licensed Material. Upon notice of any revocation of a license for any particular Licensed Material, Licensee shall immediately cease using such Licensed Material and shall where possible ensure that its users do likewise.
+
+8. Miscellaneous Terms.
+
+	8.1 Unauthorized Use. -- Any use of Licensed Material in a manner not expressly authorized by this Agreement or in breach of a term of this Agreement constitutes copyright infringement, entitling SkyVerge to exercise all rights and remedies available to it under copyright laws around the world. Licensee shall be responsible for any damages resulting from any such copyright infringement, including any claims by a third party. In addition and without prejudice to SkyVerge's other remedies under this Agreement, SkyVerge reserves the right to charge and Licensee agrees to pay a fee equal to five times SkyVerge normal license fee for use of the Licensed Material.
+	8.2 Governing Law. -- This Agreement will be governed in all respects by the laws of the State of Pennsylvania, U.S.A., without reference to its laws relating to conflicts of law. Any disputes arising from this Agreement or its enforceability shall be settled by binding arbitration to be held in Pennsylvania. The United Nations Convention on Contracts for the International Sale of Goods does not govern this Agreement. Notwithstanding the foregoing, SkyVerge shall have the right to commence and prosecute any legal or equitable action or proceeding before any court of competent jurisdiction to obtain injunctive or other relief against Licensee in the event that, in the opinion of SkyVerge, such action is necessary or desirable.
+	8.3	Severability. -- If one or more of the provisions contained in the Agreement is found to be invalid, illegal or unenforceable in any respect, the validity, legality and enforceability of the remaining provisions shall not be affected. Such provisions shall be revised only to the extent necessary to make them enforceable.
+	8.4 Waiver. -- No action ofSkyVerge, other than express written waiver, may be construed as a waiver of any provision of this Agreement. A delay on the part of SkyVerge in the exercise of its rights or remedies will not operate as a waiver of such rights or remedies, and a single or partial exercise by SkyVerge of any such rights or remedies will not preclude other or further exercise of that right or remedy. A waiver of a right or remedy by SkyVerge on any one occasion will not be construed as a bar to or waiver of rights or remedies on any other occasion.
+	8.5 Entire Agreement. -- This Agreement contains all the terms of the license agreement and no terms or conditions may be added or deleted unless made in writing and signed by an authorized representative of SkyVerge. In the event of any inconsistency between the terms contained herein and the terms contained on any purchase order or other communication sent by Licensee, the terms of this Agreement shall govern.

@@ -1,0 +1,52 @@
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-description,
+.section-subtitle,
+.post-navigation .post-title,
+.comment-meta .author-name {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.site-title,
+.section-title,
+#testimonial-content-section .section-content-wrapper .entry-content:before {
+	font-family: 'Playfair Display', serif;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.more-link .readmore,
+.ui-tabs .ui-tabs-nav li a,
+.posts-navigation a,
+#content #infinite-handle span button,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+#portfolio-content-section .filter-button-group .button {
+	font-family: 'Josefin Sans', sans-serif;
+}

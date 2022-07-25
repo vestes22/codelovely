@@ -1,0 +1,26 @@
+/**
+ * 12.5 - Sidebar
+ */
+
+.widget .hentry {
+	float: left;
+	width: 100%;
+}
+
+.widget a {
+	text-decoration: none;
+}
+
+.sidebar .widget {
+	clear: both;
+	padding: 30px;
+}
+
+.sidebar .widget-title {
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.62;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}

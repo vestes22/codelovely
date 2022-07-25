@@ -1,0 +1,490 @@
+/*
+ Theme Name:   Code Lovely
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  A portfolio theme for Code Lovely
+ Author:       Virginia Estes
+ Author URI:   http://www.codelovely.com
+ Template:     photofocus
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  photofocuschild
+*/
+
+.custom-header-overlay {
+    /* background: rgba(241, 221, 207,0.50); */
+    background: linear-gradient(
+      to bottom, rgba(249,241,236,0.750) 20%,
+      rgba(241, 221, 207,0.50) 30% 100%);
+    overflow: hidden;
+    height: 100%;
+    z-index: .5;
+}
+
+h1.section-title.entry-title {
+    color: #800000;
+    
+}
+
+div.site-header-text p {
+    color: #800000;
+}
+
+a.readmore {
+    background: #800000;
+}
+
+a,
+.site-header-menu .menu-inside-wrapper .nav-menu li button,
+#contact-form-section .section-content-wrapper .contact-us-form form span input,
+#contact-form-section .section-content-wrapper .contact-us-form form span textarea,
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited,
+.stats-section .view-all-button .more-button .more-link,
+.sidebar nav.social-navigation ul li a:hover,
+.sidebar nav.social-navigation ul li a:focus,
+td#today,
+.clients-content-wrapper .controller .cycle-pager span.cycle-pager-active,
+.menu-toggle:hover,
+.menu-toggle:focus,
+.toggled-on.active:before,
+.comment-respond .comment-form p.is-focused label,
+.contact-section.section .section-content-wrap .hentry .entry-container .stay-connected .social-links-menu li a,
+#feature-slider-section .owl-dot.active:before,
+#feature-slider-section .owl-prev .icon,
+#feature-slider-section .owl-next .icon,
+.contact-section .contact-info-details .social-navigation a,
+#primary-search-wrapper .menu-toggle,
+#social-menu-wrapper .menu-toggle,
+.home .entry-meta .cat-links a:hover,
+.home .entry-meta .cat-links a:focus,
+.stats-content-wrapper .entry-title a:hover,
+.stats-content-wrapper .entry-title a:focus,
+.events-section .entry-meta a {
+    color: #F9F1EC;
+}
+
+.absolute-header .menu-toggle {
+  color: #800000; 
+}
+
+.services-section.section .hentry .hentry-inner .post-thumbnail a:before,
+input[type]:focus,
+textarea:focus,
+select:focus,
+blockquote.alignright,
+blockquote.alignleft,
+figure.wp-block-pullquote.alignleft blockquote,
+figure.wp-block-pullquote.alignright blockquote,
+#footer-newsletter .ewnewsletter .hentry form input:focus,
+.contact-section.section .section-content-wrap .hentry .entry-container .stay-connected .social-links-menu li {
+  border-color: #800000; 
+}
+
+.entry-content a:not(.more-link):not(.button):not(.wp-block-button__link):not(.readmore),
+.entry-summary a:not(.more-link):not(.button):not(.wp-block-button__link):not(.readmore),
+.ew-about a:not(.more-link):not(.button):not(.readmore),
+.widget_text a:not(.more-link):not(.button):not(.readmore),
+.comment-content a {
+  text-decoration: none; }
+
+/* Border Color */
+nav.navigation,
+.calendar_wrap tbody tr:first-child,
+.calendar_wrap tbody tr:last-child,
+tfoot,
+tfoot tr td,
+.sidebar.widget-area section.widget,
+.woocommerce-tabs ul.tabs.wc-tabs li,
+.menu-wrapper .widget_shopping_cart ul.woocommerce-mini-cart li,
+.entry-summary form.cart,
+.widget_recent_entries li,
+.site-header-menu #site-header-cart-wrapper a.cart-contents,
+.team-section .team-content-wrapper .hentry .team-social-profile .social-links-menu,
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+table,
+table thead tr,
+table thead th,
+thead th,
+tbody th,
+tbody td,
+tbody tr,
+table.shop_table_responsive tr td,
+table tbody tr,
+table.shop_table_responsive tbody tr:last-child,
+.shop_table tfoot tr td,
+.shop_table tfoot tr th,
+table.shop_table.woocommerce-checkout-review-order-table .cart_item td,
+table.shop_table.woocommerce-checkout-review-order-table tr td,
+table.shop_table.woocommerce-checkout-review-order-table tr th,
+.rtl tbody td:last-child,
+.rtl table thead th:last-child,
+.select2-container--default .select2-selection--single,
+table.woocommerce-grouped-product-list.group_table,
+table.woocommerce-grouped-product-list.group_table td,
+table.variations,
+table.variations td,
+.woocommerce-pagination ul.page-numbers li .page-numbers,
+.archive-content-wrap .navigation.pagination .page-numbers,
+.woocommerce-posts-wrapper .summary.entry-summary .woocommerce-product-rating,
+.woocommerce-posts-wrapper .summary.entry-content .woocommerce-product-rating,
+.cart-collaterals .order-total,
+#payment .wc_payment_methods .payment_box,
+select,
+header .site-header-main,
+abbr,
+acronym,
+.product-quantity input[type="number"],
+.coupon input[type="text"],
+.site-header-main .menu-inside-wrapper,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .sub-menu,
+.site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .children,
+.site-header-cart .widget_shopping_cart,
+.navigation-default .site-header-menu #primary-menu-wrapper .menu-inside-wrapper,
+.woocommerce-grouped-product-list tr,
+.mobile-social-search,
+.widget .ui-tabs .ui-tabs-panel,
+.site-header-menu .menu-inside-wrapper .nav-menu button:focus,
+header .site-header-menu .menu-inside-wrapper .main-navigation .sub-menu li:last-child,
+header .site-header-menu .menu-inside-wrapper .main-navigation .children li:last-child,
+.stats-section .view-all-button .more-button .more-link:hover,
+.stats-section .view-all-button .more-button .more-link:focus,
+.comment-body,
+.comment-form textarea,
+.comment-form input,
+.promotion-headline-wrapper.section .section-content-wrap .inner-container .more-button .more-link,
+.services-section.section .hentry .hentry-inner,
+.single-product .product_meta,
+.quantity .qty,
+.events-section.single-layout .hentry,
+.woocommerce ul.cart_list li,
+.woocommerce ul.product_list_widget li {
+  border-color: #ffffff; }
+
+#timeline-section .section-content-wrapper:before {
+  background-color: #ffffff; }
+
+@media only screen and (min-width: 75em) {
+  .navigation-default .nav-menu .sub-menu,
+  .navigation-default .nav-menu .children {
+    background-color: #800000; } }
+
+p {
+    line-height: 2;
+}
+
+a.wp-block-button__link{
+  background-color: #800000;
+  color: #fff;
+}
+
+.wp-block-file .wp-block-file__button, .wp-block-button a.wp-block-button__link {
+  background-color: #800000;
+  color: #fff;
+}
+
+.wp-block-file .wp-block-file__button, .wp-block-button a.wp-block-button__link:hover {
+  background-color: #d98e4a;
+  color: #fff;
+}
+
+/*-------------------------------------------------------------------------------------
+* ADDITIONAL CSS
+-------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------
+ * Site-Wide CSS
+  -------------------------------------------------- */
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    min-width: 700px;
+  }
+  
+  .codelovely-text {
+    color: #545454;
+  }
+  
+  .codelovely-header {
+    color: #800000;
+  }
+  
+  .horizontal-margins {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  .entry-content {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .page.no-sidebar .content-area,
+  .single.no-sidebar .content-area {
+    max-width: 100vw;
+  }
+
+  .site-title {
+    color: #800000;
+  }
+
+  .site-branding {
+    color: #800000;
+  }
+
+  .site-header-main {
+    background-color: linear-gradient(
+      to bottom, rgba(249,241,236,0.750) 75%,
+      rgba(241, 221, 207,0.50) 30% 100%);
+    color: #800000;
+  }
+
+  .site-header-main .site-branding .site-identity a {
+    color: #800000;
+  }
+
+  .site-header-main .site-branding .site-identity a {
+    color: #800000;
+  }
+
+  .site-header-main .site-branding .site-identity p {
+    color: #800000;
+    font-size: 1em;
+  }
+  
+  /*----------------------------------------------------
+   * Homepage CSS
+    -------------------------------------------------- */
+  
+  .homepage-column-header {
+    margin-top: 16px;
+  }
+  
+  .homepage-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .homepage-image-column figure {
+    height: 100%;
+    margin: 0px;
+  }
+  
+  .homepage-image-column {
+    background-color: #800000;
+  }
+  
+  .homepage-text-column {
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    padding-top: 0px;
+    height: 100%;
+  }
+  
+  .homepage-column-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+  }
+  
+  .site-header-menu .main-navigation #primary-menu li a {
+    color: #800000;
+  }
+
+  .site-header-menu .main-navigation #primary-menu li a:hover {
+    color: #d98e4a;
+  }
+
+  .site-header-menu .main-navigation #primary-menu .sub-menu li a {
+    color: #f9f1ec;
+  }
+  /*----------------------------------------------------
+    About Me CSS
+    -------------------------------------------------- */
+  
+  .aboutMe-heading{
+    color: #7b7b7b;
+    margin: 0px;
+  }
+  
+  .about-me-contact-group {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: auto;
+     background-color: #F9F1EC;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.10);
+    border: solid 1px #f7ebe2;
+    width: 100%;
+    padding: 24px;
+    color: rgba(128, 0, 0, 0.75);
+  }
+  
+  .contact-card-detail {
+    width: 100%;
+    text-align: left;
+    line-height: 16px;
+    letter-spacing: 2px;
+  }
+  
+  .entry-content .contact-card-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    letter-spacing: 1px;
+  }
+  /*----------------------------------------------------
+    Portfolio CardView CSS
+    -------------------------------------------------- */
+  
+  .project-card {
+    background-color: #F9F1EC;
+    min-height: 350px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.10);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: solid 1px #f7ebe2;
+    width: 100%;
+    padding: 24px;
+    color: rgba(128, 0, 0, 0.75);
+  }
+  
+  .project-card-heading {
+    background-color: #F1DDCF;
+  }
+  
+  .portfolio-header {
+    background-image: linear-gradient(45deg, #F1DDCF, #F4E4D9, #f9f1ec, #800000);
+    background-color: #F1DDCF;
+    font-family: serif;
+    letter-spacing: 2px;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: solid 1px #ffffff;
+  }
+  
+  .project-card-list {
+    border: solid 1px white;
+    padding-left: 30px;
+    padding-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  }
+  
+  .list-column {
+    margin-top: 16px;
+    padding-top: 24px;
+  }
+  
+  .github-caption {
+    margin-bottom: 50px;
+  }
+  
+  .clickable {
+    position: relative;
+  }
+  
+  .clickable a:after {
+    content: "";
+    display: block !IMPORTANT;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  /*----------------------------------------------------
+    Footer CSS
+    -------------------------------------------------- */
+  .footer-list {
+    font-size: 0.8em;
+    color: #F9F1EC;
+    text-align: center;
+  }
+  
+  .footer-list a {
+    font-size: 0.8em;
+    color: #F9F1EC;
+  }
+  
+  .footer-list a:hover {
+    font-size: 0.8em;
+    color: #d98e4a;
+  }
+  
+  .footer-list li {
+    line-height: 15px;
+    font-size: 0.8em;
+    color: #F9F1EC;
+  }
+  
+  .footer-header {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .site-footer {
+    background-color: #800000;
+  }
+  
+  /* ----------------------------------------------------
+   * Misc. CSS
+    -------------------------------------------------- */
+  .website-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .codelovely-icon {
+    color: #800000;
+    margin-right: 6px;
+  }
+
+  /* ----------------------------------------------------
+   * Services CSS
+   * -------------------------------------------------- */
+   .codelovely-services-header {
+    color: #800000;
+    font-size: 20px;
+  }
+
+  .service-column {
+    text-align: center;
+  }
+
+  .service-columns .service-column .codelovely-services-header {
+    font-size: 1.5em;
+  }
+
+  .service-icon {
+    color: #800000;
+    font-size: 2em;
+  }

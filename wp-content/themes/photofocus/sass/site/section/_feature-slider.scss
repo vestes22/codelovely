@@ -1,0 +1,199 @@
+/**
+ * 14.1 - Slider
+ */
+
+#feature-slider-section {
+    border: none;
+    padding: 0;
+}
+
+#feature-slider-section .wrapper {
+    max-width: 100%;
+    padding: 0;
+}
+
+#feature-slider-section .hentry {
+    margin: 0;
+    padding: 0;
+}
+
+#feature-slider-section .hentry-inner {
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: center;
+    -ms-flex-pack: end;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 100px 60px;
+    position: relative;
+}
+
+#feature-slider-section .post-thumbnail {
+    margin: 0;
+    position: unset;
+}
+
+#feature-slider-section .post-thumbnail img {
+    height: auto;
+    left: 50%;
+    max-width: 1000%;
+    min-height: 100%;
+    min-width: 100vw;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: auto;
+    z-index: -1;
+}
+
+@supports (object-fit: cover) {
+    #feature-slider-section .post-thumbnail img {
+        height: 100%;
+        left: 0;
+        object-fit: cover;
+        top: 0;
+        transform: none;
+        width: 100%;
+    }
+}
+
+#feature-slider-section .entry-container {
+    display: block;
+    opacity: 0;
+    padding: 0 30px;
+    position: relative;
+    visibility: hidden;
+    left: 80px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    -ms-transition-delay: .4s;
+    transition-delay: .4s;
+    z-index: 9;
+}
+
+#feature-slider-section .active .entry-container {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+#feature-slider-section .entry-container > * {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#feature-slider-section .entry-container > * > * {
+    max-width: 600px;
+    margin-right: auto;
+}
+
+#feature-slider-section .entry-title {
+    font-weight: 500;
+    margin: 0;
+}
+
+#feature-slider-section .entry-summary,
+#feature-slider-section .entry-content {
+    display: none;
+}
+
+#feature-slider-section .owl-carousel .owl-dots {
+    position: absolute;
+}
+
+.section .owl-carousel .owl-dots {
+    @include flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: 90%;
+    font-weight: 700;
+    width: 100%;
+}
+
+.single-item .featured-video-content-wrapper .hentry:first-child {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#feature-slider-section .owl-carousel .owl-dot.active {
+    background: transparent;
+}
+
+
+#feature-slider-section .owl-prev,
+#feature-slider-section .owl-next {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    letter-spacing: 0;
+    padding: 7px;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    z-index: 199;
+}
+
+#feature-slider-section .owl-next {
+    right: 0;
+}
+
+#feature-slider-section .owl-prev .icon,
+#feature-slider-section .owl-next .icon {
+    width: 32px;
+    height: 32px;
+}
+
+#feature-slider-section .owl-prev:hover,
+#feature-slider-section .owl-prev:focus,
+#feature-slider-section .owl-next:hover,
+#feature-slider-section .owl-next:focus {
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.color-scheme-music.home .header-media .section-title,
+.color-scheme-music #feature-slider-section .entry-title,
+.color-scheme-wedding.home .header-media .section-title,
+.color-scheme-wedding #feature-slider-section .entry-title,
+.color-scheme-corporate.home .header-media .section-title,
+.color-scheme-corporate #feature-slider-section .entry-title,
+.color-scheme-ecommerce.home .header-media .section-title,
+.color-scheme-ecommerce #feature-slider-section .entry-title {
+    line-height: 1.31;
+}
+
+.color-scheme-wedding.home .header-media .section-title,
+.color-scheme-wedding #feature-slider-section .entry-title {
+    font-weight: 700;
+    text-transform: capitalize;
+}

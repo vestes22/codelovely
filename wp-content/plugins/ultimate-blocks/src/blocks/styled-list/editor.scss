@@ -1,0 +1,14 @@
+.ub-styled-list-available-icon {
+	display: inline;
+}
+
+.editor-styles-wrapper .ub_styled_list {
+	ul {
+		margin-left: 0;
+	}
+	.fa-ul > li {
+		list-style: none;
+		display: inline-block;
+		width: 100%;
+	}
+}

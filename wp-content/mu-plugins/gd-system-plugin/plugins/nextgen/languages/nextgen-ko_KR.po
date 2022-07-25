@@ -1,0 +1,771 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-11-16T20:16:39+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "차세대 워드프레스 경험"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "일반"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "이미지 카테고리."
+
+#: includes/class-publish-guide.php:142
+msgid "Display Publish Guide."
+msgstr "게시 가이드를 표시합니다."
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "요청을 처리하는 동안 오류가 발생했습니다."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "design_style 전달되어야 합니다."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "사용 가능한 design_style 전달되어야 합니다."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "%s 제공 Go"
+
+#: build/editorPreferenceModal.js:1
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "계속해서 GoDaddy 사이트 편집기를 사용하시겠습니까?"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"귀하가 사이트를 구축할 수 있는 적절한 도구를 보유하고 있는지 확인하고 싶습니"
+"다. 귀하는 현재 GoDaddy 사이트 편집기를 사용하고 있습니다. 모든 워드프레스 플"
+"러스를 사용하면 한 곳에서 디자인을 사용자 정의하고, 페이지를 편집하며, 페이지"
+"를 관리할 수 있습니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "Yes, keep using it"
+msgstr "예. 계속 사용합니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "No, I want to see other options"
+msgstr "아니요. 다른 옵션을 사용하고 싶습니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "귀하에게 적합하지 않다니 유감입니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "Could you tell us why?"
+msgstr "이유를 알려주시겠어요?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "귀하에게 적합하지 않은 이유를 알려주세요..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "뒤로 이동"
+
+#: build/editorPreferenceModal.js:1
+msgid "Skip"
+msgstr "건너뛰기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Continue"
+msgstr "계속"
+
+#: build/editorPreferenceModal.js:1
+msgid "Let’s find you a better fit"
+msgstr "더 적합한 옵션 찾기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Here are some other options to explore:"
+msgstr "다음은 탐색할 수 있는 몇 가지 옵션입니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to the default WordPress editor"
+msgstr "기본 워드프레스 편집기로 전환하기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to a 3rd party page builder"
+msgstr "타사 페이지 빌더로 전환하기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Talk to someone about my options"
+msgstr "내 옵션에 대해 얘기하기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Hire our experts to build your site for you"
+msgstr "사이트 구축을 위해 당사 전문가 고용하기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to the default WordPress editor"
+msgstr "기본 워드프레스 편집기로 전환하는 중"
+
+#: build/editorPreferenceModal.js:1
+msgid "You should switch to the default WordPress editor if:"
+msgstr "기본 워드프레스 편집기로 전환해야 하는 경우:"
+
+#: build/editorPreferenceModal.js:1
+msgid "You want to use a different theme"
+msgstr "다른 테마를 사용하고 싶은 경우"
+
+#: build/editorPreferenceModal.js:1
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr "기본 워드프레스 편집기 사용에 익숙하거나 선호하는 경우"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"전환하면 이 사이트는 더 이상 GoDaddy 사이트 편집기로 작업할 수 없으므로 다시 "
+"되돌릴 수 없습니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr "이 사이트를 기본 워드프레스 편집기로 전환할 준비가 되셨나요?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to Default"
+msgstr "기본으로 전환하기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "타사 페이지 빌더로 전환하는 중"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"타사 페이지 빌더는 귀하의 사이트에 설치하는 워드프레스 플러그인으로 페이지를 "
+"구축 및 디자인할 수 있습니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr "이 사이트를 타사 페이지 빌더로 전환할 준비가 되셨나요?"
+
+#: build/editorPreferenceModal.js:1
+msgid "View Plugins"
+msgstr "플러그인 보기"
+
+#: build/editorPreferenceModal.js:1
+msgid "Expert help is on the way"
+msgstr "전문가 지원 진행 중"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact our GoDaddy guides to get started."
+msgstr "시작하려면 당사 GoDaddy 가이드에 문의하세요."
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact Us"
+msgstr "연락처"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr "여러분의 비즈니스에 맞춘 듯한 놀라운 전문가 웹사이트를 구축해드립니다."
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "워드프레스 관리자로 리디렉션 중..."
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to WordPress plugins…"
+msgstr "워드프레스 플러그인으로 리디렉션하는 중..."
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"피드백을 제공해 주셔서 감사드리며 귀하가 사이트를 구축할 수 있는 적절한 도구"
+"를 보유하고 있는지 확인하고자 합니다. 귀하는 현재 GoDaddy 사이트 편집기를 사"
+"용하고 있습니다. 모든 워드프레스 플러스를 사용하면 한 곳에서 디자인을 사용자 "
+"정의하고, 페이지를 편집하며, 페이지를 관리할 수 있습니다."
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+msgid "Document"
+msgstr "문서"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+msgid "%s (selected)"
+msgstr "%s(선택됨)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+msgid "Block (selected)"
+msgstr "블록(선택됨)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+msgid "Block"
+msgstr "블록"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+msgid "Visibility"
+msgstr "표시 유형"
+
+#: build/editSite.js:20
+msgid "Publish"
+msgstr "게시"
+
+#: build/editSite.js:20 packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "정말 삭제할까요?"
+
+#: build/editSite.js:20
+msgid "Delete this page"
+msgstr "이 페이지 삭제"
+
+#: build/editSite.js:20
+msgid "Title"
+msgstr "제목"
+
+#: build/editSite.js:20
+msgid "Display on page"
+msgstr "페이지에서 표시"
+
+#: build/editSite.js:20
+msgid "Page details"
+msgstr "페이지 세부 정보"
+
+#: build/editSite.js:20
+msgid "Featured image"
+msgstr "추천 이미지"
+
+#: build/editSite.js:20
+msgid "Settings"
+msgstr "설정"
+
+#: build/editSite.js:20
+msgid "Close settings"
+msgstr "설정 닫기"
+
+#: build/editSite.js:20
+msgid "Plugins"
+msgstr "플러그인"
+
+#: build/editSite.js:20
+msgid "More"
+msgstr "더 보기"
+
+#: build/editSite.js:20
+msgid "More tools & options"
+msgstr "도구 및 옵션 더 보기"
+
+#: build/editSite.js:20
+msgid "Add"
+msgstr "추가"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15
+msgid "Cache cleared"
+msgstr "캐시 삭제됨"
+
+#: build/logoMenu.js:15
+msgid "Site Editor"
+msgstr "사이트 편집기"
+
+#: build/logoMenu.js:15
+msgid "Main menu"
+msgstr "기본 메뉴"
+
+#: build/logoMenu.js:15
+msgid "WordPress Management"
+msgstr "워드프레스 관리"
+
+#: build/logoMenu.js:15
+msgid "Manage Plugins"
+msgstr "플러그인 관리"
+
+#: build/logoMenu.js:15
+msgid "Manage Site Menus"
+msgstr "사이트 메뉴 관리"
+
+#: build/logoMenu.js:15
+msgid "Customize Site Design"
+msgstr "사이트 디자인 사용자 정의"
+
+#: build/logoMenu.js:15
+msgid "Manage Users"
+msgstr "사용자 관리"
+
+#: build/logoMenu.js:15
+msgid "Manage Comments"
+msgstr "댓글 관리"
+
+#: build/logoMenu.js:15
+msgid "WordPress Admin"
+msgstr "워드프레스 관리자"
+
+#: build/logoMenu.js:15
+msgid "Hosting"
+msgstr "호스팅"
+
+#: build/logoMenu.js:15
+msgid "Hosting Overview"
+msgstr "호스팅 개요"
+
+#: build/logoMenu.js:15
+msgid "Hosting Settings"
+msgstr "호스팅 설정"
+
+#: build/logoMenu.js:15
+msgid "Tools"
+msgstr "도구"
+
+#: build/logoMenu.js:15
+msgid "Editor Preference"
+msgstr "편집기 기본 설정"
+
+#: build/logoMenu.js:15
+msgid "Is this editor right for you?"
+msgstr "이 편집기가 마음에 드시나요?"
+
+#: build/logoMenu.js:15
+msgid "Learn about other WordPress site building options here."
+msgstr "여기에서 다른 워드프레스 사이트 구축 옵션에 대해 알아보세요."
+
+#: build/logoMenu.js:15
+msgid "Flush Cache"
+msgstr "캐시 플러시"
+
+#: build/logoMenu.js:15
+msgid "Connection Management"
+msgstr "연결 관리"
+
+#: build/logoMenu.js:15
+msgid "Support"
+msgstr "지원"
+
+#: build/logoMenu.js:15
+msgid "Give Feedback"
+msgstr "피드백 제공하기"
+
+#: build/logoMenu.js:15
+msgid "Help & Support"
+msgstr "도움말 및 지원"
+
+#: packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "정보"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "귀하의 경험을 알려 주세요(선택 사항)..."
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "전송"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "피드백을 공유해 주셔서 감사합니다."
+
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "닫기"
+
+#: packages/feedback-modal/src/index.js:99
+#: packages/feedback-modal/src/index.js:107
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "피드백 제공하기"
+
+#: packages/feedback-modal/src/index.js:108
+msgid "How would you rate your experience?"
+msgstr "귀하의 경험을 어떻게 평가하시겠어요?"
+
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "내 사이트 분야:"
+
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "패션"
+
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "홈 데코"
+
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "커피"
+
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "건설"
+
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "예술"
+
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "베이킹"
+
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "피트니스"
+
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "조경"
+
+#: packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "검색"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "귀하의 도메인 추가"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"보다 전문가다운 모습을 보이면서 고객이 귀하의 웹사이트를 쉽게 찾을 수 있도록 "
+"하세요."
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:39
+msgid "Change"
+msgstr "변경"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "도메인 추가"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "페이지 검토 및 추가"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr "적은 분량으로 시작했으니 페이지와 콘텐츠를 더 추가하세요."
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "페이지 관리"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "자신만의 디자인 만들기"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "색상, 글꼴을 업데이트하고 사이트의 모양과 느낌을 바꾸세요."
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "사용자 지정"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "웹사이트 로고"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "사이트 정보 및 브랜드 추가"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr "사이트의 이름과 사이트의 목적은 무엇인가요? 로고가 있으면 추가하세요."
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "편집"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "사이트 제목"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "사이트 설명"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "사이트 로고 업로드"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "로고 대체"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "로고 제거하기"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "저장"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "나중에 하기"
+
+#: packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "귀하의 사이트 게시 도메인:"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "멋진 소식을 축하하고"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "공유할 시간입니다."
+
+#: packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "내 신규 웹사이트 확인하기!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"%1$s에 내 웹사이트가 게시되었습니다. 오셔서 확인하시고 의견을 알려주세요!"
+
+#: packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "이 가이드 숨기기"
+
+#: packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "작업 선택"
+
+#: packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "이름 변경"
+
+#: packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "홈페이지로 설정하시겠습니까?"
+
+#: packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "홈페이지로 설정"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "게시물 고정 해제"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "게시물 고정"
+
+#: packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "중복"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "페이지 삭제"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "게시물 삭제"
+
+#: packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "색상"
+
+#: packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "색상표"
+
+#: packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "디자인 스타일"
+
+#: packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"엄선된 디자인 스타일을 쉽게 탐색한 다음 귀하에게 딱 맞는 색상 및 글꼴로 사용"
+"자 정의합니다."
+
+#: packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "사용자 정의 글꼴 옵션"
+
+#: packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "제목"
+
+#: packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "글꼴"
+
+#: packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "두께"
+
+#: packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "크기"
+
+#: packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "머리글 글꼴 크기"
+
+#: packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "본문"
+
+#: packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "글꼴"
+
+#: packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "글꼴 페어링"
+
+#: packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "다람쥐 헌 쳇바퀴에 타고파."
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "글꼴 크기 숨기기"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "글꼴 크기 편집"
+
+#: packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "작게"
+
+#: packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "보통"
+
+#: packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "크게"
+
+#: packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "기본 크기"
+
+#: packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "글꼴 크기"
+
+#: packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "머리글 크기 조정"
+
+#: packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "사이트 디자인"
+
+#: packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "디자인"
+
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "업데이트가 완료되었습니다."
+
+#: packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "가장 뛰어난 최신 버전으로 업데이트 중"
+
+#: packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "편집기에 최신 업데이트를 적용하는 동안 잠시 기다려 주세요."
+
+#: packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "오래 걸리지 않습니다."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "귀하의 사이트 편집기도 바뀌게 될 것입니다."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"귀하는 현재 Go 테마가 포함된 GoDaddy 사이트 편집기를 사용하고 있습니다. 모든 "
+"워드프레스 플러스를 사용하면 한 곳에서 디자인을 사용자 정의하고, 페이지를 편"
+"집하며, 페이지를 관리할 수 있습니다."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"신규 테마가 활성화되면 이 사이트는 더 이상 GoDaddy 사이트 편집기로 동작하지 "
+"않게 됩니다. 대신 귀하의 사이트는 기본 워드프레스 편집기로 전환됩니다."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"신규 테마를 활성화하여 기본 워드프레스 편집기로 전환할 준비가 되셨나요?"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "활성화"

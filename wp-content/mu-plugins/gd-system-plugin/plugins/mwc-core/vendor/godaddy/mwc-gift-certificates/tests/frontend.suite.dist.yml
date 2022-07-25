@@ -1,0 +1,6 @@
+# Frontend suite configuration.
+
+actor: FrontendTester
+modules:
+  enabled:
+    - \Helper\Frontend

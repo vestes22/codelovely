@@ -1,0 +1,785 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-11-16T20:16:39+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "Een baanbrekende ervaring op WordPress"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "Algemeen"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "Afbeeldingscategorie."
+
+#: includes/class-publish-guide.php:142
+msgid "Display Publish Guide."
+msgstr "Geef de publicatiehandleiding weer."
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "Fout bij het verwerken van je verzoek."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "Er moet een design_style worden doorgegeven."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "Er moet een beschikbare design_style worden doorgegeven."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "Go door %s"
+
+#: build/editorPreferenceModal.js:1
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "Wil je de site-editor van GoDaddy blijven gebruiken?"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"We willen zeker weten dat je de juiste tools hebt om je site te bouwen. Je "
+"maakt momenteel gebruik van de site-editor van GoDaddy. Hierbij krijg je "
+"alle opties van WordPress plus een manier om je ontwerp aan te passen, je "
+"pagina's te bewerken en je pagina's te beheren, allemaal vanaf dezelfde plek."
+
+#: build/editorPreferenceModal.js:1
+msgid "Yes, keep using it"
+msgstr "Ja, blijven gebruiken"
+
+#: build/editorPreferenceModal.js:1
+msgid "No, I want to see other options"
+msgstr "Nee, ik wil graag andere opties zien"
+
+#: build/editorPreferenceModal.js:1
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "We vinden het jammer dat het product niet goed werkte voor je"
+
+#: build/editorPreferenceModal.js:1
+msgid "Could you tell us why?"
+msgstr "Kun je ons vertellen waarom?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "Vertel ons waarom het product niet goed werkte voor je..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "Terug"
+
+#: build/editorPreferenceModal.js:1
+msgid "Skip"
+msgstr "Overslaan"
+
+#: build/editorPreferenceModal.js:1
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: build/editorPreferenceModal.js:1
+msgid "Let’s find you a better fit"
+msgstr "Laten we een betere oplossing vinden"
+
+#: build/editorPreferenceModal.js:1
+msgid "Here are some other options to explore:"
+msgstr "Hier zijn een paar andere opties:"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to the default WordPress editor"
+msgstr "Overstappen op de standaardeditor van WordPress"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to a 3rd party page builder"
+msgstr "Overstappen op een externe paginabouwer"
+
+#: build/editorPreferenceModal.js:1
+msgid "Talk to someone about my options"
+msgstr "Met iemand praten over mijn opties"
+
+#: build/editorPreferenceModal.js:1
+msgid "Hire our experts to build your site for you"
+msgstr "Vraag onze experts om een site voor je te bouwen"
+
+#: build/editorPreferenceModal.js:1
+msgid "Learn More"
+msgstr "Meer informatie"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to the default WordPress editor"
+msgstr "Overstappen op de standaardeditor van WordPress"
+
+#: build/editorPreferenceModal.js:1
+msgid "You should switch to the default WordPress editor if:"
+msgstr "Je kunt overstappen op de standaardeditor van WordPress als:"
+
+#: build/editorPreferenceModal.js:1
+msgid "You want to use a different theme"
+msgstr "Je een ander thema wilt gebruiken"
+
+#: build/editorPreferenceModal.js:1
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr ""
+"Je bekend bent met de standaardversie van de WordPress-editor en/of daaraan "
+"de voorkeur geeft"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"Na het overstappen werkt deze site niet meer met de site-editor van GoDaddy. "
+"Je kunt dus niet terugkomen."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr "Klaar om over te stappen op de standaardeditor van WordPress?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to Default"
+msgstr "Overstappen op standaard"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "Overstappen op een externe paginabouwer"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"Een externe paginabouwer is een plugin voor WordPress die je op je site "
+"installeert. Hiermee kun je pagina's ontwikkelen en ontwerpen."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr "Klaar om voor deze site over te stappen op een externe paginabouwer?"
+
+#: build/editorPreferenceModal.js:1
+msgid "View Plugins"
+msgstr "Plugins weergeven"
+
+#: build/editorPreferenceModal.js:1
+msgid "Expert help is on the way"
+msgstr "De experts zijn ingeschakeld"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact our GoDaddy guides to get started."
+msgstr "Neem contact op met onze GoDaddy-gidsen om aan de slag te gaan."
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact Us"
+msgstr "Contact"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"We maken een ongelooflijke professionele site voor je die helemaal bij je "
+"bedrijf past"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "Je wordt doorgeleid naar de beheerpagina van WordPress…"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to WordPress plugins…"
+msgstr "Je wordt doorgeleid naar de plugins van WordPress…"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"We stellen je feedback op prijs. We willen zeker weten dat je de juiste "
+"tools hebt om je site te bouwen. Je maakt momenteel gebruik van de site-"
+"editor van GoDaddy. Hierbij krijg je alle opties van WordPress plus een "
+"manier om je ontwerp aan te passen, je pagina's te bewerken en je pagina's "
+"te beheren, allemaal vanaf dezelfde plek."
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+msgid "Document"
+msgstr ""
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+msgid "%s (selected)"
+msgstr "%s (geselecteerd)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+msgid "Block (selected)"
+msgstr "Blok (geselecteerd)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+msgid "Block"
+msgstr "Blokkeren"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: build/editSite.js:20
+msgid "Publish"
+msgstr "Publiceren"
+
+#: build/editSite.js:20 packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "Wil je dit echt verwijderen?"
+
+#: build/editSite.js:20
+msgid "Delete this page"
+msgstr "Deze pagina verwijderen"
+
+#: build/editSite.js:20
+msgid "Title"
+msgstr "Titel"
+
+#: build/editSite.js:20
+msgid "Display on page"
+msgstr "Weergeven op pagina"
+
+#: build/editSite.js:20
+msgid "Page details"
+msgstr "Paginadetails"
+
+#: build/editSite.js:20
+msgid "Featured image"
+msgstr "Uitgelichte afbeelding"
+
+#: build/editSite.js:20
+msgid "Settings"
+msgstr "Instellingen"
+
+#: build/editSite.js:20
+msgid "Close settings"
+msgstr "Instellingen sluiten"
+
+#: build/editSite.js:20
+msgid "Plugins"
+msgstr ""
+
+#: build/editSite.js:20
+msgid "More"
+msgstr "Meer"
+
+#: build/editSite.js:20
+msgid "More tools & options"
+msgstr "Meer tools en opties"
+
+#: build/editSite.js:20
+msgid "Add"
+msgstr "Toevoegen"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15
+msgid "Cache cleared"
+msgstr "Cache gewist"
+
+#: build/logoMenu.js:15
+msgid "Site Editor"
+msgstr "Site-editor"
+
+#: build/logoMenu.js:15
+msgid "Main menu"
+msgstr "Hoofdmenu"
+
+#: build/logoMenu.js:15
+msgid "WordPress Management"
+msgstr "WordPress-beheer"
+
+#: build/logoMenu.js:15
+msgid "Manage Plugins"
+msgstr "Plug-ins beheren"
+
+#: build/logoMenu.js:15
+msgid "Manage Site Menus"
+msgstr "Sitemenu's beheren"
+
+#: build/logoMenu.js:15
+msgid "Customize Site Design"
+msgstr "Siteontwerp aanpassen"
+
+#: build/logoMenu.js:15
+msgid "Manage Users"
+msgstr "Gebruikers beheren"
+
+#: build/logoMenu.js:15
+msgid "Manage Comments"
+msgstr "Opmerkingen beheren"
+
+#: build/logoMenu.js:15
+msgid "WordPress Admin"
+msgstr "WordPress-beheerder"
+
+#: build/logoMenu.js:15
+msgid "Hosting"
+msgstr ""
+
+#: build/logoMenu.js:15
+msgid "Hosting Overview"
+msgstr "Overzicht van hosting"
+
+#: build/logoMenu.js:15
+msgid "Hosting Settings"
+msgstr "Hostinstellingen"
+
+#: build/logoMenu.js:15
+msgid "Tools"
+msgstr "Hulpprogramma‘s"
+
+#: build/logoMenu.js:15
+msgid "Editor Preference"
+msgstr "Editorvoorkeur"
+
+#: build/logoMenu.js:15
+msgid "Is this editor right for you?"
+msgstr "Is dit de juiste editor voor je?"
+
+#: build/logoMenu.js:15
+msgid "Learn about other WordPress site building options here."
+msgstr ""
+"Hier lees je meer over de opties bij het opbouwen van je WordPress-site."
+
+#: build/logoMenu.js:15
+msgid "Flush Cache"
+msgstr "Cache legen"
+
+#: build/logoMenu.js:15
+msgid "Connection Management"
+msgstr "Verbindingsbeheer"
+
+#: build/logoMenu.js:15
+msgid "Support"
+msgstr ""
+
+#: build/logoMenu.js:15
+msgid "Give Feedback"
+msgstr "Feedback geven"
+
+#: build/logoMenu.js:15
+msgid "Help & Support"
+msgstr "Hulp en support"
+
+#: packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr ""
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "Vertel ons over je ervaring… (optioneel)"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "Verzenden"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "Bedankt dat je je feedback met ons hebt gedeeld"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "Sluiten"
+
+#: packages/feedback-modal/src/index.js:99
+#: packages/feedback-modal/src/index.js:107
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "Feedback geven"
+
+#: packages/feedback-modal/src/index.js:108
+msgid "How would you rate your experience?"
+msgstr "Hoe beoordeel je je ervaring"
+
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "Mijn site is voor:"
+
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "Mode"
+
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "Interieur"
+
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "Koffie"
+
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "Bouw"
+
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "Kunst"
+
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "Bakken"
+
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr ""
+
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "Tuinaanleg"
+
+#: packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "Zoeken"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "Je domein toevoegen"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"Zorg voor een professionelere uitstralingen en maak het klanten "
+"gemakkelijker om je website te vinden."
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:39
+msgid "Change"
+msgstr "Wijzigen"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "Domein toevoegen"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "Pagina‘s controleren en toevoegen"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr ""
+"We hebben er al een paar voor je klaargezet. Voeg meer pagina‘s en content "
+"toe."
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "Pagina‘s beheren"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "Je eigen ontwerp maken"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "Werk kleuren en lettertypen bij en wijzig de vormgeving van je site."
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "websitelogo"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "Je site-info en merk toevoegen"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr ""
+"Wat is de naam van je site en wat is het doel van je site? Voeg een logo toe "
+"als je dat hebt."
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "Bewerken"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "Sitetitel"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "Sitebeschrijving"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "Sitelogo uploaden"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "Logo vervangen"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "Logo verwijderen"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "Opslaan"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "Dit later doen"
+
+#: packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "Je site is gepubliceerd op"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "Tijd om dit te vieren en"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "het goede nieuws te delen."
+
+#: packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "Bekijk mijn nieuwe website!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"Ik heb net mijn website gepubliceerd op %1$s. Kom deze bekijken en laat me "
+"weten van je ervan vindt!"
+
+#: packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "Deze richtlijn verbergen"
+
+#: packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "Selecteer een actie"
+
+#: packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "Naam wijzigen"
+
+#: packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "Echt instellen als startpagina?"
+
+#: packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "Instellen als startpagina"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "Bericht losmaken"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "Bericht vastzetten"
+
+#: packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "Pagina verwijderen"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "Bericht verwijderen"
+
+#: packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "Kleuren"
+
+#: packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "Kleurenpaletten"
+
+#: packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "Aangepast"
+
+#: packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "Ontwerpstijlen"
+
+#: packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"Verken eenvoudig unieke ontwerpstijlen en pas vervolgens je kleuren en "
+"lettertypen aan, zodat deze perfect passen."
+
+#: packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "Opties voor aangepaste lettertypen"
+
+#: packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "KOP"
+
+#: packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "Lettertype"
+
+#: packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "Gewicht"
+
+#: packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "Grootte"
+
+#: packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "Lettergrootte kop"
+
+#: packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "TEKST"
+
+#: packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "Lettertypen"
+
+#: packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "Lettertype koppelen"
+
+#: packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "De snelle bruine vos sprong over de luie hond."
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "Tekengrootten verbergen"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "Tekengrootten bewerken"
+
+#: packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "Klein"
+
+#: packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "Normaal"
+
+#: packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "Groot"
+
+#: packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "Basisgrootte"
+
+#: packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "Tekengrootte"
+
+#: packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "Schaal van kop"
+
+#: packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "Siteontwerp"
+
+#: packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "Ontwerp"
+
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "Update voltooid."
+
+#: packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "Je krijgt het allernieuwste en het allerbeste"
+
+#: packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "Even geduld terwijl we de nieuwste update toepassen op je editor."
+
+#: packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "Dit duurt niet lang."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "Hierdoor verander je ook je site-editor."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"Je maakt momenteel gebruik van de site-editor van GoDaddy met het Go-thema. "
+"Hierbij krijg je alle opties van WordPress plus een manier om je ontwerp aan "
+"te passen, je pagina's te bewerken en je pagina's te beheren, allemaal vanaf "
+"dezelfde plek."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"Zodra je een nieuw thema activeert, werkt deze pagina niet meer met de site-"
+"editor van GoDaddy. Je site schakelt dan over op de standaardeditor van "
+"WordPress."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"Klaar om een nieuw thema te activeren en over te stappen op de "
+"standaardeditor van WordPress?"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "Activeren"

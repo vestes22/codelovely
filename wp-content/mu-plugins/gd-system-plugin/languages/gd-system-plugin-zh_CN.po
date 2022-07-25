@@ -1,0 +1,653 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: System Plugin 4.1.4\n"
+"POT-Creation-Date: 2021-02-24 16:29:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: gd-system-plugin/includes/admin/class-bar.php:228
+#: gd-system-plugin/includes/admin/class-bar.php:239
+#: gd-system-plugin/includes/admin/class-bar.php:411
+#: gd-system-plugin/includes/admin/class-bar.php:468
+#: gd-system-plugin/includes/class-hotfixes.php:195
+msgid "Managed WordPress"
+msgstr "WordPress 托管"
+
+#: gd-system-plugin/includes/admin/class-bar.php:290
+msgid "Flush Cache"
+msgstr "刷新缓存"
+
+#: gd-system-plugin/includes/admin/class-bar.php:309
+msgid "Hosting Overview"
+msgstr "主机概览"
+
+#: gd-system-plugin/includes/admin/class-bar.php:331
+msgid "Hosting Settings"
+msgstr "主机设置"
+
+#: gd-system-plugin/includes/admin/class-bar.php:359
+msgid "Connection Management"
+msgstr "连接管理"
+
+#: gd-system-plugin/includes/admin/class-bar.php:384
+msgid "Help &amp; Support"
+msgstr "帮助与客户支持"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Site"
+msgstr "我的网站"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Dashboard"
+msgstr "我的控制面板"
+
+#: gd-system-plugin/includes/admin/class-bar.php:460
+msgid "Logout"
+msgstr "注销"
+
+#: gd-system-plugin/includes/admin/class-bar.php:475
+#: gd-system-plugin/includes/admin/class-bar.php:487
+msgid "Design Editor"
+msgstr "设计编辑器"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:71
+msgid "PHP Update Required"
+msgstr "需要更新 PHP"
+
+#: gd-system-plugin/includes/admin/class-growl.php:102
+msgid "Success"
+msgstr "成功"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:220
+#. translators: %s: Plugin author.
+msgid "By %s"
+msgstr "创建者：%s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:242
+#. translators: %s: Plugin name and version.
+msgid "Install %s now"
+msgstr "立即安装 %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:247
+msgid "Install Now"
+msgstr "立即安装"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:263
+#. translators: %s: Plugin name and version.
+msgid "Update %s now"
+msgstr "立即更新 %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:268
+msgid "Update Now"
+msgstr "立即更新"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:284
+#: gd-system-plugin/includes/admin/class-themes-tab.php:146
+#: gd-system-plugin/includes/admin/class-themes-tab.php:308
+msgid "Activate"
+msgstr "激活"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:327
+#. translators: %s: Plugin name and version.
+msgid "More information about %s"
+msgstr "更多有关 %s 的信息"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:329
+msgid "More Details"
+msgstr "更多详细信息"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:143
+msgid "GoDaddy Recommended"
+msgstr "GoDaddy 推荐"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:70
+msgid "Go to your Dashboard to install plugins, manage users and more."
+msgstr "转到控制面板以安装插件、管理用户等。"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:74
+msgid "Add a new page or blog post to organize your content or engage visitors."
+msgstr "添加新页面或博客帖子以整理您的内容或吸引访问者。"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:78
+msgid "Edit the page you're currently on."
+msgstr "编辑您目前所在的页面。"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:82
+msgid "Change your website's design, color palette and more."
+msgstr "更改网站的设计、调色板等。"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:86
+msgid "Find help, troubleshooting and how to get back to your Hosting Dashboard."
+msgstr "查找帮助、故障排除以及如何返回到主机控制面板。"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:96
+msgid ""
+"Add pages, blog posts, and products to engage visitors and keep your shop "
+"organized."
+msgstr "添加页面、博客帖子和产品以吸引访问者并使您的商店保持井井有条。"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:304
+msgid "Installed"
+msgstr "已安装"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:145
+msgid "Error Installing Theme"
+msgstr "主题安装出错"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:147
+#: gd-system-plugin/includes/admin/class-themes-tab.php:310
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:148
+msgid "Theme Install"
+msgstr "主题安装"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:288
+msgid "Install %s"
+msgstr "安装 %s"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:291
+msgid "Install"
+msgstr "安装"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:322
+msgid "View Demo"
+msgstr "查看演示"
+
+#: gd-system-plugin/includes/class-blacklist.php:94
+#. translators: Name of the disallowed plugin
+msgid "%s is not allowed on our system. It has been automatically deactivated."
+msgstr "我们的系统不允许使用 %s。 它已被自动停用。"
+
+#: gd-system-plugin/includes/class-blacklist.php:229
+msgid "Not Available"
+msgstr "不可用"
+
+#: gd-system-plugin/includes/class-blacklist.php:230
+msgid ""
+"This plugin is not allowed on our system due to performance, security, or "
+"compatibility concerns. Please contact support with any questions."
+msgstr "由于性能、安全性或兼容性问题，我们的系统不允许使用此插件。 如有问题，请联系客户支持。"
+
+#: gd-system-plugin/includes/class-cache.php:116
+msgid "Cache cleared"
+msgstr "缓存已清除"
+
+#: gd-system-plugin/includes/class-change-domain.php:61
+#: gd-system-plugin/includes/class-change-domain.php:149
+#. translators: Title of alert in bold
+msgid "%s Your domain cannot be changed here."
+msgstr "%s 您的域名不能在此处修改。"
+
+#: gd-system-plugin/includes/class-change-domain.php:62
+#: gd-system-plugin/includes/class-change-domain.php:78
+#: gd-system-plugin/includes/class-change-domain.php:138
+#: gd-system-plugin/includes/class-change-domain.php:150
+#: gd-system-plugin/includes/class-temp-domain.php:117
+#: gd-system-plugin/includes/class-temp-domain.php:125
+msgid "Note:"
+msgstr "请注意："
+
+#: gd-system-plugin/includes/class-change-domain.php:69
+#: gd-system-plugin/includes/class-temp-domain.php:132
+msgid "Change domain"
+msgstr "变更域名"
+
+#: gd-system-plugin/includes/class-change-domain.php:77
+#: gd-system-plugin/includes/class-change-domain.php:137
+#. translators: Title of alert in bold
+msgid "%s This is your staging site and the domain cannot be changed."
+msgstr "%s 这是您的暂存网站，不能修改域名。"
+
+#: gd-system-plugin/includes/class-debug-mode.php:457
+msgid ""
+"Changes in safe mode are not saved and are not visible by visitors to your "
+"site."
+msgstr "安全模式中的更改不会保存，并且您站点的访问者也看不到。"
+
+#: gd-system-plugin/includes/class-debug-mode.php:542
+msgid "Safe Mode"
+msgstr "安全模式"
+
+#: gd-system-plugin/includes/class-debug-mode.php:558
+msgid "Themes"
+msgstr "主题"
+
+#: gd-system-plugin/includes/class-debug-mode.php:566
+msgid "Safe mode"
+msgstr "安全模式"
+
+#: gd-system-plugin/includes/class-debug-mode.php:582
+#. translators: total number of themes installed.
+msgid "Installed (%d)"
+msgstr "已安装 (%d)"
+
+#: gd-system-plugin/includes/class-debug-mode.php:585
+msgid "Select one"
+msgstr "选择一个"
+
+#: gd-system-plugin/includes/class-debug-mode.php:603
+msgid "Plugins"
+msgstr "插件"
+
+#: gd-system-plugin/includes/class-debug-mode.php:610
+msgid "Active"
+msgstr "有效"
+
+#: gd-system-plugin/includes/class-debug-mode.php:611
+msgid "Inactive"
+msgstr "未激活"
+
+#: gd-system-plugin/includes/class-debug-mode.php:629
+msgid "Preview"
+msgstr "预览"
+
+#: gd-system-plugin/includes/class-debug-mode.php:630
+msgid "Cancel"
+msgstr "取消"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No active plugins."
+msgstr "无激活的插件。"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No inactive plugins."
+msgstr "无停用的插件。"
+
+#: gd-system-plugin/includes/class-hotfixes.php:191
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: gd-system-plugin/includes/class-hotfixes.php:192
+msgid "Media Temple"
+msgstr "Media Temple"
+
+#: gd-system-plugin/includes/class-hotfixes.php:464
+#. translators: 1. Original translated error text. 2. URL to the hosting
+#. environment where users can update the PHP version.
+msgid ""
+"You can update to the most recent version of PHP in your hosting settings "
+"<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">here</a>."
+msgstr ""
+"您可以在<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">此处</a>主机设置中更新到最新版本的 PHP。"
+
+#: gd-system-plugin/includes/class-hotfixes.php:466
+msgid "Update PHP version"
+msgstr "更新 PHP 版本"
+
+#: gd-system-plugin/includes/class-sso.php:194
+msgid "Log in with GoDaddy"
+msgstr "使用 GoDaddy 登录"
+
+#: gd-system-plugin/includes/class-sso.php:199
+msgid "Or"
+msgstr "或者"
+
+#: gd-system-plugin/includes/class-sso.php:203
+msgid "Log in with username and password"
+msgstr "使用用户名和密码登录"
+
+#: gd-system-plugin/includes/class-sso.php:313
+msgid ""
+"We were unable to log you in automatically. Please enter your WordPress "
+"username and password."
+msgstr "我们无法让您自动登录。 请输入您的 WordPress 用户名和密码。"
+
+#: gd-system-plugin/includes/class-temp-domain.php:45
+#. translators: 1: Current domain. 2: Domain name change URL.
+msgid ""
+"<strong>Note:</strong> Your site is using <strong>%1$s</strong>. Did you "
+"want to use your domain? <a href=\"%2$s\" target=\"_blank\">Add Domain</a>"
+msgstr ""
+"<strong>注意：</strong>您的网站正在使用 <strong>%1$s</strong>。您想要使用您的域名吗？<a "
+"href=\"%2$s\" target=\"_blank\">添加域名</a>"
+
+#: gd-system-plugin/includes/class-temp-domain.php:116
+#. translators: 1: "Note:" wrapped in strong tags
+msgid "%s This is your staging site and it cannot be indexed by search engines."
+msgstr "%s 这是您的暂存网站，不能被搜索引擎索引。"
+
+#: gd-system-plugin/includes/class-temp-domain.php:124
+#. translators: 1: "Note:" wrapped in strong tags
+msgid ""
+"%s Your site is using a temporary domain that cannot be indexed by search "
+"engines."
+msgstr "%s 您的网站使用的是临时域名，不能被搜索引擎索引。"
+
+#: gd-system-plugin/includes/class-worker.php:117
+msgid ""
+"This is already included as a must-use plugin on your site and is required "
+"for backups and other important hosting platform benefits to function "
+"properly. It cannot be removed or deactivated. It should not be installed "
+"as a normal plugin and will be automatically removed if uploaded manually."
+msgstr ""
+"这已作为您网站上的必用插件包含在内，而且也是备份和其他主机平台重要优势正常运行所必需的。不能删除或停用。不应该作为普通插件进行安装，如果手动上传，将自动删除。"
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:75
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" drafted"
+msgstr "Beaver Builder %2$s“%1$s”已起草"
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:99
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" discarded"
+msgstr "Beaver Builder %2$s“%1$s”已废弃"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:25
+msgid "Background Attachment"
+msgstr "背景附件"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:26
+msgid "Background Color"
+msgstr "背景色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:27
+msgid "Background Image"
+msgstr "背景图片"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:28
+msgid "Background Position"
+msgstr "背景位置"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:29
+msgid "Background Repeat"
+msgstr "背景重复"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:30
+msgid "Base Color Scheme"
+msgstr "基本颜色方案"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:31
+msgid "Logo"
+msgstr "徽标"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:32
+msgid "Header and Sidebar Background Color"
+msgstr "页眉和侧边栏背景颜色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:33
+msgid "Header Image"
+msgstr "页眉图像"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:34
+msgid "Display Site Title and Tagline"
+msgstr "显示网站标题和标语"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:35
+msgid "Header Text Color"
+msgstr "页眉文本颜色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:36
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:37
+msgid "Main Text Color"
+msgstr "主要文本颜色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:38
+msgid "Page Background Color"
+msgstr "页面背景颜色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:39
+msgid "Secondary Text Color"
+msgstr "辅助文本颜色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:40
+msgid "Header and Sidebar Text Color"
+msgstr "页眉和侧边栏文本颜色"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:93
+#. translators: 1. Option name, 2. Theme name
+msgid "\"%1$s\" updated for the %2$s theme"
+msgstr "为 %2$s 方案更新了“%1$s”"
+
+#: gd-system-plugin/includes/log/components/class-option.php:28
+msgid "Site Title"
+msgstr "网站标题"
+
+#: gd-system-plugin/includes/log/components/class-option.php:29
+msgid "Tagline"
+msgstr "标语"
+
+#: gd-system-plugin/includes/log/components/class-option.php:30
+msgid "Posts page"
+msgstr "帖子页面"
+
+#: gd-system-plugin/includes/log/components/class-option.php:31
+msgid "Front page"
+msgstr "首页"
+
+#: gd-system-plugin/includes/log/components/class-option.php:32
+msgid "Front page displays"
+msgstr "首页显示"
+
+#: gd-system-plugin/includes/log/components/class-option.php:33
+msgid "Site Icon"
+msgstr "网站图标"
+
+#: gd-system-plugin/includes/log/components/class-option.php:34
+msgid "Site Language"
+msgstr "网站语言"
+
+#: gd-system-plugin/includes/log/components/class-option.php:79
+#. translators: Option name
+msgid "\"%s\" option updated"
+msgstr "“%s”选项已更新"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:29
+#. translators: Plugin name
+msgid "\"%s\" plugin activated"
+msgstr "“%s”已激活"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:36
+#. translators: Plugin name
+msgid "\"%s\" plugin activated network wide"
+msgstr "“%s”插件已在整个网络中激活"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:61
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated"
+msgstr "“%s”已停用"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:68
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated network wide"
+msgstr "“%s”插件已在整个网络中停用"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:95
+#. translators: Plugin name
+msgid "\"%s\" plugin deleted"
+msgstr "“%s”插件已删除"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:191
+#. translators: Plugin name
+msgid "\"%s\" plugin installed"
+msgstr "“%s”插件已安装"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:226
+#. translators: 1: Plugin name, 2: New plugin version
+msgid "\"%1$s\" plugin updated to %2$s"
+msgstr "“%1$s”插件更新至 %2$s"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:233
+#. translators: 1: Plugin name, 2: Old plugin version, 3: New plugin version
+msgid "\"%1$s\" plugin updated from %2$s to %3$s"
+msgstr "“%1$s”插件从 %2$s 更新至 %3$s"
+
+#: gd-system-plugin/includes/log/components/class-post.php:49
+#: gd-system-plugin/includes/log/components/class-post.php:57
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s updated"
+msgstr "“%1$s”%2$s 已更新"
+
+#: gd-system-plugin/includes/log/components/class-post.php:66
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s created"
+msgstr "“%1$s”%2$s 以创建"
+
+#: gd-system-plugin/includes/log/components/class-post.php:75
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s restored from trash"
+msgstr "“%1$s”%2$s 已从回收站中还原"
+
+#: gd-system-plugin/includes/log/components/class-post.php:83
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s unpublished"
+msgstr "“%1$s”%2$s 已取消发布"
+
+#: gd-system-plugin/includes/log/components/class-post.php:91
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s drafted"
+msgstr "“%1$s”%2$s 已起草"
+
+#: gd-system-plugin/includes/log/components/class-post.php:99
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s pending review"
+msgstr "“%1$s”%2$s 等待审核"
+
+#: gd-system-plugin/includes/log/components/class-post.php:107
+#. translators: 1: Post title, 2: Post type singular name, 3: Scheduled post
+#. date
+msgid "\"%1$s\" %2$s scheduled for %3$s"
+msgstr "“%1$s”%2$s 安排于 %3$s"
+
+#: gd-system-plugin/includes/log/components/class-post.php:115
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" scheduled %2$s published"
+msgstr "“%1$s” 已安排 %2$s 已发布"
+
+#: gd-system-plugin/includes/log/components/class-post.php:123
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s published"
+msgstr "“%1$s”%2$s 已发布"
+
+#: gd-system-plugin/includes/log/components/class-post.php:131
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s privately published"
+msgstr "“%1$s”%2$s 已私下发布"
+
+#: gd-system-plugin/includes/log/components/class-post.php:140
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s trashed"
+msgstr "“%1$s”%2$s 已放入回收站"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:49
+#. translators: Theme name.
+msgid "\"%s\" theme activated"
+msgstr "“%s”主题已激活"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:118
+#. translators: Theme name.
+msgid "\"%s\" theme installed"
+msgstr "“%s”主题已安装"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:154
+#. translators: 1: Theme name, 2: New theme version
+msgid "\"%1$s\" theme updated to %2$s"
+msgstr "“%1$s”主题更新至 %2$s"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:161
+#. translators: 1: Theme name, 2: Old theme version, 3: New theme version
+msgid "\"%1$s\" theme updated from %2$s to %3$s"
+msgstr "“%1$s”主题从 %2$s 更新至 %3$s"
+
+#: gd-system-plugin/includes/log/components/class-user.php:102
+#. translators: 1. User display name, 2. User role
+msgid "%1$s's user account deleted (%2$s)"
+msgstr "%1$s 的用户账户已删除 (%2$s)"
+
+#: gd-system-plugin/includes/log/components/class-user.php:141
+#. translators: User display name
+msgid "%s's user profile updated"
+msgstr "%s 的用户档案已更新"
+
+#: gd-system-plugin/includes/log/components/class-user.php:183
+#. translators: 1: User display name, 2: Old role, 3: New role
+msgid "%1$s's role changed from %2$s to %3$s"
+msgstr "%1$s 的角色已从 %2$s 变更为 %3$s"
+
+#: gd-system-plugin/includes/log/components/class-user.php:228
+#. translators: User display name
+msgid "%s logged in"
+msgstr "%s 已登录"
+
+#: gd-system-plugin/includes/log/components/class-user.php:261
+#. translators: User display name
+msgid "%s logged out"
+msgstr "%s 已注销"
+
+#: gd-system-plugin/includes/log/components/class-user.php:295
+#. translators: User display name
+msgid "%s requested a password reset"
+msgstr "%s 请求重置密码"
+
+#: gd-system-plugin/includes/log/components/class-user.php:327
+#. translators: User display name
+msgid "%s's password reset"
+msgstr "%s 的密码重置"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:85
+msgid "Post"
+msgstr "帖子"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:149
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i"
+
+#: gd-system-plugin.php:142
+msgid "Note: This is a staging site."
+msgstr "请注意：这是一个暂存站点。"
+
+#. Plugin Name of the plugin/theme
+msgid "System Plugin"
+msgstr "系统插件"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:59
+msgctxt "The name of our company blog found at https://www.godaddy.com/garage"
+msgid "GoDaddy Garage"
+msgstr "GoDaddy 资料库"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:197
+msgctxt "Plugin installer group title"
+msgid "Performance"
+msgstr "性能"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:198
+msgctxt "Plugin installer group title"
+msgid "Social"
+msgstr "社交"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:199
+msgctxt "Plugin installer group title"
+msgid "Tools"
+msgstr "工具"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:279
+#: gd-system-plugin/includes/class-worker.php:112
+msgctxt "plugin"
+msgid "Active"
+msgstr "有效"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:287
+#. translators: %s: Plugin name.
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "激活 %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:309
+msgctxt "plugin"
+msgid "Installed"
+msgstr "已安装"

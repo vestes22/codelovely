@@ -1,0 +1,423 @@
+*** MWC Gift Certificates (formerly WooCommerce PDF Product Vouchers) Changelog ***
+
+2021.nn.nn - version 4.0.0
+ * Misc - Rename to Gift Certificates
+
+2021.11.29 - version 3.9.14
+ * Tweak - Explain the Add Voucher action to users.
+ * Tweak - Link to demo video in voucher template creation page
+
+2021.11.19 - version 3.9.13
+ * Fix - Reset the redemption amount after scanning a barcode to prevent subsequent scans from redeeming automatically
+
+2021.11.17 - version 3.9.12
+ * Tweak - Exclude voided amounts when displaying the remaining values in the admin vouchers list
+
+2021.10.20 - version 3.9.11
+ * Dev - Fix an issue with the deployed file structure
+
+2021.10.20 - version 3.9.10
+ * Fix - Prevent online redemption of Single Purpose Vouchers with no redemption products assigned
+ * Tweak - Add tooltip and admin notice to remind site admin to configure redemption products for online-redeemable Single Purpose Vouchers
+
+2021.09.27 - version 3.9.9
+ * Dev - Add 'wc_pdf_product_vouchers_generate_individual_preview_images' filter to allow the disabling of individual voucher preview image generation
+
+2021.09.23 - version 3.9.8
+ * Tweak - Improve redemption handling when querying a voucher by a voucher number
+
+2021.09.15 - version 3.9.7
+ * Fix - Ensure that customers cannot redeem a voucher by a voucher post ID
+ * Fix - Ensure voucher message line breaks are respected & shown in admin
+
+2021.08.31 - version 3.9.6
+ * Fix - Ensure third-party themes and scripts don't affect the appearance of generated PDFs
+
+2021.07.21 - version 3.9.5
+ * Fix - Ensure vouchers redemption time to reflect the site's timezone
+
+2021.07.05 - version 3.9.4
+ * Tweak - Cleanup old background processes that are older than 14 days and completed
+ * Dev - Add filters to toggle maximum age of background jobs to be removed and cleanup interval
+
+2021.04.08 - version 3.9.3
+ * Dev - Allow third party code to toggle inclusion of variable product attributes in the product name field via `woocommerce_product_variation_title_include_attributes` filter
+
+2021.03.16 - version 3.9.2
+ * Tweak - Add support for the WooCommerce Navigation admin feature
+
+2021.03.10 - version 3.9.1
+ * Fix - Add sanitization to user input voucher fields to prevent HTML injection
+ * Fix - Ensure a variable product's variation is included in the product name field
+ * Fix - Ensure vouchers to generate automatically when the Checkout Block is used for checkout
+
+2021.02.24 - version 3.9.0
+ * Feature - Merge the Add Google Fonts free add on into PDF Product Vouchers core plugin
+ * Fix - Address a bug with TwentyTwenty theme which made the Voucher template customizer unusable
+ * Fix - Allow stores with different decimal separators than `.` to successfully redeem vouchers in the admin area
+ * Misc - Add PHP 8.0 support
+ * Misc - Update DomPDF library to to v1.0.0
+ * Dev - Add filters to allow disabling low memory and Sucuri admin notices
+
+2020.12.08 - version 3.8.2
+ * Tweak - The "included tax label" will be hidden if a voucher for the full order is applied
+ * Fix - Prevent the disabled WP Cron notice to be visible after dismissed
+ * Localization - Update German translation and add German Formal translation (Thanks to Manuel!)
+ * Dev - Add a `wc_pdf_product_vouchers_should_hide_tax_label_from_cart_total` filter to override the hiding tax label tweak
+ * Misc - Add compatibility for WooCommerce 4.7
+
+2020.09.30 - version 3.8.1
+ * Misc - Remove the SkyVerge help menu item as part of the plugin assets
+
+2020.08.13 - version 3.8.0
+ * Tweak - Improve compatibility with bolded custom fonts
+ * Misc - Add SkyVerge help menu for support on WooCommerce.com connected sites
+ * Misc - Require WooCommerce v3.5+
+ * Misc - Require PHP v7.1+
+
+2020.05.15 - version 3.7.8
+ * Fix - Make sure that voucher prices reflect the currency selected during purchase
+
+2020.05.04 - version 3.7.7
+ * Misc - Add support for WooCommerce 4.1
+
+2020.04.24 - version 3.7.6
+ * Fix - Do not trigger a WordPress deprecated action notice while accessing admin posts edit screens in WordPress 5.4
+
+2020.03.19 - version 3.7.5
+ * Fix - Prevent a race condition from causing the plugin to send duplicate purchaser and recipient emails
+
+2020.03.10 - version 3.7.4
+ * Misc - Add support for WooCommerce 4.0
+
+2020.01.02 - version 3.7.3
+ * Misc - Add support for WooCommerce 3.9
+ * Localization - Update Italian translation
+
+2019.12.19 - version 3.7.2
+ * Fix - Persist any line breaks from the customer's message text when output in the generated PDF Voucher
+
+2019.11.21 - version 3.7.1
+ * Fix - Include multi-purpose voucher discounts in Paytrail order items to prevent users from being charged for the total amount
+
+2019.11.05 - version 3.7.0
+ * Misc - Add support for WooCommerce 3.8
+
+2019.10.10 - version 3.6.2
+ * Fix - Allow Shop Managers to access the Redeem Voucher admin page
+ * Misc - Add redeem_woocommerce_vouchers capability that can be used to allow users to access the Redeem Voucher admin page
+
+2019.08.14 - version 3.6.1
+ * Misc - Add support for WooCommerce 3.7
+ * Misc - Require PHP 5.6+
+
+2019.07.30 - version 3.6.0
+ * Feature - Add bulk PDF generation to vouchers list
+ * Tweak - Add the ability to filter the voucher list by voucher template
+ * Fix - Add compatibility for using some offloaded media as voucher images
+ * Misc - Require WooCommerce 3.0+
+
+2019.06.19 - version 3.5.8
+ * Fix - Improve barcode scanning browser support and give more helpful error messages when it fails
+ * Fix - Fix a bug preventing barcode scanning from working at all in Microsoft Edge
+
+2019.05.22 - version 3.5.7
+ * Fix - Ensure totals of $1000 and more can be redeemed successfully in their entirety
+ * Fix - Make individual-use coupons compatible with vouchers
+
+2019.04.24 - version 3.5.6
+ * Fix - Ensure barcode value has been input before redeeming voucher
+
+2019.04.23 - version 3.5.5
+ * Fix - Correctly parse quotes and apostrophes in the message character count limit
+ * Fix - Remove escaped characters from the message field that may appear after adding the voucher product to cart
+ * Fix - Handle all exceptions during PDF generation
+ * Misc - Add support for WooCommerce 3.6
+ * Misc - Require PHP 5.4+
+
+2019.03.20 - version 3.5.4
+ * Tweak - Use a related order's currency rather than the store default currency for vouchers, whenever possible
+ * Fix - When a voucher has a limit on characters set in the optional message to recipient, count Unicode (e.g. accented) characters correctly
+ * Fix - When the My Account page is set as the home page make sure that the Vouchers page is accessible
+ * Fix - Allow adding notes to a voucher that is being created manually in admin before it is saved for the first time or the PDF has been generated
+ * Fix - Save notes added when redeeming vouchers via the modal popup in the Vouchers admin edit screen
+ * Fix - Harden some method calls when getting the currency from an order, in case it's not an order object of the expected type
+ * Fix - Replace the textdomain of some gettext strings with the correct one for this plugin
+ * Fix - Pass a default value of null in `woocommerce_loop_add_to_cart_link` filter callback so that no errors would be triggered in some instances when no value is passed
+
+2019.02.27 - version 3.5.3
+ * Fix - Correctly apply tax to vouchers when product prices are configured to be tax inclusive
+
+2019.01.31 - version 3.5.2
+ * Fix - Ensure correct discount calculation when multi-purpose vouchers are redeemed on orders containing subscriptions
+ * Fix - Correctly apply partially-redeemed vouchers to shopping carts
+ * Fix - Do not use purchaser name in place of the recipient name if the recipient name is empty
+ * Fix - When a voucher is on sale, calculate the tax from the regular voucher price so it is correct when redeemed
+ * Tweak - Limit the product "redeemable by" select field to vouchers that can be redeemed online
+ * Dev - Fix typo in filter: `wc_pdf_prdouct_vouchers_voucher_search_fields` is now `wc_pdf_product_vouchers_voucher_search_fields`
+ * Dev - Add missing $email argument to `woocommerce_email_header` and `woocommerce_email_footer`
+
+2018.11.29 - version 3.5.1
+ * Fix - Activate a voided voucher when an order is completed
+ * Fix - Redeem single-purpose vouchers (SPV) in multiple failed use cases
+
+2018.11.07 - version 3.5.0
+ * Feature - Add QR & Barcodes to vouchers and scan them easily from the admin for quick voucher redemption
+ * Dev - Namespace the SkyVerge Plugin Framework and move to the /vendor directory
+ * Localization - Added Italian translation
+
+2018.10.24 - version 3.4.4
+ * Fix - Address rounding issues on redemptions for stores using tax inclusive pricing
+ * Fix - Generate second page when additional image is added
+ * Misc - Add support for WooCommerce 3.5
+
+2018.06.20 - version 3.4.3
+ * Fix - Avert possible fatal errors in front end or admin when deleting a template with existing vouchers
+ * Fix - Set a longer timeout if loopback connections are supported while getting the voucher HTML to avoid wp_remote_get() timeouts
+
+2018.05.23 - version 3.4.2
+ * Tweak - When erasing personal data from orders or removing access to downloads upon customer personal data erasure request, delete purchaser information from associated voucher records
+ * Misc - Add support for WooCommerce 3.4
+
+2018.05.03 - version 3.4.1
+ * Fix - Add back font maps accidentally removed in 3.4.0
+
+2018.05.03 - version 3.4.0
+ * Feature - Use vouchers as store gift certificates! You can now allow vouchers to be redeemed online
+ * Feature - Streamline voucher management to void remaining voucher balance when voucher order is refunded, cancelled, or failed
+ * Tweak - Automatically set the expiration date for manually-created vouchers if the template has expiry days set
+ * Tweak - Use product's regular (non-discounted) price as voucher value, when voucher products have a sale price
+ * Fix - Ensure voucher number is correctly displayed when manually adding a new voucher
+ * Fix - Address a deprecation notice when checking if an order is fully redeemed
+ * Fix - Address a conflict with Jetpack causing voucher generation errors
+ * Misc - Require WordPress 4.7 or newer
+
+2018.02.28 - version 3.3.1
+ * Fix - Fix fatal when triggering voucher email from admin
+
+2018.01.26 - version 3.3.0
+ * Misc - Add support for WooCommerce 3.3
+ * Misc - Remove support for WooCommerce 2.5
+
+2017.12.20 - version 3.2.2
+ * Tweak - Send voucher PDFs to purchasers in a separate email as attachments when generated
+ * Tweak - Redirect to the order received page when trying to download a voucher that isn't generated yet
+ * Fix - Compatibility issue with WooCommerce 2.6 when generating vouchers introduced in 3.2.0
+ * Fix - PHP warning when searching vouchers
+
+2017.12.05 - version 3.2.1
+ * Fix - Fix a possible race condition when performing background processing health checks
+ * Fix - Account for possible false negatives when testing loopback connections in certain environments
+
+2017.11.22 - version 3.2.0
+ * Feature - Offload PDF generation from checkout to a background job to vastly improve checkout performance, especially if multiple vouchers are purchased
+ * Tweak - Show an admin notice if voucher generation not supported
+ * Tweak - Save voucher activation date as postmeta
+ * Fix - Errors in v3.0 upgrade if voucher image attachments are not found or redemption amount is invalid
+ * Fix - Add line breaks in plain text email to voucher recipients for more readability
+ * Fix - Bypass tax calculation when taxes are completely disabled for the store
+ * Fix - Address an issue where voucher PDF generation failed on some PHP versions due to whitespaces between HTML tags
+ * Misc - Update DomPDF to 0.8.1
+
+2017.09.13 - version 3.1.5
+ * Tweak - Improve compatibility with Print Invoices / Packing Lists to show voucher information
+ * Fix - Check if other plugins are loading the Dompdf library used by PDF Vouchers to avoid incurring into PHP "Cannot declare class" fatal errors
+
+2017.08.08 - version 3.1.4
+ * Fix - Email single header and subject headings were not used
+ * Fix - Convert special characters to HTML entities before PDF is generated to avoid potential character encoding issues
+
+2017.07.19 - version 3.1.3
+ * Fix - Voucher templates not properly positioning existing voucher fields when edited
+ * Fix - New voucher templates not displaying the background image properly
+ * Fix - Upgrade to 3.1.2 did not finish for sites with more than 50 vouchers
+ * Fix - Customers unable to view vouchers in the account page introduced in 3.1.1
+
+2017.07.14 - version 3.1.2
+ * Fix - Error in upgrade routine for version 3.1.1
+
+2017.07.12 - version 3.1.1
+ * Tweak - Store voucher customer id in post meta instead of post_author (similar to WC orders) to avoid possible security concerns
+ * Fix - Be more aggressive in removing styles and scripts from third party plugins on voucher pages
+ * Fix - Ensure that themes support the WooCommerce 3.0+ image lightbox to use when opening voucher images
+
+2017.06.14 - version 3.1.0
+ * Tweak - Set voucher type for a template to hint at taxable status
+ * Tweak - Show tax-inclusive price for voucher value when displaying prices as tax-inclusive in the shop
+ * Tweak - Adjust redemption behavior based on voucher type for full tax support
+ * Fix - Ensure order emails show voucher field values, such as recipient name
+ * Fix - Ensure registered customers see purchased vouchers in the account area
+
+2017.06.02 - version 3.0.7
+ * Tweak - Improve compatibility with some themes/plugins that previously caused issues with PDF generation
+ * Tweak - Improve security of voucher download URLs
+ * Tweak - Try to increase PHP time limit, if possible, to avoid Maximum Execution Time Exceeded when generating a voucher PDF
+ * Fix - Voucher download links in emails did not always work due to nonce protection introduced in 3.0.5
+
+2017.05.23 - version 3.0.6
+ * Fix - Voucher Template editor failed to load if a voucher image had been removed
+ * Fix - The WordPress admin bar in the Voucher customizer was still visible in some installations
+ * Fix - An PHP error may occur while testing invoice generation and the server does not have loopback connections enabled
+
+2017.05.09 - version 3.0.5
+ * Tweak - Increase protection against unauthorized voucher downloads by using a nonce on the voucher download URL
+ * Tweak - Add system status tool to confirm if wp_remote_get works on the site
+ * Fix - PHP Error when duplicating a voucher
+ * Fix - PHP Warning when generating the voucher preview image
+
+2017.05.02 - version 3.0.4
+ * Fix - PHP Errors when manually adding a new order
+
+2017.04.15 - version 3.0.3
+ * Fix - Issue where customers could be shown the wrong purchased vouchers in the My Account area
+
+2017.04.11 - version 3.0.2
+ * Fix - Prevent possible errors with other plugins due to type-hinting in add_meta_boxes hook
+ * Fix - Use correct voucher font cache path
+ * Fix - Prevent errors when viewing vouchers in older versions of PHP
+
+2017.04.04 - version 3.0.1
+ * Fix - PHP errors for upgrade to 3.0 when voucher generation failed in previous versions
+
+2017.03.28 - version 3.0.0
+ * Feature - Voucher template creation is vastly improved with a visual editor (no more painful scrolling!)
+ * Feature - View a list of generated vouchers to quickly see status and remaining value
+ * Feature - Easily search voucher list for voucher number to quickly add customer redemptions
+ * Feature - Add voucher redemption directly from voucher list actions for fast management
+ * Feature - Manually generate a voucher for a customer from your store admin
+ * Feature - Improved voucher number generation for increased security
+ * Feature - Supports partial / multiple redemptions for vouchers
+ * Feature - Ability to void remaining voucher value
+ * Feature - Now supports non-ASCII characters (e.g., Cyrillic) for PDF generation
+ * Tweak - Now includes 6 default voucher designs! Choose one or add your own.
+ * Fix - Recipient email field uses proper HTML field type
+ * Fix - Selected variation attributes will now be shown as part of the product name
+ * Misc - Add copious for-developer improvements: new hooks, more extensible structure <3
+ * Misc - Refactored for several other minor fixes and improvements
+ * Misc - Added support for WooCommerce 3.0
+ * Misc - Removed support for WooCommerce 2.4.x and 2.5.x
+
+2016.06.02 - version 2.6.0
+ * Misc - Added support for WooCommerce 2.6
+ * Misc - Removed support for WooCommerce 2.3
+
+2016.03.30 - version 2.5.1
+ * Fix - When displaying a variable product using the WooCommerce 'product_page' shortcode, voucher fields could be shown multiple times
+
+2016.01.14 - version 2.5.0
+ * Misc - Added support for WooCommerce 2.5
+ * Misc - Removed support for WooCommerce 2.2
+
+2015.12.14 - version 2.4.2
+ * Tweak - Use email input type for the recipient email field to take advantage of browser validation
+ * Fix - Fix the recipient email position placeholder not being displayed in the image preview
+
+2015.09.02 - version 2.4.1
+ * Fix - Ensure a variation's voucher details are updated when variations are saved via AJAX in WooCommerce 2.4
+
+2015.07.28 - version 2.4.0
+ * Misc - WooCommerce 2.4 Compatibility
+
+2015.05.14 - version 2.3.4
+ * Tweak - You can now display the recipient name on the product page without positioning it on the voucher
+
+2015.04.21 - version 2.3.3
+ * Fix - Escape all instances of add_query_arg and remove_query_arg to avoid a potential XSS attack
+
+2015.04.21 - version 2.3.2
+ * Fix - Potential XSS with add_query_arg
+
+2015.04.08 - version 2.3.1
+ * Fix - Apply custom DPI to additional images
+
+2015.03.26 - version 2.3.0
+ * Feature - Custom DPI handling
+ * Feature - The admin New Order email now shows the voucher number in the item details
+ * Tweak - Introduce `wc_pdf_product_vouchers_voucher_image_dpi` filter
+
+2015.03.06 - version 2.2.2
+ * Fix - Recipient email dispatch bug
+
+2015.02.24 - version 2.2.1
+ * Fix - Ensure variation meta is properly saved in WooCommerce 2.3
+ * Fix - Fix issues with downloading vouchers when using the Redirect download method
+
+2015.02.09 - version 2.2.0
+ * Misc - WooCommerce 2.3 Compatibility
+
+2015.01.20 - version 2.1.5
+ * Fix - Fix a fatal error which may occur with some third-party plugins
+
+2014.11.11 - version 2.1.4
+ * Tweak - Add 'wc_pdf_product_vouchers_get_expiry' filter
+ * Tweak - Add 'wc_pdf_product_vouchers_get_formatted_expiration_date' filter
+ * Tweak - Add 'wc_pdf_product_vouchers_get_recipient_name' filter
+ * Tweak - Add 'wc_pdf_product_vouchers_get_recipient_email' filter
+ * Tweak - Add 'wc_pdf_product_vouchers_get_message' filter
+ * Tweak - Add 'wc_pdf_product_vouchers_get_product_name' filter
+ * Tweak - Add 'wc_pdf_product_vouchers_get_product_sku' filter
+ * Tweak - Add 'wc_pdf_product_vouchers_get_product_price' filter
+
+2014.10.06 - version 2.1.3
+ * Fix - Fix a notice when saving an order with redeemed vouchers
+
+2014.09.30 - version 2.1.2
+ * Fix - Fix an issue with orders created from the backend
+ * Fix - Fix an issue with variations using product vouchers in WooCommerce 2.2
+
+2014.09.07 - version 2.1.1
+ * Misc - WooCommerce 2.2 Compatibility
+
+2014.05.28 - version 2.1.0
+ * Feature - Voucher download link from admin order edit page
+ * Tweak - New filter wc_pdf_product_vouchers_expiry_from_date to set the voucher expiry start date
+
+2014.04.25 - version 2.0.4
+ * Tweak - Show the product price on the voucher inclusive of tax when prices are displayed in the shop inclusive of tax
+ * Fix - Variable product where at least one, but not all variations have a voucher
+ * Fix - Upgrade path for voucher data Recipient Name/Message fields
+
+2014.02.24 - version 2.0.3
+ * Tweak - Improved Unicode character support
+ * Tweak - Improved support for the Name Your Price plugin
+ * Fix - WC 2.1 Compatibility bug
+ * Fix - Voucher expiration date handling - Thanks Nathan!
+
+2014.02.10 - version 2.0.2
+ * Tweak - Voucher Email Recipient/Message can be enabled/disabled for the frontend product independently of whether they are printed to the voucher
+ * Fix - Fixed WC 2.1/2.0.x compatibility issue
+ * Fix - Voucher product name uses html_entity_decode to replace encoded HTML characters
+
+2014.01.23 - version 2.0.1
+ * Fix - Fixed a bug in the Voucher Edit admin
+
+2014.01.20 - version 2.0
+ * Feature - Full product variation support
+ * Feature - Voucher Recipient input field and email action
+ * Feature - Product price voucher field
+ * Feature - Configurable field label for Recipient Name, Recipient Email and Message to Recipient
+ * Feature - Regular file downloads also allowed for voucher products
+ * Tweak - Improved voucher generation error reporting
+ * Misc - Complete rewrite
+ * Misc - Uses SkyVerge Plugin Framework
+ * Misc - WooCommerce 2.1 Compatibility
+ * Localization - changed text domain to woocommerce-pdf-product-vouchers
+
+2013.12.13 - version 1.2
+ * Feature - Custom voucher fields can be programmatically added
+ * Feature - Voucher field text alignment (left/center/right) can be set
+ * Fix - Download links for orders with more than one of the same voucher item
+ * Fix - Multiple of "sold individually" vouchers can be included on the same order
+ * Localization - Improved localization support
+
+2013.09.11 - version 1.1.2
+ * Fix - fixed a notice
+
+2013.08.23 - version 1.1.1
+ * Tweak - Improved voucher number customizability
+
+2013.07.12 - version 1.1
+ * Feature - Configuration option to make frontend user input fields required for voucher product to be added to cart
+
+2013.05.16 - version 1.0
+ * Initial Release

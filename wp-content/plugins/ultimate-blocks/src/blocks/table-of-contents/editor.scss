@@ -1,0 +1,68 @@
+@import "../../common";
+.editor-styles-wrapper .ub_table-of-contents {
+	ul {
+		padding-left: 1.3em;
+	}
+	li > div {
+		justify-content: space-between;
+	}
+	ul,
+	ol {
+		margin-bottom: 0;
+		grid-area: extra;
+	}
+	ol > li {
+		display: grid;
+		grid-template-areas:
+			"listicon content buttons"
+			"extra extra extra";
+		grid-template-columns: minmax(0, min-content) auto auto;
+		&::before {
+			grid-area: listicon;
+			white-space: nowrap;
+		}
+		> a {
+			grid-area: content;
+		}
+		> .ub_toc_button_container {
+			grid-area: buttons;
+			margin-left: auto;
+		}
+	}
+}
+
+.editor-block-toolbar {
+	.ub_toc_column_selector.is-primary {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+.ub_toc_column_buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+.ub_table-of-contents-header {
+	padding: 15px 30px;
+}
+
+.ub_table-of-contents-container {
+	padding: 15px 30px;
+}
+
+.ub_table-of-contents-collapsed .ub_table-of-contents-header {
+	padding: 10px;
+	margin-bottom: 0;
+}
+.ub_toc_button_container {
+	white-space: nowrap;
+}
+
+.ub_toc_heading_selection {
+	display: flex;
+	flex-wrap: wrap;
+	> * {
+		flex-basis: 33%;
+	}
+}

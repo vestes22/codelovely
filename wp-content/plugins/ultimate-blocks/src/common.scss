@@ -1,0 +1,49 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+.ub-hide {
+	display: none;
+}
+
+.ub-hiding {
+	height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.ub-toggle-transition {
+	transition: all 0.5s ease-in-out;
+}
+
+.ub-icon-holder {
+	position: relative;
+	transform: translate(-25%, 25%);
+}
+
+.ub-custom-id-input {
+	font-size: 0.9em;
+}
+
+@media (max-width: 699px) {
+	.ub-mobile-hide {
+		display: none;
+	}
+	.ub-mobile-display {
+		display: block;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+	.ub-tablet-hide {
+		display: none;
+	}
+	.ub-tablet-display {
+		display: block;
+	}
+}

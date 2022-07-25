@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+#wp-admin-bar-wpaas .dashicons-admin-generic::before {
+	top: 2px;
+}
+
+#wp-admin-bar-wpaas-admin-bar-my-account > .ab-item::before {
+	display: block !important;
+	content: "\f310" !important;
+	top: 2px;
+}
+
+#wp-admin-bar-wpaas .ab-sub-wrapper .dashicons {
+	margin-top: 4px;
+	font: 16px/1 'dashicons';
+
+	 -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wp-admin-bar-wpaas-pro-connection-key,
+.wp-admin-bar-wpaas-help {
+	line-height: inherit !important;
+	display: block;
+	font-size: inherit !important;
+}
+
+@media screen and ( max-width: 782px ) {
+
+	#wpadminbar li#wp-admin-bar-wpaas {
+		display: block;
+	}
+
+	#wp-admin-bar-wpaas .ab-icon.dashicons-admin-generic:before {
+		top: 0;
+		font-size: 33px;
+	}
+
+}

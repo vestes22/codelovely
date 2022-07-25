@@ -1,0 +1,352 @@
+/**
+ * 15.9 - >= 1600px
+ */
+
+@media screen and (min-width: 100em) {
+    /* Woocommerce Styles */
+    .woocommerce-tabs .panel h2:first-of-type {
+        font-size: 24px;
+        font-size: 1.5rem;
+        margin-bottom: 21px;
+    }
+
+    .woocommerce-tabs ul.tabs {
+        margin: 70px 0 0
+    }
+
+    .woocommerce-pagination {
+        margin-top: 14px;
+    }/* Woocommerce Styles End */
+
+    body,
+    .site-footer .widget .widget-title,
+    .woocommerce-ordering .orderby {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    #promotion-section .readmore,
+    .more-link .readmore,
+    #testimonial-content-section .entry-title,
+    .team-content-wrapper .button,
+    .site-content .view-more a,
+    button,
+    .button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    .posts-navigation a,
+    #content #infinite-handle span button,
+    nav.navigation.posts-navigation .nav-links a,
+    .catch-instagram-feed-gallery-widget-wrapper .button,
+    #footer-newsletter .ewnewsletter .hentry form input[type="submit"] {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    .home .header-media .section-title,
+    #feature-slider-section .entry-title,
+    .stats-content-wrapper .hentry-inner .sub-title,
+    .entry-content h1,
+    .entry-summary h1,
+    .comment-content h1,
+    .textwidget h1 {
+        font-size: 58px;
+        font-size: 3.625rem;
+    }
+
+    .section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+        font-size: 56px;
+        font-size: 3.5rem;
+    }
+
+    #footer-instagram .widget-title,
+    .page-title,
+    .entry-content h2,
+    .entry-summary h2,
+    .comment-content h2,
+    .archive-posts-wrapper .entry-title,
+    .contact-content-wrapper .contact-us-form .entry-title,
+    .section-title,
+    .entry-title.section-title,
+    .textwidget h2,
+    body:not(.home) .header-media .section-title {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+
+    .entry-content h3,
+    .entry-summary h3,
+    .comment-content h3,
+    .textwidget h3 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    .entry-content h4,
+    .entry-summary h4,
+    .comment-content h4,
+    .textwidget h4 {
+        font-size: 28px;
+        font-size: 1.75rem;
+    }
+
+    .entry-content h5,
+    .entry-summary h5,
+    .comment-content h5,
+    .textwidget h5,
+    .color-scheme-corporate .site-title,
+    .color-scheme-ecommerce .site-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .site-content .view-more a {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    .section.no-section-heading {
+        padding-top: 98px;
+    }
+
+    .more-link {
+        margin: 49px 0 0;
+    }
+
+    .custom-header-content,
+    #feature-slider-section .hentry-inner {
+        padding: 147px 50px;
+    }
+
+    .hero-content-wrapper .entry-container {
+        padding: 56px 0 56px 120px;
+    }
+
+    .archive-posts-wrapper .cat-links {
+        margin-bottom: 21px;
+    }
+
+    .content-align-left .hero-content-wrapper .entry-container {
+        padding: 56px 120px 56px 0;
+    }
+
+    .archive-post-wrap .hentry {
+        margin-bottom: 77px;
+    }
+
+    .archive-post-wrap .post-thumbnail {
+        margin-bottom: 49px;
+    }
+
+    #feature-slider-section .owl-prev .icon,
+    #feature-slider-section .owl-next .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-floating-navigation {
+        left: 20px;
+    }
+
+    .section-heading-wrapper {
+        padding-bottom: 70px;
+    }
+
+    .stats-section.no-section-heading .wrapper {
+        padding-top: 0;
+    }
+
+    .recent-blog-content .archive-post-wrap .entry-container,
+    .site-content .content-area .entry-container {
+        padding: 203px 140px;
+    }
+
+    .section, #footer-newsletter .has-background-image.widget {
+        padding: 28px 0;
+    }
+
+    .header-media + .section {
+        padding-top: 98px;
+    }
+
+    .header-media + .section.no-section-heading,
+    #feature-slider-section + .section.no-section-heading {
+        padding-top: 140px;
+    }
+
+    body .section.no-section-heading {
+        padding-top: 70px;
+    }
+
+    .section + .has-background-image {
+        padding-top: 98px;
+        margin-top: 70px;
+    }
+
+    .section + .section.has-background-image.no-section-heading {
+        padding-top: 140px;
+    }
+
+    #promotion-section {
+        padding: 140px 0;
+    }
+
+    .services-section.section .hentry .hentry-inner .post-thumbnail {
+        margin-bottom: 42px;
+    }
+
+    .site-header-logo {
+        max-width: 100%;
+    }
+
+    .color-scheme-music.home .header-media .section-title,
+    .color-scheme-music #feature-slider-section .entry-title,
+    .color-scheme-wedding.home .header-media .section-title,
+    .color-scheme-wedding #feature-slider-section .entry-title,
+    .color-scheme-corporate.home .header-media .section-title,
+    .color-scheme-corporate #feature-slider-section .entry-title,
+    .color-scheme-ecommerce.home .header-media .section-title,
+    .color-scheme-ecommerce #feature-slider-section .entry-title {
+        font-size: 68px;
+        font-size: 4.25rem;
+    }
+
+    #promotion-section,
+    #countdown-section {
+        margin: 70px 0;
+    }
+
+        #playlist-section .entry-title span {
+        margin-top: 28px;
+    }
+
+    .playlist-content-wrapper .entry-container {
+        padding: 0 0 0 91px;
+    }
+
+    #sticky-playlist-section .wp-playlist,
+    #sticky-playlist-section .mejs-controls {
+        height: 80px;
+    }
+
+    body .wp-playlist .wp-playlist-current-item img {
+        width: 80px;
+        height: 80px;
+        max-width: 80px;
+    }
+
+    #sticky-playlist-section .wp-playlist .mejs-playpause-button,
+    #sticky-playlist-section .wp-playlist .mejs-previous-button.mejs-previous,
+    #sticky-playlist-section .wp-playlist .mejs-next-button.mejs-next,
+    #sticky-playlist-section .wp-playlist .mejs-container.mejs-container .mejs-toggle-playlist {
+        padding: 30px 40px;
+    }
+
+    #sticky-playlist-section .mejs-controls {
+        padding-right: 40px;
+    }
+
+    #sticky-playlist-section .wp-playlist .mejs-button.mejs-volume-button {
+        padding: 30px 14px 30px 40px;
+    }
+
+    #sticky-playlist-section .wp-playlist .mejs-time {
+        padding: 34px 40px;
+    }
+
+    .sticky-playlist-enabled #scrollup,
+    .sticky-playlist-enabled .scroll-down {
+        bottom: 129px;
+    }
+
+    #sticky-playlist-section .wp-playlist-current-item .wp-playlist-item-title {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    .wp-playlist .wp-playlist-current-item .wp-playlist-item-artist {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .product-container {
+        padding-top: 35px;
+    }
+
+
+    .app-section .entry-container {
+        padding: 91px 50px;
+    }
+
+    .app-section .app-wrap {
+        margin-top: 35px;
+    }
+
+    .events-section .event-button {
+        margin-top: 28px;
+    }
+
+        .events-section.single-layout .hentry {
+        padding-bottom: 42px;
+    }
+
+    .featured-video-section.style-two .entry-meta {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    .stats-content-wrapper .hentry-inner .sub-title,
+    .author-description .author-title,
+    .entry-title,
+    ul.products li.product .woocommerce-loop-product__title,
+    .woocommerce-loop-category__title,
+    .featured-video-section.style-two .entry-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+     .sticky-playlist-enabled #page {
+        padding-bottom: 80px;
+     }
+
+
+    #countdown-section .section-content-wrapper .entry-summary,
+    #countdown-section .section-content-wrapper .entry-content {
+        margin-top: 29px;
+    }
+
+     #countdown-section .entry-container {
+        padding: 140px 50px 120px 50px;
+    }
+
+        #timeline-section .section-content-wrapper:before {
+        height: calc(100% - 70px);
+    }
+
+    #timeline-section .post-thumbnail,
+    #timeline-section .entry-container {
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    #timeline-section .hentry {
+        margin-bottom: 70px;
+    }
+
+    .color-scheme-wedding .site-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .category-content-section .entry-title {
+        font-size: 22px;
+        font-size: 1.375rem;
+    }
+
+    .woocommerce-posts-wrapper .entry-title {
+        font-size: 30px;
+        font-size: 1.875rem;
+    }
+
+}

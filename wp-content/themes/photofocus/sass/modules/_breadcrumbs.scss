@@ -1,0 +1,37 @@
+/**
+ * 7.5 - Breadcrumb
+ */
+
+.breadcrumb-area {
+	text-align: center;
+	width: 100%;
+	font-weight: normal;
+}
+
+.entry-breadcrumbs,
+.woocommerce .woocommerce-breadcrumb {
+	line-height: 1.75;
+	margin: 0;
+	padding: 0 0 14px 0;
+}
+
+.entry-breadcrumbs a,
+.woocommerce .woocommerce-breadcrumb a {
+	position: relative;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.entry-breadcrumbs a:hover,
+.entry-breadcrumbs a:focus,
+.entry-breadcrumbs a:active,
+.woocommerce .woocommerce-breadcrumb a:hover,
+.woocommerce .woocommerce-breadcrumb a:focus,
+.woocommerce .woocommerce-breadcrumb a:active {
+	text-decoration: none;
+}
+
+.entry-breadcrumbs .sep,
+.woocommerce .woocommerce-breadcrumb .sep {
+	margin: 0 10px;
+}

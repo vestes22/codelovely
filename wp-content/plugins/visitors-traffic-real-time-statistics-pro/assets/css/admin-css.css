@@ -1,0 +1,333 @@
+.map_con{
+	margin-right: -300px;
+	width: 280px !important;
+	position: absolute;
+	top: 0px;
+	bottom: 19px;
+	right: 0px;
+}
+.left_grid {
+	min-width: 49%;
+}
+.svgMap-map-wrapper {
+	padding-top: 400px !important;
+}
+.country_list {
+	overflow-y: auto;
+	max-height: 100%;
+}
+div#post-body {
+	position: relative;
+}
+.map_con {
+	margin-right: -300px;
+	width: 280px !important;
+	max-width: 100%
+}
+span.on_off {
+					font-size: 18px;
+					font-weight: 500;
+					padding: 4px 10px;
+					margin: 0px;
+					height: 26px;
+					display: inline-block;
+				}
+.container-tap {
+	padding: 10px;
+	background: #fff;
+	margin-right: 15px;
+}
+				input#showcase_tax_media_button {
+					width: 100px !important;
+				}
+
+				input#showcase_tax_media_remove {
+					width: 106px !important;
+				}
+
+
+				.slider {
+				  position: absolute;
+				  cursor: pointer;
+				  top: 0;
+				  left: 0;
+				  right: 0;
+				  bottom: 0;
+				  background-color: #ccc;
+				  -webkit-transition: .4s;
+				  transition: .4s;
+				}
+
+				.slider:before {
+				  position: absolute;
+				  content: "";
+				  height: 26px;
+				  width: 26px;
+				  left: 4px;
+				  bottom: 4px;
+				  background-color: white;
+				  -webkit-transition: .4s;
+				  transition: .4s;
+				}
+
+				.switch {
+				  position: relative;
+				  display: inline-block;
+				  width: 60px;
+				  height: 34px;
+				}
+
+				.switch input {
+				  opacity: 0;
+				  width: 0;
+				  height: 0;
+				}
+
+
+				input:checked + .slider {
+				  background-color: #2196F3;
+				}
+
+				input:focus + .slider {
+				  box-shadow: 0 0 1px #2196F3;
+				}
+
+				input:checked + .slider:before {
+				  -webkit-transform: translateX(26px);
+				  -ms-transform: translateX(26px);
+				  transform: translateX(26px);
+				}
+
+				/* Rounded sliders */
+				.slider.round {
+				  border-radius: 34px;
+				}
+
+				.slider.round:before {
+				  border-radius: 50%;
+				}
+
+				/* The container */
+				.containercheckbox {
+					display: block;
+					position: relative;
+					-webkit-user-select: none;
+					-moz-user-select: none;
+					-ms-user-select: none;
+					user-select: none;
+					padding-left: 27px;
+					cursor: pointer;
+					font-size: 14px;
+
+					margin: 0px 55px 20px 0px !important;
+				}
+
+				/* Hide the browser's default checkbox */
+				.containercheckbox input {
+				  position: absolute;
+				  opacity: 0;
+				  cursor: pointer;
+				  height: 0;
+				  width: 0;
+				}
+
+				/* Create a custom checkbox */
+				.containercheckbox .checkmark {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 19px;
+					width: 19px;
+					background-color: #eee;
+				}
+
+				/* On mouse-over, add a grey background color */
+				.containercheckbox:hover input ~ .checkmark {
+				  background-color: #ccc;
+				}
+
+				/* When the checkbox is checked, add a blue background */
+				.containercheckbox input:checked ~ .checkmark {
+				  background-color: #2196F3;
+				}
+				.WPLFLA_inp{
+					width: 25em  !important;
+				}
+				.WPLFLA_textarea {
+					height: 80px  !important;
+					width: 25em  !important;
+				}
+				/* Create the checkmark/indicator (hidden when not checked) */
+				.containercheckbox .checkmark:after {
+				  content: "";
+				  position: absolute;
+				  display: none;
+				}
+
+				/* Show the checkmark when checked */
+				.containercheckbox input:checked ~ .checkmark:after {
+				  display: block;
+				}
+
+				/* Style the checkmark/indicator */
+				.containercheckbox .checkmark:after {
+					left: 6px;
+					top: 1px;
+					width: 5px;
+					height: 10px;
+					border: solid white;
+					border-width: 0 3px 3px 0;
+					-webkit-transform: rotate(45deg);
+					-ms-transform: rotate(45deg);
+					transform: rotate(45deg);
+				}
+				label.containercheckbox {
+					width: 14%;
+				}
+				table.failed_login_rep {
+					border-collapse: collapse;
+					width: 700px;
+
+					margin-top: 20px;
+				}
+				@media screen and (max-width: 768px){
+					.svgMap-map-wrapper {
+						padding-top: 50% !important;
+					}
+					.map_con {
+						max-width: 100%;
+					}
+					.map_con {
+						margin-right: 0px;
+						width: 100% !important;
+						max-width: 100%;
+					}
+					#wpbody-content #dashboard-widgets #postbox-container-1 {
+						width: 100% !important;
+					}
+					label.containercheckbox {
+						width: 20%;
+					}
+					.WPLFLA_inp {
+						width: 100% !important;
+					}
+					.WPLFLA_textarea {
+						width: 100% !important;
+					}
+					table.failed_login_rep {
+					  width: 100%;
+					}
+					div#postbox-container-1 {
+						float: unset !important;
+						width: 100% !important;
+						margin-top: 20px !important;
+						display: block;
+						position: unset;
+					}
+
+
+
+					div#post-body-content {
+						float: unset !important;
+					}
+
+					div#postbox-container-2 {
+						float: unset !important;
+						width: 100% !important;
+						margin-top: 20px !important;
+						display: block;
+						position: unset;
+					}
+					.map_con{
+
+						position: unset!important;
+
+					}
+				}
+
+
+
+table.failed_login_rep th, table.failed_login_rep td {
+  text-align: left;
+  padding: 8px;
+}
+
+table.failed_login_rep tr:nth-child(odd) {background-color: #f2f2f2;}
+
+table.failed_login_rep tr:nth-child(even) {background-color: #ffffff;}
+
+
+
+form.example input[type=text] {
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid grey;
+    float: left;
+    width: 78%;
+    background: #fff;
+    box-sizing: border-box;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+table.failed_login_rep th, table.failed_login_rep td.no-data-found{
+	background-color:#fff;
+}
+form.example button {
+  float: left;
+  width: 13%;
+  padding: 6px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 8px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+span.color_red {
+    color: red;
+}
+
+.delete_ip{
+	text-align: center;
+	display: block;
+	font-size: 18px;
+}
+
+
+
+table.country_list {
+	margin-top: 0px;
+}
+table.country_list td {
+	
+	margin: 1px;
+	padding: 5px 10px;
+	
+	color: #444;
+}
+table.country_list>td .block_count{
+	padding: 2px 7px;
+	
+	color: #636363;
+	float: right;
+	
+}
+table.country_list>td .log_count{
+	padding: 2px 7px;
+	color: #636363;
+	float: right;
+	
+}

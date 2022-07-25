@@ -1,0 +1,662 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: System Plugin 4.1.4\n"
+"POT-Creation-Date: 2021-02-24 16:29:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: gd-system-plugin/includes/admin/class-bar.php:228
+#: gd-system-plugin/includes/admin/class-bar.php:239
+#: gd-system-plugin/includes/admin/class-bar.php:411
+#: gd-system-plugin/includes/admin/class-bar.php:468
+#: gd-system-plugin/includes/class-hotfixes.php:195
+msgid "Managed WordPress"
+msgstr "WordPress ภายใต้การจัดการ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:290
+msgid "Flush Cache"
+msgstr "ล้างแคช"
+
+#: gd-system-plugin/includes/admin/class-bar.php:309
+msgid "Hosting Overview"
+msgstr "ภาพรวมของโฮสติ้ง"
+
+#: gd-system-plugin/includes/admin/class-bar.php:331
+msgid "Hosting Settings"
+msgstr "การตั้งค่าโฮสติ้ง"
+
+#: gd-system-plugin/includes/admin/class-bar.php:359
+msgid "Connection Management"
+msgstr "ระบบจัดการการเชื่อมต่อ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:384
+msgid "Help &amp; Support"
+msgstr "ความช่วยเหลือและการสนับสนุน"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Site"
+msgstr "เว็บไซต์ของฉัน"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Dashboard"
+msgstr "แดชบอร์ดของฉัน"
+
+#: gd-system-plugin/includes/admin/class-bar.php:460
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:475
+#: gd-system-plugin/includes/admin/class-bar.php:487
+msgid "Design Editor"
+msgstr "โปรแกรมแก้ไขงานออกแบบ"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:71
+msgid "PHP Update Required"
+msgstr "ต้องอัปเดต PHP"
+
+#: gd-system-plugin/includes/admin/class-growl.php:102
+msgid "Success"
+msgstr "สำเร็จ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:220
+#. translators: %s: Plugin author.
+msgid "By %s"
+msgstr "โดย %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:242
+#. translators: %s: Plugin name and version.
+msgid "Install %s now"
+msgstr "ติดตั้ง %s ตอนนี้เลย"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:247
+msgid "Install Now"
+msgstr "ติดตั้งตอนนี้"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:263
+#. translators: %s: Plugin name and version.
+msgid "Update %s now"
+msgstr "อัปเดต %s ตอนนี้เลย"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:268
+msgid "Update Now"
+msgstr "อัพเดตตอนนี้เลย"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:284
+#: gd-system-plugin/includes/admin/class-themes-tab.php:146
+#: gd-system-plugin/includes/admin/class-themes-tab.php:308
+msgid "Activate"
+msgstr "เปิดใช้งาน"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:327
+#. translators: %s: Plugin name and version.
+msgid "More information about %s"
+msgstr "ข้อมูลเพิ่มเติมเกี่ยวกับ %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:329
+msgid "More Details"
+msgstr "รายละเอียดเพิ่มเติม"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:143
+msgid "GoDaddy Recommended"
+msgstr "แนะนำโดย GoDaddy"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:70
+msgid "Go to your Dashboard to install plugins, manage users and more."
+msgstr "ไปที่แดชบอร์ดของคุณเพื่อติดตั้งปลั๊กอิน จัดการผู้ใช้ และอื่นๆ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:74
+msgid "Add a new page or blog post to organize your content or engage visitors."
+msgstr "เพิ่มหน้าใหม่หรือเพิ่มโพสต์ในบล็อกเพื่อจัดระเบียบเนื้อหาหรือดึงดูดผู้เข้าชม"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:78
+msgid "Edit the page you're currently on."
+msgstr "แก้ไขหน้าที่คุณเปิดอยู่ในขณะนี้"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:82
+msgid "Change your website's design, color palette and more."
+msgstr "เปลี่ยนงานออกแบบเว็บไซต์ ชุดสี และอื่นๆ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:86
+msgid "Find help, troubleshooting and how to get back to your Hosting Dashboard."
+msgstr "ดูความช่วยเหลือ วิธีแก้ไขปัญหา และวิธีกลับในแดชบอร์ดโฮสติ้งของคุณ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:96
+msgid ""
+"Add pages, blog posts, and products to engage visitors and keep your shop "
+"organized."
+msgstr ""
+"เพิ่ม โพสต์ในบล็อก และผลิตภัณฑ์เพื่อดึงดูดผู้เข้าชมและจัดการให้ร้านค้าของคุณเป็นระเบียบ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:304
+msgid "Installed"
+msgstr "ติดตั้งแล้ว"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:145
+msgid "Error Installing Theme"
+msgstr "ข้อผิดพลาดการติดตั้งธีม"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:147
+#: gd-system-plugin/includes/admin/class-themes-tab.php:310
+msgid "Live Preview"
+msgstr "ดูตัวอย่างออนไลน์"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:148
+msgid "Theme Install"
+msgstr "ติดตั้งธีม"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:288
+msgid "Install %s"
+msgstr "ติดตั้ง %s"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:291
+msgid "Install"
+msgstr "ติดตั้ง"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:322
+msgid "View Demo"
+msgstr "ดูตัวอย่าง"
+
+#: gd-system-plugin/includes/class-blacklist.php:94
+#. translators: Name of the disallowed plugin
+msgid "%s is not allowed on our system. It has been automatically deactivated."
+msgstr "%s ไม่ได้รับอนุญาตบนระบบของเรา โดยจะถูกปิดการใช้งานโดยอัตโนมัติ"
+
+#: gd-system-plugin/includes/class-blacklist.php:229
+msgid "Not Available"
+msgstr "ไม่พร้อมใช้งาน"
+
+#: gd-system-plugin/includes/class-blacklist.php:230
+msgid ""
+"This plugin is not allowed on our system due to performance, security, or "
+"compatibility concerns. Please contact support with any questions."
+msgstr ""
+"ไม่อนุญาตปลั๊กอินนี้บนระบบของเรา เนื่องจากความกังวลต่อการปฏิบัติงาน "
+"ความปลอดภัย หรือความสามารถในการทำงานแทนกันได้ โปรดติดต่อฝ่่ายสนับสนุนหากมีคำถามใดๆ"
+
+#: gd-system-plugin/includes/class-cache.php:116
+msgid "Cache cleared"
+msgstr "ล้างแคชแล้ว"
+
+#: gd-system-plugin/includes/class-change-domain.php:61
+#: gd-system-plugin/includes/class-change-domain.php:149
+#. translators: Title of alert in bold
+msgid "%s Your domain cannot be changed here."
+msgstr "%s ไม่สามารถเปลี่ยนแปลงโดเมนของคุณได้ที่นี่"
+
+#: gd-system-plugin/includes/class-change-domain.php:62
+#: gd-system-plugin/includes/class-change-domain.php:78
+#: gd-system-plugin/includes/class-change-domain.php:138
+#: gd-system-plugin/includes/class-change-domain.php:150
+#: gd-system-plugin/includes/class-temp-domain.php:117
+#: gd-system-plugin/includes/class-temp-domain.php:125
+msgid "Note:"
+msgstr "หมายเหตุ:"
+
+#: gd-system-plugin/includes/class-change-domain.php:69
+#: gd-system-plugin/includes/class-temp-domain.php:132
+msgid "Change domain"
+msgstr "เปลี่ยนแปลงโดเมน"
+
+#: gd-system-plugin/includes/class-change-domain.php:77
+#: gd-system-plugin/includes/class-change-domain.php:137
+#. translators: Title of alert in bold
+msgid "%s This is your staging site and the domain cannot be changed."
+msgstr "%s นี่เป็นไซต์ที่กำลังเตรียมของคุณ และไม่สามารถเปลี่ยนแปลงโดเมนได้"
+
+#: gd-system-plugin/includes/class-debug-mode.php:457
+msgid ""
+"Changes in safe mode are not saved and are not visible by visitors to your "
+"site."
+msgstr ""
+"จะไม่บันทึกการเปลี่ยนแปลงในโหมดปลอดภัยและผู้เข้าชมเว็บไซต์ของคุณจะไม่เห็นการเปลี่ยนแปลง"
+
+#: gd-system-plugin/includes/class-debug-mode.php:542
+msgid "Safe Mode"
+msgstr "โหมดปลอดภัย"
+
+#: gd-system-plugin/includes/class-debug-mode.php:558
+msgid "Themes"
+msgstr "ธีม"
+
+#: gd-system-plugin/includes/class-debug-mode.php:566
+msgid "Safe mode"
+msgstr "โหมดปลอดภัย"
+
+#: gd-system-plugin/includes/class-debug-mode.php:582
+#. translators: total number of themes installed.
+msgid "Installed (%d)"
+msgstr "ติดตั้งแล้ว (%d)"
+
+#: gd-system-plugin/includes/class-debug-mode.php:585
+msgid "Select one"
+msgstr "เลือกหนึ่งโดเมน"
+
+#: gd-system-plugin/includes/class-debug-mode.php:603
+msgid "Plugins"
+msgstr "ปลั๊กอิน"
+
+#: gd-system-plugin/includes/class-debug-mode.php:610
+msgid "Active"
+msgstr "เปิดใช้งาน"
+
+#: gd-system-plugin/includes/class-debug-mode.php:611
+msgid "Inactive"
+msgstr "ไม่เปิดใช้งาน"
+
+#: gd-system-plugin/includes/class-debug-mode.php:629
+msgid "Preview"
+msgstr "ดูตัวอย่าง"
+
+#: gd-system-plugin/includes/class-debug-mode.php:630
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No active plugins."
+msgstr "ไม่มีปลั๊กอินที่ใช้งานอยู่"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No inactive plugins."
+msgstr "ไม่มีปลั๊กอินที่ไม่ใช้งาน"
+
+#: gd-system-plugin/includes/class-hotfixes.php:191
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: gd-system-plugin/includes/class-hotfixes.php:192
+msgid "Media Temple"
+msgstr "เทมเพลตสื่อ"
+
+#: gd-system-plugin/includes/class-hotfixes.php:464
+#. translators: 1. Original translated error text. 2. URL to the hosting
+#. environment where users can update the PHP version.
+msgid ""
+"You can update to the most recent version of PHP in your hosting settings "
+"<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">here</a>."
+msgstr ""
+"คุณสามารถอัพเดตเป็น PHP เวอร์ชันล่าสุดได้ในการตั้งค่าโฮสติ้งของคุณ <a "
+"href=\"%1$s\" target=\"_blank\" title=\"%2$s\">ที่นี่</a>"
+
+#: gd-system-plugin/includes/class-hotfixes.php:466
+msgid "Update PHP version"
+msgstr "อัพเดตเวอร์ชัน PHP"
+
+#: gd-system-plugin/includes/class-sso.php:194
+msgid "Log in with GoDaddy"
+msgstr "ล็อกอินด้วย GoDaddy"
+
+#: gd-system-plugin/includes/class-sso.php:199
+msgid "Or"
+msgstr "หรือ"
+
+#: gd-system-plugin/includes/class-sso.php:203
+msgid "Log in with username and password"
+msgstr "ล็อกอินด้วยชื่อผู้ใช้และรหัสผ่าน"
+
+#: gd-system-plugin/includes/class-sso.php:313
+msgid ""
+"We were unable to log you in automatically. Please enter your WordPress "
+"username and password."
+msgstr ""
+"เราไม่สามารถล็อคอินคุณได้อย่างอัตโนมัติ โปรดใส่ชื่อผู้ใช้และรหัสผ่าน "
+"WordPress ของคุณ"
+
+#: gd-system-plugin/includes/class-temp-domain.php:45
+#. translators: 1: Current domain. 2: Domain name change URL.
+msgid ""
+"<strong>Note:</strong> Your site is using <strong>%1$s</strong>. Did you "
+"want to use your domain? <a href=\"%2$s\" target=\"_blank\">Add Domain</a>"
+msgstr ""
+"<strong>หมายเหตุ:</strong> เว็บไซต์ของคุณใช้ <strong>%1$s</strong> "
+"คุณต้องการใช้โดเมนของคุณหรือไม่ <a href=\"%2$s\" target=\"_blank\">เพิ่มโดเมน</a>"
+
+#: gd-system-plugin/includes/class-temp-domain.php:116
+#. translators: 1: "Note:" wrapped in strong tags
+msgid "%s This is your staging site and it cannot be indexed by search engines."
+msgstr "%s นี่คือเว็บไซต์ที่กำลังทดสอบของคุณ และโปรแกรมค้นหาไม่สามารถทำดัชนีเว็บไซต์ได้"
+
+#: gd-system-plugin/includes/class-temp-domain.php:124
+#. translators: 1: "Note:" wrapped in strong tags
+msgid ""
+"%s Your site is using a temporary domain that cannot be indexed by search "
+"engines."
+msgstr "%s เว็บไซต์ของคุณใช้โดเมนชั่วคราวที่โปรแกรมค้นหาไม่สามารถทำดัชนีได้"
+
+#: gd-system-plugin/includes/class-worker.php:117
+msgid ""
+"This is already included as a must-use plugin on your site and is required "
+"for backups and other important hosting platform benefits to function "
+"properly. It cannot be removed or deactivated. It should not be installed "
+"as a normal plugin and will be automatically removed if uploaded manually."
+msgstr ""
+"สิ่งนี้รวมไว้ในฐานะปลั๊กอินที่ต้องใช้บนเว็บไซต์ของคุณ "
+"และเป็นสิ่งจำเป็นที่จะช่วยให้การสำรองข้อมูลและสิทธิประโยชน์ที่สำคัญอื่นๆ "
+"ของแพลตฟอร์มโฮสติ้งทำงานอย่างราบรื่น โดยไม่สามารถถอดออกหรือปิดการใช้งานได้ ไม่ควรติดตั้งในฐานะปลั๊กอินธรรมดาและจะถูกถอดออกอัตโนมัติหากอัปโหลดด้วยตนเอง"
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:75
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" drafted"
+msgstr "Beaver Builder %2$s \"%1$s\" ที่ร่างแบบไว้"
+
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:99
+#. translators: 2. singular post type name (e.g. page), 1. post title
+msgid "Beaver Builder %2$s \"%1$s\" discarded"
+msgstr "Beaver Builder %2$s \"%1$s\" ที่ไม่ใช้งาน"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:25
+msgid "Background Attachment"
+msgstr "เอกสารแนบภาพพื้นหลัง"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:26
+msgid "Background Color"
+msgstr "สีพื้นหลัง"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:27
+msgid "Background Image"
+msgstr "ภาพพื้นหลัง:"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:28
+msgid "Background Position"
+msgstr "ตำแหน่งภาพพื้นหลัง"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:29
+msgid "Background Repeat"
+msgstr "ทำซ้ำภาพพื้นหลัง"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:30
+msgid "Base Color Scheme"
+msgstr "โครงร่างสีพื้น"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:31
+msgid "Logo"
+msgstr "โลโก้"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:32
+msgid "Header and Sidebar Background Color"
+msgstr "สีภาพพื้นหลังส่วนหัวและแถบข้าง"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:33
+msgid "Header Image"
+msgstr "รูปภาพส่วนหัว"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:34
+msgid "Display Site Title and Tagline"
+msgstr "แสดงหัวข้อไซต์และสโลแกน"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:35
+msgid "Header Text Color"
+msgstr "สีตัวอักษรส่วนหัว"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:36
+msgid "Link Color"
+msgstr "สีลิงก์"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:37
+msgid "Main Text Color"
+msgstr "สีตัวอักษรหลัก"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:38
+msgid "Page Background Color"
+msgstr "สีภาพพื้นหลังหน้า"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:39
+msgid "Secondary Text Color"
+msgstr "สีตัวอักษรรอง"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:40
+msgid "Header and Sidebar Text Color"
+msgstr "สีตัวอักษรส่วนหัวและแถบข้าง"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:93
+#. translators: 1. Option name, 2. Theme name
+msgid "\"%1$s\" updated for the %2$s theme"
+msgstr "\"%1$s\" อัปโหลดสำหรับธีม %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-option.php:28
+msgid "Site Title"
+msgstr "ชื่อเว็บไซต์"
+
+#: gd-system-plugin/includes/log/components/class-option.php:29
+msgid "Tagline"
+msgstr "สโลแกน"
+
+#: gd-system-plugin/includes/log/components/class-option.php:30
+msgid "Posts page"
+msgstr "หน้าโพสต์"
+
+#: gd-system-plugin/includes/log/components/class-option.php:31
+msgid "Front page"
+msgstr "หน้าแรก"
+
+#: gd-system-plugin/includes/log/components/class-option.php:32
+msgid "Front page displays"
+msgstr "การแสดงหน้าแรก"
+
+#: gd-system-plugin/includes/log/components/class-option.php:33
+msgid "Site Icon"
+msgstr "ไอคอนไซต์"
+
+#: gd-system-plugin/includes/log/components/class-option.php:34
+msgid "Site Language"
+msgstr "ภาษาไซต์"
+
+#: gd-system-plugin/includes/log/components/class-option.php:79
+#. translators: Option name
+msgid "\"%s\" option updated"
+msgstr "อัปเดตตัวเลือก \"%s\" แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:29
+#. translators: Plugin name
+msgid "\"%s\" plugin activated"
+msgstr "เปิดใช้งานปลั๊กอิน \"%s\" แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:36
+#. translators: Plugin name
+msgid "\"%s\" plugin activated network wide"
+msgstr "เปิดใช้งานปลั๊กอิน \"%s\" สำหรับเครือข่ายบริเวณกว้างแล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:61
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated"
+msgstr "ปิดใช้งานปลั๊กอิน \"%s\" แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:68
+#. translators: Plugin name
+msgid "\"%s\" plugin deactivated network wide"
+msgstr "ปิดใช้งานปลั๊กอิน \"%s\" สำหรับเครือข่ายบริเวณกว้างแล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:95
+#. translators: Plugin name
+msgid "\"%s\" plugin deleted"
+msgstr "ลบปลั๊กอิน \"%s\" แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:191
+#. translators: Plugin name
+msgid "\"%s\" plugin installed"
+msgstr "ติดตั้งปลั๊กอิน \"%s\" แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:226
+#. translators: 1: Plugin name, 2: New plugin version
+msgid "\"%1$s\" plugin updated to %2$s"
+msgstr "อัปเดตปลั๊กอิน \"%1$s\" ไปยัง %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-plugin.php:233
+#. translators: 1: Plugin name, 2: Old plugin version, 3: New plugin version
+msgid "\"%1$s\" plugin updated from %2$s to %3$s"
+msgstr "อัปเดตปลั๊กอิน \"%1$s\" จาก %2$s ไปยัง %3$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:49
+#: gd-system-plugin/includes/log/components/class-post.php:57
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s updated"
+msgstr "อัปเดต\"%1$s\" %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:66
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s created"
+msgstr "สร้าง \"%1$s\" %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:75
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s restored from trash"
+msgstr "คืนค่า \"%1$s\" %2$s จากถังขยะแล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:83
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s unpublished"
+msgstr "ยกเลิกการเผยแพร่ \"%1$s\" %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:91
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s drafted"
+msgstr "ร่าง\"%1$s\" %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:99
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s pending review"
+msgstr "\"%1$s\" %2$s รอดำเนินการตรวจสอบ"
+
+#: gd-system-plugin/includes/log/components/class-post.php:107
+#. translators: 1: Post title, 2: Post type singular name, 3: Scheduled post
+#. date
+msgid "\"%1$s\" %2$s scheduled for %3$s"
+msgstr "กำหนดตารางเวลา \"%1$s\" %2$s สำหรับ %3$s"
+
+#: gd-system-plugin/includes/log/components/class-post.php:115
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" scheduled %2$s published"
+msgstr "กำหนดตาราเวลา \"%1$s\" ของ %2$s ที่เผยแพร่แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:123
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s published"
+msgstr "เผยแพร่ \"%1$s\" %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:131
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s privately published"
+msgstr "เผยแพร่ \"%1$s\" %2$s แบบส่วนตัวแล้ว"
+
+#: gd-system-plugin/includes/log/components/class-post.php:140
+#. translators: 1: Post title, 2: Post type singular name
+msgid "\"%1$s\" %2$s trashed"
+msgstr "ส่ง \"%1$s\" %2$s ไปไว้ที่ถังขยะแล้ว"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:49
+#. translators: Theme name.
+msgid "\"%s\" theme activated"
+msgstr "เปิดใช้งานธีม \"%s\" แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:118
+#. translators: Theme name.
+msgid "\"%s\" theme installed"
+msgstr "ธีม “%s”ู ถูกติดตั้งแล้ว"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:154
+#. translators: 1: Theme name, 2: New theme version
+msgid "\"%1$s\" theme updated to %2$s"
+msgstr "อัปเดทธีม “”%1$s”็ เป็น %2$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-theme.php:161
+#. translators: 1: Theme name, 2: Old theme version, 3: New theme version
+msgid "\"%1$s\" theme updated from %2$s to %3$s"
+msgstr "อัปเดทธีม “%1$s” จาก %2$s เป็น %3$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-user.php:102
+#. translators: 1. User display name, 2. User role
+msgid "%1$s's user account deleted (%2$s)"
+msgstr "ลบบัญชีผู้ใช้ของ %1$s (%2$s) แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-user.php:141
+#. translators: User display name
+msgid "%s's user profile updated"
+msgstr "อัปเดตโปรไฟล์ผู้ใช้ของ %s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-user.php:183
+#. translators: 1: User display name, 2: Old role, 3: New role
+msgid "%1$s's role changed from %2$s to %3$s"
+msgstr "เปลี่ยนบทบาทของ %1$s จาก %2$s ไปยัง %3$s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-user.php:228
+#. translators: User display name
+msgid "%s logged in"
+msgstr "เข้าสู่ระบบ%s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-user.php:261
+#. translators: User display name
+msgid "%s logged out"
+msgstr "ออกจากระบบ%s แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-user.php:295
+#. translators: User display name
+msgid "%s requested a password reset"
+msgstr "ขอให้ตั้งค่ารหัสผ่าน %s ใหม่แล้ว"
+
+#: gd-system-plugin/includes/log/components/class-user.php:327
+#. translators: User display name
+msgid "%s's password reset"
+msgstr "ตั้งค่ารหัสผ่านของ %s ใหม่แล้ว"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:85
+msgid "Post"
+msgstr "โพสต์"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:149
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i"
+
+#: gd-system-plugin.php:142
+msgid "Note: This is a staging site."
+msgstr "หมายเหตุ: นี่คือเว็บไซต์ที่อยู่ระหว่างการจัดเตรียม"
+
+#. Plugin Name of the plugin/theme
+msgid "System Plugin"
+msgstr "ปลั๊กอินระบบ"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:59
+msgctxt "The name of our company blog found at https://www.godaddy.com/garage"
+msgid "GoDaddy Garage"
+msgstr "อู่ GoDaddy"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:197
+msgctxt "Plugin installer group title"
+msgid "Performance"
+msgstr "ประสิทธิภาพการทำงาน"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:198
+msgctxt "Plugin installer group title"
+msgid "Social"
+msgstr "โซเชียล"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:199
+msgctxt "Plugin installer group title"
+msgid "Tools"
+msgstr "เครื่องมือ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:279
+#: gd-system-plugin/includes/class-worker.php:112
+msgctxt "plugin"
+msgid "Active"
+msgstr "เปิดใช้งาน"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:287
+#. translators: %s: Plugin name.
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "เปิดใช้งาน %s"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:309
+msgctxt "plugin"
+msgid "Installed"
+msgstr "ติดตั้งแล้ว"

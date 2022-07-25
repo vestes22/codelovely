@@ -1,0 +1,46 @@
+#mainform table.form-table a > span.dashicons-external {
+	text-decoration: none !important;
+}
+
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary {
+	background: #FFFFFF;
+	border: 1px solid #C3C4C7;
+	margin-bottom: 16px;
+	padding: 0 16px;
+	position: relative;
+	font-size: 14px;
+}
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary h3,
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary p {
+	font-size: 14px;
+}
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary p {
+	color: #5e5e5e;
+}
+
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary > div.settings-table {
+	display: table;
+	padding: 0 0 10px;
+}
+
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary > div > div.setting-row {
+	display: table-row;
+}
+
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary > div > div.setting-row > div {
+	display: table-cell;
+}
+
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary > div > div > div.setting-name {
+	padding: 10px 16px 10px 0;
+}
+
+#woocommerce-godaddy-payments-apple-pay-parent-gateway-settings-summary > div > div > div.setting-value {
+	padding: 5px 0;
+}
+
+/* Ensure the external links are displayed beside the selects */
+select.wc-enhanced-select ~ .description {
+	display: inline-block;
+	margin-left: 10px;
+}

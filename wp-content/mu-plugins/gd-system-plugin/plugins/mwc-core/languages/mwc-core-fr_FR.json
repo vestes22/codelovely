@@ -1,0 +1,31 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-17T11:00:58-08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0-alpha\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+msgid "MWC Core"
+msgstr "MWC Core"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://www.godaddy.com"
+
+#. Description of the plugin
+msgid "Simplified eCommerce for WordPress by GoDaddy."
+msgstr "L’e-commerce pour WordPress en toute simplicité par GoDaddy."
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy"

@@ -1,0 +1,788 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-11-16T20:16:39+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "Yeni Nesil WordPress Deneyimi"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "Genel"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "Görsel kategorisi."
+
+#: includes/class-publish-guide.php:142
+msgid "Display Publish Guide."
+msgstr "Yayınlama Kılavuzunu Görüntüle."
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "Talebiniz işleme alınırken hata oluştu."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "Bir design_style onaylanmalı."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "Uygun bir design_style onaylanmalı."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "%s imzalı Go"
+
+#: build/editorPreferenceModal.js:1
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "GoDaddy Site Düzenleyiciyi kullanmaya devam etmek istiyor musunuz?"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"Sitenizi geliştirmek için doğru araçlara sahip olmanızı istiyoruz. Şu anda "
+"GoDaddy Site düzenleyiciyi kullanıyorsunuz. Size WordPress’in tüm "
+"özelliklerini sunan bu aracı kullanarak tek bir platformdan tasarımlarınızı "
+"özelleştirebilir, sayfalarınızı düzenleyebilir ve yönetebilirsiniz."
+
+#: build/editorPreferenceModal.js:1
+msgid "Yes, keep using it"
+msgstr "Evet, kullanmaya devam et"
+
+#: build/editorPreferenceModal.js:1
+msgid "No, I want to see other options"
+msgstr "Hayır, başka seçenekleri görmek istiyorum"
+
+#: build/editorPreferenceModal.js:1
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "Bu seçenek size uymadığı için üzgünüz"
+
+#: build/editorPreferenceModal.js:1
+msgid "Could you tell us why?"
+msgstr "Bize nedenini açıklar mısınız?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "Size neden uygun olmadığını açıklayın..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "Geri Git"
+
+#: build/editorPreferenceModal.js:1
+msgid "Skip"
+msgstr "Atla"
+
+#: build/editorPreferenceModal.js:1
+msgid "Continue"
+msgstr "Devam Et"
+
+#: build/editorPreferenceModal.js:1
+msgid "Let’s find you a better fit"
+msgstr "Daha uygun bir seçenek bulalım"
+
+#: build/editorPreferenceModal.js:1
+msgid "Here are some other options to explore:"
+msgstr "Keşfedebileceğiniz diğer seçenekler:"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to the default WordPress editor"
+msgstr "Varsayılan WordPress düzenleyicisine geçiş yap"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to a 3rd party page builder"
+msgstr "Üçüncü taraf bir sayfa geliştiriciye geçiş yap"
+
+#: build/editorPreferenceModal.js:1
+msgid "Talk to someone about my options"
+msgstr "Seçeneklerim konusunda benimle görüşme yapılsın"
+
+#: build/editorPreferenceModal.js:1
+msgid "Hire our experts to build your site for you"
+msgstr "Sitenizi geliştirmeleri için uzmanlarımızla çalışın"
+
+#: build/editorPreferenceModal.js:1
+msgid "Learn More"
+msgstr "Daha Fazla Bilgi"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to the default WordPress editor"
+msgstr "Varsayılan WordPress düzenleyicisine geçiş yapılıyor"
+
+#: build/editorPreferenceModal.js:1
+msgid "You should switch to the default WordPress editor if:"
+msgstr "Şu durumlarda varsayılan WordPress düzenleyicisine geçiş yapmalısınız:"
+
+#: build/editorPreferenceModal.js:1
+msgid "You want to use a different theme"
+msgstr "Farklı bir tema kullanmak istiyorsanız"
+
+#: build/editorPreferenceModal.js:1
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr ""
+"Varsayılan WordPress düzenleyiciyi kullanmayı biliyor ve/veya tercih "
+"ediyorsanız"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"Geçiş yapmanızın ardından site GoDaddy Site Düzenleyiciyle çalışmayacağı "
+"için geri dönüş yapamayacaksınız."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr ""
+"Bu site için varsayılan WordPress düzenleyicisine geçiş yapmaya hazır "
+"mısınız?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to Default"
+msgstr "Varsayılana Geç"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "Üçüncü Taraf Sayfa Geliştiriciye geçiş yapılıyor"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"Üçüncü taraf sayfa geliştiriciyi sitenize bir WordPress eklentisi olarak "
+"ekleyebilir ve bununla sayfa oluşturup tasarlayabilirsiniz."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr ""
+"Bu site için üçüncü taraf sayfa geliştiriciye geçiş yapmaya hazır mısınız?"
+
+#: build/editorPreferenceModal.js:1
+msgid "View Plugins"
+msgstr "Eklentileri Görüntüle"
+
+#: build/editorPreferenceModal.js:1
+msgid "Expert help is on the way"
+msgstr "Yakında uzman yardımı alacaksınız"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact our GoDaddy guides to get started."
+msgstr "Başlangıç yapmak için GoDaddy’deki temsilcilerimizle iletişime geçin."
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"İşletmenizin ihtiyaçlarına özel, harika ve profesyonel görünümlü bir web "
+"sitesi tasarlayabiliriz"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "WordPress Yöneticisi’ne yönlendiriliyorsunuz..."
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to WordPress plugins…"
+msgstr "WordPress eklentilerine yönlendiriliyorsunuz..."
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"Görüşlerinize önem veriyor, sitenizi geliştirmek için doğru araçlara sahip "
+"olmanızı istiyoruz. Şu anda GoDaddy Site düzenleyiciyi kullanıyorsunuz. Size "
+"WordPress’in tüm özelliklerini sunan bu aracı kullanarak tek bir platformdan "
+"tasarımlarınızı özelleştirebilir, sayfalarınızı düzenleyebilir ve "
+"yönetebilirsiniz."
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+msgid "Document"
+msgstr "Belge"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+msgid "%s (selected)"
+msgstr "%s (seçili)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+msgid "Block (selected)"
+msgstr "Blok (seçili)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+msgid "Block"
+msgstr "Engelle"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+msgid "Visibility"
+msgstr "Görünürlük"
+
+#: build/editSite.js:20
+msgid "Publish"
+msgstr "Yayınla"
+
+#: build/editSite.js:20 packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "Gerçekten de silinsin mi?"
+
+#: build/editSite.js:20
+msgid "Delete this page"
+msgstr "Sayfayı sil"
+
+#: build/editSite.js:20
+msgid "Title"
+msgstr "Başlık"
+
+#: build/editSite.js:20
+msgid "Display on page"
+msgstr "Sayfada göster"
+
+#: build/editSite.js:20
+msgid "Page details"
+msgstr "Sayfa ayrıntıları"
+
+#: build/editSite.js:20
+msgid "Featured image"
+msgstr "Öne çıkan görsel"
+
+#: build/editSite.js:20
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: build/editSite.js:20
+msgid "Close settings"
+msgstr "Ayarları kapat"
+
+#: build/editSite.js:20
+msgid "Plugins"
+msgstr "Eklentiler"
+
+#: build/editSite.js:20
+msgid "More"
+msgstr "Daha Fazlası"
+
+#: build/editSite.js:20
+msgid "More tools & options"
+msgstr "Daha fazla araç ve seçenek"
+
+#: build/editSite.js:20
+msgid "Add"
+msgstr "Ekle"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15
+msgid "Cache cleared"
+msgstr "Önbellek temizlendi"
+
+#: build/logoMenu.js:15
+msgid "Site Editor"
+msgstr "Site Düzenleyici"
+
+#: build/logoMenu.js:15
+msgid "Main menu"
+msgstr "Ana menü"
+
+#: build/logoMenu.js:15
+msgid "WordPress Management"
+msgstr "WordPress Yönetimi"
+
+#: build/logoMenu.js:15
+msgid "Manage Plugins"
+msgstr "Eklentileri Yönetin"
+
+#: build/logoMenu.js:15
+msgid "Manage Site Menus"
+msgstr "Site Menülerini Yönetin"
+
+#: build/logoMenu.js:15
+msgid "Customize Site Design"
+msgstr "Site Tasarımını Özelleştirin"
+
+#: build/logoMenu.js:15
+msgid "Manage Users"
+msgstr "Kullanıcıları Yönet"
+
+#: build/logoMenu.js:15
+msgid "Manage Comments"
+msgstr "Yorumları Yönetin"
+
+#: build/logoMenu.js:15
+msgid "WordPress Admin"
+msgstr "WordPress Yöneticisi"
+
+#: build/logoMenu.js:15
+msgid "Hosting"
+msgstr ""
+
+#: build/logoMenu.js:15
+msgid "Hosting Overview"
+msgstr "Hosting Genel Bakış"
+
+#: build/logoMenu.js:15
+msgid "Hosting Settings"
+msgstr "Hosting Ayarları"
+
+#: build/logoMenu.js:15
+msgid "Tools"
+msgstr "Araçlar"
+
+#: build/logoMenu.js:15
+msgid "Editor Preference"
+msgstr "Düzenleyici Tercihi"
+
+#: build/logoMenu.js:15
+msgid "Is this editor right for you?"
+msgstr "İstediğiniz düzenleyici bu mu?"
+
+#: build/logoMenu.js:15
+msgid "Learn about other WordPress site building options here."
+msgstr ""
+"Buradan diğer WordPress site geliştirme seçenekleri hakkında bilgi alın."
+
+#: build/logoMenu.js:15
+msgid "Flush Cache"
+msgstr "Önbelleği Boşalt"
+
+#: build/logoMenu.js:15
+msgid "Connection Management"
+msgstr "Bağlantı Yönetimi"
+
+#: build/logoMenu.js:15
+msgid "Support"
+msgstr "Destek"
+
+#: build/logoMenu.js:15
+msgid "Give Feedback"
+msgstr "Geri Bildirim Ver"
+
+#: build/logoMenu.js:15
+msgid "Help & Support"
+msgstr "Yardım ve Destek"
+
+#: packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "Bilgi"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "Bize deneyiminizden bahsedin… (isteğe bağlı)"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "Gönder"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "Geri bildiriminizi bizimle paylaştığınız için teşekkürler"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "Kapat"
+
+#: packages/feedback-modal/src/index.js:99
+#: packages/feedback-modal/src/index.js:107
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "Geri bildirimde bulunun"
+
+#: packages/feedback-modal/src/index.js:108
+msgid "How would you rate your experience?"
+msgstr "Deneyiminizi nasıl puanlandırırsınız?"
+
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "Sitem şu konu üzerinedir:"
+
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "Moda"
+
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "Ev Dekorasyonu"
+
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "Kahve"
+
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "İnşaat"
+
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "Sanat"
+
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "Hamur işleri"
+
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr ""
+
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "Peyzaj Düzenleme"
+
+#: packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "Ara"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "Alan adınızı ekleyin"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"Daha profesyonel görünün ve müşterilerinizin web sitenizi bulmasını "
+"kolaylaştırın."
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:39
+msgid "Change"
+msgstr "Değiştir"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "Alan adı ekleyin"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "Sayfaları gözden geçirin ve ekleyin"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr ""
+"Birkaç adımla başlangıç yapmanızı sağladık. Daha fazla sayfa ve içerik "
+"ekleyin."
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "Sayfaları yönetin"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "Kendinize özgü bir tasarım oluşturun"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr ""
+"Renkleri ve yazı tiplerini güncelleyin, sitenizin görünümünü ve havasını "
+"değiştirin."
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "Özelleştir"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "web sitesi logosu"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "Site bilgilerinizi ve markanızı ekleyin"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr "Sitenizin adı ve amacı nedir? Varsa logo ekleyin."
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "Düzenle"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "Site başlığı"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "Site açıklaması"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "Site logosu yükleyin"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "Logoyu Değiştir"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "Logoyu Kaldır"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "Kaydet"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "Bunu daha sonra yap"
+
+#: packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "Siteniz şu alan adında yayınlandı:"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "Kutlama ve"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "harika haberi duyurma zamanı."
+
+#: packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "Yeni web siteme göz atın!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"Web sitemi %1$s konumunda yeni yayınladım. Gelin, siteme göz atın ve "
+"görüşlerinizi benimle paylaşın!"
+
+#: packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "Bu kılavuzu gizle"
+
+#: packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "Bir eylem seçin"
+
+#: packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "Yeniden Adlandır"
+
+#: packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "Ana sayfa olarak ayarlamak istediğinize emin misiniz?"
+
+#: packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "Ana sayfa olarak ayarla"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "Gönderinin sabitlemesini kaldır"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "Gönderiyi sabitle"
+
+#: packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "Çoğaltma"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "Sayfayı Sil"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "Yazıyı Sil"
+
+#: packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "Renkler"
+
+#: packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "Renk Paletleri"
+
+#: packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "Özel"
+
+#: packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "Tasarım Stilleri"
+
+#: packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"Özel tasarım stilleri kolaylıkla keşfedebilir, mükemmel bir uyum için "
+"tasarımlardaki renkleri ve yazı tiplerini özelleştirebilirsiniz."
+
+#: packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "Özel Yazı Tipi Seçenekleri"
+
+#: packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "ÜST BİLGİ"
+
+#: packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "Ağırlık"
+
+#: packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "Boyut"
+
+#: packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "Üst bilgi yazı tipi boyutu"
+
+#: packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "GÖVDE METNİ"
+
+#: packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "Yazı Tipleri"
+
+#: packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "Yazı Tipi Eşleştirmeleri"
+
+#: packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "Pijamalı hasta yağız şoföre çabucak güvendi."
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "Yazı tipi boyutlarını gizleyin"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "Yazı tipi boyutlarını düzenleyin"
+
+#: packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "Küçük"
+
+#: packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr ""
+
+#: packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "Büyük"
+
+#: packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "Taban boyutu"
+
+#: packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "Yazı tipi boyutu"
+
+#: packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "Üst Bilgi Ölçeği"
+
+#: packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "Site tasarımı"
+
+#: packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "Tasarım"
+
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "Güncelleme tamamlandı."
+
+#: packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "En yeni ve en harika olanına güncelleniyor"
+
+#: packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "En yeni güncellemeyi düzenleyicinize uygularken lütfen bekleyin."
+
+#: packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "Bu işlem uzun sürmez."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "Bunun sonucunda site düzenleyiciniz de değişecektir."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"Şu anda Go temalı GoDaddy Site Düzenleyici’yi kullanıyorsunuz. Size "
+"WordPress’in tüm özelliklerini sunan bu aracı kullanarak tek bir platformdan "
+"tasarımlarınızı özelleştirebilir, sayfalarınızı düzenleyebilir ve "
+"yönetebilirsiniz."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"Yeni bir temayı etkinleştirdiğinizde bu site artık GoDaddy Site Düzenleyici "
+"ile çalışmaz. Sitenizde bunun yerine varsayılan WordPress Düzenleyici "
+"kullanılır."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"Yeni temayı etkinleştirip varsayılan WordPress düzenleyiciyi kullanmaya "
+"başlamaya hazır mısınız?"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "Etkinleştirme"

@@ -1,0 +1,8 @@
+# Lock Files are not always in the root
+.*composer.lock
+.*yarn.lock
+
+(.*/)?test/(.*/)
+
+# Tartufo configuration
+tool.tartufo

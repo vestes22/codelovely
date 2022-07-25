@@ -1,0 +1,362 @@
+/**
+ * 12.1 - Header
+ */
+
+.site-header {
+	position: relative;
+}
+
+.absolute-header .site-header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+body:not(.home) .custom-header .scroll-down {
+	display: none;
+}
+
+.site-header-logo {
+	margin: 21px 0;
+    max-width: 400px;
+}
+
+.site-header-logo ~ .section-title-wrapper {
+    margin-top: 21px;
+}
+
+.site-header-main .wrapper {
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 7px 30px;
+	position: relative;
+}
+
+.site-description {
+	opacity: 0.6;
+}
+
+.site-branding {
+	/* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
+	margin: 14px auto 14px 0;
+	max-width: 100%;
+	min-width: 0;
+	text-align: left;
+	overflow: hidden;
+	max-width: 80%;
+	width: auto;
+}
+
+.custom-logo {
+	display: block;
+}
+
+.wp-custom-logo .custom-logo-link {
+	display: block;
+}
+
+.site-header-menu {
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -10px;
+	width: auto;
+}
+
+.site-branding {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.site-title {
+	font-weight: 700;
+	line-height: 1.458333333333333;
+	letter-spacing: 0.1666666666666667em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.color-scheme-music .site-title,
+.color-scheme-corporate .site-title,
+.color-scheme-ecommerce .site-title {
+	font-stretch: normal;
+  	font-style: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+
+.site-title a {
+	text-decoration: none;
+}
+
+.site-description {
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 1.615384615384615;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.custom-header {
+	clear: both;
+	position: relative;
+}
+
+.custom-header .post-thumbnail {
+	margin: 0;
+}
+
+.has-header-video .custom-header-media .wp-custom-header img {
+	display: none;
+}
+
+.has-header-image.home .custom-header-media,
+.has-header-video.home .custom-header-media,
+.has-header-text.home .custom-header-media {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: center;
+	-ms-flex-pack: end;
+	justify-content: center;
+	height: 100%;
+	height: 100vh;
+	width: 100%;
+}
+
+.custom-header-content {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    text-align: center;
+    z-index: 2;
+}
+
+.custom-header-content-wrapper {
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.custom-header-content.content-align-left .custom-header-content-wrapper {
+	margin: 0 auto 0 0;
+}
+
+.custom-header-content.content-align-right .custom-header-content-wrapper {
+	margin: 0 0 0 auto;
+}
+
+.custom-header-content.text-align-left {
+	text-align: left;
+}
+
+.custom-header-content.text-align-right {
+	text-align: right;
+}
+
+.custom-header-content.text-align-left .site-header-logo,
+.custom-header-content.text-align-left .site-header-logo img {
+	margin: 0 auto 0 0;
+}
+
+.custom-header-content.text-align-center .site-header-logo,
+.custom-header-content.text-align-center .site-header-logo img {
+	margin: 0 auto;
+}
+
+.custom-header-content.text-align-right .site-header-logo,
+.custom-header-content.text-align-right .site-header-logo img {
+	margin: 0 0 0 auto;
+}
+
+.custom-header-content .site-header-text {
+	margin-top: 21px;
+}
+
+.has-header-media:not(.home) .custom-header-media {
+	position: relative;
+}
+
+.header-media-text-disabled .custom-header-media .wp-custom-header img {
+	display: block;
+	position: relative;
+}
+
+.custom-header-overlay {
+    bottom: 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.custom-header .wrapper:before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.has-header-media .custom-header-media .wp-custom-header img {
+	display: none;
+}
+
+.has-header-video .custom-header-media .wp-custom-header video,
+.has-header-video .custom-header-media .wp-custom-header iframe {
+	position: absolute;
+	height: auto;
+	left: 50%;
+	max-width: 1000%;
+	min-height: 100%;
+	min-width: 100%;
+	min-width: 100vw; /* vw prevents 1px gap on left that 100% has */
+	width: auto;
+	top: 50%;
+	padding-bottom: 1px; /* Prevent header from extending beyond the footer */
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/* For browsers that support 'object-fit' */
+@supports ( object-fit: cover ) {
+	.has-header-video .custom-header-media .wp-custom-header video {
+		height: 100%;
+		left: 0;
+		-o-object-fit: cover;
+		object-fit: cover;
+		top: 0;
+		-ms-transform: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+	}
+}
+
+/* Hides div in Customizer preview when header images or videos change. */
+body:not(.has-header-image):not(.has-header-video):not(.has-header-text)  .custom-header-media {
+	display: none;
+}
+
+.custom-header-media .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
+	border-radius: 50%;
+	font-size: 18px;
+	font-size: 1.125rem;
+	opacity: 0;
+	overflow: hidden;
+	padding: 7px 13px;
+	position: absolute;
+	left: 49%;
+	bottom: 35px;
+	z-index: 100;
+	height: 44px;
+	width: 44px;
+}
+
+.header-media:hover .wp-custom-header-video-button {
+	opacity: 1;
+}
+
+.wp-custom-logo .site-identity {
+    display: none;
+}
+
+.scroll-down {
+    bottom: 30px;
+	height: 50px;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+	@include border(50%);
+	position: absolute;
+    right: 30px;
+    z-index: 999;
+    cursor: pointer;
+    width: 50px;
+	span {
+		display: none;
+	}
+
+	.icon-arrow-right {
+		transform: rotate(90deg);
+
+	}
+}
+
+body:not(.home) .custom-header-content.content-align-left .custom-header-content-wrapper,
+body:not(.home) .custom-header-content.content-align-right .custom-header-content-wrapper,
+body:not(.home) .custom-header-content .custom-header-content-wrapper {
+	margin: 0 auto;
+}
+
+.home.custom-header {
+	height: 100vh;
+}
+
+.home.admin-bar .custom-header {
+	height: calc( 100vh - 46px );
+}
+
+.header-media .site-header-text {
+    opacity: 0.6;
+}
+
+#primary-menu-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#primary-menu-wrapper > .cart-contents,
+#primary-menu-wrapper > .my-account {
+	line-height: 1;
+	padding: 13px 7px;
+}

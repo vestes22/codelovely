@@ -1,0 +1,105 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Payments\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-24T23:19:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mwc-payments\n"
+
+#: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php:117
+msgid "Debit"
+msgstr "⌠2390556⌡Débît⌠2390556⌡"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:17
+msgid "Cancelled"
+msgstr "⌠2390557⌡Cåncélléd⌠2390557⌡"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:17
+msgid "Completed"
+msgstr "⌠2390558⌡Còmplétéd⌠2390558⌡"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:17
+msgid "Failed"
+msgstr "⌠2390559⌡Fåîléd⌠2390559⌡"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:17
+#: src/Models/Transactions/Statuses/HeldTransactionStatus.php:25
+msgid "Held"
+msgstr "⌠2390560⌡Héld⌠2390560⌡"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:17
+msgid "Pending payment"
+msgstr "⌠2390561⌡Péndîng påymént⌠2390561⌡"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:17
+msgid "Processing"
+msgstr "⌠2390562⌡Pròcéssîng⌠2390562⌡"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:17
+msgid "Refunded"
+msgstr "⌠2390563⌡Réfündéd⌠2390563⌡"
+
+#: src/Models/PaymentMethods/BankAccounts/Types/CheckingBankAccountType.php:21
+msgid "Checking Account"
+msgstr "⌠2390564⌡Chéckîng Åccòünt⌠2390564⌡"
+
+#: src/Models/PaymentMethods/BankAccounts/Types/SavingsBankAccountType.php:21
+msgid "Savings Account"
+msgstr "⌠2390565⌡Såvîngs Åccòünt⌠2390565⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrand.php:21
+msgctxt "card brand name"
+msgid "American Express"
+msgstr "⌠2390566⌡Åmérîcån Éxpréss⌠2390566⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/CreditCardBrand.php:21
+msgid "Credit Card"
+msgstr "⌠2390567⌡Crédît Cård⌠2390567⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/DebitCardBrand.php:21
+msgid "Debit Card"
+msgstr "⌠2390568⌡Débît Cård⌠2390568⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/DinersClubCardBrand.php:21
+msgctxt "card brand name"
+msgid "Diners Club"
+msgstr "⌠2390569⌡Dînérs Clüb⌠2390569⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/DiscoverCardBrand.php:21
+msgctxt "card brand name"
+msgid "Discover"
+msgstr "⌠2390570⌡Dîscòvér⌠2390570⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/MaestroCardBrand.php:21
+msgctxt "card brand name"
+msgid "Maestro"
+msgstr "⌠2390571⌡Måéstrò⌠2390571⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/MastercardCardBrand.php:21
+msgctxt "card brand name"
+msgid "Mastercard"
+msgstr "⌠2390572⌡Måstércård⌠2390572⌡"
+
+#: src/Models/PaymentMethods/Cards/Brands/VisaCardBrand.php:21
+msgctxt "card brand name"
+msgid "Visa"
+msgstr "⌠2390573⌡Vîså⌠2390573⌡"
+
+#: src/Models/Transactions/Statuses/ApprovedTransactionStatus.php:26
+msgid "Approved"
+msgstr "⌠2390574⌡Åppròvéd⌠2390574⌡"
+
+#: src/Models/Transactions/Statuses/DeclinedTransactionStatus.php:25
+msgid "Declined"
+msgstr "⌠2390575⌡Déclînéd⌠2390575⌡"
+
+#: src/Models/Transactions/Statuses/PendingTransactionStatus.php:25
+msgid "Pending"
+msgstr "⌠2390576⌡Péndîng⌠2390576⌡"

@@ -1,0 +1,67 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Common\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-27T21:45:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mwc-common\n"
+
+#: src/Email/Email.php:61
+msgid "Invalid recipient value to set for email: should be type of string or array, %s given."
+msgstr "⌠2402668⌡Învålîd récîpîént vålüé tò sét fòr émåîl: shòüld bé typé òf strîng òr årråy, %s gîvén.⌠2402668⌡"
+
+#: src/Email/Emails.php:45
+msgid "The email does not have content type set"
+msgstr "⌠2406620⌡Thé émåîl dòés nòt håvé còntént typé sét⌠2406620⌡"
+
+#: src/Email/Emails.php:54
+msgid "A usable email service could not be found for %s"
+msgstr "⌠2421523⌡Å üsåblé émåîl sérvîcé còüld nòt bé fòünd fòr %s⌠2421523⌡"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:18
+msgid "Cancelled"
+msgstr "⌠2389702⌡Cåncélléd⌠2389702⌡"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:18
+msgid "Completed"
+msgstr "⌠2389703⌡Còmplétéd⌠2389703⌡"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:18
+msgid "Failed"
+msgstr "⌠2389704⌡Fåîléd⌠2389704⌡"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:18
+msgid "Held"
+msgstr "⌠2389705⌡Héld⌠2389705⌡"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:18
+msgid "Pending payment"
+msgstr "⌠2389706⌡Péndîng påymént⌠2389706⌡"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:18
+msgid "Processing"
+msgstr "⌠2389707⌡Pròcéssîng⌠2389707⌡"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:18
+msgid "Refunded"
+msgstr "⌠2389708⌡Réfündéd⌠2389708⌡"
+
+#. translators: Placeholders: %1$s - WordPress user capability, %2$s - WordPress user role, %3$s - Error message
+#: src/Repositories/WordPress/RolesRepository.php:42
+msgid "Cannot add \"%1$s\" capability to \"%2$s\" user role: %3$s"
+msgstr "⌠2412488⌡Cånnòt ådd \"%1$s\" cåpåbîlîty tò \"%2$s\" üsér ròlé: %3$s⌠2412488⌡"
+
+#: src/Repositories/WordPress/RolesRepository.php:45
+msgid "Cannot load WordPress Roles handler."
+msgstr "⌠2412489⌡Cånnòt lòåd WòrdPréss Ròlés håndlér.⌠2412489⌡"
+
+#: src/Repositories/WordPress/RolesRepository.php:49
+msgid "User role does not exist."
+msgstr "⌠2412490⌡Üsér ròlé dòés nòt éxîst.⌠2412490⌡"

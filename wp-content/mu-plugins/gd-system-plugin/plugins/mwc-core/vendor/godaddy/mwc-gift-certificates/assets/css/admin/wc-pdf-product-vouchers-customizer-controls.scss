@@ -1,0 +1,221 @@
+@import '../mixins';
+
+// Font Style Control
+.customize-control-wc_pdf_product_vouchers_font_style {
+
+	.font-style-button {
+		display: inline-block;
+		border: 1px solid transparent;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		margin: 2px;
+		padding: 2px 3px;
+		position: relative;
+
+		&:hover, &.focus {
+			background: #fafafa;
+			border-color: #555d66;
+			color: #23282d;
+			-webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba( 0, 0, 0, 0.08 );
+			box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba( 0, 0, 0, 0.08 );
+			outline: none;
+		}
+
+		&:active, &.active {
+			background: #ebebeb;
+			border-color: #555d66;
+			-webkit-box-shadow: inset 0 2px 5px -3px rgba( 0, 0, 0, 0.3 );
+			box-shadow: inset 0 2px 5px -3px rgba( 0, 0, 0, 0.3 );
+		}
+
+		input {
+			position: absolute;
+			clip: rect(0,0,0,0);
+			pointer-events: none;
+		}
+
+		span {
+			position: relative;
+		}
+	}
+}
+
+// Voucher Image Control
+.customize-control-wc_pdf_product_vouchers_voucher_image {
+
+	.current {
+		margin-bottom: 8px;
+	}
+
+	.actions,
+	.uploaded {
+		margin-bottom: 18px;
+	}
+
+	.uploaded button,
+	.default button {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		background: none;
+		border: none;
+		color: inherit;
+		cursor: pointer;
+	}
+
+	button img {
+		display: block;
+	}
+
+	button.new,
+	button.remove {
+		white-space: normal;
+		width: 48%;
+		height: auto;
+	}
+
+	.current .container {
+		overflow: hidden;
+	}
+
+	.placeholder {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		border: 1px dashed #b4b9be;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 9px 0;
+		line-height: 20px;
+	}
+
+	.inner {
+		display: none;
+		position: absolute;
+		width: 100%;
+		color: #555d66;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+
+	.inner,
+	.inner .dashicons {
+		line-height: 20px;
+		top: 8px;
+	}
+
+	.list .inner,
+	.list .inner .dashicons {
+		top: 9px;
+	}
+
+	.header-view {
+		position: relative;
+		width: 100%;
+		margin-bottom: 5px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		&:after {
+			border: 0;
+		}
+
+		&.selected .choice:focus {
+			outline: none;
+		}
+
+		&.selected:after {
+			content: '';
+			position: absolute;
+			height: auto;
+			top: 0; left: 0; bottom: 0; right: 0;
+			border: 4px solid #00a0d2;
+			-webkit-border-radius: 2px;
+			border-radius: 2px;
+		}
+
+		&.button.selected {
+			border: 0;
+		}
+
+		// force-hide the remove button if there is only one voucher image
+		&:only-child {
+			button.close {
+				display: none !important;
+			}
+		}
+	}
+
+	/* Voucher Image control: overlay "close" button */
+
+	.uploaded .header-view .close {
+		font-size: 20px;
+		color: #fff;
+		background: #555d66;
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		top: 10px;
+		left: -999px;
+		z-index: 1;
+		width: 26px;
+		height: 26px;
+		cursor: pointer;
+	}
+
+	.header-view:hover .close,
+	.header-view .close:focus {
+		left: auto;
+		right: 10px;
+	}
+
+	.header-view .close:focus {
+		outline: 1px solid #5b9dd9;
+	}
+
+	/* Voucher Image control: choices */
+
+	.choice {
+		position: relative;
+		display: block;
+		margin-bottom: 9px;
+
+		&:focus {
+			outline: none;
+			-webkit-box-shadow:
+				0 0 0 1px #5b9dd9,
+				0 0 3px 1px rgba(30, 140, 190, .8);
+			box-shadow:
+				0 0 0 1px #5b9dd9,
+				0 0 3px 1px rgba(30, 140, 190, .8);
+		}
+	}
+
+	.uploaded div:last-child > .choice {
+		margin-bottom: 0;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.remove {
+		float: left;
+		margin-right: 3px;
+	}
+
+	.new {
+		float: right;
+	}
+}
+
+#customize-control-wc_voucher_template_allow_online_redemptions span.notice {
+	display: block;
+	padding: .5em;
+}
+
+@include tiptip();

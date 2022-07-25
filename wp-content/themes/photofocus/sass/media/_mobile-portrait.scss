@@ -1,0 +1,29 @@
+/**
+ * 15.3 - >= 568px
+ */
+@media screen and (min-width: 35.5em) {
+	.wp-playlist .mejs-previous-button.mejs-previous,
+	.wp-playlist .mejs-next-button.mejs-next {
+		display: block;
+	}
+
+	#sticky-playlist-section .wp-playlist-tracks {
+	    max-width: 440px;
+	}
+
+	.featured-video-section.style-two .section-content-wrapper .hentry:first-child .entry-container {
+	    display: none;
+	}
+
+	.featured-video-section.style-two .section-content-wrapper .hentry:first-child .post-thumbnail {
+	    margin-bottom: 0;
+	}
+
+	.featured-video-section.style-two .section-content-wrapper .hentry:first-child {
+		width: 100%;
+	}
+
+	.featured-video-section.style-two .section-content-wrapper .hentry:not(:first-child) {
+		width: 33.33%;
+	}
+}

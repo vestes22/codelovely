@@ -1,0 +1,146 @@
+/*
+WooCommerce SkyVerge Payment Gateway Framework My Payment Methods SCSS
+Version 4.3.0
+
+Copyright (c) 2015-2021, SkyVerge, Inc.
+ Licensed under the GNU General Public License v3.0
+http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+@import '../../../../assets/css/mixins';
+
+table.woocommerce-MyAccount-paymentMethods {
+
+	font-size: 0.85em;
+
+	th, td {
+		vertical-align: middle;
+	}
+
+	.woocommerce-PaymentMethod--title {
+		display: none;
+	}
+
+	th.woocommerce-PaymentMethod--details,
+	th.woocommerce-PaymentMethod--default,
+	th.woocommerce-PaymentMethod--actions {
+		span {
+			display: none;
+  		}
+	}
+
+	th.woocommerce-PaymentMethod--expires,
+	th.woocommerce-PaymentMethod--default {
+		text-align: center;
+	}
+
+	td.woocommerce-PaymentMethod--method input {
+		width: 100%;
+	}
+
+	td.woocommerce-PaymentMethod--details {
+		white-space: nowrap;
+
+		img {
+			width: 40px;
+			height: 25px;
+			margin-right: 0.5em;
+			vertical-align: middle;
+			display: inline !important;
+		}
+	}
+
+	td.woocommerce-PaymentMethod--expires {
+		text-align: center;
+	}
+
+	td.woocommerce-PaymentMethod--default {
+		text-align: center;
+
+		mark {
+			display: none;
+			color: white;
+			background-color: #3d9cd2;
+			font-size: 0.75em;
+			text-transform: uppercase;
+			padding: 2px 4px;
+			border-radius: 2px;
+
+			&:first-child {
+				display: inline-block;
+			}
+		}
+	}
+
+	td.woocommerce-PaymentMethod--actions {
+		text-align: center;
+
+		.button {
+			margin: .125em;
+
+			&.save {
+				display: none;
+			}
+			&.delete {
+				display: inline-block;
+			}
+		}
+	}
+
+	&.editing {
+
+		.payment-method:not(.editing) {
+			opacity: 0.5;
+		}
+
+		.payment-method:hover {
+			opacity: 1;
+		}
+
+		.payment-method.editing td.woocommerce-PaymentMethod--actions {
+
+			.button.save {
+				display: inline-block;
+			}
+			.button.delete {
+				display: none;
+			}
+		}
+	}
+
+	.button {
+		white-space: nowrap;
+	}
+
+	tbody tr.error td {
+		color: white;
+		text-align: center;
+		background-color: #e26838;
+		border-radius: 0 0 3px 3px;
+		padding: 5px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	table.woocommerce-MyAccount-paymentMethods {
+		td.woocommerce-PaymentMethod--expires,
+		td.woocommerce-PaymentMethod--default {
+			text-align: right;
+		}
+
+		td.woocommerce-PaymentMethod--actions {
+			text-align: center;
+
+			&:before {
+				display: none;
+			}
+
+			.button {
+				float: none;
+				margin: .125em;
+			}
+		}
+	}
+}

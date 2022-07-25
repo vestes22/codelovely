@@ -1,0 +1,785 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-11-16T20:16:39+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "Seuraavan sukupolven WordPress-käyttökokemus"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "Geneerinen"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "Kuvaluokka."
+
+#: includes/class-publish-guide.php:142
+msgid "Display Publish Guide."
+msgstr "Näytä julkaisuopas"
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "Virhe pyyntösi käsittelyssä."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "Design_style on hyväksyttävä."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "Käytettävissä oleva design_style on hyväksyttävä."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "Go – %s"
+
+#: build/editorPreferenceModal.js:1
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "Haluatko jatkaa GoDaddy-sivustoeditorin käyttöä?"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"Haluamme varmistaa, että sinulla on kaikki tarvittavat työkalut sivustosi "
+"rakentamiseen. Käytät tällä hetkellä GoDaddy-sivustoeditoria, joka tarjoaa "
+"sinulle kaikki WordPress-ominaisuudet sekä tavan mukauttaa "
+"suunnittelumalliasi ja muokata ja hallita sivujasi – kaikki samasta paikasta."
+
+#: build/editorPreferenceModal.js:1
+msgid "Yes, keep using it"
+msgstr "Kyllä, jatka sen käyttöä"
+
+#: build/editorPreferenceModal.js:1
+msgid "No, I want to see other options"
+msgstr "Ei, haluan nähdä muita vaihtoehtoja"
+
+#: build/editorPreferenceModal.js:1
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "Ikävä kuulla, että et ollut tyytyväinen siihen"
+
+#: build/editorPreferenceModal.js:1
+msgid "Could you tell us why?"
+msgstr "Voisitko kertoa meille syyn tähän?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "Kerro meille, miksi et ollut tyytyväinen siihen..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "Siirry takaisin"
+
+#: build/editorPreferenceModal.js:1
+msgid "Skip"
+msgstr "Ohita"
+
+#: build/editorPreferenceModal.js:1
+msgid "Continue"
+msgstr "Jatka"
+
+#: build/editorPreferenceModal.js:1
+msgid "Let’s find you a better fit"
+msgstr "Etsitäänpä ratkaisu, joka sopii sinulle paremmin"
+
+#: build/editorPreferenceModal.js:1
+msgid "Here are some other options to explore:"
+msgstr "Tässä on joitakin vaihtoehtoja, joihin voit tutustua:"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to the default WordPress editor"
+msgstr "Siirry käyttämään WordPress-oletuseditoria"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to a 3rd party page builder"
+msgstr "Siirry käyttämään jonkin muun osapuolen sivustonsuunnittelutyökalua"
+
+#: build/editorPreferenceModal.js:1
+msgid "Talk to someone about my options"
+msgstr "Puhu jonkun kanssa käytettävissä olevista vaihtoehdoista"
+
+#: build/editorPreferenceModal.js:1
+msgid "Hire our experts to build your site for you"
+msgstr "Palkkaa asiantuntijamme suunnittelemaan sivusto puolestasi"
+
+#: build/editorPreferenceModal.js:1
+msgid "Learn More"
+msgstr "Lue lisää"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to the default WordPress editor"
+msgstr "Siirrytään käyttämään WordPress-oletuseditoria"
+
+#: build/editorPreferenceModal.js:1
+msgid "You should switch to the default WordPress editor if:"
+msgstr "Sinun kannattaa siirtyä käyttämään WordPress-oletuseditoria, jos:"
+
+#: build/editorPreferenceModal.js:1
+msgid "You want to use a different theme"
+msgstr "Haluat käyttää eri teemaa"
+
+#: build/editorPreferenceModal.js:1
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr ""
+"WordPress-oletuseditori on sinulle entuudestaan tuttu ja mieleinen työkalu"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"Siirryttyäsi uuteen järjestelmään tämä sivusto ei enää toimi GoDaddy-"
+"sivustoeditorin kanssa, joten et voi enää palata takaisin tähän "
+"järjestelmään."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr "Oletko valmis siirtämään tämän sivuston WordPress-oletuseditoriin?"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to Default"
+msgstr "Siirry oletuseditoriin"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "Siirrytään käyttämään muun osapuolen sivustonsuunnittelutyökalua"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"Muun osapuolen sivustonsuunnittelutyökalu on WordPress-laajennus, jonka "
+"asennat sivustoosi ja jonka avulla voit rakentaa ja suunnitella sivuja."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr ""
+"Oletko valmis siirtämään tämän sivuston muun osapuolen "
+"sivustonsuunnittelutyökaluun?"
+
+#: build/editorPreferenceModal.js:1
+msgid "View Plugins"
+msgstr "Tarkastele laajennuksia"
+
+#: build/editorPreferenceModal.js:1
+msgid "Expert help is on the way"
+msgstr "Asiantuntija-apua on saatavilla"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact our GoDaddy guides to get started."
+msgstr "Pääset alkuun ottamalla yhteyttä GoDaddy-oppaisiimme."
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact Us"
+msgstr "Ota yhteyttä"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"Luomme sinulle upean ja ammattimaisen verkkosivuston, joka on räätälöity "
+"juuri oman yrityksesi tarpeisiin"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "Sinut siirretään WordPress Admin -osioon..."
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to WordPress plugins…"
+msgstr "Sinut siirretään WordPress-laajennuksiin..."
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"Arvostamme palautettasi ja haluamme varmistaa, että sinulla on kaikki "
+"tarvittavat työkalut sivustosi rakentamiseen. Käytät tällä hetkellä GoDaddy-"
+"sivustoeditoria, joka tarjoaa sinulle kaikki WordPress-ominaisuudet sekä "
+"tavan mukauttaa suunnittelumalliasi ja muokata ja hallita sivujasi – kaikki "
+"samasta paikasta."
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+msgid "Document"
+msgstr "Asiakirja"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+msgid "%s (selected)"
+msgstr "%s (valittu)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+msgid "Block (selected)"
+msgstr "Lohko (valittu)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+msgid "Block"
+msgstr "Estä"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+#: build/editSite.js:20
+msgid "Publish"
+msgstr "Julkaise"
+
+#: build/editSite.js:20 packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "Oletko valmis suorittamaan poiston?"
+
+#: build/editSite.js:20
+msgid "Delete this page"
+msgstr "Poista tämä sivu"
+
+#: build/editSite.js:20
+msgid "Title"
+msgstr "Otsikko"
+
+#: build/editSite.js:20
+msgid "Display on page"
+msgstr "Näytä sivulla"
+
+#: build/editSite.js:20
+msgid "Page details"
+msgstr "Sivun tiedot"
+
+#: build/editSite.js:20
+msgid "Featured image"
+msgstr "Esittelyssä oleva kuva"
+
+#: build/editSite.js:20
+msgid "Settings"
+msgstr "Asetukset"
+
+#: build/editSite.js:20
+msgid "Close settings"
+msgstr "Sulje asetukset"
+
+#: build/editSite.js:20
+msgid "Plugins"
+msgstr "Plugin-laajennukset"
+
+#: build/editSite.js:20
+msgid "More"
+msgstr "Lisää"
+
+#: build/editSite.js:20
+msgid "More tools & options"
+msgstr "Lisää työkaluja ja vaihtoehtoja"
+
+#: build/editSite.js:20
+msgid "Add"
+msgstr "Lisää"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15
+msgid "Cache cleared"
+msgstr "Välimuisti tyhjennetty"
+
+#: build/logoMenu.js:15
+msgid "Site Editor"
+msgstr "Sivustoeditori"
+
+#: build/logoMenu.js:15
+msgid "Main menu"
+msgstr "Päävalikko"
+
+#: build/logoMenu.js:15
+msgid "WordPress Management"
+msgstr "WordPress-hallinta"
+
+#: build/logoMenu.js:15
+msgid "Manage Plugins"
+msgstr "Hallitse laajennuksia"
+
+#: build/logoMenu.js:15
+msgid "Manage Site Menus"
+msgstr "Hallitse sivuston valikoita"
+
+#: build/logoMenu.js:15
+msgid "Customize Site Design"
+msgstr "Mukauta sivuston mallia"
+
+#: build/logoMenu.js:15
+msgid "Manage Users"
+msgstr "Hallitse käyttäjiä"
+
+#: build/logoMenu.js:15
+msgid "Manage Comments"
+msgstr "Hallitse kommentteja"
+
+#: build/logoMenu.js:15
+msgid "WordPress Admin"
+msgstr "WordPress-ylläpitäjä"
+
+#: build/logoMenu.js:15
+msgid "Hosting"
+msgstr "Verkkohotelli"
+
+#: build/logoMenu.js:15
+msgid "Hosting Overview"
+msgstr "Verkkohotellin yleiskatsaus"
+
+#: build/logoMenu.js:15
+msgid "Hosting Settings"
+msgstr "Verkkohotellin asetukset"
+
+#: build/logoMenu.js:15
+msgid "Tools"
+msgstr "Työkalut"
+
+#: build/logoMenu.js:15
+msgid "Editor Preference"
+msgstr "Editorin valinta"
+
+#: build/logoMenu.js:15
+msgid "Is this editor right for you?"
+msgstr "Sopiiko tämä editori sinulle?"
+
+#: build/logoMenu.js:15
+msgid "Learn about other WordPress site building options here."
+msgstr "Tutustu muihin WordPress-sivustojen suunnitteluvaihtoehtoihin täällä."
+
+#: build/logoMenu.js:15
+msgid "Flush Cache"
+msgstr "Tyhjennä välimuisti"
+
+#: build/logoMenu.js:15
+msgid "Connection Management"
+msgstr "Yhteyden hallinta"
+
+#: build/logoMenu.js:15
+msgid "Support"
+msgstr "Tukipalvelu"
+
+#: build/logoMenu.js:15
+msgid "Give Feedback"
+msgstr "Anna palautetta"
+
+#: build/logoMenu.js:15
+msgid "Help & Support"
+msgstr "Ohjeet ja tuki"
+
+#: packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "Tiedot"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "Kerro meille kokemuksestasi (valinnainen)"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "Lähetä"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "Kiitos palautteestasi"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "Sulje"
+
+#: packages/feedback-modal/src/index.js:99
+#: packages/feedback-modal/src/index.js:107
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "Anna palautetta"
+
+#: packages/feedback-modal/src/index.js:108
+msgid "How would you rate your experience?"
+msgstr "Miten arvioisit kokemustasi?"
+
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "Sivustoni aiheena on:"
+
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "Muoti"
+
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "Sisustus"
+
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "Kahvi"
+
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "Rakennusteollisuus"
+
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "Taide"
+
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "Leipominen"
+
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr ""
+
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "Maisemointi"
+
+#: packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "Etsi"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "Lisää oma verkkotunnuksesi"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"Luo ammattimaisempi vaikutelma ja auta asiakkaita löytämään verkkosivustosi "
+"helpommin."
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:39
+msgid "Change"
+msgstr "Vaihda"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "Lisää verkkotunnus"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "Arvioi ja lisää sivuja"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr ""
+"Autamme sinut alkuun muutaman sivun avulla. Lisää enemmän sivuja ja sisältöä."
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "Hallitse sivuja"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "Räätälöi ulkoasu haluamallasi tavalla"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr ""
+"Päivittämällä värit, fontit ja muut elementit voit muuttaa sivustosi ilmettä "
+"ja käyttötuntumaa."
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "Mukauta"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "verkkosivuston logo"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "Lisää sivustoon haluamasi tiedot ja oma brändisi"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr ""
+"Mikä sivustosi nimi ja käyttötarkoitus on? Lisää logo, jos sinulla on "
+"sellainen."
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "Sivuston nimi"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "Sivuston kuvaus"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "Siirrä sivustosi logo palvelimeen"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "Korvaa logo"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "Poista logo"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "Tallenna"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "Tee tämä myöhemmin"
+
+#: packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "Sivustosi on nyt julkaistu osoitteessa"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "Nyt on aika juhlia ja"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "kertoa näistä hyvistä uutisista muillekin."
+
+#: packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "Tutustu uuteen verkkosivustooni!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"Julkaisin juuri verkkosivustoni osoitteessa %1$s. Tule tutustumaan siihen ja "
+"kerro, mitä mieltä olet!"
+
+#: packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "Piilota tämä opas"
+
+#: packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "Valitse toiminto"
+
+#: packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "Nimeä uudelleen"
+
+#: packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "Oletko varma, että haluat asettaa tämän pääsivuksi?"
+
+#: packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "Aseta pääsivuksi"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "Peruuta julkaisun kiinnitys"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "Kiinnitä julkaisu"
+
+#: packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "Monista"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "Poista sivu"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "Poista julkaisu"
+
+#: packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "Värit"
+
+#: packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "Väripaletit"
+
+#: packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "Suunnittelumallit"
+
+#: packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"Tutustu valikoituihin suunnittelutyyleihin, ja mukauta sitten omat värisi ja "
+"fonttisi juuri sinulle sopivalla tavalla."
+
+#: packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "Mukautetut fonttiasetukset"
+
+#: packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "OTSIKKO"
+
+#: packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "Fontti"
+
+#: packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "Painotus"
+
+#: packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "Koko"
+
+#: packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "Otsikon fonttikoko"
+
+#: packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "LEIPÄTEKSTI"
+
+#: packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "Fontit"
+
+#: packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "Fonttiyhdistelmät"
+
+#: packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "The quick brown fox jumps over the lazy dog."
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "Piilota fonttikoot"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "Muokkaa fonttikokoja"
+
+#: packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "Pieni"
+
+#: packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "Normaali"
+
+#: packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "Suuri"
+
+#: packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "Peruskoko"
+
+#: packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "Fonttikoko"
+
+#: packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "Otsikon koko"
+
+#: packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "Verkkosuunnittelu"
+
+#: packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "Suunnittelu"
+
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "Päivitys tehty."
+
+#: packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "Päivitetään viimeisimpään ja parhaaseen versioon"
+
+#: packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "Odota. Päivitämme editorisi uusimpaan versioon."
+
+#: packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "Tämän ei pitäisi kestää kauan."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "Tämä muuttaa myös sivustoeditoriasi"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"Käytät tällä hetkellä GoDaddy-sivustoeditoria ja Go-teemaa, mikä tarjoaa "
+"sinulle kaikki WordPress-ominaisuudet sekä tavan mukauttaa "
+"suunnittelumalliasi ja muokata ja hallita sivujasi – kaikki samasta paikasta."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"Aktivoituasi uuden teeman tämä sivusto ei enää toimi GoDaddy-sivustoeditorin "
+"kanssa. Sivustosi siirtyy tämän sijasta käyttämään WordPress-oletuseditoria."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"Oletko valmis aktivoimaan uuden teeman ja siirtymään käyttämään WordPress-"
+"oletuseditoria?"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "Aktivoi"

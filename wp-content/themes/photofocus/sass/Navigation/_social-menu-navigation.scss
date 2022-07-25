@@ -1,0 +1,23 @@
+nav.social-navigation ul,
+.social-links-menu {
+    list-style: none;
+    margin: 0;
+    @include flex;
+    li {
+        &:last-child {
+            margin-right: 0;
+        }
+        a {
+            font-size: 16px;
+            font-size: 1rem;
+            position: relative;
+            transition: none;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        &:last-child a {
+            margin-right: 0;
+        }
+    }
+}

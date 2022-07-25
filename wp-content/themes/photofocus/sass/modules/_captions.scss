@@ -1,0 +1,20 @@
+/**
+ * 13.1 - Captions
+ */
+
+.wp-caption {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0;
+}
+
+.wp-caption .wp-caption-text {
+	font-size: 15px;
+	font-size: 0.9375rem;
+	font-style: normal;
+	text-align: center;
+}

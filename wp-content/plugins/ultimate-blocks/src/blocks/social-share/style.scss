@@ -1,0 +1,73 @@
+.wp-block-ub-social-share {
+	.social-share-icons {
+		display: flex;
+		flex-wrap: wrap;
+		.social-share-icon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 7px;
+			&.circle {
+				box-shadow: 0px 3px 2px grey;
+				border-radius: 50%;
+			}
+			&.square {
+				box-shadow: 0px 3px 2px grey;
+				border-radius: 0%;
+			}
+		}
+		.ub-social-share-standalone-icon {
+			margin: 12px;
+			padding-right: 5px;
+		}
+		$sites: facebook, twitter, linkedin, pinterest, reddit, tumblr;
+
+		@each $site in $sites {
+			.ub-social-share-#{$site}-container {
+				border-width: 1px;
+				border-style: solid;
+				white-space: nowrap;
+				display: flex;
+			}
+		}
+		> div {
+			display: flex;
+			align-items: center;
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+}
+.align-icons-center {
+	justify-content: center;
+}
+.align-icons-left {
+	justify-content: flex-start;
+}
+.align-icons-right {
+	justify-content: flex-end;
+}
+
+$site-colors: (
+	facebook: #1877f2,
+	twitter: #1d9bf0,
+	linkedin: #2867b2,
+	pinterest: #e60023,
+	reddit: #ff4500,
+	tumblr: #001935,
+);
+
+@each $site, $color in $site-colors {
+	.ub-social-share-#{$site} {
+		&.square,
+		&.circle {
+			background-color: $color;
+		}
+
+		& + span,
+		& + span > a {
+			color: $color;
+		}
+	}
+}

@@ -1,0 +1,172 @@
+/**
+ * 12.4 - Comments
+ */
+
+.comments-area {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.comment-list {
+    list-style: none;
+    margin: 0;
+}
+
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback {
+    padding: 2em 0;
+}
+
+.comments-area .comment-list > li:first-child > article,
+.comments-area .comment-list > li.pingback:first-child,
+.comments-area .comment-list > li.trackback:first-child {
+    border-top: none;
+}
+
+.comment-list article + .comment-respond {
+    margin-bottom: 3em;
+}
+
+.comment-list .children {
+    list-style: none;
+    margin: 0;
+}
+
+.comment-list .children li > article {
+    border-top: 1px solid #333333;
+    padding-left: 2.5em;
+}
+
+.comment-author {
+    float: left;
+    margin: 0 1.5em 1.5em 0;
+}
+
+.comment-container {
+    overflow: hidden;
+}
+
+.comment-author a {
+    text-decoration: none;
+}
+
+.comment-author .avatar {
+    height: 65px;
+    width: 65px;
+}
+
+.comment-meta .edit-link,
+.pingback .edit-link {
+    display: inline-block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.6153846154;
+}
+
+.comment-meta {
+    margin-bottom: 21px;
+}
+
+.comment-content ul,
+.comment-content ol {
+    margin: 0 0 1.75em 1.5em;
+}
+
+.comment-content li > ul,
+.comment-content li > ol {
+    margin-bottom: 0;
+}
+
+.comment-reply-link {
+    display: inline-block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+.comment-reply-link:hover,
+.comment-reply-link:focus {
+    outline: 0;
+}
+
+.no-comments {
+    margin: 0;
+    padding-top: 1.75em;
+}
+
+.comment-navigation + .no-comments {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.form-allowed-tags code {
+    font-family: Inconsolata, monospace;
+}
+
+.form-submit {
+    margin: 0;
+    text-align: center;
+}
+
+.author-name {
+    text-transform: capitalize;
+}
+
+.comment-reply-title small a {
+    border: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    height: 32px;
+    overflow: hidden;
+    width: 26px;
+    position: absolute;
+    right:  14px;
+    top: 14px;
+}
+
+.comment-respond {
+    margin: 1.25em 0;
+    padding: 42px;
+    position: relative;
+}
+
+.comment-reply-title {
+    text-align: center;
+}
+
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+.comment-notes {
+    font-style: italic;
+}
+
+.comment-meta .author-name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.comment-meta a {
+    text-decoration: none;
+}
+
+.comment-meta a:hover,
+.comment-meta a:focus {
+    text-decoration: underline;
+}
+
+.comment-meta .comment-permalink {
+    display: inline-block;
+}

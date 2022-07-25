@@ -1,0 +1,112 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');*/
+.ahc_main_container{
+    /*font-family: 'Raleway', sans-serif !important;*/
+}
+.add{
+  display: none !important; 
+}
+.googlePlay{
+  animation: translate 3s infinite;
+}
+@keyframes translate {
+  0%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(-8px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+@media (max-width: 800px) {
+    .add{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+     
+      background:  #578ebe ;
+     /* font-family: 'Raleway', sans-serif;*/
+        border-radius: 3px;
+        color: #fff;
+        box-shadow: rgba(33, 35, 38, 0.4) 0px 10px 10px -10px;
+     
+    }
+    .add p {
+        margin: 0!important;
+    }
+  }
+
+  .box_widget{
+    border: 0px !important;
+    border-radius: 7px !important;
+    box-shadow: 0 4px 25px 0 rgb(168 180 208 / 10%) !important;
+   margin-bottom: 8px;
+  }
+  .panel .box-heading{
+    border-radius: 7px 7px 0 0 !important;
+  }
+  thead{
+    background-color: #F5F5F5	;
+  }
+  thead th {
+    padding: 13px 10px !important;
+   
+  }
+  thead th:first-child{
+    border-radius: 4px 0 0 4px !important;
+  }
+  thead th:last-child{
+    border-radius: 0 4px 4px 0 !important;
+  }
+  
+  input[type="text"] , textarea , .wp-core-ui select{
+    background-color: #F5F5F5 !important	;
+    border: 1px solid #ffffff  !important;
+    transition: .3s all;
+    border-radius: 4px !important;
+  }
+  input[type="text"] , .wp-core-ui select , .ss-multi-selected{
+    height: 38px !important;
+  }
+  .wp-core-ui select:hover ,.wp-core-ui select:focus ,input[type="text"]:hover ,input[type="text"]:focus , textarea:hover , textarea:focus {
+    background-color: #ebebeb !important	;
+    color: #2c3338;
+    border: 1px solid #c7c7c7  !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+  .ss-main .ss-multi-selected .ss-add {
+    margin: 13px 12px 0 5px;
+}
+.grid-Qr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 600px) {
+  .grid-Qr {
+      grid-template-columns: 1fr;
+  }
+}
+.rate_box{
+	background:#191E23 !important;
+	padding:40px 10px ;
+	display:flex !important;
+	justify-items:center !important;
+	border-radius:7px !important ;
+}
+
+.rate_box .col-md-6{
+	margin-bottom:0 !important ;
+	
+	
+}
+.panel .conta{
+	padding:20px 15px;
+}
+body{
+	background:#f0f0f1 !important;
+}

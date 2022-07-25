@@ -1,0 +1,80 @@
+@mixin flex  {
+	display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;  
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+@mixin border ($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+}
+
+@mixin transition($transition) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+@mixin media( $res ) {
+	@if mobile == $res {
+		@media only screen and (min-width: $mobile_width) {
+			@content;
+		}
+	}
+
+	@if mobile_horizontal == $res {
+		@media only screen and (min-width: $mobile_horizontal) {
+			@content;
+		}
+	}
+
+	@if tablet == $res {
+		@media only screen and (min-width: $tablet_width) {
+			@content;
+		}
+	}
+
+	@if desktop == $res {
+		@media only screen and (min-width: $desktop_width) {
+			@content;
+		}
+	}
+
+	@if landscape == $res {
+		@media only screen and (min-width: $landscape_width) {
+			@content;
+		}
+	}
+
+	@if wide == $res {
+		@media only screen and (min-width: $wide_width) {
+			@content;
+		}
+	}
+
+	@if large == $res {
+		@media only screen and (min-width: $large_screen) {
+			@content;
+		}
+	}
+
+	@if diagonal == $res {
+		@media only screen and (min-width: $diagonal_screen) {
+			@content;
+		}
+	}
+
+	@if ultra_wide == $res {
+		@media only screen and (min-width: $ultra_wide_screen) {
+			@content;
+		}
+	}
+}

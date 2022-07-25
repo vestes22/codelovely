@@ -1,0 +1,7 @@
+# Unit suite configuration.
+
+actor: UnitTester
+bootstrap: bootstrap.php
+modules:
+  enabled:
+    - \Helper\Unit

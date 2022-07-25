@@ -1,0 +1,90 @@
+#loginform {
+	/* We set !important because sometimes static is added inline */
+	position: relative !important;
+}
+
+.wpaas-show-sso-login #loginform {
+	padding: 26px 24px;
+}
+
+#loginform > .wpaas-sso-login-wrapper,
+.wpaas-show-sso-login #loginform > p,
+.wpaas-show-sso-login #loginform > div,
+.wpaas-show-sso-login #nav {
+	display: none;
+}
+
+.wpaas-show-sso-login #loginform > .wpaas-sso-login-wrapper {
+	display: block;
+}
+
+.wpaas-sso-login-wrapper a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.wpaas-sso-login-divider {
+	margin-bottom: 16px;
+	position: relative;
+	text-align: center;
+}
+
+.wpaas-sso-login-divider:before {
+	background: #E5E5E5;
+	content: '';
+	height: 1px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+}
+
+.wpaas-sso-login-divider span {
+	background: #fff;
+	color: #777;
+	position: relative;
+	padding: 0 8px;
+	text-transform: uppercase;
+}
+
+.wpaas-sso-login-button svg {
+	max-width: 1.5rem;
+	max-height: 1.5rem;
+	vertical-align: text-bottom;
+	margin-bottom: -0.25rem;
+	margin-right: 0.25rem;
+}
+
+.wpaas-sso-login-button .button {
+	font-size: 0.975rem;
+	padding: 0.5rem 0.25rem 0.4rem;
+	margin-bottom: 1rem;
+	font-family: gdsherpa, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-weight: 500;
+	float: none;
+	white-space: normal;
+}
+
+.wpaas-sso-login-button .button,
+.wpaas-sso-login-button .button:hover,
+.wpaas-sso-login-button .button:active,
+.wpaas-sso-login-button .button:visited {
+	border: none;
+	border-radius: 0;
+}
+
+.wpaas-sso-login-button .button,
+.wpaas-sso-login-button .button:visited {
+	background: #111;
+}
+
+.wpaas-sso-login-button .button:hover,
+.wpaas-sso-login-button .button:focus {
+	background: #444;
+}
+
+.wpaas-sso-login-button .button:active {
+	background: #00a4a6;
+}

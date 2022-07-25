@@ -1,0 +1,433 @@
+/**
+ * 12.2 - Posts and pages
+ */
+
+.hentry,
+#timeline-section .post-thumbnail,
+#timeline-section .entry-container {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.post-thumbnail {
+	display: block;
+	position: relative;
+}
+
+.post-thumbnail img {
+	display: block;
+	margin: 0 auto;
+}
+
+.entry-content h1,
+.entry-summary h1,
+.comment-content h1,
+.textwidget h1 {
+	font-size: 36px;
+	font-size: 2.25rem;
+	line-height: 1.33;
+}
+
+.entry-content h1,
+.entry-summary h1,
+.comment-content h1,
+.textwidget h1 {
+	margin-top: 0.9655172413793103em;
+	margin-bottom: 0.603448275862069em;
+}
+
+.color-scheme-music .header-media .section-title,
+.color-scheme-corporate .header-media .section-title,
+.color-scheme-corporate #feature-slider-section .entry-title,
+.color-scheme-ecommerce .header-media .section-title,
+.color-scheme-ecommerce #feature-slider-section .entry-title {
+	text-transform: inherit;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.31;
+	letter-spacing: normal;
+}
+
+.color-scheme-music .section-title,
+.color-scheme-corporate .section-title,
+.color-scheme-ecommerce .section-title {
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+}
+
+body:not(.home).color-scheme-corporate .header-media .section-title,
+body:not(.home).color-scheme-ecommerce .header-media .section-title {
+	font-weight: 600;
+}
+
+.color-scheme-corporate .custom-header-content-wrapper,
+.color-scheme-ecommerce .custom-header-content-wrapper {
+	max-width: 650px;
+}
+
+.header-media .section-title,
+#feature-slider-section .entry-title,
+.entry-content h2,
+.entry-summary h2,
+.comment-content h2,
+.textwidget h2 {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.43;
+}
+
+.entry-content h2,
+.entry-summary h2,
+.comment-content h2,
+.textwidget h2 {
+	margin-top: 1.166666666666667em;
+	margin-bottom: 0.7291666666666667em;
+}
+
+.entry-content h3,
+.entry-summary h3,
+.comment-content h3,
+.textwidget h3 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1.36;
+	margin-top: 1.555555555555556em;
+	margin-bottom: 0.9722222222222222em;
+}
+
+.entry-content h4,
+.comment-content h4,
+.textwidget h4 {
+	font-size: 22px;
+	font-size: 1.375rem;
+}
+
+.entry-content h5,
+.comment-content h5,
+.textwidget h5 {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+.entry-content h6,
+.comment-content h6,
+.textwidget h6 {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-summary h4,
+.entry-summary h5,
+.entry-summary h6,
+.comment-content h4,
+.comment-content h5,
+.comment-content h6,
+.textwidget h4,
+.textwidget h5,
+.textwidget h6 {
+	line-height: 1.25;
+	margin-top: 2em;
+	margin-bottom: 1.25em;
+}
+
+.entry-content h1:first-child,
+.entry-content h2:first-child,
+.entry-content h3:first-child,
+.entry-content h4:first-child,
+.entry-content h5:first-child,
+.entry-content h6:first-child,
+.entry-summary h1:first-child,
+.entry-summary h2:first-child,
+.entry-summary h3:first-child,
+.entry-summary h4:first-child,
+.entry-summary h5:first-child,
+.entry-summary h6:first-child,
+.comment-content h1:first-child,
+.comment-content h2:first-child,
+.comment-content h3:first-child,
+.comment-content h4:first-child,
+.comment-content h5:first-child,
+.comment-content h6:first-child,
+.textwidget h1:first-child,
+.textwidget h2:first-child,
+.textwidget h3:first-child,
+.textwidget h4:first-child,
+.textwidget h5:first-child,
+.textwidget h6:first-child {
+	margin-top: 0;
+}
+
+.post-navigation .post-title,
+.entry-title,
+.comments-title {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.custom-header-content > :last-child,
+.entry-content > :last-child,
+.entry-summary > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child {
+	margin-bottom: 0;
+}
+
+.more-link {
+	clear: both;
+	display: block;
+	margin: 28px 0 0;
+}
+
+.custom-header .more-link,
+.hero-section .more-link {
+	display: inline-block;
+}
+
+.more-link .readmore {
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	line-height: 1.67;
+	letter-spacing: 0;
+	padding: 0;
+	text-decoration: none;
+	text-transform: capitalize;
+	word-wrap: break-word;
+}
+
+.more-link .readmore:hover,
+.more-link .readmore:focus {
+	box-shadow: none;
+}
+
+.more-button {
+	display: inline-block;
+}
+
+.view-more {
+	clear: both;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.author-info {
+	clear: both;
+	margin-top: 35px;
+	text-align: center;
+}
+
+.author-avatar .avatar {
+	height: 65px;
+	width: 65px;
+}
+
+.author-description > :last-child {
+	margin-bottom: 0;
+}
+
+.author-description .author-title {
+	clear: none;
+	line-height: 1.75;
+}
+
+.author-bio {
+	overflow: hidden;
+}
+
+.author-link {
+	display: block;
+	margin-top: 28px;
+	white-space: nowrap;
+}
+
+.entry-footer:empty {
+	margin: 0;
+}
+
+.sticky-post {
+	display: inline-block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	letter-spacing: 0;
+	line-height: 1;
+	margin-bottom: 21px;
+	padding: 5px 10px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+
+.full-content .has-post-thumbnail .sticky-post {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.entry-meta {
+	line-height: 1.5;
+	text-transform: capitalize;
+
+	> span {
+	    position: relative;
+	    padding-right: 12px;
+
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+}
+
+.entry-meta > span.byline:after {
+    background: #555;
+    content: "";
+    height: 14px;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    width: 2px;
+}
+
+.entry-meta a {
+	text-decoration: none;
+}
+
+.entry-header .entry-meta > span {
+	clear: none;
+	display: inline-block;
+}
+
+.entry-footer .entry-meta > span {
+	clear: both;
+	display: block;
+	margin: 35px 0 0;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+
+.updated:not(.published) {
+	display: none;
+}
+
+.taxonomy-description p {
+	margin: 0.5384615385em 0 1.6153846154em;
+}
+
+.taxonomy-description > :last-child {
+	margin-bottom: 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.75em;
+}
+
+.page-links a,
+.page-links > span {
+	border: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	font-size: 16px;
+	font-size: 1rem;
+	height: 2em;
+	line-height: 2em;
+	margin-right: 0.5em;
+	text-align: center;
+	width: 2em;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+	border-color: transparent;
+}
+
+.page-links > .page-links-title {
+	border: 0;
+	height: auto;
+	margin: 0;
+	padding-right: 0.5em;
+	width: auto;
+}
+
+.entry-attachment {
+	margin-bottom: 1.75em;
+}
+
+.entry-caption {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 1.0769230769em;
+}
+
+.entry-caption > :last-child {
+	margin-bottom: 0;
+}
+
+.section:not(#team-content-section):not(#portfolio-content-section):not(#feature-slider-section) .post-thumbnail a img {
+	-webkit-backface-visibility: hidden;
+}
+
+.section:not(#team-content-section):not(#portfolio-content-section):not(#feature-slider-section):not(#logo-slider-section) .post-thumbnail a:hover img,
+.section:not(#team-content-section):not(#portfolio-content-section):not(#feature-slider-section):not(#logo-slider-section) .post-thumbnail a:focus img {
+	opacity: 0.65;
+}
+
+.entry-title,
+ul.products li.product .woocommerce-loop-product__title,
+.woocommerce-loop-category__title {
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.46;
+	letter-spacing: normal;
+	margin: 0;
+}
+
+.archive-posts-wrapper .entry-title {
+	font-weight: 700;
+	line-height: 1.29;
+}
+
+.section-title {
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+}
+
+.section-subtitle,
+.section-subtitle p {
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+}
+
+#feature-slider-section .entry-title,
+.custom-header-media .section-title {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.custom-header-media .section-subtitle {
+	margin-bottom: 14px;
+}

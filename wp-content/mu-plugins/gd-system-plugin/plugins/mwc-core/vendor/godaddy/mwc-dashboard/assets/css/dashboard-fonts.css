@@ -1,0 +1,14 @@
+@font-face {
+    font-family: gd-sage;
+    src: url(//img6.wsimg.com/ux/fonts/gd-sage/1.0/gd-sage-bold.woff2) format("woff2")
+    , url(//img6.wsimg.com/ux/fonts/gd-sage/1.0/gd-sage-bold.woff) format("woff");
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: gdsherpa;
+    src: url(//img6.wsimg.com/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2) format("woff2")
+;
+    font-weight: 300 700;
+    font-display: swap;
+}

@@ -1,0 +1,279 @@
+.vtrtspro_free_review-notice{
+  padding: 15px 15px 15px 0;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 20px 20px 0 0;
+  border-left: 4px solid rgb(67, 129, 228);
+  border-top: 1px solid #ccd0d4;
+  border-bottom: 1px solid #ccd0d4;
+  border-right: 1px solid #ccd0d4;
+}
+.vtrtspro_free_review-notice:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.vtrtspro_free_review-thumbnail{
+  width: 114px;
+  float: left;
+  line-height: 80px;
+  text-align: center;
+  border-right: 4px solid transparent;
+}
+.vtrtspro_free_review-thumbnail img{
+  width: 68px;
+  vertical-align: middle;
+}
+.vtrtspro_free_review-text{
+  overflow: hidden;
+}
+.vtrtspro_free_review-text h3{
+  font-size: 24px;
+  margin: 0 0 5px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.vtrtspro_free_review-text p{
+  font-size: 13px;
+  margin: 0 0 5px;
+}
+.vtrtspro_free_review-ul{
+  margin: 0;
+  padding: 0;
+}
+.vtrtspro_free_review-ul li{
+  display: inline-block;
+  margin-right: 15px;
+}
+.vtrtspro_free_review-ul li a{
+  display: inline-block;
+  color: #10738B;
+  text-decoration: none;
+  padding-left: 26px;
+  position: relative;
+}
+.vtrtspro_free_review-ul li a span{
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+.vtrtspro_free_dasboard-pro-link{
+  color: #0cbb0c;
+}
+
+/* LoginPress Add-ons CSS @since 1.1.3 */
+
+.vtrtspro_free_alert-notice{
+  background: #fff;
+  margin: 20px 20px 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  clear: both;
+}
+.vtrtspro_free_alert-notice>*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.vtrtspro_free_alert-notice:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.vtrtspro_free_alert-thumbnail{
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+.vtrtspro_free_alert-thumbnail img{
+  width: 250px;
+  vertical-align: middle;
+}
+.vtrtspro_free_alert-text{
+  padding: 16px 80px 16px 80px;
+  overflow: hidden;
+  background: #1a5fa4;
+  position: relative;
+  flex: 1;
+}
+.black_friday_notic .vtrtspro_free_alert-text {
+  padding: 16px 10px 16px 80px;
+}
+.black_friday{
+  background: #000 !important;
+      text-align: center;
+}
+.black_friday:after{
+  display: none;
+}
+.black_friday_notic .vtrtspro_free_alert-text {
+  display: flex;
+  align-items: center;
+}
+.black_friday_notic .vtrtspro_free_alert-button-section {
+  width: 450px;
+}
+.vtrtspro_free_addon-notice-link:focus{
+  outline: none;
+  box-shadow: none;
+}
+.vtrtspro_free_alert-text:after{
+  width: 80px;
+  height: 100%;
+  background: #fff;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -40px;
+  transform: skewX(-20deg);
+  z-index: 1;
+}
+.vtrtspro_free_alert-text:before{
+  width: 80px;
+  height: 100%;
+  background: #fff;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -40px;
+  transform: skewX(-20deg);
+  z-index: 1;
+}
+.vtrtspro_free_alert-text h3{
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 10px;
+  color: #fff;
+}
+.vtrtspro_free_alert-text p{
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+}
+.black_friday_sale_btn .vtrtspro_free_alert-button {
+display: inline-block;
+padding: 24px 20px;
+font-size: 38px;
+background-color: #24afe9;
+color: #000;
+border-radius: 0px;
+text-decoration: none;
+font-weight: bold;
+}
+.vtrtspro_free_alert-button-section{
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+.vtrtspro_free_alert-button{
+  height: auto;
+  padding: 0;
+  color: #1a5fa4;
+  border: 0;
+  border-radius: 5px;
+  background: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.vtrtspro_free_alert-button:focus{
+  outline: none;
+  box-shadow: none;
+}
+.wp-core-ui .vtrtspro_free_alert-notice.notice.is-dismissible{
+  padding: 0px;
+  border-left: 0px;
+}
+.vtrtspro_free_alert-notice .notice-dismiss{
+  text-decoration: none;
+  z-index: 1;
+}
+.vtrtspro_free_addon-notice-link{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  text-decoration: none;
+}
+.vtrtspro_free_notice-logo{
+  width: 72px;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+.vtrtspro_free_notice-logo img{
+  width: 50px;
+  vertical-align: middle;
+}
+
+.vtrtspro_free_notice-discription{
+  overflow: hidden;
+  width: calc(100% - 50px);
+}
+.vtrtspro_free_notification.vtrtspro_free_notice-success{
+  border:1px solid #6ab074;
+  background: #e6f0e8;
+  margin: 36px 20px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.vtrtspro_free_notice-success .vtrtspro_free_notice-discription p{
+  color: #21573a;
+}
+.vtrtspro_free_notification.vtrtspro_free_notice-success .vtrtspro_free_notification-close:before{
+  color: #21573a;
+}
+@media screen and (max-width: 1300px) {
+  .vtrtspro_free_alert-thumbnail{
+    width: 200px;
+  }
+  .vtrtspro_free_alert-thumbnail img{
+    width: 170px;
+  }
+  .vtrtspro_free_alert-button-section{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .vtrtspro_free_alert-thumbnail{
+    display: none;
+  }
+  .vtrtspro_free_alert-thumbnail img{
+    width: 150px;
+  }
+  .vtrtspro_free_alert-text{
+    padding-left: 30px;
+  }
+  .vtrtspro_free_alert-text:before,.vtrtspro_free_alert-text:after{
+    display: none;
+  }
+}
+@media screen and (max-width: 782px) {
+  .vtrtspro_free_alert-text{
+    padding-right: 40px;
+    padding-bottom: 50px;
+  }
+  .vtrtspro_free_alert-button-section{
+    width: auto;
+    text-align: left;
+  }
+  .vtrtspro_free_alert-button-section{
+    position: absolute;
+    bottom: 20px;
+    left: 33px;
+  }
+  .vtrtspro_free_alert-button{
+    color: #fff;
+  }
+  .vtrtspro_free_alert-notice .notice-dismiss:before{
+    color: #fff;
+  }
+  .black_friday_sale_btn .vtrtspro_free_alert-button{
+    width: 310px;
+    text-align: center;
+  }
+}

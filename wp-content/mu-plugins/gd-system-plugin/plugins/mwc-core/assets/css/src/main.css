@@ -1,0 +1,10 @@
+@import "mwc-design-system/variables";
+@import "mwc-design-system/base";
+
+@font-face {
+	font-family: "gdsherpa";
+	src: url(//img6.wsimg.com/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2)
+	format("woff2");
+	font-weight: 300 700;
+	font-display: swap;
+}

@@ -1,0 +1,2117 @@
+# Copyright (C) 2021
+# This file is distributed under the same license as the MWC Gift Certificates package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Gift Certificates\n"
+"Report-Msgid-Bugs-To: "
+"https://woocommerce.com/my-account/marketplace-ticket-form/\n"
+"POT-Creation-Date: 2021-12-03 18:46:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: class-wc-pdf-product-vouchers.php:499 class-wc-pdf-product-vouchers.php:1013
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:369
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:467
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:475
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:525
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:527
+#: src/class-wc-pdf-product-vouchers-post-types.php:127
+#: src/frontend/class-wc-pdf-product-vouchers-my-account.php:163
+msgid "Gift Certificates"
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:556
+msgid ""
+"Personal data removed from gift certificate upon original purchaser's "
+"request."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:559
+#. translators: Placeholder: %s - voucher ID
+msgid "Removed personal data from gift certificate \"%s\"."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:565
+#. translators: Placeholder: %s - voucher ID
+msgid "Personal data for gift certificate \"%s\" has been retained."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:618
+msgid "You have created your first gift certificate!"
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:625
+msgid "You have redeemed your first gift certificate!"
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:660
+#. translators: Placeholders: %1$s - <strong>; %2$s - </strong>; %3$s, %5$s -
+#. <a> tags; %4$s - </a> tag
+msgid ""
+"%1$sBackground PDF Generation%2$s is currently unavailable because your "
+"site does not support background processing. To speed up your checkouts "
+"with gift certificates by generating PDFs in the background, please ask "
+"your hosting company to ensure your server has loopback connections "
+"enabled, or switch to a %3$srecommended hosting provider%4$s."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:675
+#. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s - closing
+#. </strong> HTML tag
+msgid ""
+"%1$sHeads up!%2$s We've merged the Add Google Fonts add-on into Gift "
+"Certificates, so you no longer need this add-on to use Google Fonts in your "
+"gift certificate templates. This add-on has been deactivated adn can be "
+"safely removed from your plugin list."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:700
+#. translators: Placeholders: %1$s - plugin name, %2$s - uploads path, %3$s -
+#. <code> tag or empty string, %4$s - </code> tag or empty string
+msgid ""
+"%1$s: non-writable path %3$s%2$s%4$s detected, please fix directory "
+"permissions or gift certificate files may not be able to be generated."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:731
+msgid ""
+"Hey there! It looks like you may have a security plugin activated. Some "
+"security plugins may interfere with automatic gift certificate generation. "
+"If you are having trouble with this, please consider temporarily disabling "
+"the security plugin to see if it fixes things. If so, you may need to add "
+"an exception to the security plugin for Gift Certificates to re-enable "
+"automatic PDF generation."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:790
+#. translators: %1$s - Number of voucher being generated, %2$s - Total number
+#. of vouchers to generate
+msgid "[Processing] Generating %1$s of %2$s PDFs"
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:808
+#. translators: %1$d - number of voucher IDs, %2$s - PDF singular/plural
+#. wording, %3$s - <a> tag, %4$s - </a> tag
+msgid "[Queued] Generate %1$d %2$s - %3$sCancel%4$s  "
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:810 class-wc-pdf-product-vouchers.php:824
+#: class-wc-pdf-product-vouchers.php:839
+msgid "PDF"
+msgid_plural "PDFs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-wc-pdf-product-vouchers.php:822
+#. translators: %1$d - Number of vouchers generated, %2$s - singular or plural
+#. of 'PDFs'
+msgid "Successfully generated %1$d %2$s"
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:837
+#. translators: %1$d - Number of vouchers generated, %2$s - singular or plural
+#. of 'PDFs', %3$s - Error message
+msgid "Failed while generating %1$d %2$s - %3$s"
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:869
+#. translators: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Heads up! It looks like WP Cron is disabled - this will prevent gift "
+"certificates from being automatically generated! %1$sClick here%2$s to "
+"learn more about this configuration."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:896
+#. translators: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Heads up! You have a single-purpose gift certificate that needs redemption "
+"products for your online store. %1$sSee which gift certificates are "
+"affected%2$s."
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:921
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a>
+#. link tag
+msgid ""
+"PDF Product Vouchers features are now native to your hosting account and "
+"are now called \"Gift Certificates\". All of your templates, settings, and "
+"gift certificates have been migrated so you can continue using them. "
+"%1$sView Settings%2$s"
+msgstr ""
+
+#: class-wc-pdf-product-vouchers.php:967
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a>
+#. link tag
+msgid ""
+"This plugin cannot be activated. Features of PDF Product Vouchers are now "
+"included on your hosting as Gift Certificates. %1$sView Settings%2$s"
+msgstr ""
+
+#: i18n/strings.php:34 src/class-wc-voucher-template.php:546
+msgid "Recipient Name"
+msgstr ""
+
+#: i18n/strings.php:35
+msgid "Message to Recipient"
+msgstr ""
+
+#: i18n/strings.php:36 src/class-wc-voucher-template.php:552
+msgid "Recipient Email"
+msgstr ""
+
+#: src/Integrations/Paytrail.php:87
+#: src/admin/class-wc-pdf-product-vouchers-admin-orders.php:160
+#: src/class-wc-pdf-product-vouchers-handler.php:561
+msgid "Gift Certificate:"
+msgid_plural "Gift Certificates:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/abstract-wc-voucher-base.php:141
+msgid "Placeholder"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:111
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:112
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:122
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:123
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:146
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:270
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:489
+msgid "Redeem Gift Certificate"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:152
+#. translators: Placeholders: %1$s - <a>, %2$s - </a> tag
+msgid ""
+"Redeem a gift certificate by scanning or entering a barcode value below. "
+"%1$sLearn more%2$s about using QR or barcodes in gift certificates."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:168
+msgid "Scan QR Code"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:174
+msgid "Or enter barcode"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:179
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:446
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:282
+#: src/admin/meta-boxes/views/html-voucher-balance.php:83
+#: src/admin/meta-boxes/views/html-voucher-balance.php:123
+msgid "Redeem"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-barcode-redeem-voucher.php:185
+#: src/admin/meta-boxes/views/html-voucher-redeem.php:54
+#: src/admin/meta-boxes/views/html-voucher-redeem.php:56
+msgid "Redemption amount"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:93
+msgid ""
+"Quick note: This product has a single-purpose gift certificate, so it may "
+"need to be taxable."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:93
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:95
+msgid "View Documentation"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:95
+msgid ""
+"Quick note: This product has a multi-purpose gift certificate, so it may "
+"need to be non-taxable."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:151
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:281
+msgid "Has Gift Certificate"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:152
+msgid ""
+"Gift certificate products give access to a PDF gift certificate upon "
+"purchase."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:181
+#: src/class-wc-pdf-product-vouchers-post-types.php:163
+msgid "Gift Certificate Template"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:182
+msgid ""
+"Select a gift certificate template to make this into a gift certificate "
+"product."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:204
+msgid "Has Gift Certificate?"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:204
+msgid ""
+"Enable this option if you want to attach a gift certificate to this "
+"variation"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:236
+msgid "Gift Certificate Template:"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:237
+msgid ""
+"Select a gift certificate template to make this variation into a gift "
+"certificate product."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-products.php:272
+msgid "Virtual"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:117
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:188
+msgid "Image"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:118
+msgid "Name"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:119
+msgid "Type"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:120
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:194
+msgid "Redeemable products"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:121
+msgid "Expiry days"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:144
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:241
+msgid "Draft"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:167
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:264
+msgid "ID: %s"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:169
+msgid "Make a duplicate from this gift certificate template"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:205
+msgid "Multi-purpose"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:208
+msgid "Single-purpose"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:247
+msgid ""
+"Single-purpose gift certificates that are redeemable online need redemption "
+"products. Edit a product to add redeemable gift certificates."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:248
+msgid "Missing Redemption Products"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:294
+msgid "Gift certificate template copied."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:302
+msgid "Gift certificate template creation failed, could not find original template:"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:330
+msgid "(Copy)"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:88
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:111
+msgid "Generate PDF"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:147
+msgid "Manually cancelled"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:184
+msgid "Status"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:189
+#: src/functions/wc-pdf-product-vouchers-functions-template.php:153
+msgid "Number"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:190
+#: src/admin/meta-boxes/views/html-voucher-redemption.php:70
+#: src/admin/meta-boxes/views/html-voucher-voided.php:55
+msgid "Date"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:193
+#: src/functions/wc-pdf-product-vouchers-functions-template.php:154
+msgid "Expires"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:198
+#: src/admin/meta-boxes/views/html-voucher-void.php:47
+msgid "Remaining value"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:201
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:86
+msgid "Actions"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:293
+msgid "Filter by gift certificate template"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:395
+#. translators: Placeholders: %1$s and %2$s - monetary value. Example: $30.50
+#. of $50.00
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:407
+#. translators: Placeholders: %1$s - remaining uses of a voucher (number), %2$s
+#. - total uses a voucher can have (number)
+msgid "%1$s of %2$s uses"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:416
+#: templates/myaccount/vouchers.php:93
+msgid "Never"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:192
+msgid "Please select a product to add a gift certificate for."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:202
+msgid ""
+"Please select a product with a gift certificate template to add a gift "
+"certificate."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:266
+#: src/admin/meta-boxes/views/html-voucher-data.php:148
+msgid "Guest"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:267
+#: src/admin/meta-boxes/views/html-voucher-edit-product-modal.php:52
+msgid "Product"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:268
+msgid "Purchaser"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:269
+#: src/class-wc-pdf-product-vouchers-post-types.php:130
+msgid "Add Gift Certificate"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:271
+msgid ""
+"Are you sure you want to calculate taxes? This will calculate the product "
+"taxes based on the customer's country (or the store base country) and "
+"update the gift certificate value. This action cannot be undone."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:272
+msgid ""
+"Are you sure you want to delete this redemption? This action cannot be "
+"undone."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:273
+msgid "Are you sure you want to void the remaining value for this gift certificate?"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:274
+msgid ""
+"Are you sure you want restore the voided balance and re-activate the gift "
+"certificate?"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:275
+msgid ""
+"Load the customer's billing details? This will remove any currently entered "
+"purchaser information."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:276
+msgid ""
+"Copy purchaser details to recipient details? This will remove any currently "
+"entered recipient information."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:277
+msgid "No customer selected."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:278
+msgid "Select Product and Purchaser"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:279
+#: src/admin/meta-boxes/views/html-voucher-edit-product-modal.php:60
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:280
+msgid "Amount *"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:281
+#: src/admin/meta-boxes/views/html-voucher-redeem.php:66
+msgid "Notes (optional)"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:283
+#: src/admin/meta-boxes/views/html-voucher-balance.php:139
+msgid "Void"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:284
+#: src/admin/meta-boxes/views/html-voucher-balance.php:106
+#: src/admin/meta-boxes/views/html-voucher-balance.php:122
+#: src/admin/meta-boxes/views/html-voucher-balance.php:138
+#: src/admin/meta-boxes/views/html-voucher-edit-product-modal.php:75
+#: src/customizer/class-wc-pdf-product-vouchers-customize-position-control.php:62
+msgid "Cancel"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:285
+msgid "Void Remaining Value"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:286
+#: src/admin/meta-boxes/views/html-voucher-void.php:51
+msgid "Reason (optional)"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:287
+msgid "Please enter in a value greater than 0."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:288
+msgid "Please enter in a value less or equal to the remaining value."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:289
+msgid "Please enter in a value that is a multiple of the product price."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:290
+msgid "Please enter a barcode number."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:291
+msgid "The barcode scanner requires that you are on a secure (HTTPS) url."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:292
+msgid "Sorry, this browser does not support barcode scanning."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:293
+msgid ""
+"Unable to open the scanner - Either no video device was found, or "
+"permission has not been granted to use it."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:294
+msgid ""
+"Manually add a gift certificate for a customer. This will appear in their "
+"My Account > Gift Certificates area."
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:373
+#: src/class-wc-pdf-product-vouchers-post-types.php:162
+msgid "Gift Certificate Templates"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin.php:497
+msgid "Templates"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-product-redemption-vouchers.php:58
+msgid "Redemption gift certificates"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-product-redemption-vouchers.php:76
+msgid "Redeemable by"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-product-redemption-vouchers.php:78
+msgid ""
+"Select any single-purpose PDF product gift certificates that can be used to "
+"redeem this product online."
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-product-redemption-vouchers.php:89
+msgid "Search for a gift certificate template&hellip;"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:59
+msgid "Gift Certificate Actions"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:87
+msgid "Gift Certificate emails"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:113
+#: src/admin/meta-boxes/views/html-voucher-balance.php:82
+msgid "Calculate Taxes"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:131
+msgid "Apply"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:140
+msgid "Delete Permanently"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:142
+msgid "Move to Trash"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:148
+msgid "Save Gift Certificate"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:148
+msgid "Save/update the gift certificate"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:208
+#. translators: %s - email title
+msgid "%s email notification manually sent."
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:236
+#: src/class-wc-pdf-product-vouchers-ajax.php:316
+#: src/class-wc-pdf-product-vouchers-ajax.php:373
+#. Translators: %s - error message
+#. translators: %s - error message
+msgid "Could not generate gift certificate PDF: %s"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-balance.php:58
+msgid "Balance"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-data.php:62
+msgid "Gift Certificate Data"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-data.php:206
+msgid ""
+"Gift certificate customer has changed and is taxed differently from "
+"previous customer. You may need to recalculate gift certificate taxes."
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-notes.php:55
+msgid "Gift Certificate Notes"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-notes.php:71
+msgid "Add note"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-notes.php:71
+msgid "Add a note for your reference."
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-notes.php:75
+msgid "Add Note"
+msgstr ""
+
+#: src/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-preview.php:55
+msgid "Gift Certificate Preview"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:46
+msgid "Item"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:47
+msgid "Value"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:48
+msgid "Qty"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:49
+msgid "Total"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:81
+msgid "Void remaining value"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:84
+msgid "To calculate taxes or redeem this gift certificate, please save it first."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:86
+#: src/admin/meta-boxes/views/html-voucher-balance.php:89
+msgid "To edit this gift certificate change the status back to \"Pending\""
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:86
+msgid "This gift certificate has been fully redeemed."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:88
+msgid "Restore voided balance"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:89
+msgid "This gift certificate has been voided and can no longer be redeemed."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-balance.php:107
+msgid "Save"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:55
+#. translators: %s - voucher number
+msgid "Gift Certificate #%s details"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:57
+#. translators: %1$s - <a> tag, %2$s - order number, %3$s - </a> tag
+msgid "Purchased in %1$sOrder #%2$s%3$s"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:61
+msgid "General Details"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:63
+msgid "Gift Certificate date:"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:64
+#: src/admin/meta-boxes/views/html-voucher-data.php:69
+msgid "h"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:64
+#: src/admin/meta-boxes/views/html-voucher-data.php:69
+msgid "m"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:67
+msgid "Expiration date:"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:72
+msgid "Gift Certificate status:"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:95
+msgid "Purchaser Details"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:96
+#: src/admin/meta-boxes/views/html-voucher-data.php:179
+#: src/class-wc-pdf-product-vouchers-post-types.php:132
+#: src/class-wc-pdf-product-vouchers-post-types.php:167
+msgid "Edit"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:97
+msgid "Load customer details"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:104
+#: src/admin/meta-boxes/views/html-voucher-data.php:156
+#: src/class-wc-voucher-template.php:540
+msgid "Purchaser Name"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:105
+#: src/admin/meta-boxes/views/html-voucher-data.php:158
+msgid "Purchaser Email"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:109
+msgid "No purchaser details available"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:121
+msgid "Customer:"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:178
+msgid "Recipient Details"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:180
+msgid "Copy from purchaser details"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-data.php:215
+msgid "No recipient details available"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-edit-product-modal.php:43
+msgid "Edit Gift Certificate Product"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-edit-product-modal.php:68
+msgid "Price"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-edit-product-modal.php:76
+msgid "Update"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-note.php:53
+#. translators: Placeholders: Date (%1$s) and time (%2$s) when a voucher note
+#. was added
+msgid "added on %1$s at %2$s"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-note.php:58
+#: src/class-wc-voucher.php:2140 src/class-wc-voucher.php:2142
+msgid "WooCommerce"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-note.php:61
+#. translators: Placeholders: %1$s - voucher note published date and time; %2$s
+#. voucher note published by - for example "On 1 October 2020 at 10:25am by
+#. John Doe"
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-note.php:70
+msgid "Delete note"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-notes.php:69
+msgid "There are no notes yet."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-preview.php:52
+msgid ""
+"Gift certificate PDF has not been generated yet. You can generate it using "
+"the Gift Certificate Actions."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-preview.php:59
+msgid "Change gift certificate image"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-preview.php:63
+msgid "Please save the gift certificate to regenerate the PDF."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-preview.php:66
+msgid "View Gift Certificate PDF"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-product.php:67
+msgid "SKU:"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-product.php:97
+msgid "Edit product"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-product.php:100
+msgid ""
+"This gift certificate was purchased in an order, so the product cannot be "
+"changed."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-product.php:102
+msgid ""
+"This gift certificate has redemptions, so the product can no longer be "
+"changed."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-redeem.php:43
+#: src/admin/meta-boxes/views/html-voucher-void.php:43
+msgid "Amount already redeemed"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-redeem.php:47
+msgid "Total available to redeem"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-redemption.php:66
+msgid "Redemption"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-redemption.php:76
+#: src/admin/meta-boxes/views/html-voucher-voided.php:61
+msgid "Added By"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-redemption.php:80
+#. translators: %s - order number
+msgid "Order %s"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-redemption.php:90
+#: src/admin/meta-boxes/views/html-voucher-redemption.php:104
+msgid "Notes"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-redemption.php:148
+msgid "Edit redemption"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:50
+msgid ""
+"This is the original gift certificate value, which is the total of the "
+"product price and its quantity."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:50
+msgid "Original Value"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:66
+msgid "This is the total tax amount charged on the gift certificate."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:82
+msgid "This is the total redeemed value."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:82
+msgid "Redeemed"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:99
+msgid "This is the voided gift certificate value, which cannot be redeemed."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:99
+msgid "Voided"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:116
+msgid "This is the remaining gift certificate value."
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-totals.php:116
+#: src/functions/wc-pdf-product-vouchers-functions-template.php:155
+msgid "Remaining Value"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-voided.php:51
+msgid "Remaining Value Voided"
+msgstr ""
+
+#: src/admin/meta-boxes/views/html-voucher-voided.php:70
+msgid "Reason"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:88
+msgid "Undefined gift certificate to add note to."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:94
+msgid "A gift certificate note should not be empty."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:100
+msgid ""
+"Please ensure the gift certificate has been created and saved before adding "
+"a note to it."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:272
+#: src/class-wc-pdf-product-vouchers-ajax.php:353
+#: src/class-wc-pdf-product-vouchers-ajax.php:428
+#: src/class-wc-pdf-product-vouchers-ajax.php:487
+#: src/class-wc-pdf-product-vouchers-ajax.php:543
+#: src/class-wc-pdf-product-vouchers-ajax.php:601
+#: src/class-wc-pdf-product-vouchers-ajax.php:643
+msgid "Invalid gift certificate"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:276
+msgid ""
+"Could not change gift certificate product: gift certificate is not editable "
+"or has redemptions"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:355
+msgid ""
+"Could not recalculate gift certificate product tax: gift certificate is not "
+"editable or has redemptions"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:432
+#: src/class-wc-pdf-product-vouchers-ajax.php:491
+#: src/class-wc-pdf-product-vouchers-ajax.php:547
+#: src/class-wc-pdf-product-vouchers-ajax.php:605
+msgid "Gift certificate is not editable"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:574
+#: src/class-wc-pdf-product-vouchers-ajax.php:693
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:463
+#. translators: Placeholders: %1$s - voucher number, %2$s - error message
+#. translators: %1$s - voucher number, %2$s - error message
+#. translators: %1$s - voucher number, %2$s - error message
+msgid "Could not redeem gift certificate %1$s: %2$s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:647
+msgid "Gift certificate is not voided"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:688
+#. translators: %s - voucher number
+msgid "Gift certificate %s redeemed."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:732
+#. translators: %s - voucher number
+msgid "Gift certificate %s voided."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:922
+#. translators: Unknown voucher type. Placeholders: %1$s - voucher type
+msgid "Gift Certificate type '%s' wasn't recognized."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:991
+#. translators: Voucher was not found
+msgid "Gift certificate was not found!"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:999
+#. translators: Not redeemable voucher notice. Placeholders: %1$s - voucher
+#. number, %2$s - <a>, %3$s - </a> tag
+msgid ""
+"Gift certificate %s is not redeemable! %sClick Here%s to view the gift "
+"certificate!"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-ajax.php:1004
+#. translators: Already redeemed voucher notice. Placeholders: %1$s - voucher
+#. number, %2$s - <a>, %3$s - </a> tag
+msgid ""
+"Gift certificate %s was already redeemed! %sClick Here%s to view the gift "
+"certificate!"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-cart.php:109
+#. translators: Placeholder: %s - field label
+msgid "Field '%s' is required."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-cart.php:459
+#. translators: Placeholders: %1$s - order number, %2$s - product name, %3$s -
+#. order item id, %4$s - error message
+msgid ""
+"Could not create gift certificate for order %1$s from item %2$s (#%3$s): "
+"%4$s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-download-handler.php:70
+msgid "Invalid gift certificate download link."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-download-handler.php:98
+#: src/class-wc-pdf-product-vouchers-download-handler.php:101
+msgid "You must be logged in to download gift certificates."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-download-handler.php:101
+msgid "Login"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-download-handler.php:101
+msgid "Log in to Download Gift Certificates"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-download-handler.php:105
+msgid "This is not your download link."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-download-handler.php:144
+msgid ""
+"Whoops, we're still preparing your gift certificate! It will be ready "
+"shortly and will be sent in a separate email."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:373
+#. translators: Placeholders: %1$s - voucher number, %2$s - error message
+msgid "Gift Certificates: unable to generate PDF for gift certificate %1$s: %2$s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:403
+msgid "Order failed."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:406
+msgid "Order was cancelled."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:409
+msgid "Order was fully refunded."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:412
+msgid "Order status set to %s."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:464
+msgid "Gift certificate was refunded."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:566
+msgid ""
+"We're preparing your gift certificate - it will be available for download "
+"soon!"
+msgid_plural ""
+"We're preparing your gift certificates - they'll be available for download "
+"soon!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:567
+msgid "Please refresh this page in 1 minute."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:707
+#. translators: Placeholders: Voucher status changed from status A (%1$s) to
+#. status B (%2$s)
+msgid "Gift certificate status changed from %1$s to %2$s."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:817
+#. translators: Pending Voucher(s)
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:824
+#. translators: Active Voucher(s)
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:833
+#. translators: Redeemed Voucher(s)
+msgid "Redeemed <span class=\"count\">(%s)</span>"
+msgid_plural "Redeemed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:840
+#. translators: Expired Voucher(s)
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:848
+#. translators: Expired Voucher(s)
+msgid "Voided <span class=\"count\">(%s)</span>"
+msgid_plural "Voided <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-order.php:113
+msgid "Gift certificate redeemed."
+msgid_plural "All gift certificates redeemed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-pdf-generator.php:77
+msgid "Gift certificate image not found"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-pdf-generator.php:83
+#. translators: Placeholders: %s - image path
+msgid "Gift certificate image file missing or not readable: %s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-pdf-generator.php:122
+#. translators: Placeholders: %s - error message
+msgid "Cannot load gift certificate HTML: %s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-pdf-generator.php:127
+#. translators: Placeholders: %1$d - HTTP response code, %2$s - HTTP error
+#. message
+msgid "Cannot load gift certificate HTML: %1$d - %2$s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-pdf-generator.php:133
+msgid "Gift certificate HTML is empty"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-pdf-generator.php:213
+msgid "Cannot create gift certificate: %s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-pdf-generator.php:231
+#: src/class-wc-pdf-product-vouchers-upgrade.php:712
+#. translators: %s - voucher file path
+msgid "Gift certificate path %s is not writable"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:128
+msgid "Gift Certificate"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:131
+msgid "Add New Gift Certificate"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:133
+msgid "Edit Gift Certificate"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:134
+msgid "New Gift Certificate"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:135
+msgid "View Gift Certificates"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:136
+msgid "View Gift Certificate"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:137
+msgid "Search Gift Certificates"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:138
+msgid "No Gift Certificates found"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:139
+msgid "No Gift Certificates found in trash"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:141
+msgid "This is where you can see and redeem all purchased gift certificates."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:165
+msgid "Add Gift Certificate Template"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:166
+msgid "Add New Gift Certificate Template"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:168
+msgid "Edit Gift Certificate Template"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:169
+msgid "New Gift Certificate Template"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:170
+msgid "View Gift Certificate Templates"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:171
+msgid "View Gift Certificate Template"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:172
+msgid "Search Gift Certificate Templates"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:173
+msgid "No Gift Certificate Templates found"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:174
+msgid "No Gift Certificate Templates found in trash"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:176
+msgid ""
+"This is where you can add new templates for gift certificates that you can "
+"attach to products and sell."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:232
+#: src/class-wc-pdf-product-vouchers-post-types.php:235
+msgid "Gift Certificate updated."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:233
+#: src/class-wc-pdf-product-vouchers-post-types.php:249
+msgid "Custom field updated."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:234
+#: src/class-wc-pdf-product-vouchers-post-types.php:250
+msgid "Custom field deleted."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:237
+#: src/class-wc-pdf-product-vouchers-post-types.php:238
+msgid "Gift Certificate saved."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:241
+msgid "Gift Certificate draft updated."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:242
+msgid "Gift Certificate updated and email sent."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:243
+msgid "Gift Certificate updated and PDF generated."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:248
+#: src/class-wc-pdf-product-vouchers-post-types.php:251
+msgid "Gift Certificate Template updated."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:253
+#: src/class-wc-pdf-product-vouchers-post-types.php:254
+msgid "Gift Certificate Template saved."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:257
+msgid "Gift Certificate Template draft updated."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:277
+msgid "%s gift certificate updated."
+msgid_plural "%s gift certificates updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:278
+msgid "%s gift certificate not updated, somebody is editing it."
+msgid_plural "%s gift certificates not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:279
+msgid "%s gift certificate permanently deleted."
+msgid_plural "%s gift certificates permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:280
+msgid "%s gift certificate moved to the Trash."
+msgid_plural "%s gift certificates moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:281
+msgid "%s gift certificate restored from the Trash."
+msgid_plural "%s gift certificates restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:285
+msgid "%s gift certificate template updated."
+msgid_plural "%s gift certificate templates updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:286
+msgid "%s gift certificate template not updated, somebody is editing it."
+msgid_plural "%s gift certificate templates not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:287
+msgid "%s gift certificate template permanently deleted."
+msgid_plural "%s gift certificate templates permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:288
+msgid "%s gift certificate template moved to the Trash."
+msgid_plural "%s gift certificate templates moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:289
+msgid "%s gift certificate template restored from the Trash."
+msgid_plural "%s gift certificate templates restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/class-wc-pdf-product-vouchers-product.php:94
+msgid "Select options"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redeem-multi.php:55
+#. translators: Multipurpose voucher redeemed notice. Placeholders: %1$s -
+#. voucher number, %2$s - Redeemed amount, %3$s - <br />, %4$s - remaining
+#. amount
+msgid ""
+"Gift certificate %s was redeemed for %s!%sThis gift certificate has %s "
+"remaining"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redeem-multi.php:63
+#. translators: Multipurpose voucher missing redemption amount. Placeholders:
+#. %1$s - voucher number, %2$s - <br />, %3$s - remaining amount, %4$s - <a>,
+#. %5$s - </a>
+msgid ""
+"Gift certificate %s requires an amount for redemption!%sThis gift "
+"certificate has %s available. Enter an amount to redeem, or %sclick here%s "
+"to view the gift certificate."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redeem-single.php:51
+#. translators: Single voucher redeemed notice. Placeholders: %1$s - voucher
+#. number
+msgid "Gift certificate %s x 1 was redeemed."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redeem-single.php:54
+#. translators: Single voucher redeemed notice. Placeholders: %1$s - <br />,
+#. %2$s - remaining count tag
+msgid "%sThere are %d uses remaining"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:98
+msgid "Multi-purpose gift certificate"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:207
+msgid "Sorry, this gift certificate is only valid for the %s currency."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:238
+msgid "Gift certificate applied successfully."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:242
+msgid "Gift certificate removed successfully."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:265
+msgid "Gift Certificate: %s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:540
+#. translators: %1$s - voucher number, %2$s - error message
+msgid "Could not delete redemptions for gift certificate %1$s: %2$s"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:694
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:731
+msgid "Gift certificate credit used:"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-redemption-handler.php:731
+msgid "This is the total credit used from multi-purpose-gift certificates."
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-upgrade.php:1031
+msgid "Gift Certificate Group 1: Modern"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-upgrade.php:1037
+msgid "Gift Certificate Group 1: Formal"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-upgrade.php:1043
+msgid "Gift Certificate Group 1: Christmas"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-upgrade.php:1054
+msgid "Gift Certificate Group 2: Celebration"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-upgrade.php:1060
+msgid "Gift Certificate Group 2: Children"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-upgrade.php:1066
+msgid "Gift Certificate Group 2: Feminine"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-upgrade.php:1134
+#. Translators: %1$s - file name, %2$s - error message
+msgid "Could not install default gift certificate image %1$s: %2$s"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:504 src/class-wc-voucher-template.php:888
+#: src/class-wc-voucher.php:1897
+msgid "Logo"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:509
+msgid "Product Name"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:514
+msgid "Product SKU"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:519
+msgid "Product Price"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:524
+msgid "Product Quantity"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:529
+msgid "Gift Certificate Number"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:534
+msgid "Expiration Date"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:558
+msgid "Message"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:563
+#: templates/single-wc_voucher_template.php:45
+msgid "Barcode"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:748 src/class-wc-voucher-template.php:902
+#: src/class-wc-voucher-template.php:920
+msgid "Position"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:753
+msgid "Font"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:759
+msgid "Font Size"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:769
+msgid "Font Style"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:779
+msgid "Font Color"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:789
+msgid "Label"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:790
+msgid "The field label to show on the frontend/emails"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:795
+msgid "Max Length"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:796
+msgid "The maximum number of characters of the field"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:800
+msgid "No limit"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:806
+msgid "Enabled"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:807
+msgid "Display this field on the product page"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:812
+msgid "Required"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:813
+msgid ""
+"Make this field required in order to add a gift certificate product to the "
+"cart"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:861
+msgid "Days to expiration"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:862
+msgid "Optional number of days after purchase until the gift certificate expires"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:866
+msgid "days"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:875
+msgid "Amount"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:876
+msgid "Number of products/tickets/passes this gift certificate is eligible for"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:889
+msgid "Optional image that can be displayed as a logo on the gift certificate."
+msgstr ""
+
+#: src/class-wc-voucher-template.php:891
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:392
+msgid "Select image"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:892
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:393
+msgid "Change image"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:893
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:394
+msgid "Remove"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:894
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:395
+msgid "Default"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:895
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:396
+msgid "No image selected"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:896
+msgid "Select gift certificate logo"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:897
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:398
+msgid "Choose image"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:909
+msgid "Barcode Type"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:924
+msgid "Background Color"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:928
+msgid "Foreground Color"
+msgstr ""
+
+#: src/class-wc-voucher-template.php:979
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:526
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:548
+msgid "(Default)"
+msgstr ""
+
+#: src/class-wc-voucher.php:1256
+msgid "No remaining value"
+msgstr ""
+
+#: src/class-wc-voucher.php:1263
+msgid "Quantity must be provided"
+msgstr ""
+
+#: src/class-wc-voucher.php:1268
+msgid "Redemption quantity is greater than remaining quantity"
+msgstr ""
+
+#: src/class-wc-voucher.php:1274
+msgid "Redemption amount must be provided as a positive number"
+msgstr ""
+
+#: src/class-wc-voucher.php:1279
+msgid "Redemption amount is greater than remaining gift certificate value"
+msgstr ""
+
+#: src/class-wc-voucher.php:1284 src/class-wc-voucher.php:1369
+msgid ""
+"Redemption amount must be a multiple of the product price for a "
+"single-purpose gift certificate."
+msgstr ""
+
+#: src/class-wc-voucher.php:1358
+msgid "Invalid redemption amount for redemption #%d."
+msgstr ""
+
+#: src/class-wc-voucher.php:1376
+msgid "Total amount of redemptions cannot be greater than gift certificate value."
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-font-style-control.php:70
+msgid "Bold"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-font-style-control.php:79
+msgid "Italic"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-font-style-control.php:91
+msgid "Align left"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-font-style-control.php:92
+msgid "Align center"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-font-style-control.php:93
+msgid "Align right"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-position-control.php:60
+msgid "Set Position"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-position-control.php:61
+msgid "Done"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-position-control.php:63
+msgid "Remove position"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:74
+msgid "Default Images"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:141
+msgid "Set image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:146
+msgid "Remove image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:157
+msgid "No image set"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:212
+msgid ""
+"Please upload one or more gift certificate background images by clicking "
+"<strong>Add New Image</strong>. While any dimensions are accepted, if you "
+"upload more than one background, please ensure alternative images have the "
+"<strong>same dimensions and resolution</strong> as the primary image."
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:218
+msgid "Primary image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:227
+msgid "Add new gift certificate image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:227
+msgid "Add new image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:235
+msgid "All Gift Certificate Images"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customize-voucher-image-control.php:239
+msgid ""
+"If there is more than one image, images will appear as alternative gift "
+"certificate image options for the customer. Click on an image to make it "
+"primary."
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:270
+msgid "General"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:274
+msgid "Images"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:277
+#. translators: %1$s - <span> %2$s - </span>
+msgid "%1$sNote: Use JPEG images for faster and more reliable PDF creation%2$s"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:326
+msgid "Template Name"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:329
+msgid "Gift Certificate Template Name"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:336
+msgid "Gift Certificate type"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:339
+msgid "Single purpose (for a particular product / service)"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:340
+msgid "Multi-purpose (can be redeemed on any product / service)"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:347
+msgid "Allow online redemptions"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:349
+msgid "Requires WooCommerce at least 3.2"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:370
+#: templates/single-product/product-voucher.php:70
+#: templates/voucher/voucher.php:64
+msgid "Gift Certificate Image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:381
+msgid "Image DPI"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:382
+msgid ""
+"Enter the DPI or resolution at which the gift certificate background was "
+"created. This affects the resolution at which gift certificate fields are "
+"added, so this value should match the image file."
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:388
+#: templates/voucher/voucher.php:89
+msgid "Additional Image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:390
+msgid ""
+"Optional image with the same dimensions as the primary gift certificate "
+"image, that will be added as a second page to the gift certificate. Useful "
+"for terms or redemption instructions."
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:397
+msgid "Select additional gift certificate image"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:549
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:656
+msgid "(Untitled Gift Certificate Template)"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:551
+#. translators: %1$s - <a> %2$s - </a>
+msgid ""
+"The Customizer allows you to adjust your gift certificate template with a "
+"live preview. No changes are permanent until you click Save. %1$sHow to "
+"create a gift certificate%2$s"
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:553
+#. translators: Placeholder: %s - Message for QR code scanning support.
+msgid ""
+"%s Only QR code scanning is supported from the gift certificate admin at "
+"this time."
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:859
+msgid "Please set a name for the template."
+msgstr ""
+
+#: src/customizer/class-wc-pdf-product-vouchers-customizer.php:887
+msgid ""
+"Gift certificate number must be added to the template when using online "
+"redemptions."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:63
+msgid "Gift Certificate Purchaser"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:64
+msgid ""
+"Sent to a gift certificate purchaser email address when a gift certificate "
+"is generated."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:66
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:68
+msgid "Your gift certificate is ready!"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:67
+msgid "Your gift certificate from order {order_number} is ready"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:82
+msgid "Your gift certificates are ready!"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:83
+msgid "Your gift certificates from order {order_number} are ready"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:317
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:337
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:319
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:339
+msgid "Enable this email notification"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:324
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:344
+msgid "Subject"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:327
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:347
+#. translators: %s - default email subject
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:333
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:353
+msgid "Subject Multiple"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:336
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:356
+#. translators: %s - default email subject
+msgid ""
+"This controls the email subject line when the email contains more than one "
+"gift certificate. Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:342
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:362
+msgid "Email Heading"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:345
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:365
+#. translators: %s - default email heading
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:351
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:371
+msgid "Email Heading Multiple"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:354
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:374
+#. translators: %s - default email heading
+msgid ""
+"This controls the main heading contained within the email notification when "
+"the email contains more than one gift certificate. Leave blank to use the "
+"default heading: <code>%s</code>."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:360
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:380
+msgid "Email type"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:362
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:382
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:366
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:386
+msgid "Plain text"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:367
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:387
+msgid "HTML"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-purchaser.php:368
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:388
+msgid "Multipart"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:67
+msgid "Gift Certificate Recipient"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:68
+msgid ""
+"Sent to a gift certificate recipient email address provided by the customer "
+"when adding a gift certificate product to the cart."
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:70
+msgid "You have received a gift certificate"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:71
+msgid "You have received a gift certificate from {purchaser_name}"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:85
+msgid "You have received gift certificates"
+msgstr ""
+
+#: src/emails/class-wc-pdf-product-vouchers-email-voucher-recipient.php:86
+msgid ""
+"You have received gift certificates from {billing_first_name} "
+"{billing_last_name}"
+msgstr ""
+
+#: src/frontend/class-wc-pdf-product-vouchers-my-account.php:190
+msgid "Active Gift Certificates"
+msgstr ""
+
+#: templates/emails/plain/voucher-purchaser.php:39
+#: templates/emails/voucher-purchaser.php:42
+msgid "Hi there. Your gift certificate is ready!"
+msgid_plural "Hi there. You have %d gift certificates from your order ready!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/emails/plain/voucher-purchaser.php:43
+#: templates/emails/voucher-purchaser.php:44
+msgid "You can find your gift certificate attached to this email."
+msgid_plural "You can find your gift certificates attached to this email."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/emails/plain/voucher-recipient.php:41
+#: templates/emails/voucher-recipient.php:44
+msgid "Hi there. You've been sent a gift certificate!"
+msgid_plural "Hi there. You've been sent %d gift certificates!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/emails/plain/voucher-recipient.php:49
+#: templates/emails/voucher-recipient.php:50
+msgid "You can find your gift certificate attached to this email"
+msgid_plural "You can find your gift certificates attached to this email"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/myaccount/vouchers.php:104
+msgid "Download"
+msgstr ""
+
+#: templates/myaccount/vouchers.php:142
+msgid "Go Shop"
+msgstr ""
+
+#: templates/myaccount/vouchers.php:145
+msgid "No gift certificates available yet."
+msgstr ""
+
+#: templates/single-product/product-voucher.php:68
+msgid "Gift Certificate Option %d"
+msgstr ""
+
+#: templates/voucher/voucher.php:55
+msgid "Please set the gift certificate image to see the preview."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MWC Gift Certificates"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-voucher-templates-list.php:173
+msgctxt "Duplicate a Gift Certificate Template"
+msgid "Duplicate"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:452
+msgctxt "verb"
+msgid "Void"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:461
+msgctxt "verb"
+msgid "Download"
+msgstr ""
+
+#: src/admin/class-wc-pdf-product-vouchers-admin-vouchers-list.php:468
+msgctxt "verb"
+msgid "View"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:815
+msgctxt "Gift Certificate Status"
+msgid "Pending"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:822
+msgctxt "Gift Certificate Status"
+msgid "Active"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:831
+msgctxt "Gift Certificate Status"
+msgid "Redeemed"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:838
+msgctxt "Gift Certificate Status"
+msgid "Expired"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-handler.php:846
+msgctxt "Gift Certificate Status"
+msgid "Voided"
+msgstr ""
+
+#: src/class-wc-pdf-product-vouchers-post-types.php:129
+#: src/class-wc-pdf-product-vouchers-post-types.php:164
+msgctxt "Admin menu name"
+msgid "Gift Certificates"
+msgstr ""

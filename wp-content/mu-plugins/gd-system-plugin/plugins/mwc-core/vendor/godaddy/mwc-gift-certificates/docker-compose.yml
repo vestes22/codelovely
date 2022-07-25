@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  codeception:
+    volumes:
+      - $PWD:/project
+      - $PWD:/wordpress/wp-content/plugins/$PLUGIN_DIR
+
+  wordpress:
+    volumes:
+      - $PWD:/var/www/html/wp-content/plugins/$PLUGIN_DIR

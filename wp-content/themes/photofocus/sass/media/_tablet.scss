@@ -1,0 +1,18 @@
+@media screen and (min-width: 48.9375em) {
+
+	.home.admin-bar .custom-header {
+		height: calc( 100vh - 32px );
+	}
+
+	.services-section.section .hentry .hentry-inner .post-thumbnail {
+        margin-bottom: 35px;
+    }
+
+    .contact-address > * {
+	    max-width: 80%;
+	}
+
+	#testimonial-content-section .post-thumbnail {
+		margin-top: -80px;
+	}
+}

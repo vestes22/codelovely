@@ -1,0 +1,1834 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-11-17T09:53:34+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+msgid "MWC Core."
+msgstr "MWC Core."
+
+#: configurations/features.php:15
+msgid "Ecommerce emails"
+msgstr "Courriels de commerce électronique"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:18
+msgid "Customize your emails to reflect your brand and increase customer loyalty. This feature replaces the %1$sWooCommerce Email Customizer%2$s plugin."
+msgstr "Personnalisez vos courriels pour qu’ils reflètent votre marque et augmentent la fidélité de vos client. Cette fonctionnalité remplace l'extension %1$sWooCommerce Email Customizer%2$s."
+
+#: configurations/features.php:32
+msgid "Sequential order numbers"
+msgstr "Numéros de commande séquentiels"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:35
+msgid "Format order numbers, change your starting number, and differentiate free orders. This feature replaces the %1$sSequential Order Numbers Pro%2$s plugin."
+msgstr "Formatez les numéros de commande, modifiez votre numéro de départ et différenciez les commandes gratuites. Cette fonctionnalité remplace le plug-in %1$sSequential Order Numbers Pro%2$s."
+
+#: configurations/features.php:46
+msgid "Discount links"
+msgstr "Liens de remise"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:49
+msgid "Share discount links with your customers and add coupons from ads, email campaigns, or social links. Create or edit a coupon to get started. This feature replaces the %1$sURL Coupons%2$s plugin."
+msgstr "Partagez des liens de remise avec vos clients et ajoutez des codes promo à partir d’annonces, de campagnes par e-mail ou de liens sociaux. Créez ou modifiez un code promo pour commencer. Cette fonctionnalité remplace l’extension %1$sURL de codes promo%2$s."
+
+#: configurations/features.php:60
+msgid "Cost of goods"
+msgstr "Coût des marchandises"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:63
+msgid "Track profit and cost of goods for your store. Generate profit reports by date, product, category, and more. This feature replaces the %1$sCost of Goods%2$s plugin."
+msgstr "Assurez le suivi des bénéfices et du coût des marchandises pour votre boutique. Générez des rapports sur les bénéfices par date, produit, catégorie, et plus encore. Cette fonctionnalité remplace l’extension %1$sCoût des marchandises%2$s."
+
+#: configurations/features.php:74
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+#. translators: Placeholders: %1$s and %3$s - <a> tag for the plugin link, %2$s and %4$s - </a> tag
+#: configurations/features.php:77
+msgid "Track advanced eCommerce events and more with Google Analytics. This feature replaces the %1$sGoogle Analytics%2$s and %3$sGoogle Analytics Pro%4$s plugins."
+msgstr "Suivez les événements de commerce électronique avancés et plus encore avec Google Analytics. Cette fonctionnalité remplace les plug-ins %1$sGoogle Analytics%2$s et %3$sGoogle Analytics Pro%4$s."
+
+#: configurations/features.php:89
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:27
+msgid "Shipment tracking"
+msgstr "Suivi des envois"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:92
+msgid "Share shipment tracking information with your customers. Open one of your Processing orders to get started. This feature replaces the %1$sShipment Tracking%2$s plugin."
+msgstr "Partagez les informations de suivi des expéditions avec vos clients. Ouvrez l'une de vos commandes de traitement pour commencer. Cette fonctionnalité remplace le plugin %1$sSuivi des envois%2$s."
+
+#: src/Client/Client.php:316
+msgid "Other"
+msgstr "Autre"
+
+#: src/Email/RemoteRenderingEmailService.php:120
+#: src/Email/RemoteRenderingEmailService.php:124
+msgid "Unknown error."
+msgstr "Erreur inconnue."
+
+#: src/Email/Repositories/EmailSenderRepository.php:108
+msgid "Unable to retrieve the email sender data."
+msgstr "Impossible de récupérer les données de l’expéditeur de l’email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:195
+msgid "Cannot generate a preview for an email notification that is not editable."
+msgstr "Impossible de générer un aperçu pour une notification par e-mail qui n'est pas modifiable."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:296
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:458
+msgid "The settings parameter is required."
+msgstr "Le paramètre Réglages est obligatoire."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:385
+msgid "Cannot send a test email for an email notification that is not editable."
+msgstr "Impossible d'envoyer un e-mail de test pour une notification par e-mail qui n'est pas modifiable."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:452
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:245
+msgid "The site has email template overrides and hasn't enabled the Email Notifications feature."
+msgstr "Le site est doté de modèles d'e-mail prioritaires et la fonctionnalité de notification par e-mail n’est pas activée."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:671
+msgid "Unique email notification ID."
+msgstr "ID unique de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:677
+msgid "Unique email notification name (matches the ID)."
+msgstr "Nom unique de la notification par email (correspondant à l'ID)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:683
+msgid "Email notification label."
+msgstr "Libellé de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:689
+msgid "Email notification description."
+msgstr "Description de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:695
+msgid "ID of the template used by this email notification."
+msgstr "ID du modèle utilisé par cette notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:701
+msgid "A list of categories that the email notification belongs to."
+msgstr "Liste des catégories auxquelles la notification par email appartient."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:710
+msgid "Email notification status"
+msgstr "États de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:717
+msgid "Whether the email notification can only be sent manually."
+msgstr "Si la notification par email peut être envoyée manuellement uniquement."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:723
+msgid "Whether the email notification will be sent to administrators."
+msgstr "Si la notification par email sera envoyée aux administrateurs."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:729
+msgid "A list of placeholders that are available for the email notification."
+msgstr "Liste des textes indicatifs disponibles pour la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:738
+msgid "URL for the WooCommerce email settings screen for the email notification"
+msgstr "URL de l'écran des paramètres de messagerie WooCommerce pour la notification par e-mail."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:761
+msgid "Unique email notification category ID."
+msgstr "ID unique de catégorie de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:767
+msgid "Email notification category name."
+msgstr "Nom de catégorie de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:252
+msgid "A non-empty settings or subgroups parameter must be provided."
+msgstr "Un paramètre de réglages ou de sous-groupes non vides doit être fourni."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:349
+msgid "Unique email template ID."
+msgstr "ID unique de modèle d’email"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:355
+msgid "Unique email template name (matches the ID)."
+msgstr "Nom unique de modèle d’email (correspondant à l'ID)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:361
+msgid "Email template label."
+msgstr "Libellé de modèle d’email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:367
+msgid "List of email content placeholders."
+msgstr "Liste des textes indicatifs de contenu d’e-mail."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:376
+msgid "Email template preview."
+msgstr "Aperçu de modèle d’e-mail."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:58
+msgid "Unique email template setting name."
+msgstr "Nom unique du réglage de modèle d'e-mail."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:64
+msgid "Email template setting label."
+msgstr "Libellé du paramètre de modèle d'e-mail."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:70
+msgid "Email template settings subgroups."
+msgstr "Sous-groupes de réglages de modèle d'e-mail."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:79
+msgid "Root settings for an email template."
+msgstr "Réglages racine d'un modèle d'e-mail."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:221
+msgid "Sender unique ID."
+msgstr "ID unique de l'expéditeur."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:227
+msgid "Sender email address."
+msgstr "Adresse de courriel de l’expéditeur."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:233
+msgid "Sender verified at."
+msgstr "Expéditeur vérifié à."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:239
+msgid "Sender verified by."
+msgstr "Expéditeur vérifié par."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:245
+msgid "Sender status."
+msgstr "État de l'expéditeur."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:285
+msgid "Unique email notification setting ID."
+msgstr "ID du réglage unique de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:291
+msgid "Unique email notification setting name (matches the ID)."
+msgstr "Nom du réglage unique de la notification par email (correspondant à l’ID)."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:297
+msgid "Email notification setting label."
+msgstr "Libellé du réglage de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:303
+msgid "Email notification setting description."
+msgstr "Description du réglage de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:309
+msgid "A list of available options for the email notification setting values."
+msgstr "Liste des options disponibles pour les valeurs de réglage de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:318
+msgid "Email notification setting default value."
+msgstr "Valeur par défaut du réglage de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:324
+msgid "Email notification setting value."
+msgstr "Valeur du réglage de la notification par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:330
+msgid "Whether the email notification setting can have multiple values."
+msgstr "Décider si le réglage de la notification par email peut avoir plusieurs valeurs."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:336
+msgid "Whether the email notification setting is required."
+msgstr "Décider si le réglage de la notification par email est obligatoire."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:342
+msgid "Email notifications setting group, if applicable."
+msgstr "Groupe de réglage des notifications par email, le cas échéant."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:348
+msgid "Email notifications setting control details."
+msgstr "Détails du contrôle de réglage des notifications par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:354
+msgid "Email notifications setting control type."
+msgstr "Type de contrôle du réglage des notifications par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:360
+msgid "A list of available options for the email notification setting control."
+msgstr "Liste des options disponibles pour le contrôle du réglage des notifications par email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:369
+msgid "Optional input placeholder for the email notification setting control."
+msgstr "Texte indicatif facultatif pour le contrôle du paramètre de notification par e-mail."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:144
+msgid "Could not match an email notification ID to a \"%s\" WooCommerce email ID."
+msgstr "Impossible d’associer un ID de notification par email à un ID par email WooCommerce « %s »."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:174
+msgid "Could not match a WooCommerce email ID to a \"%s\" email notification ID."
+msgstr "Impossible d’associer un ID par email WooCommerce à un ID de notification par email « %s »."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:597
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:89
+msgid "Could not find source WooCommerce email with ID \"%s\"."
+msgstr "Impossible de trouver l'e-mail WooCommerce source avec l'ID « %s »."
+
+#: src/Features/EmailNotifications/DataStores/EmailContentDataStore.php:75
+msgid "No content template file found for the ID %s."
+msgstr "Aucun fichier de modèle de contenu trouvé pour l'ID %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:94
+msgid "No email notification found with the ID %s."
+msgstr "Aucune notification par email trouvée avec l'ID %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:103
+msgid "The class for %s must implement the EmailNotificationContract interface"
+msgstr "La classe pour %s doit mettre en œuvre l'interface EmailNotificationContract."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:59
+msgid "No email notification template found with the ID %s."
+msgstr "Aucun modèle de notification par email trouvé avec l'ID %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:68
+msgid "The class for %s must implement the EmailTemplateContract interface"
+msgstr "La classe pour %s doit mettre en œuvre l'interface EmailTemplateContract."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:91
+msgid "No template file found with the ID %s."
+msgstr "Aucun fichier de modèle trouvé avec l'ID %s."
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:39
+msgid "Invalid option name template \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "Modèle de nom d'option « %s » non valide : il doit contenir un texte indicatif {{setting_id}}."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:65
+msgid "No settings found with the ID %s."
+msgstr "Aucun paramètre trouvé avec l'ID %s."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:74
+msgid "The class name for %s must implement ConfigurableContract"
+msgstr "Le nom de classe pour %s doit mettre en œuvre ConfigurableContract"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:99
+msgid "Content"
+msgstr "Contenu"
+
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:136
+msgid "No WooCommerce email found for \"%s\""
+msgstr "Aucun email WooCommerce trouvé pour « %s »."
+
+#: src/Features/EmailNotifications/EmailNotifications.php:192
+msgid "Admin"
+msgstr "Admin"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:193
+msgid "Extensions"
+msgstr "Extensions"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:194
+msgid "Customer"
+msgstr "Client"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:195
+msgid "Order"
+msgstr "Commande"
+
+#: src/Features/EmailNotifications/EmailsPage.php:32
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:39
+msgid "Email Notifications"
+msgstr "Notifications par email"
+
+#: src/Features/EmailNotifications/EmailsPage.php:33
+msgid "Emails"
+msgstr "Courriels"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:39
+msgid "Cancelled order"
+msgstr "Commande annulée"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:40
+msgid "Sent to chosen recipient(s) when an order is marked cancelled (if it was previously processing or on-hold)."
+msgstr "Envoyé au(x) destinataire(s) choisi(s) lorsqu'une commande est marquée comme annulée (si elle était précédemment en cours de traitement ou en attente)."
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:52
+msgid "[{{site_title}}]: Order #{{order_number}} has been cancelled"
+msgstr "[{{site_title}}] : La commande N° {{order_number}} a été annulée"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:35
+msgid "Completed order"
+msgstr "Commande terminée"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is marked completed and usually indicates that the order has been shipped."
+msgstr "Envoyé aux clients lorsque leur commande est marquée comme terminée et indique généralement que la commande a été expédiée."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:64
+msgid "We have finished processing your order."
+msgstr "Nous avons terminé de traiter votre commande."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:78
+msgid "Your {{site_title}} order is now complete"
+msgstr "La commande que vous avez passée sur {{site_title}} est maintenant terminée"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:37
+msgid "Customer invoice / order details"
+msgstr "Facture client / détails de la commande"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:38
+msgid "Emails containing order information and payment links sent manually."
+msgstr "Des courriels contenant des informations sur la commande et des liens de paiement sont envoyés manuellement."
+
+#. translators: %s Order date
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:67
+msgid "Here are the details of your order placed on %s:"
+msgstr "Voici les détails de votre commande passée le %s :"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:83
+msgid "Invoice for order #{{order_number}} on {{site_title}}"
+msgstr "Facture pour la commande N° {{order_number}} passée le {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:37
+msgid "Customer note"
+msgstr "Note du client"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:38
+msgid "Sent to customer when you add a note to an order."
+msgstr "Envoyé au client lorsque vous ajoutez une note à une commande."
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:88
+msgid "The following note has been added to your order:"
+msgstr "La note suivante a été ajoutée à votre commande :"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:90
+msgid "As a reminder, here are your order details:"
+msgstr "Pour rappel, voici les détails de votre commande :"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:104
+msgid "Note added to your {{site_title}} order from {{order_date}}"
+msgstr "Note ajoutée à la commande que vous passée sur le site {{site_title}} le {{order_date}}"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:69
+msgid "Heading"
+msgstr "Titre"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:77
+msgid "Additional content"
+msgstr "Contenu supplémentaire"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:42
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "Défaut"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:118
+msgid "Container"
+msgstr "Conteneur"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:120
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:150
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:197
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:124
+msgid "Email width"
+msgstr "Largeur de l'e-mail"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:133
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:503
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:70
+msgid "Default"
+msgstr "Défaut"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:134
+msgid "Full"
+msgstr "Complète"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:142
+msgid "Header"
+msgstr "En-tête"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:147
+msgid "Header image"
+msgstr "Image d'en-tête"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:156
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:175
+msgid "Text"
+msgstr "Texte"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:167
+msgid "Body"
+msgstr "Corps"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:169
+msgid "Body background color"
+msgstr "Couleur de l’arrière-plan du corps"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:178
+msgid "Link color"
+msgstr "Couleur du lien"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:185
+msgid "Headings"
+msgstr "Titres"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:188
+msgid "H1 font size"
+msgstr "Taille de la police H1"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:189
+msgid "H2 font size"
+msgstr "Taille de la police H2"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:190
+msgid "H3 font size"
+msgstr "Taille de la police H3"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:195
+msgid "Button"
+msgstr "Bouton"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:198
+msgid "Label color"
+msgstr "Couleur du libellé"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:207
+msgid "Footer"
+msgstr "Pied de page"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:215
+msgid "Footer text"
+msgstr "Texte du pied de page"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:243
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:263
+msgid "Font family"
+msgstr "Famille de polices"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:288
+msgid "Font size"
+msgstr "Taille de la police"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:202
+msgid "Enabled"
+msgstr "Activé"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:221
+msgid "Preview text"
+msgstr "Texte d’aperçu"
+
+#. translators: %1$s - opening a HTML tag, %2$s - closing a HTML tag
+#: src/Features/EmailNotifications/Models/EmailNotification.php:226
+msgid "Preview text is shown after the subject line in some email inboxes. Maximum: 150 characters. %1$sLearn more%2$s"
+msgstr "Le texte d’aperçu est affiché après la ligne d'objet dans certaines boîtes e-mail. Maximum : 150 caractères. %1$sEn savoir plus%2$s"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:231
+msgid "Enter preview text"
+msgstr "Saisissez le texte d’aperçu"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:256
+msgid "Subject"
+msgstr "Objet"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:41
+msgid "Failed order"
+msgstr "Échec de la commande"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when an order is marked failed (if it was previously pending or on-hold)."
+msgstr "Envoyé au(x) destinataire(s) choisi(s) lorsqu'une commande est marquée comme ayant échoué (si elle était précédemment en cours ou en attente)."
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:93
+msgid "[{site_title}]: Order #{order_number} has failed"
+msgstr "[{site_title}] : La commande #{order_number} a échoué"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:32
+#: src/WooCommerce/Emails/ItemShippedEmail.php:34
+msgid "Item shipped"
+msgstr "Article expédié"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:33
+msgid "Sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Envoyé aux clients lorsque des informations de suivi sont ajoutées pour un ou plusieurs articles de leurs commandes."
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:77
+msgid "An item from {{site_title}} order #{{order_number}} has shipped!"
+msgstr "Un article de la commande N° {{order_number}} que vous avez passée sur {{site_title}} a été expédié !"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:28
+msgid "New account"
+msgstr "Nouveau compte"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:29
+msgid "Sent to customers when they sign up via checkout or account pages."
+msgstr "Envoyé aux clients lorsqu'ils s'inscrivent via les pages de paiement ou de compte."
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:40
+msgid "Your {{site_title}} account has been created!"
+msgstr "Votre compte {{site_title}} a été créé !"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:41
+msgid "New order"
+msgstr "Nouvelle commande"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when a new order is received."
+msgstr "Envoyé au(x) destinataire(s) choisi(s) sur réception d’une nouvelle commande."
+
+#. translators: %1$s: Customer first name, %2$s: Customer last name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:69
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %1$s: Customer full name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:78
+msgid "You’ve received the following order from %1$s:"
+msgstr "Vous avez reçu la commande suivante de : %1$s :"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:98
+msgid "[{{site_title}}]: New order #{{order_number}}"
+msgstr "[{{site_title}}] : Nouvelle commande N° {{order_number}}"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:35
+msgid "Order on-hold"
+msgstr "Commande en attente"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:36
+msgid "Sent to customer when an order is on hold."
+msgstr "Envoyé au client lorsqu'une commande est en attente."
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:47
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:83
+msgid "Your {{site_title}} order has been received!"
+msgstr "La commande que vous avez passée sur {{site_title}} a été reçue !"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:36
+msgid "Partially refunded order"
+msgstr "Commande partiellement remboursée"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:37
+msgid "Sent to customers when their order is partially refunded."
+msgstr "Envoyé aux clients lorsque leur commande est partiellement remboursée."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:67
+msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr "Votre commande du %s a été partiellement remboursée. Vous trouverez plus de détails ci-dessous à titre de référence :"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:83
+msgid "Your {{site_title}} order #{{order_number}} has been partially refunded"
+msgstr "La commande N° {{order_number}} que vous avez passée sur {{site_title}} a été partiellement remboursée."
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:35
+msgid "Processing order"
+msgstr "Commande en cours de traitement"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:36
+msgid "Sent to customer after a payment is made."
+msgstr "Envoyé au client une fois qu'un paiement a été effectué."
+
+#. translators: %s: Order number
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:67
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "Pour votre information &mdash; nous avons reçu votre commande N° %s, elle est en cours de traitement :"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:36
+msgid "Fully refunded order"
+msgstr "Commande intégralement remboursée"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:37
+msgid "Sent to customers when their order is fully refunded."
+msgstr "Envoyé aux clients lorsque leur commande est intégralement remboursée."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:67
+msgid "Your order on %s has been refunded. There are more details below for your reference:"
+msgstr "La commande que vous avez passée sur %s a été remboursée. Vous trouverez plus de détails ci-dessous à titre de référence :"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:83
+msgid "Your {{site_title}} order #{{order_number}} has been refunded"
+msgstr "La commande N° {{order_number}} que vous avez passée sur {{site_title}} a été remboursée."
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:29
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:30
+msgid "Sent to customers when they reset their passwords."
+msgstr "Envoyé aux clients lorsqu'ils réinitialisent leur mot de passe."
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:54
+msgid "Sender name"
+msgstr "Nom de l’expéditeur"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:66
+msgid "Sender address"
+msgstr "Adresse de l’expéditeur"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:75
+msgid "Recipients"
+msgstr "Destinataires"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:76
+msgid "Enter recipients (comma-separated) for this email"
+msgstr "Saisissez les destinataires (séparés par des virgules) de cet e-mail."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:128
+msgid "Your hosting plan now offers editable WooCommerce emails, no plugin required!"
+msgstr "Votre forfait d’hébergement vous offre désormais des courriels modifiables WooCommerce, sans qu’une extension soit nécessaire!"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:129
+msgid "Customize your emails to reflect your brand and increase customer loyalty. Manage them from Marketing > Emails."
+msgstr "Personnalisez vos courriels pour qu’ils reflètent votre marque et augmentent la fidélité de vos client. Gérez-les à partir de Marketing > Courriels."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:130
+msgid "Manage emails"
+msgstr "Gérer les courriels"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:251
+msgid "A 3rd-party email editing plugin has been detected on your store."
+msgstr "Une extension d'édition d'e-mails tierce a été détectée sur votre boutique."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:252
+msgid "Please use either your hosting plan's email editing feature or your 3rd-party email editor."
+msgstr "Veuillez utiliser la fonction d'édition d'e-mails de votre plan d'hébergement ou votre éditeur d'e-mails tiers."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:254
+msgid "Edit emails"
+msgstr "Modifier les courriels"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:255
+msgid "Contact support"
+msgstr "Contacter le support technique"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:116
+msgid "A non-empty settings parameter must be provided."
+msgstr "A non-empty settings parameter must be provided."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:121
+msgid "Each setting object must contain name and value keys."
+msgstr "Each setting object must contain name and value keys."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:242
+msgid "Unique onboarding setting ID."
+msgstr "ID du paramètre unique d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:248
+msgid "Unique onboarding setting name (matches the ID)."
+msgstr "Nom unique du paramètre d'intégration (correspond à l'ID)."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:254
+msgid "Onboarding setting label."
+msgstr "Libellé du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:260
+msgid "Onboarding setting description."
+msgstr "Description du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:266
+msgid "A list of available options for the onboarding setting values."
+msgstr "Une liste d'options disponibles pour les valeurs du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:275
+msgid "Onboarding setting default value."
+msgstr "Valeur par défaut du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:281
+msgid "Onboarding setting value."
+msgstr "Valeur du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:287
+msgid "Whether the onboarding setting can have multiple values."
+msgstr "Si le paramètre d'intégration peut avoir plusieurs valeurs."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:293
+msgid "Whether the onboarding setting is required."
+msgstr "Si le paramètre d'intégration est obligatoire."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:299
+msgid "Onboarding setting group, if applicable."
+msgstr "Groupe de paramètres d'intégration, le cas échéant."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:305
+msgid "Onboarding setting control details."
+msgstr "Détails du contrôle du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:311
+msgid "Onboarding setting control type."
+msgstr "Type de contrôle du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:317
+msgid "A list of available options for the onboarding setting control."
+msgstr "Une liste des options disponibles pour le contrôle du paramètre d'intégration."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:326
+msgid "Optional input placeholder for the onboarding setting control."
+msgstr "Un texte indicatif facultatif pour le contrôle du paramètre d'intégration."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:21
+msgid "First time"
+msgstr "Première fois"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:46
+msgid "Store name"
+msgstr "Nom de la boutique"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:59
+msgid "Store address 1"
+msgstr "Adresse de la boutique 1"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:73
+msgid "Store address 2"
+msgstr "Adresse de la boutique 2"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:87
+msgid "Country Region"
+msgstr "Pays Région"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:101
+msgid "City"
+msgstr "Ville"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:115
+msgid "Postal code"
+msgstr "Code postal"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:129
+msgid "Currency"
+msgstr "Devise"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:143
+msgid "Left aligned"
+msgstr "Aligné à gauche"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:144
+msgid "Right aligned"
+msgstr "Aligné à droite"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:145
+msgid "Left aligned with space"
+msgstr "Aligné à gauche avec un espace"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:146
+msgid "Right aligned with space"
+msgstr "Aligné à droite avec un espace"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:150
+msgid "Currency position"
+msgstr "Position de la devise"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:169
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:226
+msgid "All countries"
+msgstr "Tous les pays"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:170
+msgid "Sell to all countries, except for..."
+msgstr "Vendre à tous les pays, sauf..."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:171
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:194
+msgid "Sell to specific countries"
+msgstr "Vendre à des pays spécifiques"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:175
+msgid "Selling locations"
+msgstr "Lieux de vente"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:209
+msgid "Sell to all countries except for"
+msgstr "Vendre à tous les pays, à l’exception de"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:225
+msgid "Ship to all countries you sell to"
+msgstr "Expédier vers tous les pays dans lesquels vous vendez"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:227
+msgid "Ship to specific countries only"
+msgstr "Expédier uniquement vers des pays spécifiques"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:228
+msgid "Disable shipping & shipping calculations"
+msgstr "Désactiver l'expédition et le calcul des frais de port"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:232
+msgid "Shipping locations"
+msgstr "Lieux d'expédition"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:251
+msgid "Ship to specific countries"
+msgstr "Expédier à des pays spécifiques"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:266
+msgid "Thousands separator"
+msgstr "Séparateur des milliers"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:280
+msgid "Decimal separator"
+msgstr "Séparateur décimal"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:294
+msgid "Number of decimals"
+msgstr "Nombre de décimales"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:308
+msgid "Kilograms"
+msgstr "Kilogrammes"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:309
+msgid "Grams"
+msgstr "Grammes"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:310
+msgid "Pounds"
+msgstr "Livres"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:311
+msgid "Ounces"
+msgstr "Onces"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:315
+msgid "Weight units"
+msgstr "Unités de poids"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:334
+msgid "Meters"
+msgstr "Mètres"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:335
+msgid "Centimeters"
+msgstr "Centimètres"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:336
+msgid "Millimeters"
+msgstr "Millimètres"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:337
+msgid "Inches"
+msgstr "Pouces"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:338
+msgid "Yards"
+msgstr "Yards"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:342
+msgid "Dimension units"
+msgstr "Unités de dimension"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:361
+msgid "Enable taxes"
+msgstr "Activer les taxes"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:375
+msgid "Last onboarding step"
+msgstr "Dernière étape de l'intégration"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:388
+msgid "Completed"
+msgstr "Terminé"
+
+#: src/Features/Onboarding/Settings/Settings.php:22
+msgid "Onboarding"
+msgstr "Intégration"
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:71
+msgid "Included WooCommerce Extensions"
+msgstr "Extensions WooCommerce incluses"
+
+#. translators: Placeholder: %s - captured amount
+#: src/Payments/Adapters/CaptureTransactionOrderNoteAdapter.php:24
+msgid "A payment of %s was successfully captured via GoDaddy Payments Hub"
+msgstr "Un paiement de %s a été capturé via le Centre des paiements GoDaddy"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "Nous ne pouvons pas traiter votre commande sur la base des informations de paiement que vous avez fournies. Veuillez utiliser un autre compte de paiement ou un autre moyen de paiement."
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:59
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:146
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "Une erreur s'est produite. Veuillez réessayer ou utiliser un autre moyen de paiement."
+
+#. translators: Placeholder: %s - refunded amount
+#: src/Payments/Adapters/RefundTransactionOrderNoteAdapter.php:24
+msgid "A refund of %s was successfully processed via GoDaddy Payments Hub"
+msgstr "Un remboursement de %s a été traité via le Centre des paiements GoDaddy"
+
+#. translators: Placeholder: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "Transaction ID %s"
+msgstr "ID de transaction %s"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:54
+msgid "Result: [%1$s] %2$s"
+msgstr "Résultat : [%1$s] %2$s"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction info (if applicable, or empty string)
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:86
+msgid "%1$s %2$s in the amount of %3$s%4$s"
+msgstr "%1$s %2$s pour un montant de %3$s %4$s"
+
+#. translators: Placeholders: %s - the total amount of the capture that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:26
+msgid "A payment capture of %s was successfully voided"
+msgstr "Une capture de paiement de %s a été annulée avec succès."
+
+#. translators: Placeholders: %s - the total amount of the refund that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:33
+msgid "A refund of %s was successfully voided"
+msgstr "Un remboursement de %s a été annulé avec succès."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:135
+msgid "Application ID."
+msgstr "ID d'application."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:141
+msgid "Business ID."
+msgstr "ID de business."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:147
+msgid "List of available features."
+msgstr "Liste des fonctionnalités disponibles."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:161
+msgid "Whether the payment gateway is enabled."
+msgstr "Si la passerelle de paiement est activée."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:167
+msgid "Payment gateway connection status."
+msgstr "État de la connexion à la passerelle de paiement."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:220
+msgid "Invalid phone number."
+msgstr "Numéro de téléphone non valide."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:267
+msgid "The remote parent ID in the request does not match the remote parent ID of the order."
+msgstr "L'ID du parent distant dans la demande ne correspond pas à l'ID du parent distant de la commande."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:364
+msgid "Invalid order ID."
+msgstr "ID de commande non valide."
+
+#. translators: Placeholders: %s - a payment provider name, such as poynt
+#: src/Payments/API/Controllers/ProviderProcessingController.php:385
+msgid "Provider %s not found."
+msgstr "Fournisseur %s introuvable."
+
+#: src/Payments/DataStores/WooCommerce/OrderPaymentTransactionDataStore.php:38
+#: src/WooCommerce/Payments/VirtualTerminal.php:102
+msgid "Virtual Terminal"
+msgstr "Terminal virtuel"
+
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:262
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:267
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "Payé au moment au paiement dans WooCommerce par « %s »."
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:694
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:477
+msgid "Void from Smart Terminal"
+msgstr "Annulation à partir d’un terminal intelligent"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:810
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:645
+msgid "Tip"
+msgstr "Conseil"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:815
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:650
+msgid "Cashback"
+msgstr "Cashback"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:846
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:681
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "Montant %1$s de %2$s ajouté à la commande par le terminal intelligent de GoDaddy Payments"
+
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:383
+msgid "Refund from Smart Terminal"
+msgstr "Remboursement à partir d’un terminal intelligent"
+
+#. translators: Placeholders: %1$s - date, %2$s time
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:625
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "Commande marquée comme prête sur le terminal le %1$s à %2$s."
+
+#. translators: %1$s: payment gateway name
+#: src/Payments/Poynt/OrderSynchronization.php:331
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "Transaction remboursée par %1$s depuis WooCommerce."
+
+#: src/Payments/Poynt/OrderSynchronization.php:333
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "Transaction remboursée manuellement depuis WooCommerce."
+
+#: src/Payments/Poynt/ViewOrderPage.php:51
+msgid "Order is ready for pickup."
+msgstr "La commande est prête à être prélevée."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:35
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Les courriels de produits expédiés sont envoyés aux clients lorsque les informations de suivi sont ajoutées à un ou plusieurs articles dans leur commande."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:60
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "Un article de la commande {site_title} #{order_number} a été expédié !"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:70
+msgid "Your package is on the way!"
+msgstr "Votre colis est en route !"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:80
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "Veuillez noter que la mise à jour des informations de suivi des envois par le transporteur peut prendre un certain temps."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:46
+msgid "Ready for pickup"
+msgstr "Prête pour récupération"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:47
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "Des courriels de ramassage sont envoyés aux clients lorsque leur commande est marquée comme étant prête à être ramassée."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:60
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "La commande que vous avez passée sur {site_title} est prête pour prélèvement !"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:70
+msgid "Order ready for pickup!"
+msgstr "Commande prête pour le prélèvement !"
+
+#: src/WooCommerce/Pages/EditOrder/ShipmentTrackingMetabox.php:32
+msgid "Shipment Tracking"
+msgstr "Suivi des envois"
+
+#. translators: Placeholder: %s - payment gateway method title
+#: src/WooCommerce/Payments/AbstractPaymentGateway.php:587
+msgid "%s Virtual Terminal"
+msgstr "Terminal virtuel %s"
+
+#: src/WooCommerce/Payments/Captures.php:88
+msgid "No gateway found for order"
+msgstr "Aucune passerelle trouvée pour la commande"
+
+#: src/WooCommerce/Payments/Captures.php:170
+#: src/WooCommerce/Payments/Captures.php:293
+msgid "Capture Charge"
+msgstr "Saisir le montant"
+
+#: src/WooCommerce/Payments/Captures.php:285
+msgid "This charge has been fully captured"
+msgstr "Ce montant a été saisi"
+
+#: src/WooCommerce/Payments/Captures.php:303
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "Souhaitez-vous vraiment traiter cette saisie ? Cette action ne peut pas être annulée."
+
+#: src/WooCommerce/Payments/Captures.php:304
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "Un problème s’est produit et la saisie n'a pas pu être effectuée. Veuillez réessayer."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:242
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:340
+msgid "Edit"
+msgstr "Modifier"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:243
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:417
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:244
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "Une erreur s’est produite lors de la mise à jour de votre moyen de paiement. Veuillez réessayer."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:245
+msgid "Are you sure you want to delete this payment method?"
+msgstr "Êtes-vous certain de vouloir supprimer ce mode de paiement?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:344
+msgid "Save"
+msgstr "Enregistrer"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:363
+msgid "Title"
+msgstr "Titre"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:365
+msgid "Details"
+msgstr "Détails"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:367
+msgid "Default?"
+msgstr "Par défaut ?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:587
+msgid "Invalid token ID"
+msgstr "ID de jeton non valide"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:191
+msgid "Manage Payment Methods"
+msgstr "Gérer les moyens de paiement"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:218
+msgid "Use a new card"
+msgstr "Utiliser une nouvelle carte"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:269
+msgid "Securely Save to Account"
+msgstr "Enregistrer en toute sécurité sur le compte"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:45
+msgid "Nickname"
+msgstr "Surnom"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:32
+msgid "expires %s"
+msgstr "expire le %s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:129
+msgid "Payment to be made upon delivery."
+msgstr "Le paiement doit être effectué à la livraison."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:207
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sAchat à partir d’un terminal intelligent%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:213
+msgid "%1$sDevices%2$s"
+msgstr "%1$sAppareils%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:219
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sCatalogues%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:225
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sPersonnaliser le terminal%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:236
+msgid "Smart Terminal"
+msgstr "Terminal intelligent"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:237
+msgid "Dual screens for smoother selling."
+msgstr "Doubles écrans pour une vente plus fluide."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:238
+msgid "Our dual screens make check out a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "Nos doubles écrans simplifient la procédure de paiement. De plus, notre terminal tout-en-un comprend un processeur de paiement intégré, un scanner, une imprimante, un dispositif de sécurité et bien plus encore."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:246
+msgid "Free"
+msgstr "Gratuit"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:246
+msgid "2-day shipping."
+msgstr "Livraison en 2 jours."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:249
+msgid "Learn More"
+msgstr "En savoir plus"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:535
+msgid "Enable Selling in Person"
+msgstr "Activer la vente en personne"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:542
+msgid "Checkout title"
+msgstr "Titre de la procédure de paiement"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:544
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:409
+msgid "Payment method title that the customer will see during checkout."
+msgstr "Titre du moyen de paiement que le client verra lors de la procédure de paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:548
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:173
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:175
+#: src/WooCommerce/Shipping/LocalPickup.php:121
+msgid "Checkout description"
+msgstr "Description de la procédure de paiement"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:550
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:415
+msgid "Payment method description that the customer will see during checkout."
+msgstr "Description du moyen de paiement que le client verra lors de la procédure de paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:554
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:181
+msgid "Order received instructions"
+msgstr "Instructions relatives à la commande reçue"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:557
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "Message que le client verra sur la page de la commande reçue et dans l'email de traitement de la commande après le paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:560
+msgid "Enable for Shipping Methods"
+msgstr "Activer pour les modes d'expédition"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:566
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "Sélectionnez les modes d'expédition qui afficheront ce moyen de paiement à l’intention du client au moment du paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:568
+msgid "Select Shipping Methods"
+msgstr "Sélectionner les modes d'expédition"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:585
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "Au moins un mode d'expédition est nécessaire pour activer la vente en personne."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:602
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "Payez votre commande en personne lors du prélèvement ou de la livraison."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:616
+msgid "We accept major credit/debit cards and cash."
+msgstr "Nous acceptons les principales cartes de crédit/débit et les espèces."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:630
+msgid "Pay in Person"
+msgstr "Payer en personne"
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:661
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (N° %2$s)"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:664
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:664
+msgid "Other locations"
+msgstr "Autres lieux"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:717
+msgid "Local Pickup Plus method"
+msgstr "Méthode de prélèvement local Plus"
+
+#. translators: Placeholders: %1$s - Shipping Method name
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:719
+msgid "Any \"%1$s\" method"
+msgstr "Toute méthode de « %1$s »"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:124
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:86
+msgid "The GoDaddy Payments service ID"
+msgstr "ID du service GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:130
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "Nonce pour valider la redirection après l'intégration."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "États d'intégration de GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:86
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "Une erreur s'est produite lors de la connexion à GoDaddy Payments. Veuillez réessayer."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:98
+msgid "%1$sGoDaddy Payments successfully enabled!%2$s GoDaddy Payments is now available to your customers at checkout."
+msgstr "%1$sGoDaddy Payments activé avec succès !%2$s Vos clients peuvent maintenant utiliser GoDaddy Payments au moment du paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:104
+msgid "%1$sGoDaddy Payments is now connected to your store!%2$s Enable the payment method to add it to your checkout. %3$sEnable GoDaddy Payments%4$s"
+msgstr "%1$sGoDaddy Payments est maintenant connecté à votre boutique !%2$s Activez le moyen de paiement pour l'ajouter à la procédure de paiement. %3$sActiver GoDaddy Payments%4$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:117
+msgid "%1$sYour GoDaddy Payments account has been closed.%2$s The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "%1$sVotre compte GoDaddy Payments a été fermé.%2$s Le moyen de paiement a été désactivé et n'apparaîtra donc pas au moment du paiement. Veuillez configurer votre compte pour reprendre le traitement des paiements."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:127
+msgid "%1$sIt looks like you didn't finish your GoDaddy Payments application. You're just a few minutes from processing payments.%2$s %3$sResume%4$s"
+msgstr "%1$sIl semble que vous n'ayez pas terminé votre demande pour GoDaddy Payments. Encore quelques minutes et vous serez en mesure de traiter les paiements.%2$s %3$sReprendre%4$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:139
+msgid "%1$sYour GoDaddy Payments account needs attention.%2$s The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "%1$sVotre compte GoDaddy Payments exige votre attention.%2$s Le moyen de paiement a été désactivé et n'apparaîtra donc pas au moment du paiement. Veuillez vérifier votre e-mail pour les prochaines étapes."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:149
+msgid "%1$sYour GoDaddy Payments account has been terminated.%2$s The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "%1$sVotre compte GoDaddy Payments a été résilié.%2$s Le moyen de paiement a été désactivé et n'apparaîtra donc pas au moment du paiement. Veuillez vérifier votre e-mail pour en savoir plus."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:176
+msgid "Congratulations! To receive your payouts, please link your bank account to GoDaddy Payments. %1$sLink Bank Account%2$s"
+msgstr "Félicitations ! Pour recevoir vos paiements, veuillez lier votre compte bancaire à GoDaddy Payments. %1$sLier le compte bancaire%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:202
+msgid "GoDaddy Payments is available for United States-based businesses. Please %1$supdate your Store Address%2$s if you are in the U.S."
+msgstr "GoDaddy Payments est proposé aux entreprises basées aux États-Unis. Veuillez %1$smettre à jour l'adresse de votre boutique%2$s si vous êtes aux États-Unis."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:215
+msgid "GoDaddy Payments requires U.S. dollar transactions. Please %1$schange your Currency%2$s in order to use the payment method."
+msgstr "GoDaddy Payments exige des transactions en dollars américains. Veuillez %1$schanger votre devise%2$s afin de pouvoir utiliser ce moyen de paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:227
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "Les paiements ou les autorisations/imputations WooCommerce, de même que les remboursements et les annulations effectués sur votre site intermédiaire seront traités normalement dans votre compte GoDaddy Payments."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:288
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:121
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:289
+msgid "Sell online and in person with GoDaddy Payments. Sync local pickup and delivery orders right to your Smart Terminal, then get paid fast with next-day deposits."
+msgstr "Vendez en ligne et en personne avec GoDaddy Payments. Synchronisez les commandes de prélèvement et de livraison locales directement sur votre terminal intelligent, puis faites-vous payer rapidement avec des versements le lendemain."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:290
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:318
+msgid "Get Started"
+msgstr "Premiers pas"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:316
+msgid "GoDaddy Selling in Person"
+msgstr "Vente en personne GoDaddy"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:317
+msgid "Use GoDaddy Payments Selling in Person to sync local pickup and delivery orders to your Smart Terminal. Sell anything, anywhere and get paid fast with next-day deposits."
+msgstr "Utilisez la fonction Vente en personne de GoDaddy Payments pour synchroniser les commandes de prélèvement et de livraison locales sur votre terminal intelligent. Vendez ce que vous voulez, où vous le voulez et soyez payé rapidement par le biais de versements le lendemain."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:380
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin! Go to %1$sPayments settings%2$s to enable it."
+msgstr "GoDaddy Payments (Poynt) est inclus pour les clients ayant opté pour l’hébergement WordPress sans extension distincts ! Allez dans %1$sParamètres des paiements%2$s pour l'activer."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:94
+msgid "Status"
+msgstr "État"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:193
+msgid "Set up"
+msgstr "Configurer"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:197
+msgid "Resume"
+msgstr "Reprendre"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:202
+msgid "Remove"
+msgstr "Retirer"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:206
+msgid "Manage"
+msgstr "Gérer"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:224
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:237
+msgid "Connected"
+msgstr "Connecté(e)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:225
+msgid "Connected to your terminal to Sell in Person."
+msgstr "Connecté à votre terminal pour la vente en personne."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:229
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "2.3% + 30¢ per online store transaction."
+msgstr "2,3 % + 30 ¢ par transaction de boutique en ligne."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:236
+msgid "New"
+msgstr "Nouveau"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:239
+msgid "Connect your terminal to Sell in Person."
+msgstr "Connectez votre terminal à Vente en personne."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:240
+msgid "Connected to your GoDaddy Payments account."
+msgstr "Connecté à votre compte GoDaddy Payments."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:243
+msgid "Connecting"
+msgstr "Connexion"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:244
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "Cette opération peut prendre quelques minutes. Veuillez actualiser pour vérifier."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:247
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:268
+msgid "Not available"
+msgstr "Non disponible"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:248
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "Nous vous remercions de votre demande, mais nous ne sommes pas en mesure d'assurer le traitement des paiements pour votre business."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:251
+msgid "Disconnected"
+msgstr "Déconnecté"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:252
+msgid "Your account has been closed."
+msgstr "Votre compte a été fermé."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:255
+msgid "Incomplete"
+msgstr "Incomplet"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:256
+msgid "Click Resume to complete your application."
+msgstr "Cliquez sur Reprendre pour compléter votre demande."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:260
+msgid "Needs attention"
+msgstr "Besoin d’attention"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:261
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:265
+msgid "Please check your email for next steps."
+msgstr "Veuillez vérifier votre e-mail pour les prochaines étapes."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:264
+msgid "Pending"
+msgstr "En attente"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:269
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "Votre compte GoDaddy Payments a été résilié."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:370
+msgid "Have a question? %1$sAsk the GoDaddy Team%3$s%2$s"
+msgstr "Vous avez une question ? %1$sInterrogez l'équipe GoDaddy%3$s%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:395
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:418
+msgid "Set up GoDaddy Payments"
+msgstr "Configurer GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:402
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "Vous êtes sur le point de créer un compte GoDaddy Payments. Dans quelques minutes, vous reviendrez ici afin d’activer les paiements sécurisés pour votre business."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:406
+msgid "Connect to GoDaddy Payments to quickly and easily accept all major credit cards with no setup fees or contracts."
+msgstr "Connectez-vous à GoDaddy Payments pour accepter rapidement et facilement toutes les principales cartes de crédit sans frais ou contrats de démarrage."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:409
+msgid "2.3% + 30¢"
+msgstr "2,3 % + 30 ¢"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:410
+msgid "per online store transaction"
+msgstr "par transaction de boutique en ligne"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Views/GoDaddyPaymentsPromotionBlock.php:27
+msgid "Get paid fast with GoDaddy Payments"
+msgstr "Choisissez un paiement rapide avec GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Views/GoDaddyPaymentsPromotionBlock.php:39
+msgid "Securely accept credit and debit card payments in minutes and get next-day payouts. Free setup and no hidden fees or long-term contracts."
+msgstr "Acceptez en quelques minutes, et en toute sécurité, les paiements par carte bancaire et recevez les paiements dès le lendemain. Configuration gratuite, sans frais cachés ni contrats à long terme."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Views/GoDaddyPaymentsPromotionBlock.php:63
+msgctxt "GoDaddy Payments promotion block button"
+msgid "Set up"
+msgstr "Configurer"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:60
+msgid "Missing card details."
+msgstr "Informations de carte manquantes."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:61
+msgid "Missing billing details."
+msgstr "Informations de facturation manquantes."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:77
+msgid "Accept credit/debit cards online and sell in person with secure checkout forms and smart terminals. Get paid fast with next-day deposits."
+msgstr "Acceptez les cartes de crédit/débit en ligne et la vente en personne en employant des formulaires de paiement sécurisés et des terminaux intelligents. Soyez payé rapidement par le biais de versements le lendemain."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:188
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "Gérez les paramètres de votre compte GoDaddy Payments dans le %1$scentre des paiements%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:400
+msgid "Enable"
+msgstr "Activer"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:402
+msgid "Enable to add the payment method to your checkout."
+msgstr "Activez pour ajouter le moyen de paiement à votre procédure de paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:407
+msgid "Title in Checkout"
+msgstr "Titre dans la procédure de paiement"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:413
+msgid "Description in Checkout"
+msgstr "Description dans la procédure de paiement"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:419
+msgid "Transaction Type"
+msgstr "Type de transaction"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:421
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "Sélectionnez le mode de traitement des transactions. L’option Facturer envoie toutes les transactions pour règlement, l’option Autorisation autorise simplement le total de la commande pour une saisie ultérieure."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:424
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "Frais"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:425
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "Autorisation"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:429
+msgid "Charge Virtual-Only Orders"
+msgstr "Facturer les commandes virtuelles uniquement"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:431
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "Si la commande contient exclusivement des articles virtuels, activez cette option pour facturer immédiatement la transaction, au lieu de l'autoriser."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:435
+msgid "Capture Paid Orders"
+msgstr "Saisir les commandes payées"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:439
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "Saisissez automatiquement les commandes lorsqu'elles passent à l’%s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:440
+msgid "a paid status"
+msgstr "état payé"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:444
+msgid "Accepted Card Logos"
+msgstr "Logos des cartes acceptées"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:446
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "Il s'agit des logos qui indiquent aux clients les cartes acceptées comme moyen de paiement."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:449
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept. Accepted cards are configured from your payment processor account."
+msgstr "Ce paramètre %1$sne modifie pas%2$s les types de carte acceptés par la passerelle. Les cartes acceptées sont configurées à partir de votre compte de processeur de paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:460
+msgid "Saved Cards"
+msgstr "Cartes enregistrées"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:462
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "Offrez à vos clients la possibilité d'enregistrer en toute sécurité leurs cartes de paiement dans leur compte pour une prochaine procédure de paiement."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:466
+msgid "Detailed Decline Messages"
+msgstr "Messages de refus détaillés"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:468
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "Des messages de refus détaillés s’afficheront à l’intention des clients pendant la procédure de paiement à la place d’un message de refus générique."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:472
+msgid "Debug Mode"
+msgstr "Mode de débogage"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:474
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "Affichez des messages d'erreur détaillés et des demandes/réponses API sur la page de paiement et/ou enregistrez-les dans le journal de débogage."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:477
+msgid "Off"
+msgstr "Désactiver"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:478
+msgid "Show on Checkout Page"
+msgstr "Afficher sur la page de paiement"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:479
+msgid "Save to Log"
+msgstr "Enregistrer dans le journal"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:480
+msgid "Both"
+msgstr "Les deux"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:539
+msgid "Pay securely with your credit/debit card."
+msgstr "Payez en toute sécurité au moyen de votre carte bancaire."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:553
+msgid "Credit/Debit Card"
+msgstr "Carte de crédit/débit"
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:187
+msgid "Pre-Order release payment failed: %s"
+msgstr "Le paiement de la précommande a échoué : %s"
+
+#: src/WooCommerce/Shipping/CoreShippingMethods.php:161
+msgid "Order Instructions:"
+msgstr "Instructions de commande :"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:60
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:135
+msgid "Local delivery"
+msgstr "Livraison locale"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:61
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "Permettez aux clients de sélectionner le service de livraison locale. Les taxes seront appliquées en fonction de l'adresse de livraison du client."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:128
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "Saisissez un coût (hors taxes) ou une somme, par exemple <code>10,00 * [qty]</code>."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:128
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "Utilisez <code>[qty]</code> pour le nombre d'articles, <br/><code>[cost]</code> pour le coût total des articles et <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> pour les frais basés sur un pourcentage."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:132
+msgid "Checkout Title"
+msgstr "Titre de la procédure de paiement"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ce paramètre contrôle le titre que l'utilisateur voit au moment du paiement."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:139
+msgid "Tax status"
+msgstr "Statut de la taxe"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:144
+msgid "Taxable"
+msgstr "Taxable"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:145
+msgctxt "Tax status"
+msgid "None"
+msgstr "Aucun"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:149
+msgid "Cost"
+msgstr "Coût"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:157
+msgid "Minimum order amount total when available"
+msgstr "Montant minimum de la commande totale, si disponible"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:160
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "Le montant de la commande d'un client doit être supérieur ou égal à ce montant spécifique pour permettre de sélectionner le mode d'expédition."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:165
+msgid "Minimum order total when free"
+msgstr "Montant minimum de la commande totale pour une expédition gratuite"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:168
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "Le montant de la commande d'un client doit être supérieur ou égal à ce montant pour que le mode d'expédition soit gratuit."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:176
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "Cette description sera affichée sous le nom du mode d'expédition Livraison locale dans le panier et les pages de paiement."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:183
+msgid "Delivery instructions"
+msgstr "Instructions de livraison"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:184
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "Message que le client verra sur la page de la commande reçue et dans l'email de traitement de la commande après le paiement."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:123
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "Description du mode d’expédition que le client verra au moment du paiement."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:129
+msgid "Pickup instructions"
+msgstr "Instructions de prélèvement"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:131
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "Message que le client verra sur la page de réception de la commande ainsi que dans les courriels de traitement de la commande et de ramassage."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:227
+#: src/WooCommerce/Shipping/LocalPickup.php:236
+#: src/WooCommerce/Shipping/LocalPickup.php:262
+msgid "Pickup Instructions"
+msgstr "Instructions de récupération"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "Transporteur"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "Numéro de suivi"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "Articles"
+
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:51
+msgid "Provided by GoDaddy"
+msgstr "Fourni par GoDaddy"
+
+#: templates/woocommerce/emails/order/order-shipments.php:23
+#: templates/woocommerce/emails/plain/order/order-shipments.php:24
+#: templates/woocommerce/order/order-shipments.php:25
+msgid "Shipments"
+msgstr "Envois"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:29
+#: templates/woocommerce/emails/plain/order/order-shipments.php:31
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:35
+msgid "Tracking URL: %s"
+msgstr "URL de suivi : %s"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:40
+msgid "%s: "
+msgstr "%s : "
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:44
+msgid "%1$s x %2$s"
+msgstr "%1$s x %2$s"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:32
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "Votre commande est prête à être prélevée."

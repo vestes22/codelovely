@@ -1,0 +1,73 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Shipping\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-24T23:18:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mwc-shipping\n"
+
+#: src/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatus.php:27
+msgid "Fulfilled"
+msgstr "⌠2390577⌡Fülfîlléd⌠2390577⌡"
+
+#: src/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatus.php:27
+msgid "Partially Fulfilled"
+msgstr "⌠2390578⌡Pårtîålly Fülfîlléd⌠2390578⌡"
+
+#: src/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatus.php:27
+msgid "Unfulfilled"
+msgstr "⌠2390579⌡Ünfülfîlléd⌠2390579⌡"
+
+#: src/Models/Packages/Statuses/CancelledPackageStatus.php:27
+msgid "Cancelled"
+msgstr "⌠2390580⌡Cåncélléd⌠2390580⌡"
+
+#: src/Models/Packages/Statuses/LabelCreatedPackageStatus.php:27
+msgid "Label Created"
+msgstr "⌠2390581⌡Låbél Créåtéd⌠2390581⌡"
+
+#: src/Models/Packages/Statuses/NotTrackedPackageStatus.php:27
+msgid "Not Tracked"
+msgstr "⌠2390582⌡Nòt Tråckéd⌠2390582⌡"
+
+#: src/Providers/AustraliaPost/AustraliaPostProvider.php:26
+msgctxt "shipping provider name"
+msgid "Australia Post"
+msgstr "⌠2390583⌡Åüstrålîå Pòst⌠2390583⌡"
+
+#: src/Providers/CanadaPost/CanadaPostProvider.php:26
+msgctxt "shipping provider name"
+msgid "Canada Post"
+msgstr "⌠2390584⌡Cånådå Pòst⌠2390584⌡"
+
+#: src/Providers/DHL/DHLProvider.php:26
+msgctxt "shipping provider name"
+msgid "DHL"
+msgstr "⌠2390585⌡DHL⌠2390585⌡"
+
+#: src/Providers/FedEx/FedExProvider.php:26
+msgctxt "shipping provider name"
+msgid "FedEx"
+msgstr "⌠2390586⌡FédÉx⌠2390586⌡"
+
+#: src/Providers/OnTrac/OnTracProvider.php:26
+msgctxt "shipping provider name"
+msgid "OnTrac"
+msgstr "⌠2390587⌡ÒnTråc⌠2390587⌡"
+
+#: src/Providers/UPS/UPSProvider.php:26
+msgctxt "shipping provider name"
+msgid "UPS"
+msgstr "⌠2390588⌡ÜPS⌠2390588⌡"
+
+#: src/Providers/USPS/USPSProvider.php:26
+msgctxt "shipping provider name"
+msgid "USPS"
+msgstr "⌠2390589⌡ÜSPS⌠2390589⌡"

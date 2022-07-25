@@ -1,0 +1,35 @@
+.tip-target .components-popover.nux-dot-tip.is-bottom {
+	margin-top: 12px;
+}
+
+.tip-target .components-popover p {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	color: #444;
+	font-size: 13px;
+	line-height: 1.4em;
+	margin: 1em 0;
+}
+
+.tip-target .components-popover .components-button {
+	font-weight: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	font-size: 13px;
+	line-height: 1.4em;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	vertical-align: top;
+	width: auto;
+	display: inline-block;
+}
+
+.tip-target .components-popover.components-animate__appear {
+	animation: x;
+}
+
+.tip-target .components-popover__content:focus {
+	outline: none;
+}
+
+.tip-target .nux-dot-tip .components-popover__content {
+	width: 340px;
+}

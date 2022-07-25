@@ -1,0 +1,183 @@
+.ub_countdown_circular_container {
+	display: grid;
+	p {
+		text-align: center;
+	}
+	> div {
+		margin: 0 auto;
+		svg {
+			position: absolute;
+		}
+	}
+}
+
+.ub_countdown_circle_path {
+	stroke-linecap: round;
+	stroke-dashoffset: 0px;
+	transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s,
+		stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;
+	fill-opacity: 0;
+}
+
+.ub_countdown_circle_trail {
+	stroke: #d9d9d9;
+	stroke-dasharray: 219.911px, 219.911px;
+	stroke-dashoffset: 0px;
+	transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s,
+		stroke 0.3s ease 0s;
+	fill-opacity: 0;
+}
+
+.ub_countdown_circle_label {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: auto;
+	text-align: center;
+}
+
+.ub-countdown-separator {
+	margin: 0 auto;
+	font-size: 35px;
+}
+
+.ub-countdown-odometer-container {
+	display: grid;
+	span {
+		text-align: center;
+	}
+}
+
+//NEW ODOMETER CODE BELOW
+.ub-countdown-digit-container {
+	height: 1.5em;
+	overflow-y: hidden;
+	margin: 0 auto;
+	font-size: 35px;
+	& > .digit,
+	& > .moving-digit {
+		float: left;
+	}
+}
+
+.ub-countdown-odometer {
+	margin: 0 auto;
+	font-size: 35px;
+	&-digit,
+	&-digits {
+		float: left;
+	}
+}
+
+//NEW ODOMETER CODE ABOVE
+
+.ub_countdown_style_selector {
+	display: flex;
+	flex-direction: row;
+}
+
+.ub-countdown {
+	margin-bottom: 20px;
+	> div {
+		text-align: initial;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.ub-countdown {
+		.ub_countdown_week,
+		.ub_countdown_day,
+		.ub_countdown_hour,
+		.ub_countdown_minute,
+		.ub_countdown_second,
+		&-odometer-container span {
+			font-size: 14px !important;
+		}
+	}
+}
+
+@media (max-width: 575.98px) {
+	.ub-countdown .ub_countdown_ {
+		&week,
+		&day,
+		&hour,
+		&minute,
+		&second {
+			margin: 0 1px;
+			font-size: 16px !important;
+		}
+	}
+}
+
+@media (max-width: 479.98px) {
+	.ub-countdown-separator,
+	.ub-countdown-odometer {
+		font-size: 20px;
+	}
+	.ub-countdown {
+		margin-bottom: 20px;
+		font-size: 14px;
+		display: inline-flex;
+		.ub_countdown_week,
+		.ub_countdown_day,
+		.ub_countdown_hour,
+		.ub_countdown_minute,
+		.ub_countdown_second {
+			font-size: 14px !important;
+		}
+	}
+	.ub_countdown_circular_container > div {
+		height: 60px;
+		width: 60px;
+		svg {
+			width: 60px;
+			height: 60px;
+		}
+	}
+}
+
+@media (max-width: 374.98px) {
+	.ub_countdown_circular_container {
+		div {
+			height: 50px;
+			width: 50px;
+		}
+		> div svg {
+			width: 50px;
+			height: 50px;
+		}
+	}
+	.ub-countdown .ub_countdown_week,
+	.ub-countdown .ub_countdown_day,
+	.ub-countdown .ub_countdown_hour,
+	.ub-countdown .ub_countdown_minute,
+	.ub-countdown .ub_countdown_second,
+	.ub-countdown-odometer-container span,
+	.ub-countdown {
+		font-size: 10px !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.ub-countdown,
+	.ub-countdown-separator,
+	.ub-countdown-odometer {
+		font-size: 10px;
+	}
+	.ub_countdown_circular_container > div {
+		height: 40px;
+		width: 40px;
+		svg {
+			width: 40px;
+			height: 40px;
+		}
+	}
+	.ub-countdown .ub_countdown_week,
+	.ub-countdown .ub_countdown_day,
+	.ub-countdown .ub_countdown_hour,
+	.ub-countdown .ub_countdown_minute,
+	.ub-countdown .ub_countdown_second {
+		margin: 0;
+		font-size: 10px !important;
+	}
+}

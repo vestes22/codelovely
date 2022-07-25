@@ -1,0 +1,140 @@
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+#promotion-section .readmore,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce .product-container .wc-forward,
+#footer-newsletter .ewnewsletter .hentry form input[type="submit"],
+.header-media .more-link .readmore,
+.pricing-section .more-link .readmore,
+#feature-slider-section .more-link .readmore,
+.hero-section .more-link .readmore,
+#content #infinite-handle span button,
+nav.navigation.posts-navigation .nav-links a {
+    border-radius: 8px;
+    border: solid 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+button,
+#promotion-section .readmore,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce .product-container .wc-forward,
+#footer-newsletter .ewnewsletter .hentry form input[type="submit"],
+.header-media .more-link .readmore,
+.pricing-section .more-link .readmore,
+.hero-section .more-link .readmore,
+#feature-slider-section .more-link .readmore,
+#content #infinite-handle span button,
+nav.navigation.posts-navigation .nav-links a {
+    &:hover,
+    &:focus {
+        border-color: transparent;
+    }
+}
+
+.entry-content .button,
+.entry-summary .button {
+    box-shadow: none;
+    @include transition(0.2s);
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    outline: thin dotted;
+    outline-offset: -4px;
+}
+
+.instagram-button {
+    margin-bottom: 0;
+}
+
+.archive-posts-wrapper .more-link .icon.icon-arrow-right {
+    opacity: 1;
+    margin-left: 15px;
+}
+
+.more-link .icon-arrow-right {
+    opacity: 0;
+}
+
+.more-link,
+.more-link .readmore,
+.button,
+button {
+    &:hover,
+    &:focus {
+        .icon-arrow-right {
+                opacity: 1;
+                transform: translateX(10px);
+                -o-transform: translateX(10px);
+                -moz-transform: translateX(10px);
+                -webkit-transform: translateX(10px);
+        }
+    }
+}
+
+.owl-carousel .owl-dots {
+    padding: 0 0 42px;
+    text-align: center;
+}
+
+.section .owl-carousel .owl-dots button.active {
+    background: transparent;
+}
+
+#testimonial-content-section .owl-carousel .owl-dots,
+#logo-slider-section .owl-carousel .owl-dots {
+    top: 94%;
+}
+
+.section .owl-carousel .owl-dots button {
+    @include border(50%);
+    border: 2px solid transparent;
+    clear: both;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0;
+    height: 14px;
+    line-height: 14px;
+    margin: 0 7px;
+    padding: 1px;
+    outline: none;
+    width: 14px;
+}

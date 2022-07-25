@@ -1,0 +1,5 @@
+composer.lock
+(.*/)?test/(.*/)
+
+# Tartufo configuration
+tool.tartufo

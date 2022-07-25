@@ -1,0 +1,7 @@
+# Integration suite configuration.
+
+actor: IntegrationTester
+bootstrap: bootstrap.php
+modules:
+  enabled:
+    - \Helper\Integration

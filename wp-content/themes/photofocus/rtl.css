@@ -1,0 +1,439 @@
+/*
+Theme Name: PhotoFocus
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Elements
+ * 3.0 - Padding/Margin
+ * 4.0 - Forms
+ * 5.0 - Navigation
+ *    5.1 - Main Menu
+ *    5.2 - Social Menu 
+ * 6.0 - Widgets
+ * 7.0 - Content
+ *	  7.1 - Header
+ *	  7.2 - Posts and pages
+ *	  7.3 - Comments
+ * 8.0 - Modules
+ *	  8.1 - Slider
+ *	  8.2 - Portfolio
+ *	  8.3. - Stats
+ * 9.0 - Media Queries
+ *    9.1 - >= 640px
+ *    9.2 - >= 768px
+ *    9.3 - >= 1024px
+ *    9.4 - >= 1200px
+ */
+
+
+/**
+ * 1.0 - Normalize
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: auto;
+	margin-left: 0.4375em;
+}
+
+
+/**
+ * 2.0 - Elements
+ */
+
+ul,
+ol {
+	margin: 0 1.5em 1.75em 0;
+}
+
+ol {
+	margin-right: 1.5em;
+	margin-left: 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+
+/**
+ * 3.0 - Padding/Margin
+ */
+
+.custom-header-content.content-align-left .section-title:after {
+	margin: 28px auto 0 0;
+}
+
+.entry-footer .author img {
+	margin-right: 0;
+	margin-left: 1em;
+}
+
+.entry-meta .icon {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+#feature-slider-section .entry-container > * > * {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+
+/**
+ * 4.0 - Forms
+ */
+
+input[type="search"].search-field {
+	padding: 12px 14px 12px 46px;
+}
+
+.search-submit {
+	left: 0;
+	right: auto;
+}
+
+
+/**
+ * 5.0 - Navigation
+ */
+
+/**
+ * 5.1 - Main Menu
+ */
+
+.main-navigation ul ul {
+	margin-left: 0;
+	margin-right: 0.875em;
+}
+
+.main-navigation ul ul li {
+	text-align: right;
+}
+
+.main-navigation .menu-item-has-children > a,
+.main-navigation .page_item_has_children > a {
+	padding-left: 49px;
+    padding-right: 30px;
+}
+
+.dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+.menu-inside-wrapper {
+	left: -400px;
+	right: auto;
+}
+
+.is-open .menu-inside-wrapper {
+	left: 0;
+	right: auto;
+}
+
+.menu-open .site {
+	left: auto;
+	right: 0;
+}
+
+.menu-label {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+/**
+ * 5.2 - Social Menu
+ */
+
+.social-floating-navigation .social-navigation .icon {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+
+/**
+ * 6.0 - Widgets
+ */
+
+.widget ul,
+.widget ol {
+	margin-right: 0;
+}
+
+/* Categories widget */
+.widget_categories ul,
+.widget_archive ul {
+	text-align: left;
+}
+
+.widget_categories ul a,
+.widget_archive ul a {
+	float: right;
+}
+
+.widget li > ul,
+.widget li > ol {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+#footer-newsletter .ewnewsletter .hentry {
+	text-align: right;
+}
+
+#footer-newsletter .section-heading-wrapper {
+	text-align: right;
+}
+
+
+/**
+ * 7.0 - Content
+ */
+
+/**
+ * 7.1 - Header
+ */
+
+.site-branding {
+	text-align: right;
+	margin: 14px 0 14px auto;
+}
+
+.site-header-menu {
+	margin-left: -20px;
+	margin-right: 0;
+}
+
+
+/**
+ * 7.2 - Posts and pages
+ */
+
+.recent-blog-content .view-more {
+	text-align: right;
+}
+
+.page-links a,
+.page-links > span {
+	margin-right: auto;
+	margin-left: 0.3076923077em;
+}
+
+.page-links > .page-links-title {
+	padding-right: 0;
+	padding-left: 0.6153846154em;
+}
+
+.entry-header .entry-meta > span {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.entry-header .entry-meta > span:last-child {
+	margin-right: auto;
+	margin-left: 0;
+}
+
+
+/**
+ * 7.3 - Comments
+ */
+
+.comment-author {
+	float: right;
+	margin: 0 0 1.5em 1.5em;
+}
+
+.comment-list .children li > article {
+	padding-left: 0;
+	padding-right: 2.5em;
+}
+
+.form-submit {
+	text-align: right;
+}
+
+
+/**
+ * 8.0 - Modules
+ */
+
+ .site-content .view-more {
+ 	text-align: right;
+ }
+
+/**
+ * 8.1 - Slider
+ */ 
+
+#feature-slider-section .owl-nav {
+	right: 0;
+	left: 14px;
+	text-align: left;
+} 
+
+#feature-slider-section .owl-dots {
+    left: 14px;
+    right: auto;
+    text-align: left;
+}
+
+.custom-header-content.content-align-right .custom-header-content-wrapper {
+	margin: 0 auto 0 0;
+}
+
+
+/**
+ * 8.2 - Portfolio
+ */
+
+.portfolio-content-wrapper .hentry-inner:hover .entry-container {
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+}
+
+
+/**
+ * 8.3 - Stats
+ */
+
+.stats-content-wrapper .post-thumbnail {
+	float: right;
+	margin: 0 0 0 14px;
+}
+
+.stats-content-wrapper .entry-summary,
+.stats-content-wrapper .entry-content {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+
+/**
+ * 9.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 9.1 - >= 640px
+ */
+
+@media screen and (min-width: 40em) {
+	.author-info {
+		text-align: right;
+	}
+
+	.author-avatar {
+		float : right;
+		margin: 0 0 0 35px;
+	}
+
+	.stats-content-wrapper {
+		text-align: right;
+	}
+
+	.stats-content-wrapper .post-thumbnail {
+		margin: 0 0 0 14;
+	}
+
+	.footer-newsletter .has-ew-newsletter-image .ew-newsletter-content-container {
+		padding-left: 66px;
+		padding-right: 42px;
+	}
+}
+
+
+/**
+ * 9.2 - >= 768px
+ */
+
+@media screen and (min-width: 48em) {
+    .site-branding {
+		text-align: right;
+		margin: 17px 0 18px auto;
+	}
+}
+
+
+/**
+ * 9.3 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+	.site-header-menu {
+	    margin-left: 0;
+	}
+
+	.site-branding {
+	    margin: 16px 20px 16px auto;
+	}
+
+	.is-open .menu-inside-wrapper {
+		left: 3.75%;
+	}
+}
+
+
+/**
+ * 9.4 - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+	.navigation-classic .site-branding {
+	    text-align: right;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.navigation-classic .main-navigation ul li:hover > ul,
+	.navigation-classic .main-navigation ul li.focus > ul {
+	    left: 20px;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul li:hover > ul,
+	.navigation-classic .main-navigation ul ul li.focus > ul {
+	    left: 100%;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a > .icon, 
+	.navigation-classic .main-navigation .page_item_has_children > a > .icon {
+		left: auto;
+		right: 5px;
+	}
+}

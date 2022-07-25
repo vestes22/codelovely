@@ -1,0 +1,114 @@
+@charset 'UTF-8';
+
+@import url(admin-bar.css);
+
+/* Inline Notices */
+
+.wpaas-inline-notice {
+	display: inline-block;
+	background: #fff;
+	border-right: 4px solid #dc3232;
+	padding: 8px 12px;
+	margin: 10px 0;
+
+	-webkit-box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+	   -moz-box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+	        box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+}
+
+/* MWP Dialog Fixes */
+
+.mwp-dialog {
+	padding: 0 !important;
+}
+
+.mwp-dialog .ui-corner-all {
+	border: none;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.mwp-dialog .ui-widget-header {
+	background: none;
+}
+
+.mwp-dialog button.ui-button {
+	background: none;
+	border: none;
+}
+
+.mwp-dialog .ui-state-default .ui-icon {
+	background: none;
+}
+
+.mwp-dialog > .ui-dialog-titlebar > .ui-dialog-titlebar-close {
+	width: 20px;
+	height: 20px;
+	margin: -10px 0 0 0;
+}
+
+.mwp-dialog > .ui-dialog-titlebar {
+	font-weight: 600;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+@media screen and (max-width: 782px) {
+
+	.wpaas-inline-notice {
+		margin: 5px 0 15px !important;
+	}
+
+}
+
+/* Tips */
+
+div.tooltip.wpaas-tip-display {
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.plugins .row-actions .wpaas-blacklisted-plugin {
+	color: #000;
+}
+
+/* GoDaddy Garage Dashboard Widget */
+
+#wpaas_dashboard_godaddy_garage .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#wpaas_dashboard_godaddy_garage .widget-loading,
+#wpaas_dashboard_godaddy_garage .dashboard-widget-control-form {
+	padding: 12px 12px 0;
+}
+
+#wpaas_dashboard_godaddy_garage .rss-widget {
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	padding: 8px 12px 10px;
+}
+
+#wpaas_dashboard_godaddy_garage .rss-widget:last-child {
+	border-bottom: none;
+	padding-bottom: 8px;
+}
+
+#wpaas_dashboard_godaddy_garage .rss-widget a {
+	font-weight: normal;
+}
+
+#wpaas_dashboard_godaddy_garage .rss-widget span,
+#wpaas_dashboard_godaddy_garage .rss-widget span.rss-date {
+	color: #777;
+}
+
+#wpaas_dashboard_godaddy_garage .rss-widget span.rss-date {
+	margin-right: 12px;
+}
+
+#wpaas_dashboard_godaddy_garage .rss-widget ul li {
+	margin-bottom: 8px;
+}

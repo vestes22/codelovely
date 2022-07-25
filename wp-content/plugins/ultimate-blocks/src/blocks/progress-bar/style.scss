@@ -1,0 +1,44 @@
+.ub_progress-bar {
+	overflow: auto;
+	&-container {
+		text-align: start;
+	}
+	&-circle {
+		position: absolute;
+		+ .ub_progress-bar-label {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: auto;
+			text-align: center;
+		}
+		&-trail {
+			stroke-dashoffset: 0px;
+			transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s,
+				stroke 0.3s ease 0s;
+			fill-opacity: 0;
+		}
+		&-path {
+			stroke-dashoffset: 0px;
+			transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s,
+				stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;
+			fill-opacity: 0;
+		}
+	}
+	&-line {
+		&-trail {
+			fill-opacity: 0;
+			stroke-linecap: round;
+		}
+		&-path {
+			stroke-dasharray: 100px, 100px;
+			transition: stroke-dashoffset 0.3s ease 0s, stroke 0.3s linear 0s;
+			fill-opacity: 0;
+			stroke-linecap: round;
+		}
+		+ .ub_progress-bar-label {
+			text-align: right;
+			min-width: 24px;
+		}
+	}
+}

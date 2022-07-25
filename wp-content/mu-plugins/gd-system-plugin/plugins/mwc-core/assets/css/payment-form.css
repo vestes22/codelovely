@@ -1,0 +1,33 @@
+.wc_payment_methods div.mwc-payments-gateway-card-icons {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 22px;
+}
+.wc_payment_methods div.mwc-payments-gateway-card-icons img {
+	float: left !important;
+	margin: 5px;
+}
+
+.mwc-payments-manage-payment-methods {
+	display: block;
+	margin: 1em 0;
+	text-align: center;
+}
+
+.wc_payment_methods .mwc-payments-payment-method {
+	display: inline-block;
+	margin-bottom: .5em;
+}
+.wc_payment_methods .mwc-payments-payment-method .label {
+	margin-right: .5em;
+}
+.wc_payment_methods .mwc-payments-payment-method .icon {
+	float: none;
+	display: inline-block;
+	margin-right: .5em;
+	vertical-align: middle;
+}
+.wc_payment_methods .mwc-payments-payment-method .icon img {
+	width: 30px;
+	height: 20px;
+}

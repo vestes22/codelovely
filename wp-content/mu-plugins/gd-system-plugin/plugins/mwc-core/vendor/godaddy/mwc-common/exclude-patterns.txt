@@ -1,0 +1,29 @@
+.pre-commit-config.yaml
+
+resources/js/app.js
+resources/vendor
+(.*/)?autoload.php
+sample.env
+
+# Lock Files are not always in the root
+.*composer.lock
+.*package-lock.json
+.pnp.js
+.*Pipfile.lock
+.*yarn.lock
+
+# Ignore inline images
+.*\.css$
+.*\.scss$
+.*\.ico$
+.*\.jpg$
+.*\.png$
+.*\.svg$
+
+# Ignore uploaded logs
+.*\.log$
+
+# Frontend Build Files
+build
+data
+public/js/app.js

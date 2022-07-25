@@ -1,0 +1,234 @@
+@media screen and (min-width: 48em) {
+    /* Woocommerce Styles */
+    table.cart td.actions input,
+    table.cart td.actions .button {
+        margin: 0;
+    }
+
+    table.shop_table_responsive tr td.product-thumbnail {
+        width: 100px;
+    }
+
+    table.shop_table_responsive thead {
+        display: table-header-group;
+    }
+
+    table.shop_table_responsive tbody th {
+        display: table-cell;
+    }
+
+    table.shop_table_responsive tr th,
+    table.shop_table_responsive tr td {
+        text-align: left;
+    }
+
+    table.shop_table_responsive tr td {
+        display: table-cell;
+    }
+
+    table.shop_table_responsive tr td:before {
+        display: none;
+    }
+
+    .col2-set .form-row-first {
+        float: left;
+        margin-right: 3.8%;
+    }
+
+    .col2-set .form-row-last {
+        float: right;
+        margin-right: 0;
+    }
+
+    .col2-set .form-row-first,
+    .col2-set .form-row-last {
+        width: 48.1%;
+    }
+
+    .woocommerce-account .woocommerce-MyAccount-navigation {
+        float: left;
+        width: 30%;
+        margin: 0;
+    }
+
+    .woocommerce-account .woocommerce-MyAccount-content {
+        float: right;
+        width: 66%;
+    }
+
+    .woocommerce-account .woocommerce-MyAccount-content p:first-child {
+        margin-top: 0;
+    }
+
+    .woocommerce-account .woocommerce-MyAccount-content form > h3 {
+        margin-top: 0;
+    }
+
+    .woocommerce-MyAccount-content {
+        padding-top: 0;
+    }/* Woocommerce Styles End */
+
+    #social-menu-wrapper,
+    #primary-search-wrapper {
+        display: block;
+        position: relative;
+    }
+
+    .menu-toggle-wrapper {
+        display: block;
+        float: left;
+        padding: 10px 0;
+    }
+
+    #testimonial-content-section .post-thumbnail img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .menu-toggle {
+        padding: 5px 10px;
+    }
+
+    .menu-inside-wrapper {
+        width: 350px;
+        top: 100%;
+        right: 0;
+        opacity: 0;
+    }
+
+    .is-open .menu-inside-wrapper {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navigation-default .mobile-social-search {
+        display: none;
+    }
+
+    .navigation-modern .mobile-social-search .search-container {
+        display: none;
+    }
+
+    #hero-content-section .section-content-wrapper {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    #feature-slider-section .entry-summary,
+    #feature-slider-section .entry-content {
+        display: block;
+    }
+
+    .custom-logo {
+        margin: 0;
+    }
+
+    #contact-section .section-content-wrapper .entry-summary,
+    #contact-section .section-content-wrapper .entry-content {
+        margin: 35px 0 0;
+    }
+
+    .featured-video-content-wrapper .hentry,
+    .featured-content-wrapper.layout-four .hentry,
+    .portfolio-content-wrapper.layout-four .hentry,
+    .services-content-wrapper.layout-four .hentry,
+    .stats-content-wrapper.layout-four .hentry,
+    .team-content-wrapper.layout-four .hentry,
+    .contact-details.layout-four > div,
+    .featured-content-wrapper.layout-two .hentry,
+    .services-content-wrapper.layout-two .hentry,
+    .team-content-wrapper.layout-two .hentry,
+    .portfolio-content-wrapper.layout-two .hentry,
+    .contact-details.layout-two > div,
+    .two-columns .hentry,
+    #gallery-section .gallery-columns-2 .gallery-item,
+    #gallery-section .gallery-columns-4 .gallery-item,
+    #gallery-section .gallery-columns-5 .gallery-item,
+    #gallery-section .gallery-columns-7 .gallery-item,
+    #gallery-section .gallery-columns-8 .gallery-item,
+    .pricing-content-wrapper.layout-two .hentry,
+    .pricing-content-wrapper.layout-four .hentry {
+        width: 50%;
+    }
+
+    .featured-content-wrapper.layout-three .hentry,
+    .portfolio-content-wrapper.layout-three .hentry,
+    .services-content-wrapper.layout-three .hentry,
+    .stats-content-wrapper.layout-three .hentry,
+    .team-content-wrapper.layout-three .hentry,
+    .three-columns .hentry,
+    #gallery-section .gallery-columns-3 .gallery-item,
+    #gallery-section .gallery-columns-6 .gallery-item,
+    #gallery-section .gallery-columns-9 .gallery-item,
+    .pricing-content-wrapper.layout-three .hentry {
+        width: 33.33%;
+    }
+
+    .archive-posts-wrapper .entry-container {
+        padding: 0 60px;
+    }
+
+    .team-content-wrapper .view-more {
+        top: 4%;
+        right: 50px;
+    }
+
+    .section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+        margin-right: 42px;
+    }
+
+    .more-link + .more-link .solid-button {
+        margin-left: 14px;
+    }
+
+    body:not(.home) .custom-header-content {
+        padding: 150px 30px 80px 30px;
+    }
+
+    .color-scheme-music.home .header-media .section-title,
+    .color-scheme-music #feature-slider-section .entry-title,
+    .color-scheme-wedding.home .header-media .section-title,
+    .color-scheme-wedding #feature-slider-section .entry-title,
+    .color-scheme-corporate.home .header-media .section-title,
+    .color-scheme-corporate #feature-slider-section .entry-title,
+    .color-scheme-ecommerce.home .header-media .section-title,
+    .color-scheme-ecommerce #feature-slider-section .entry-title {
+        font-size: 44px;
+        font-size: 2.75rem;
+    }
+
+    .events-section.single-layout .event-list-description {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .events-section.single-layout .event-list-description {
+        width: 80%;
+    }
+
+    .events-section.single-layout .entry-meta {
+        width: 20%;
+    }
+
+    .events-section.single-layout .event-title-wrap {
+        padding: 0 28px;
+        width: 68%;
+    }
+
+    .events-section.single-layout .event-button {
+        margin-top: 0;
+    }
+
+    .events-section.single-layout .date-week-day {
+        font-size: 44px;
+        font-size: 2.75rem;
+    }
+
+    #primary-menu-wrapper {
+        position: relative;
+    }
+
+    #primary-menu-wrapper .menu-inside-wrapper {
+        max-width: 350px;
+    }
+}

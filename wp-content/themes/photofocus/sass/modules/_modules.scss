@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------
+## alignments 4.1
+--------------------------------------------------------------*/
+@import 'accessibility';
+
+/*--------------------------------------------------------------
+## alignments 4.2
+--------------------------------------------------------------*/
+@import 'alignments';
+
+/*--------------------------------------------------------------
+## alignments 4.1
+--------------------------------------------------------------*/
+@import 'breadcrumbs';
+
+/*--------------------------------------------------------------
+## alignments 4.1
+--------------------------------------------------------------*/
+@import 'captions';
+
+/*--------------------------------------------------------------
+## clearings 4.3
+--------------------------------------------------------------*/
+@import 'clearings';
+
+/*--------------------------------------------------------------
+## alignments 4.1
+--------------------------------------------------------------*/
+@import 'content';
+
+/*--------------------------------------------------------------
+## alignments 4.1
+--------------------------------------------------------------*/
+@import 'scroll-up';
+
+/*--------------------------------------------------------------
+## alignments 4.1
+--------------------------------------------------------------*/
+@import 'sidebar';
+
+/**
+ * 14.0 - Modules
+ */
+
+.section {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.header-media + .section {
+    padding-top: 42px;
+}
+
+.header-media + .no-section-heading {
+    padding-top: 84px;
+}
+
+.section + .section.has-background-image {
+    padding-top: 84px;
+    margin-top: 42px;
+}
+
+.section + .section.has-background-image.no-section-heading {
+    padding-top: 84px;
+}
+
+.section.no-section-heading {
+	padding-top: 42px;
+}
+
+#promotion-section {
+    padding: 84px 0;
+}
+
+body .section + .section.has-background-image {
+	margin-top: 0;
+}
+
+.section-heading-wrapper {
+	display: block;
+	max-width: 990px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+#testimonial-content-section .owl-slideshow {
+	overflow: hidden;
+}
+
+#featured-video-section.has-background-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#featured-video-section {
+	background-image: url('assets/images/video-bg.jpg');
+}
+
+#contact-section .main-image {
+	background-image: url('assets/images/contact-map.jpg');
+}
+

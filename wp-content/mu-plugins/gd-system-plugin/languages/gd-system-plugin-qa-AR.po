@@ -1,0 +1,756 @@
+# Copyright (c) 2020 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: System Plugin 3.21.4\n"
+"POT-Creation-Date: 2021-02-24 16:29:52+00:00\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: gd-system-plugin/includes/admin/class-bar.php:228
+#: gd-system-plugin/includes/admin/class-bar.php:239
+#: gd-system-plugin/includes/admin/class-bar.php:411
+#: gd-system-plugin/includes/admin/class-bar.php:468
+#: gd-system-plugin/includes/class-hotfixes.php:195
+msgid "Managed WordPress"
+msgstr "ڪ572014ٲMånågéd WòrdPréssڪ572014ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:290
+msgid "Flush Cache"
+msgstr "ڪ549213ٲFlüsh Cåchéڪ549213ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:309
+msgid "Hosting Overview"
+msgstr "ڪ2061860ٲHòstîng Òvérvîéwڪ2061860ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:331
+msgid "Hosting Settings"
+msgstr "ڪ2061861ٲHòstîng Séttîngsڪ2061861ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:359
+msgid "Connection Management"
+msgstr "ڪ1963480ٲCònnéctîòn Månågéméntڪ1963480ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:384
+msgid "Help &amp; Support"
+msgstr "ڪ2038219ٲHélp &amp; Süppòrtڪ2038219ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Site"
+msgstr "ڪ2039997ٲMy Sîtéڪ2039997ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:451
+msgid "My Dashboard"
+msgstr "ڪ2039998ٲMy Dåshbòårdڪ2039998ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:460
+msgid "Logout"
+msgstr "ڪ2039999ٲLògòütڪ2039999ٲ"
+
+#: gd-system-plugin/includes/admin/class-bar.php:475
+#: gd-system-plugin/includes/admin/class-bar.php:487
+msgid "Design Editor"
+msgstr "ڪ2040000ٲDésîgn Édîtòrڪ2040000ٲ"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:71
+msgid "PHP Update Required"
+msgstr "ڪ2023866ٲPHP Üpdåté Réqüîrédڪ2023866ٲ"
+
+#: gd-system-plugin/includes/admin/class-growl.php:102
+msgid "Success"
+msgstr "ڪ595022ٲSüccéssڪ595022ٲ"
+
+#. translators: %s: Plugin author.
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:220
+msgid "By %s"
+msgstr "ڪ2053847ٲBy %sڪ2053847ٲ"
+
+#. translators: %s: Plugin name and version.
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:242
+msgid "Install %s now"
+msgstr "ڪ2053848ٲÎnståll %s nòwڪ2053848ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:247
+msgid "Install Now"
+msgstr "ڪ2053849ٲÎnståll Nòwڪ2053849ٲ"
+
+#. translators: %s: Plugin name and version.
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:263
+msgid "Update %s now"
+msgstr "ڪ2053850ٲÜpdåté %s nòwڪ2053850ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:268
+msgid "Update Now"
+msgstr "ڪ2053851ٲÜpdåté Nòwڪ2053851ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:284
+#: gd-system-plugin/includes/admin/class-themes-tab.php:146
+#: gd-system-plugin/includes/admin/class-themes-tab.php:308
+msgid "Activate"
+msgstr "ڪ852398ٲÅctîvåtéڪ852398ٲ"
+
+#. translators: %s: Plugin name and version.
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:327
+msgid "More information about %s"
+msgstr "ڪ2053852ٲMòré înfòrmåtîòn åbòüt %sڪ2053852ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:329
+msgid "More Details"
+msgstr "ڪ2053853ٲMòré Détåîlsڪ2053853ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:143
+msgid "GoDaddy Recommended"
+msgstr "ڪ2053854ٲGòDåddy Récòmméndédڪ2053854ٲ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:70
+msgid "Go to your Dashboard to install plugins, manage users and more."
+msgstr ""
+"ڪ2053855ٲGò tò yòür Dåshbòård tò înståll plügîns, månågé üsérs ånd mòré."
+"ڪ2053855ٲ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:74
+msgid ""
+"Add a new page or blog post to organize your content or engage visitors."
+msgstr ""
+"ڪ2053856ٲÅdd å néw pågé òr blòg pòst tò òrgånîzé yòür còntént òr éngågé "
+"vîsîtòrs.ڪ2053856ٲ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:78
+msgid "Edit the page you're currently on."
+msgstr "ڪ2053857ٲÉdît thé pågé yòü'ré cürréntly òn.ڪ2053857ٲ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:82
+msgid "Change your website's design, color palette and more."
+msgstr ""
+"ڪ2053858ٲChångé yòür wébsîté's désîgn, còlòr pålétté ånd mòré.ڪ2053858ٲ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:86
+msgid ""
+"Find help, troubleshooting and how to get back to your Hosting Dashboard."
+msgstr ""
+"ڪ2053859ٲFînd hélp, tròübléshòòtîng ånd hòw tò gét båck tò yòür Hòstîng "
+"Dåshbòård.ڪ2053859ٲ"
+
+#: gd-system-plugin/includes/admin/class-starter-tips.php:96
+msgid ""
+"Add pages, blog posts, and products to engage visitors and keep your shop "
+"organized."
+msgstr ""
+"ڪ2053860ٲÅdd pågés, blòg pòsts, ånd pròdücts tò éngågé vîsîtòrs ånd kéép "
+"yòür shòp òrgånîzéd.ڪ2053860ٲ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:144
+#: gd-system-plugin/includes/admin/class-themes-tab.php:304
+msgid "Installed"
+msgstr "ڪ556866ٲÎnstållédڪ556866ٲ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:145
+msgid "Error Installing Theme"
+msgstr "ڪ852397ٲÉrròr Înstållîng Théméڪ852397ٲ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:147
+#: gd-system-plugin/includes/admin/class-themes-tab.php:310
+msgid "Live Preview"
+msgstr "ڪ852399ٲLîvé Prévîéwڪ852399ٲ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:148
+msgid "Theme Install"
+msgstr "ڪ852400ٲThémé Înstållڪ852400ٲ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:288
+msgid "Install %s"
+msgstr "ڪ852401ٲÎnståll %sڪ852401ٲ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:291
+msgid "Install"
+msgstr "ڪ852402ٲÎnstållڪ852402ٲ"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:322
+msgid "View Demo"
+msgstr "ڪ852403ٲVîéw Démòڪ852403ٲ"
+
+#. translators: Name of the disallowed plugin
+#: gd-system-plugin/includes/class-blacklist.php:94
+msgid "%s is not allowed on our system. It has been automatically deactivated."
+msgstr ""
+"ڪ658736ٲ%s îs nòt ållòwéd òn òür systém. Ît hås béén åütòmåtîcålly "
+"déåctîvåtéd.ڪ658736ٲ"
+
+#: gd-system-plugin/includes/class-blacklist.php:229
+msgid "Not Available"
+msgstr "ڪ658737ٲNòt Åvåîlåbléڪ658737ٲ"
+
+#: gd-system-plugin/includes/class-blacklist.php:230
+msgid ""
+"This plugin is not allowed on our system due to performance, security, or "
+"compatibility concerns. Please contact support with any questions."
+msgstr ""
+"ڪ658738ٲThîs plügîn îs nòt ållòwéd òn òür systém düé tò pérfòrmåncé, "
+"sécürîty, òr còmpåtîbîlîty còncérns. Pléåsé còntåct süppòrt wîth åny "
+"qüéstîòns.ڪ658738ٲ"
+
+#: gd-system-plugin/includes/class-cache.php:116
+msgid "Cache cleared"
+msgstr "ڪ549232ٲCåché cléårédڪ549232ٲ"
+
+#. translators: Title of alert in bold
+#: gd-system-plugin/includes/class-change-domain.php:61
+#: gd-system-plugin/includes/class-change-domain.php:149
+msgid "%s Your domain cannot be changed here."
+msgstr "ڪ658739ٲ%s Yòür dòmåîn cånnòt bé chångéd héré.ڪ658739ٲ"
+
+#: gd-system-plugin/includes/class-change-domain.php:62
+#: gd-system-plugin/includes/class-change-domain.php:78
+#: gd-system-plugin/includes/class-change-domain.php:138
+#: gd-system-plugin/includes/class-change-domain.php:150
+#: gd-system-plugin/includes/class-temp-domain.php:117
+#: gd-system-plugin/includes/class-temp-domain.php:125
+msgid "Note:"
+msgstr "ڪ595024ٲNòté:ڪ595024ٲ"
+
+#: gd-system-plugin/includes/class-change-domain.php:69
+#: gd-system-plugin/includes/class-temp-domain.php:132
+msgid "Change domain"
+msgstr "ڪ658740ٲChångé dòmåînڪ658740ٲ"
+
+#. translators: Title of alert in bold
+#: gd-system-plugin/includes/class-change-domain.php:77
+#: gd-system-plugin/includes/class-change-domain.php:137
+msgid "%s This is your staging site and the domain cannot be changed."
+msgstr ""
+"ڪ658741ٲ%s Thîs îs yòür stågîng sîté ånd thé dòmåîn cånnòt bé chångéd."
+"ڪ658741ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:457
+msgid ""
+"Changes in safe mode are not saved and are not visible by visitors to your "
+"site."
+msgstr ""
+"ڪ2038220ٲChångés în såfé mòdé åré nòt såvéd ånd åré nòt vîsîblé by vîsîtòrs "
+"tò yòür sîté.ڪ2038220ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:542
+msgid "Safe Mode"
+msgstr "ڪ2038221ٲSåfé Mòdéڪ2038221ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:558
+msgid "Themes"
+msgstr "ڪ1999171ٲThémésڪ1999171ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:566
+msgid "Safe mode"
+msgstr "ڪ1999172ٲSåfé mòdéڪ1999172ٲ"
+
+#. translators: total number of themes installed.
+#: gd-system-plugin/includes/class-debug-mode.php:582
+msgid "Installed (%d)"
+msgstr "ڪ1999173ٲÎnstålléd (%d)ڪ1999173ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:585
+msgid "Select one"
+msgstr "ڪ1999174ٲSéléct ònéڪ1999174ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:603
+msgid "Plugins"
+msgstr "ڪ1999175ٲPlügînsڪ1999175ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:610
+msgid "Active"
+msgstr "ڪ1999168ٲÅctîvéڪ1999168ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:611
+msgid "Inactive"
+msgstr "ڪ1999177ٲÎnåctîvéڪ1999177ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:629
+msgid "Preview"
+msgstr "ڪ1999178ٲPrévîéwڪ1999178ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:630
+msgid "Cancel"
+msgstr "ڪ1999179ٲCåncélڪ1999179ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No active plugins."
+msgstr "ڪ1999180ٲNò åctîvé plügîns.ڪ1999180ٲ"
+
+#: gd-system-plugin/includes/class-debug-mode.php:651
+msgid "No inactive plugins."
+msgstr "ڪ1999181ٲNò înåctîvé plügîns.ڪ1999181ٲ"
+
+#: gd-system-plugin/includes/class-hotfixes.php:191
+msgid "GoDaddy"
+msgstr "ڪ549226ٲGòDåddyڪ549226ٲ"
+
+#: gd-system-plugin/includes/class-hotfixes.php:192
+msgid "Media Temple"
+msgstr "ڪ1963481ٲMédîå Témpléڪ1963481ٲ"
+
+#. translators: 1. Original translated error text. 2. URL to the hosting
+#. environment where users can update the PHP version.
+#: gd-system-plugin/includes/class-hotfixes.php:464
+msgid ""
+"You can update to the most recent version of PHP in your hosting settings <a "
+"href=\"%1$s\" target=\"_blank\" title=\"%2$s\">here</a>."
+msgstr ""
+"ڪ2077297ٲYòü cån üpdåté tò thé mòst récént vérsîòn òf PHP în yòür hòstîng "
+"séttîngs <a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">héré</a>.ڪ2077297ٲ"
+
+#: gd-system-plugin/includes/class-hotfixes.php:466
+msgid "Update PHP version"
+msgstr "ڪ2077298ٲÜpdåté PHP vérsîònڪ2077298ٲ"
+
+#: gd-system-plugin/includes/class-sso.php:194
+msgid "Log in with GoDaddy"
+msgstr "ڪ2053976ٲLòg în wîth GòDåddyڪ2053976ٲ"
+
+#: gd-system-plugin/includes/class-sso.php:199
+msgid "Or"
+msgstr "ڪ2053977ٲÒrڪ2053977ٲ"
+
+#: gd-system-plugin/includes/class-sso.php:203
+msgid "Log in with username and password"
+msgstr "ڪ2053978ٲLòg în wîth üsérnåmé ånd påsswòrdڪ2053978ٲ"
+
+#: gd-system-plugin/includes/class-sso.php:313
+msgid ""
+"We were unable to log you in automatically. Please enter your WordPress "
+"username and password."
+msgstr ""
+"ڪ663320ٲWé wéré ünåblé tò lòg yòü în åütòmåtîcålly. Pléåsé éntér yòür "
+"WòrdPréss üsérnåmé ånd påsswòrd.ڪ663320ٲ"
+
+#. translators: 1: Current domain. 2: Domain name change URL.
+#: gd-system-plugin/includes/class-temp-domain.php:45
+msgid ""
+"<strong>Note:</strong> Your site is using <strong>%1$s</strong>. Did you "
+"want to use your domain? <a href=\"%2$s\" target=\"_blank\">Add Domain</a>"
+msgstr ""
+"ڪ2053861ٲ<strong>Nòté:</strong> Yòür sîté îs üsîng <strong>%1$s</strong>. "
+"Dîd yòü wånt tò üsé yòür dòmåîn? <a href=\"%2$s\" target=\"_blank\">Ådd "
+"Dòmåîn</a>ڪ2053861ٲ"
+
+#. translators: 1: "Note:" wrapped in strong tags
+#: gd-system-plugin/includes/class-temp-domain.php:116
+msgid ""
+"%s This is your staging site and it cannot be indexed by search engines."
+msgstr ""
+"ڪ595023ٲ%s Thîs îs yòür stågîng sîté ånd ît cånnòt bé îndéxéd by séårch "
+"éngînés.ڪ595023ٲ"
+
+#. translators: 1: "Note:" wrapped in strong tags
+#: gd-system-plugin/includes/class-temp-domain.php:124
+msgid ""
+"%s Your site is using a temporary domain that cannot be indexed by search "
+"engines."
+msgstr ""
+"ڪ595025ٲ%s Yòür sîté îs üsîng å témpòråry dòmåîn thåt cånnòt bé îndéxéd by "
+"séårch éngînés.ڪ595025ٲ"
+
+#: gd-system-plugin/includes/class-worker.php:117
+msgid ""
+"This is already included as a must-use plugin on your site and is required "
+"for backups and other important hosting platform benefits to function "
+"properly. It cannot be removed or deactivated. It should not be installed as "
+"a normal plugin and will be automatically removed if uploaded manually."
+msgstr ""
+"ڪ1999169ٲThîs îs ålréådy înclüdéd ås å müst-üsé plügîn òn yòür sîté ånd îs "
+"réqüîréd fòr båcküps ånd òthér împòrtånt hòstîng plåtfòrm bénéfîts tò "
+"fünctîòn pròpérly. Ît cånnòt bé rémòvéd òr déåctîvåtéd. Ît shòüld nòt bé "
+"înstålléd ås å nòrmål plügîn ånd wîll bé åütòmåtîcålly rémòvéd îf üplòådéd "
+"månüålly.ڪ1999169ٲ"
+
+#. translators: 2. singular post type name (e.g. page), 1. post title
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:75
+msgid "Beaver Builder %2$s \"%1$s\" drafted"
+msgstr "ڪ827087ٲBéåvér Büîldér %2$s \"%1$s\" dråftédڪ827087ٲ"
+
+#. translators: 2. singular post type name (e.g. page), 1. post title
+#: gd-system-plugin/includes/log/components/class-beaverbuilder.php:99
+msgid "Beaver Builder %2$s \"%1$s\" discarded"
+msgstr "ڪ827088ٲBéåvér Büîldér %2$s \"%1$s\" dîscårdédڪ827088ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:25
+msgid "Background Attachment"
+msgstr "ڪ658742ٲBåckgròünd Åttåchméntڪ658742ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:26
+msgid "Background Color"
+msgstr "ڪ658743ٲBåckgròünd Còlòrڪ658743ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:27
+msgid "Background Image"
+msgstr "ڪ658744ٲBåckgròünd Îmågéڪ658744ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:28
+msgid "Background Position"
+msgstr "ڪ658745ٲBåckgròünd Pòsîtîònڪ658745ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:29
+msgid "Background Repeat"
+msgstr "ڪ658746ٲBåckgròünd Répéåtڪ658746ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:30
+msgid "Base Color Scheme"
+msgstr "ڪ658747ٲBåsé Còlòr Schéméڪ658747ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:31
+msgid "Logo"
+msgstr "ڪ658748ٲLògòڪ658748ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:32
+msgid "Header and Sidebar Background Color"
+msgstr "ڪ658749ٲHéådér ånd Sîdébår Båckgròünd Còlòrڪ658749ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:33
+msgid "Header Image"
+msgstr "ڪ658750ٲHéådér Îmågéڪ658750ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:34
+msgid "Display Site Title and Tagline"
+msgstr "ڪ658751ٲDîsplåy Sîté Tîtlé ånd Tåglînéڪ658751ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:35
+msgid "Header Text Color"
+msgstr "ڪ658752ٲHéådér Téxt Còlòrڪ658752ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:36
+msgid "Link Color"
+msgstr "ڪ658753ٲLînk Còlòrڪ658753ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:37
+msgid "Main Text Color"
+msgstr "ڪ658754ٲMåîn Téxt Còlòrڪ658754ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:38
+msgid "Page Background Color"
+msgstr "ڪ658755ٲPågé Båckgròünd Còlòrڪ658755ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:39
+msgid "Secondary Text Color"
+msgstr "ڪ658756ٲSécòndåry Téxt Còlòrڪ658756ٲ"
+
+#: gd-system-plugin/includes/log/components/class-customizer.php:40
+msgid "Header and Sidebar Text Color"
+msgstr "ڪ658757ٲHéådér ånd Sîdébår Téxt Còlòrڪ658757ٲ"
+
+#. translators: 1. Option name, 2. Theme name
+#: gd-system-plugin/includes/log/components/class-customizer.php:93
+msgid "\"%1$s\" updated for the %2$s theme"
+msgstr "ڪ658758ٲ\"%1$s\" üpdåtéd fòr thé %2$s théméڪ658758ٲ"
+
+#: gd-system-plugin/includes/log/components/class-option.php:28
+msgid "Site Title"
+msgstr "ڪ658759ٲSîté Tîtléڪ658759ٲ"
+
+#: gd-system-plugin/includes/log/components/class-option.php:29
+msgid "Tagline"
+msgstr "ڪ658760ٲTåglînéڪ658760ٲ"
+
+#: gd-system-plugin/includes/log/components/class-option.php:30
+msgid "Posts page"
+msgstr "ڪ658761ٲPòsts pågéڪ658761ٲ"
+
+#: gd-system-plugin/includes/log/components/class-option.php:31
+msgid "Front page"
+msgstr "ڪ658762ٲFrònt pågéڪ658762ٲ"
+
+#: gd-system-plugin/includes/log/components/class-option.php:32
+msgid "Front page displays"
+msgstr "ڪ658763ٲFrònt pågé dîsplåysڪ658763ٲ"
+
+#: gd-system-plugin/includes/log/components/class-option.php:33
+msgid "Site Icon"
+msgstr "ڪ658764ٲSîté Îcònڪ658764ٲ"
+
+#: gd-system-plugin/includes/log/components/class-option.php:34
+msgid "Site Language"
+msgstr "ڪ658765ٲSîté Långüågéڪ658765ٲ"
+
+#. translators: Option name
+#: gd-system-plugin/includes/log/components/class-option.php:79
+msgid "\"%s\" option updated"
+msgstr "ڪ658766ٲ\"%s\" òptîòn üpdåtédڪ658766ٲ"
+
+#. translators: Plugin name
+#: gd-system-plugin/includes/log/components/class-plugin.php:29
+msgid "\"%s\" plugin activated"
+msgstr "ڪ658767ٲ\"%s\" plügîn åctîvåtédڪ658767ٲ"
+
+#. translators: Plugin name
+#: gd-system-plugin/includes/log/components/class-plugin.php:36
+msgid "\"%s\" plugin activated network wide"
+msgstr "ڪ658768ٲ\"%s\" plügîn åctîvåtéd nétwòrk wîdéڪ658768ٲ"
+
+#. translators: Plugin name
+#: gd-system-plugin/includes/log/components/class-plugin.php:61
+msgid "\"%s\" plugin deactivated"
+msgstr "ڪ658769ٲ\"%s\" plügîn déåctîvåtédڪ658769ٲ"
+
+#. translators: Plugin name
+#: gd-system-plugin/includes/log/components/class-plugin.php:68
+msgid "\"%s\" plugin deactivated network wide"
+msgstr "ڪ658770ٲ\"%s\" plügîn déåctîvåtéd nétwòrk wîdéڪ658770ٲ"
+
+#. translators: Plugin name
+#: gd-system-plugin/includes/log/components/class-plugin.php:95
+msgid "\"%s\" plugin deleted"
+msgstr "ڪ658771ٲ\"%s\" plügîn délétédڪ658771ٲ"
+
+#. translators: Plugin name
+#: gd-system-plugin/includes/log/components/class-plugin.php:191
+msgid "\"%s\" plugin installed"
+msgstr "ڪ658772ٲ\"%s\" plügîn înstållédڪ658772ٲ"
+
+#. translators: 1: Plugin name, 2: New plugin version
+#: gd-system-plugin/includes/log/components/class-plugin.php:226
+msgid "\"%1$s\" plugin updated to %2$s"
+msgstr "ڪ658773ٲ\"%1$s\" plügîn üpdåtéd tò %2$sڪ658773ٲ"
+
+#. translators: 1: Plugin name, 2: Old plugin version, 3: New plugin version
+#: gd-system-plugin/includes/log/components/class-plugin.php:233
+msgid "\"%1$s\" plugin updated from %2$s to %3$s"
+msgstr "ڪ658774ٲ\"%1$s\" plügîn üpdåtéd fròm %2$s tò %3$sڪ658774ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:49
+#: gd-system-plugin/includes/log/components/class-post.php:57
+msgid "\"%1$s\" %2$s updated"
+msgstr "ڪ658776ٲ\"%1$s\" %2$s üpdåtédڪ658776ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:66
+msgid "\"%1$s\" %2$s created"
+msgstr "ڪ658777ٲ\"%1$s\" %2$s créåtédڪ658777ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:75
+msgid "\"%1$s\" %2$s restored from trash"
+msgstr "ڪ658778ٲ\"%1$s\" %2$s réstòréd fròm tråshڪ658778ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:83
+msgid "\"%1$s\" %2$s unpublished"
+msgstr "ڪ658779ٲ\"%1$s\" %2$s ünpüblîshédڪ658779ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:91
+msgid "\"%1$s\" %2$s drafted"
+msgstr "ڪ658780ٲ\"%1$s\" %2$s dråftédڪ658780ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:99
+msgid "\"%1$s\" %2$s pending review"
+msgstr "ڪ658781ٲ\"%1$s\" %2$s péndîng révîéwڪ658781ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name, 3: Scheduled post
+#. date
+#: gd-system-plugin/includes/log/components/class-post.php:107
+msgid "\"%1$s\" %2$s scheduled for %3$s"
+msgstr "ڪ658782ٲ\"%1$s\" %2$s schédüléd fòr %3$sڪ658782ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:115
+msgid "\"%1$s\" scheduled %2$s published"
+msgstr "ڪ658783ٲ\"%1$s\" schédüléd %2$s püblîshédڪ658783ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:123
+msgid "\"%1$s\" %2$s published"
+msgstr "ڪ658784ٲ\"%1$s\" %2$s püblîshédڪ658784ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:131
+msgid "\"%1$s\" %2$s privately published"
+msgstr "ڪ658785ٲ\"%1$s\" %2$s prîvåtély püblîshédڪ658785ٲ"
+
+#. translators: 1: Post title, 2: Post type singular name
+#: gd-system-plugin/includes/log/components/class-post.php:140
+msgid "\"%1$s\" %2$s trashed"
+msgstr "ڪ658786ٲ\"%1$s\" %2$s tråshédڪ658786ٲ"
+
+#. translators: Theme name.
+#: gd-system-plugin/includes/log/components/class-theme.php:49
+msgid "\"%s\" theme activated"
+msgstr "ڪ658788ٲ\"%s\" thémé åctîvåtédڪ658788ٲ"
+
+#. translators: Theme name.
+#: gd-system-plugin/includes/log/components/class-theme.php:118
+msgid "\"%s\" theme installed"
+msgstr "ڪ659349ٲ\"%s\" thémé înstållédڪ659349ٲ"
+
+#. translators: 1: Theme name, 2: New theme version
+#: gd-system-plugin/includes/log/components/class-theme.php:154
+msgid "\"%1$s\" theme updated to %2$s"
+msgstr "ڪ659350ٲ\"%1$s\" thémé üpdåtéd tò %2$sڪ659350ٲ"
+
+#. translators: 1: Theme name, 2: Old theme version, 3: New theme version
+#: gd-system-plugin/includes/log/components/class-theme.php:161
+msgid "\"%1$s\" theme updated from %2$s to %3$s"
+msgstr "ڪ659351ٲ\"%1$s\" thémé üpdåtéd fròm %2$s tò %3$sڪ659351ٲ"
+
+#. translators: 1. User display name, 2. User role
+#: gd-system-plugin/includes/log/components/class-user.php:102
+msgid "%1$s's user account deleted (%2$s)"
+msgstr "ڪ658789ٲ%1$s's üsér åccòünt délétéd (%2$s)ڪ658789ٲ"
+
+#. translators: User display name
+#: gd-system-plugin/includes/log/components/class-user.php:141
+msgid "%s's user profile updated"
+msgstr "ڪ658790ٲ%s's üsér pròfîlé üpdåtédڪ658790ٲ"
+
+#. translators: 1: User display name, 2: Old role, 3: New role
+#: gd-system-plugin/includes/log/components/class-user.php:183
+msgid "%1$s's role changed from %2$s to %3$s"
+msgstr "ڪ658791ٲ%1$s's ròlé chångéd fròm %2$s tò %3$sڪ658791ٲ"
+
+#. translators: User display name
+#: gd-system-plugin/includes/log/components/class-user.php:228
+msgid "%s logged in"
+msgstr "ڪ658792ٲ%s lòggéd înڪ658792ٲ"
+
+#. translators: User display name
+#: gd-system-plugin/includes/log/components/class-user.php:261
+msgid "%s logged out"
+msgstr "ڪ658793ٲ%s lòggéd òütڪ658793ٲ"
+
+#. translators: User display name
+#: gd-system-plugin/includes/log/components/class-user.php:295
+msgid "%s requested a password reset"
+msgstr "ڪ658794ٲ%s réqüéstéd å påsswòrd résétڪ658794ٲ"
+
+#. translators: User display name
+#: gd-system-plugin/includes/log/components/class-user.php:327
+msgid "%s's password reset"
+msgstr "ڪ658795ٲ%s's påsswòrd résétڪ658795ٲ"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:85
+msgid "Post"
+msgstr "ڪ658775ٲPòstڪ658775ٲ"
+
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:149
+msgid "M j, Y @ H:i"
+msgstr "ڪ658787ٲM j, Y @ H:îڪ658787ٲ"
+
+#: gd-system-plugin.php:142
+msgid "Note: This is a staging site."
+msgstr "ڪ825997ٲNòté: Thîs îs å stågîng sîté.ڪ825997ٲ"
+
+#. Plugin Name of the plugin/theme
+msgid "System Plugin"
+msgstr "ڪ827086ٲSystém Plügînڪ827086ٲ"
+
+#: gd-system-plugin/includes/admin/class-dashboard-widgets.php:59
+msgctxt "The name of our company blog found at https://www.godaddy.com/garage"
+msgid "GoDaddy Garage"
+msgstr "ڪ549235ٲGòDåddy Gårågéڪ549235ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:197
+msgctxt "Plugin installer group title"
+msgid "Performance"
+msgstr "ڪ2053862ٲPérfòrmåncéڪ2053862ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:198
+msgctxt "Plugin installer group title"
+msgid "Social"
+msgstr "ڪ2053863ٲSòcîålڪ2053863ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:199
+msgctxt "Plugin installer group title"
+msgid "Tools"
+msgstr "ڪ2053864ٲTòòlsڪ2053864ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:279
+#: gd-system-plugin/includes/class-worker.php:112
+msgctxt "plugin"
+msgid "Active"
+msgstr "ڪ1999176ٲÅctîvéڪ1999176ٲ"
+
+#. translators: %s: Plugin name.
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:287
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "ڪ2053865ٲÅctîvåté %sڪ2053865ٲ"
+
+#: gd-system-plugin/includes/admin/class-recommended-plugins-list-table.php:309
+msgctxt "plugin"
+msgid "Installed"
+msgstr "ڪ2053866ٲÎnstållédڪ2053866ٲ"
+
+#~ msgid "WooCommerce extensions"
+#~ msgstr "ڪ2061862ٲWòòCòmmércé éxténsîònsڪ2061862ٲ"
+
+#~ msgid "Extensions %s"
+#~ msgstr "ڪ2061863ٲÉxténsîòns %sڪ2061863ٲ"
+
+#~ msgid "Available Extensions"
+#~ msgstr "ڪ2061864ٲÅvåîlåblé Éxténsîònsڪ2061864ٲ"
+
+#~ msgid "Browse Extensions"
+#~ msgstr "ڪ2061865ٲBròwsé Éxténsîònsڪ2061865ٲ"
+
+#~ msgid "WooCommerce.com Subscriptions %s"
+#~ msgstr "ڪ2061866ٲWòòCòmmércé.còm Sübscrîptîòns %sڪ2061866ٲ"
+
+#~ msgid "WooCommerce Extensions"
+#~ msgstr "ڪ2011827ٲWòòCòmmércé Éxténsîònsڪ2011827ٲ"
+
+#~ msgid "Available Extensions (%s)"
+#~ msgstr "ڪ2061867ٲÅvåîlåblé Éxténsîòns (%s)ڪ2061867ٲ"
+
+#~ msgid ""
+#~ "Below is a list of premium extensions included as part of your Managed "
+#~ "WordPress Ecommerce plan."
+#~ msgstr ""
+#~ "ڪ2076346ٲBélòw îs å lîst òf prémîüm éxténsîòns înclüdéd ås pårt òf yòür "
+#~ "Månågéd WòrdPréss Écòmmércé plån.ڪ2076346ٲ"
+
+#~ msgid "Learn more"
+#~ msgstr "ڪ2076347ٲLéårn mòréڪ2076347ٲ"
+
+#~ msgid "Featured"
+#~ msgstr "ڪ2061868ٲFéåtürédڪ2061868ٲ"
+
+#~ msgid "These are the most commonly used premium extensions for stores."
+#~ msgstr ""
+#~ "ڪ2061869ٲThésé åré thé mòst còmmònly üséd prémîüm éxténsîòns fòr stòrés."
+#~ "ڪ2061869ٲ"
+
+#~ msgid "View details"
+#~ msgstr "ڪ2061870ٲVîéw détåîlsڪ2061870ٲ"
+
+#~ msgid "Update Available"
+#~ msgstr "ڪ2061871ٲÜpdåté Åvåîlåbléڪ2061871ٲ"
+
+#~ msgid "View Updates"
+#~ msgstr "ڪ2061872ٲVîéw Üpdåtésڪ2061872ٲ"
+
+#~ msgid "%s Installing"
+#~ msgstr "ڪ2061873ٲ%s Înstållîngڪ2061873ٲ"
+
+#~ msgid "Activating..."
+#~ msgstr "ڪ2061874ٲÅctîvåtîng...ڪ2061874ٲ"
+
+#~ msgid "Missing WooCommerce extension data."
+#~ msgstr "ڪ2061875ٲMîssîng WòòCòmmércé éxténsîòn dåtå.ڪ2061875ٲ"
+
+#~ msgid "Missing the WooCommerce extension slug."
+#~ msgstr "ڪ2061876ٲMîssîng thé WòòCòmmércé éxténsîòn slüg.ڪ2061876ٲ"
+
+#~ msgid "An error occurred during plugin activation: %s"
+#~ msgstr "ڪ2061877ٲÅn érròr òccürréd dürîng plügîn åctîvåtîòn: %sڪ2061877ٲ"
+
+#~ msgid "%s Active"
+#~ msgstr "ڪ2061878ٲ%s Åctîvéڪ2061878ٲ"
+
+#~ msgid "Manage"
+#~ msgstr "ڪ2061879ٲMånågéڪ2061879ٲ"

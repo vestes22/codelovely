@@ -1,0 +1,131 @@
+<mjml lang="{{site_language}}">
+  <mj-head>
+    {{#if preview}}
+      <mj-preview>{{preview}}</mj-preview>
+    {{/if}}
+
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+
+    <mj-attributes>
+      <mj-class name="full" width="1400px" />
+      {{#if body.text.color}}<mj-class name="body-color" color="{{body.text.color}}" />{{/if}}
+      {{#if body.text.fontFamily}}<mj-class name="body-font" font-family="{{body.text.fontFamily}}" />{{/if}}
+      {{#if body.text.fontSize}}<mj-class name="body-font-size" font-size="{{body.text.fontSize}}px" />{{/if}}
+      <mj-class name="no-padding" padding-top="0" padding-bottom="0" />
+
+      {{#if body.text.fontFamily}}
+        <mj-all font-family="{{body.text.fontFamily}}" />
+      {{/if}}
+    </mj-attributes>
+
+    <mj-style>
+      {{#eq body.headings.fontFamily "Open Sans"}}
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+      {{/eq}}
+      {{#eq body.headings.fontFamily "Raleway"}}
+        @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+      {{/eq}}
+      {{#eq body.headings.fontFamily "Roboto"}}
+        @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+      {{/eq}}
+
+      .body {
+        line-height: 1.8;
+      }
+
+      .body h1,
+      .body h2,
+      .body h3 {
+        font-family: {{body.heading.fontFamily}};
+      }
+
+      .body h1 {
+        font-size: {{body.heading.h1FontSize}}px;
+      }
+
+      .body h2 {
+        font-size: {{body.heading.h2FontSize}}px;
+      }
+
+      .body h3 {
+        font-size: {{body.heading.h3FontSize}}px;
+      }
+
+      .header a,
+      .body a,
+      .footer a {
+        color: {{body.text.linkColor}};
+      }
+
+      .body button,
+      .body .button,
+      .body a.button {
+        background-color: {{body.button.backgroundColor}};
+        border: 1px solid;
+        border-color: {{body.button.backgroundColor}};
+        border-radius: 4px;
+        box-shadow: none;
+        color: {{body.button.color}};
+        font-family: {{body.button.fontFamily}};
+        font-size: {{body.button.fontSize}}px;
+        padding: 8px 16px;
+      }
+
+      .header h1 {
+        font-size: {{header.text.fontSize}}px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body {{#if container.backgroundColor}}background-color="{{container.backgroundColor}}"{{/if}} {{#eq container.width 'full'}} mj-class="full" {{/eq}}>
+    {{#if header.image.url}}
+      <mj-section css-class="image" padding="0" padding-top="48px">
+        <mj-column>
+          <mj-image src="{{header.image.url}}" {{#if header.image.width}}width="{{header.image.width}}px"{{/if}} />
+        </mj-column>
+      </mj-section>
+    {{/if}}
+
+
+    {{#if isPreview}}
+      {{#unless header.image.url}}
+        <mj-section padding-top="48px" padding-bottom="0px">
+          <mj-column>
+            <mj-text padding-top="0" padding-bottom="0" color="#000" line-height="32px" font-family="Arial" font-weight="bold" font-size="23px">
+              <img src="https://cdn4.mwc.secureserver.net/images/icons/store-placeholder-logo.svg" width="37px" height="33px" alt="Store placeholder logo" style="position: relative; top: 5px"/>
+              <span style="margin-left: 9px">Your Store Logo</span>
+            </mj-text>
+            <mj-text  padding-top="11px" padding-bottom="0" line-height="20px" font-family="Arial" font-size="14px" color="#767676">
+              Add an image using the header image uploader. If no image is added, this section will be hidden.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      {{/unless}}
+    {{/if}}
+
+    <mj-wrapper {{#unless header.image.url}}padding-top="48px"{{/unless}} padding-bottom="48px">
+      {{#if heading}}
+      <mj-section css-class="header" padding-bottom="0" padding-top="0" {{#if header.backgroundColor}}background-color="{{header.backgroundColor}}"{{/if}}>
+        <mj-column padding-top="16px" padding-bottom="16px">
+          <mj-text {{#if header.text.color}}color="{{header.text.color}}"{{/if}} line-height="1.2" {{#if header.text.fontFamily}}font-family="{{header.text.fontFamily}}"{{/if}} {{#if header.text.fontSize}}font-size="{{header.text.fontSize}}px"{{/if}} font-weight="400" >
+            {{{heading}}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      {{/if}}
+      <mj-section css-class="body" padding-top="16px" padding-bottom="16px" {{#if body.backgroundColor}}background-color="{{body.backgroundColor}}{{/if}}">
+        {{{content}}}
+      </mj-section>
+    </mj-wrapper>
+    {{#if footer.footerText}}
+    <mj-section css-class="footer" padding-bottom="0">
+      <mj-column>
+        <mj-text padding-top="8px" {{#if footer.color}}color="{{footer.color}}"{{/if}} line-height="30px" {{#if footer.fontFamily}}font-family="{{footer.fontFamily}}"{{/if}} {{#if footer.fontSize}}font-size="{{footer.fontSize}}px"{{/if}} align="center">
+          {{{footer.footerText}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    {{/if}}
+  </mj-body>
+</mjml>

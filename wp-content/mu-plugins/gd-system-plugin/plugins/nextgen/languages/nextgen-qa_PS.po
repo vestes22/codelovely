@@ -1,0 +1,790 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-11-16T20:16:39+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr "⌠2289778⌡NéxtGén⌠2289778⌡"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "⌠2289779⌡https://www.godaddy.com⌠2289779⌡"
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "⌠2289780⌡Néxt Généråtîòn WòrdPréss Éxpérîéncé⌠2289780⌡"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "⌠2289781⌡GòDåddy⌠2289781⌡"
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "⌠2289790⌡Générîc⌠2289790⌡"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "⌠2289791⌡Îmågé cåtégòry.⌠2289791⌡"
+
+#: includes/class-publish-guide.php:142
+msgid "Display Publish Guide."
+msgstr "⌠2289792⌡Dîsplåy Püblîsh Güîdé.⌠2289792⌡"
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "⌠2289793⌡Érròr pròcéssîng yòür réqüést.⌠2289793⌡"
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "⌠2289794⌡Å désîgn_stylé müst bé påsséd.⌠2289794⌡"
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "⌠2289795⌡Ån åvåîlåblé désîgn_stylé müst bé påsséd.⌠2289795⌡"
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "⌠2355939⌡Gò by %s⌠2355939⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr ""
+"⌠2289797⌡Wòüld yòü lîké tò kéép üsîng thé GòDåddy Sîté Édîtòr?⌠2289797⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"⌠2289798⌡Wé wånt tò måké süré yòü håvé thé rîght tòòls tò büîld yòür sîté. "
+"Yòü åré cürréntly üsîng thé GòDåddy Sîté édîtòr, whîch gîvés yòü åll òf "
+"WòrdPréss plüs å wåy tò cüstòmîzé yòür désîgn, édît yòür pågés, ånd månågé "
+"yòür pågés, åll fròm òné plåcé.⌠2289798⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Yes, keep using it"
+msgstr "⌠2361411⌡Yés, kéép üsîng ît⌠2361411⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "No, I want to see other options"
+msgstr "⌠2361412⌡Nò, Î wånt tò séé òthér òptîòns⌠2361412⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "⌠2289803⌡Wé’ré sòrry thîs wåsn’t thé rîght fît fòr yòü⌠2289803⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Could you tell us why?"
+msgstr "⌠2289804⌡Còüld yòü téll üs why?⌠2289804⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "⌠2289805⌡Téll üs why thîs wåsn’t thé rîght fît fòr yòü…⌠2289805⌡"
+
+#: build/editorPreferenceModal.js:1
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "⌠2289806⌡Gò Båck⌠2289806⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Skip"
+msgstr "⌠2289807⌡Skîp⌠2289807⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Continue"
+msgstr "⌠2289802⌡Còntînüé⌠2289802⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Let’s find you a better fit"
+msgstr "⌠2289808⌡Lét’s fînd yòü å béttér fît⌠2289808⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Here are some other options to explore:"
+msgstr "⌠2289809⌡Héré åré sòmé òthér òptîòns tò éxplòré:⌠2289809⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to the default WordPress editor"
+msgstr "⌠2289810⌡Swîtch tò thé défåült WòrdPréss édîtòr⌠2289810⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to a 3rd party page builder"
+msgstr "⌠2289811⌡Swîtch tò å 3rd pårty pågé büîldér⌠2289811⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Talk to someone about my options"
+msgstr "⌠2289812⌡Tålk tò sòméòné åbòüt my òptîòns⌠2289812⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Hire our experts to build your site for you"
+msgstr "⌠2361413⌡Hîré òür éxpérts tò büîld yòür sîté fòr yòü⌠2361413⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Learn More"
+msgstr "⌠2289813⌡Léårn Mòré⌠2289813⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to the default WordPress editor"
+msgstr "⌠2289814⌡Swîtchîng tò thé défåült WòrdPréss édîtòr⌠2289814⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "You should switch to the default WordPress editor if:"
+msgstr ""
+"⌠2289815⌡Yòü shòüld swîtch tò thé défåült WòrdPréss édîtòr îf:⌠2289815⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "You want to use a different theme"
+msgstr "⌠2289816⌡Yòü wånt tò üsé å dîfférént thémé⌠2289816⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr ""
+"⌠2289817⌡Yòü åré fåmîlîår wîth ånd/òr préfér tò üsé défåült "
+"WòrdPréss⌠2289817⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"⌠2289818⌡Òncé yòü swîtch, thîs sîté wîll nò lòngér wòrk wîth thé GòDåddy "
+"Sîté Édîtòr, sò yòü wòn’t bé åblé tò còmé båck.⌠2289818⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr ""
+"⌠2289819⌡Réådy tò swîtch thîs sîté tò thé défåült WòrdPréss édîtòr?⌠2289819⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to Default"
+msgstr "⌠2289820⌡Swîtch tò Défåült⌠2289820⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "⌠2289821⌡Swîtchîng tò å 3rd Pårty Pågé Büîldér⌠2289821⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"⌠2289822⌡Å 3rd pårty pågé büîldér îs å WòrdPréss plügîn thåt yòü înståll òn "
+"yòür sîté, thåt ållòws yòü tò büîld ånd désîgn pågés.⌠2289822⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr ""
+"⌠2289823⌡Réådy tò swîtch thîs sîté tò å 3rd pårty pågé büîldér?⌠2289823⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "View Plugins"
+msgstr "⌠2289824⌡Vîéw Plügîns⌠2289824⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Expert help is on the way"
+msgstr "⌠2289825⌡Éxpért hélp îs òn thé wåy⌠2289825⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact our GoDaddy guides to get started."
+msgstr "⌠2289826⌡Còntåct òür GòDåddy güîdés tò gét stårtéd.⌠2289826⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact Us"
+msgstr "⌠2289827⌡Còntåct Üs⌠2289827⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"⌠2361414⌡Wé'll büîld å stünnîng pròféssîònål wébsîté, cüstòm tåîlòréd tò "
+"yòür büsînéss⌠2361414⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "⌠2289828⌡Rédîréctîng yòü tò thé WòrdPréss Ådmîn…⌠2289828⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to WordPress plugins…"
+msgstr "⌠2289829⌡Rédîréctîng yòü tò WòrdPréss plügîns…⌠2289829⌡"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"⌠2289830⌡Wé åpprécîåté yòür féédbåck ånd wånt tò måké süré yòü håvé thé "
+"rîght tòòls tò büîld yòür sîté. Yòü åré cürréntly üsîng thé GòDåddy Sîté "
+"édîtòr, whîch gîvés yòü åll òf WòrdPréss plüs å wåy tò cüstòmîzé yòür "
+"désîgn, édît yòür pågés, ånd månågé yòür pågés, åll fròm òné plåcé.⌠2289830⌡"
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+msgid "Document"
+msgstr "⌠2289831⌡Dòcümént⌠2289831⌡"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+msgid "%s (selected)"
+msgstr "⌠2289832⌡%s (séléctéd)⌠2289832⌡"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+msgid "Block (selected)"
+msgstr "⌠2289833⌡Blòck (séléctéd)⌠2289833⌡"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+msgid "Block"
+msgstr "⌠2289834⌡Blòck⌠2289834⌡"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+msgid "Visibility"
+msgstr "⌠2289835⌡Vîsîbîlîty⌠2289835⌡"
+
+#: build/editSite.js:20
+msgid "Publish"
+msgstr "⌠2289836⌡Püblîsh⌠2289836⌡"
+
+#: build/editSite.js:20 packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "⌠2289837⌡Réålly délété?⌠2289837⌡"
+
+#: build/editSite.js:20
+msgid "Delete this page"
+msgstr "⌠2289838⌡Délété thîs pågé⌠2289838⌡"
+
+#: build/editSite.js:20
+msgid "Title"
+msgstr "⌠2289839⌡Tîtlé⌠2289839⌡"
+
+#: build/editSite.js:20
+msgid "Display on page"
+msgstr "⌠2289840⌡Dîsplåy òn pågé⌠2289840⌡"
+
+#: build/editSite.js:20
+msgid "Page details"
+msgstr "⌠2289841⌡Pågé détåîls⌠2289841⌡"
+
+#: build/editSite.js:20
+msgid "Featured image"
+msgstr "⌠2289842⌡Féåtüréd îmågé⌠2289842⌡"
+
+#: build/editSite.js:20
+msgid "Settings"
+msgstr "⌠2289843⌡Séttîngs⌠2289843⌡"
+
+#: build/editSite.js:20
+msgid "Close settings"
+msgstr "⌠2289844⌡Clòsé séttîngs⌠2289844⌡"
+
+#: build/editSite.js:20
+msgid "Plugins"
+msgstr "⌠2289845⌡Plügîns⌠2289845⌡"
+
+#: build/editSite.js:20
+msgid "More"
+msgstr "⌠2289846⌡Mòré⌠2289846⌡"
+
+#: build/editSite.js:20
+msgid "More tools & options"
+msgstr "⌠2289847⌡Mòré tòòls &åmp; òptîòns⌠2289847⌡"
+
+#: build/editSite.js:20
+msgid "Add"
+msgstr "⌠2289848⌡Ådd⌠2289848⌡"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15
+msgid "Cache cleared"
+msgstr "⌠2289865⌡Cåché cléåréd⌠2289865⌡"
+
+#: build/logoMenu.js:15
+msgid "Site Editor"
+msgstr "⌠2289866⌡Sîté Édîtòr⌠2289866⌡"
+
+#: build/logoMenu.js:15
+msgid "Main menu"
+msgstr "⌠2289867⌡Måîn ménü⌠2289867⌡"
+
+#: build/logoMenu.js:15
+msgid "WordPress Management"
+msgstr "⌠2289868⌡WòrdPréss Månågémént⌠2289868⌡"
+
+#: build/logoMenu.js:15
+msgid "Manage Plugins"
+msgstr "⌠2289869⌡Månågé Plügîns⌠2289869⌡"
+
+#: build/logoMenu.js:15
+msgid "Manage Site Menus"
+msgstr "⌠2289870⌡Månågé Sîté Ménüs⌠2289870⌡"
+
+#: build/logoMenu.js:15
+msgid "Customize Site Design"
+msgstr "⌠2289871⌡Cüstòmîzé Sîté Désîgn⌠2289871⌡"
+
+#: build/logoMenu.js:15
+msgid "Manage Users"
+msgstr "⌠2289872⌡Månågé Üsérs⌠2289872⌡"
+
+#: build/logoMenu.js:15
+msgid "Manage Comments"
+msgstr "⌠2289873⌡Månågé Còmménts⌠2289873⌡"
+
+#: build/logoMenu.js:15
+msgid "WordPress Admin"
+msgstr "⌠2289874⌡WòrdPréss Ådmîn⌠2289874⌡"
+
+#: build/logoMenu.js:15
+msgid "Hosting"
+msgstr "⌠2289875⌡Hòstîng⌠2289875⌡"
+
+#: build/logoMenu.js:15
+msgid "Hosting Overview"
+msgstr "⌠2289876⌡Hòstîng Òvérvîéw⌠2289876⌡"
+
+#: build/logoMenu.js:15
+msgid "Hosting Settings"
+msgstr "⌠2289877⌡Hòstîng Séttîngs⌠2289877⌡"
+
+#: build/logoMenu.js:15
+msgid "Tools"
+msgstr "⌠2289878⌡Tòòls⌠2289878⌡"
+
+#: build/logoMenu.js:15
+msgid "Editor Preference"
+msgstr "⌠2289879⌡Édîtòr Préféréncé⌠2289879⌡"
+
+#: build/logoMenu.js:15
+msgid "Is this editor right for you?"
+msgstr "⌠2289880⌡Îs thîs édîtòr rîght fòr yòü?⌠2289880⌡"
+
+#: build/logoMenu.js:15
+msgid "Learn about other WordPress site building options here."
+msgstr ""
+"⌠2289881⌡Léårn åbòüt òthér WòrdPréss sîté büîldîng òptîòns héré.⌠2289881⌡"
+
+#: build/logoMenu.js:15
+msgid "Flush Cache"
+msgstr "⌠2289882⌡Flüsh Cåché⌠2289882⌡"
+
+#: build/logoMenu.js:15
+msgid "Connection Management"
+msgstr "⌠2289883⌡Cònnéctîòn Månågémént⌠2289883⌡"
+
+#: build/logoMenu.js:15
+msgid "Support"
+msgstr "⌠2289884⌡Süppòrt⌠2289884⌡"
+
+#: build/logoMenu.js:15
+msgid "Give Feedback"
+msgstr "⌠2289885⌡Gîvé Féédbåck⌠2289885⌡"
+
+#: build/logoMenu.js:15
+msgid "Help & Support"
+msgstr "⌠2289886⌡Hélp &åmp; Süppòrt⌠2289886⌡"
+
+#: packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "⌠2289796⌡Înfò⌠2289796⌡"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "⌠2289849⌡Téll üs åbòüt yòür éxpérîéncé… (òptîònål)⌠2289849⌡"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "⌠2289850⌡Sénd⌠2289850⌡"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "⌠2289851⌡Thånk yòü fòr shårîng yòür féédbåck wîth üs⌠2289851⌡"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "⌠2289852⌡Clòsé⌠2289852⌡"
+
+#: packages/feedback-modal/src/index.js:99
+#: packages/feedback-modal/src/index.js:107
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "⌠2289853⌡Gîvé féédbåck⌠2289853⌡"
+
+#: packages/feedback-modal/src/index.js:108
+msgid "How would you rate your experience?"
+msgstr "⌠2289854⌡Hòw wòüld yòü råté yòür éxpérîéncé?⌠2289854⌡"
+
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "⌠2289864⌡My sîté îs åbòüt:⌠2289864⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "⌠2289855⌡Fåshîòn⌠2289855⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "⌠2289856⌡Hòmé Décòr⌠2289856⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "⌠2289857⌡Còfféé⌠2289857⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "⌠2289858⌡Cònstrüctîòn⌠2289858⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "⌠2289859⌡Årt⌠2289859⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "⌠2289860⌡Båkîng⌠2289860⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "⌠2289861⌡Fîtnéss⌠2289861⌡"
+
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "⌠2289862⌡Låndscåpîng⌠2289862⌡"
+
+#: packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "⌠2289863⌡Séårch⌠2289863⌡"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "⌠2289904⌡Ådd yòür dòmåîn⌠2289904⌡"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"⌠2289905⌡Lòòk mòré pròféssîònål ånd måké ît éåsîér fòr cüstòmérs tò fînd "
+"yòür wébsîté.⌠2289905⌡"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:39
+msgid "Change"
+msgstr "⌠2425500⌡Chångé⌠2425500⌡"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "⌠2289906⌡Ådd dòmåîn⌠2289906⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "⌠2289890⌡Révîéw ånd ådd pågés⌠2289890⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr ""
+"⌠2289891⌡Wé gòt yòü stårtéd wîth å féw. Ådd mòré pågés ånd còntént.⌠2289891⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "⌠2289892⌡Månågé pågés⌠2289892⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "⌠2289887⌡Måké thé désîgn yòür òwn⌠2289887⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr ""
+"⌠2289888⌡Üpdåté thé còlòrs, fònts ånd chångé thé lòòk ånd féél òf yòür sîté."
+"⌠2289888⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "⌠2289889⌡Cüstòmîzé⌠2289889⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "⌠2289893⌡wébsîté lògò⌠2289893⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "⌠2289894⌡Ådd yòür sîté înfò &åmp; brånd⌠2289894⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr ""
+"⌠2289895⌡Whåt’s thé nåmé òf yòür sîté ånd whåt’s ît’s pürpòsé? Ådd å lògò îf "
+"yòü håvé òné.⌠2289895⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "⌠2289896⌡Édît⌠2289896⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "⌠2289897⌡Sîté tîtlé⌠2289897⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "⌠2289898⌡Sîté déscrîptîòn⌠2289898⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "⌠2289899⌡Üplòåd sîté lògò⌠2289899⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "⌠2289900⌡Réplåcé Lògò⌠2289900⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "⌠2289901⌡Rémòvé Lògò⌠2289901⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "⌠2289902⌡Såvé⌠2289902⌡"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "⌠2289903⌡Dò thîs låtér⌠2289903⌡"
+
+#: packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "⌠2289907⌡Yòür sîté îs lîvé òn⌠2289907⌡"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "⌠2289908⌡Tîmé tò célébråté ånd⌠2289908⌡"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "⌠2289909⌡shåré thé gréåt néws.⌠2289909⌡"
+
+#: packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "⌠2289910⌡Chéck òüt my néw wébsîté!⌠2289910⌡"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"⌠2289911⌡Î jüst püblîshéd my wébsîté åt %1$s, còmé chéck ît òüt ånd lét mé "
+"knòw whåt yòü thînk!⌠2289911⌡"
+
+#: packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "⌠2289912⌡Hîdé thîs güîdé⌠2289912⌡"
+
+#: packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "⌠2289920⌡Séléct ån åctîòn⌠2289920⌡"
+
+#: packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "⌠2289921⌡Rénåmé⌠2289921⌡"
+
+#: packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "⌠2289922⌡Réålly sét ås hòmépågé?⌠2289922⌡"
+
+#: packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "⌠2289923⌡Sét ås hòmépågé⌠2289923⌡"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "⌠2289924⌡Ünpîn pòst⌠2289924⌡"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "⌠2289925⌡Pîn pòst⌠2289925⌡"
+
+#: packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "⌠2289926⌡Düplîcåté⌠2289926⌡"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "⌠2289927⌡Délété Pågé⌠2289927⌡"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "⌠2289928⌡Délété Pòst⌠2289928⌡"
+
+#: packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "⌠2289941⌡Còlòrs⌠2289941⌡"
+
+#: packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "⌠2289942⌡Còlòr Påléttés⌠2289942⌡"
+
+#: packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "⌠2289943⌡Cüstòm⌠2289943⌡"
+
+#: packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "⌠2289944⌡Désîgn Stylés⌠2289944⌡"
+
+#: packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"⌠2289945⌡Éåsîly éxplòré cüråtéd désîgn stylés, thén cüstòmîzé yòür còlòrs "
+"ånd fònts tò gét thé pérféct fît.⌠2289945⌡"
+
+#: packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "⌠2289952⌡Cüstòm Fònt Òptîòns⌠2289952⌡"
+
+#: packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "⌠2289953⌡HÉÅDÎNG⌠2289953⌡"
+
+#: packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "⌠2289954⌡Fònt⌠2289954⌡"
+
+#: packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "⌠2289955⌡Wéîght⌠2289955⌡"
+
+#: packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "⌠2289956⌡Sîzé⌠2289956⌡"
+
+#: packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "⌠2289957⌡Héådîng fònt sîzé⌠2289957⌡"
+
+#: packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "⌠2289958⌡BÒDY⌠2289958⌡"
+
+#: packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "⌠2289962⌡Fònts⌠2289962⌡"
+
+#: packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "⌠2289963⌡Fònt Påîrîngs⌠2289963⌡"
+
+#: packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "⌠2289959⌡Thé qüîck bròwn fòx jümpéd òvér thé låzy dòg.⌠2289959⌡"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "⌠2289960⌡Hîdé fònt sîzés⌠2289960⌡"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "⌠2289961⌡Édît fònt sîzés⌠2289961⌡"
+
+#: packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "⌠2289946⌡Småll⌠2289946⌡"
+
+#: packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "⌠2289947⌡Nòrmål⌠2289947⌡"
+
+#: packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "⌠2289948⌡Lårgé⌠2289948⌡"
+
+#: packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "⌠2289949⌡Båsé sîzé⌠2289949⌡"
+
+#: packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "⌠2289950⌡Fònt sîzé⌠2289950⌡"
+
+#: packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "⌠2289951⌡Héådîng Scålé⌠2289951⌡"
+
+#: packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "⌠2289964⌡Sîté désîgn⌠2289964⌡"
+
+#: packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "⌠2289965⌡Désîgn⌠2289965⌡"
+
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "⌠2289966⌡Üpdåté còmplétéd.⌠2289966⌡"
+
+#: packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "⌠2289967⌡Üpdåtîng tò thé låtést ånd gréåtést⌠2289967⌡"
+
+#: packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr ""
+"⌠2291725⌡Pléåsé wåît whîlé wé åpply thé låtést üpdåté tò yòür édîtòr."
+"⌠2291725⌡"
+
+#: packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "⌠2289969⌡Thîs shòüldn't tåké lòng.⌠2289969⌡"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "⌠2289970⌡Thîs wîll chångé yòür sîté édîtòr, tòò⌠2289970⌡"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"⌠2289971⌡Yòü åré cürréntly üsîng thé GòDåddy Sîté Édîtòr wîth thé Gò thémé, "
+"whîch gîvés yòü åll òf WòrdPréss plüs å wåy tò cüstòmîzé yòür désîgn, édît "
+"yòür pågés ånd månågé yòür pågés, åll fròm òné plåcé.⌠2289971⌡"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"⌠2289972⌡Òncé yòü åctîvåté å néw thémé, thîs sîté wîll nò lòngér wòrk wîth "
+"thé GòDåddy Sîté Édîtòr. Yòür sîté wîll swîtch tò thé défåült WòrdPréss "
+"Édîtòr înstéåd.⌠2289972⌡"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"⌠2289973⌡Réådy tò åctîvåté å néw thémé ånd swîtch tò thé défåült WòrdPréss "
+"édîtòr?⌠2289973⌡"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "⌠2289974⌡Åctîvåté⌠2289974⌡"

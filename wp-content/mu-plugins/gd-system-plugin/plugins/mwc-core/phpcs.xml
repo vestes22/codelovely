@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="Custom ruleset">
+	<description>mwc-core rules for PHP CodeSniffer</description>
+
+	<file>./configurations</file>
+	<file>./src</file>
+	<file>./templates</file>
+
+	<arg value="sp"/>
+
+	<!-- Run against the PHPCompatibility ruleset -->
+	<rule ref="PHPCompatibility"/>
+
+	<!-- Check for cross-version support for PHP 7.0 and higher. -->
+	<config name="testVersion" value="7.0-"/>
+</ruleset>

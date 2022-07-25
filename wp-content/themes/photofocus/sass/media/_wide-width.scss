@@ -1,0 +1,231 @@
+/**
+ * 15.8 - >= 1366px
+ */
+
+@media screen and (min-width: 85.375em) {
+		/* Woocommerce Styles */
+	.woocommerce-shorting-wrapper {
+		margin: 0 0 49px;
+	}
+
+	ul.products li.product {
+		margin: 0 auto 42px;
+	}
+
+	.woocommerce-message,
+	.woocommerce-info,
+	.woocommerce-error,
+	.woocommerce-noreviews,
+	p.no-comments {
+		margin-bottom: 2.882352941176471em;
+	}
+
+	table.shop_table_responsive tr td {
+		padding: 14px 28px;
+	}
+
+	.woocommerce-tabs ul.tabs {
+		margin: 63px 0 0
+	}
+
+	.woocommerce-pagination {
+		margin-top: 7px;
+	}/* Woocommerce Styles End */
+
+	#primary-search-wrapper > .social-navigation {
+ 		display: block;
+ 	}
+
+ 	.single .site-main .hentry,
+ 	.page .site-main .hentry {
+ 		margin-bottom: 56px;
+ 	}
+
+ 	.single .site-main .entry-footer,
+ 	.page .site-main .entry-footer {
+ 	    margin-top: 56px;
+ 	}
+
+	.comment-respond {
+		padding: 56px;
+	}
+
+	.comments-area {
+		margin-top: 56px;
+	    padding-top: 56px;
+	}
+
+	#footer-menu-section .wrapper {
+		@include flex;
+		align-items: center;
+	}
+
+	.recent-blog-content .archive-post-wrap .entry-container, .site-content .content-area .entry-container {
+		padding: 180px 60px;
+	}
+
+	#footer-instagram .widget-title,
+	.page-title,
+	.entry-content h1,
+	.entry-summary h1,
+	.comment-content h1,
+	.textwidget h1 {
+		font-size: 49px;
+		font-size: 2.0625rem;
+	}
+
+	.entry-content h2,
+	.entry-summary h2,
+	.comment-content h2,
+	.textwidget h2,
+	body:not(.home) .header-media .section-title {
+		font-size: 43px;
+		font-size: 2.6875rem;
+	}
+
+	.entry-content h3,
+	.entry-summary h3,
+	.comment-content h3,
+	.textwidget h3 {
+		font-size: 32px;
+		font-size: 2rem;
+	}
+
+	.entry-content h4,
+	.entry-summary h4,
+	.comment-content h4,
+	.textwidget h4 {
+		font-size: 26px;
+		font-size: 1.635rem;
+	}
+
+	.section,
+	#footer-newsletter .has-background-image.widget {
+		padding: 8px 0;
+	}
+
+	.header-media + .section {
+	    padding-top: 78px;
+	}
+
+    .header-media + .section.no-section-heading,
+    #feature-slider-section + .section.no-section-heading {
+        padding-top: 120px;
+    }
+
+    #promotion-section {
+        padding: 120px 0;
+    }
+
+	body .section.no-section-heading {
+		padding-top: 50px;
+	}
+
+	.section + .has-background-image {
+        padding-top: 78px;
+        margin-top: 60px;
+    }
+
+    .section + .section.has-background-image.no-section-heading {
+        padding-top: 120px;
+    }
+
+	.author-info {
+		margin-top: 56px;
+	}
+
+	.hero-content-wrapper .entry-container {
+		padding: 49px 0 49px 84px;
+	}
+
+	.content-align-left .hero-content-wrapper .entry-container {
+		padding: 49px 84px 49px 0;
+	}
+
+	#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+		font-size: 20px;
+		font-size: 1.25rem;
+	    height: 50px;
+	    padding: 15px;
+	    width: 50px;
+	}
+
+	caption,
+	th,
+	td {
+	    padding: 0.667em 1em;
+	}
+
+	#contact-section .section-content-wrapper .entry-summary,
+	#contact-section .section-content-wrapper .entry-content {
+		margin: 42px 0 0;
+	}
+
+	.archive-post-wrap .hentry {
+		margin-bottom: 70px;
+	}
+
+	.archive-post-wrap .post-thumbnail {
+		margin-bottom: 42px;
+	}
+
+	.archive-posts-wrapper .entry-container {
+	    padding: 0 140px;
+	}
+
+	.services-section.section .hentry .hentry-inner .post-thumbnail {
+        margin-bottom: 55px;
+    }
+
+    .site-header-logo {
+	    max-width: 450px;
+	}
+
+    #promotion-section,
+    #countdown-section {
+        margin: 50px 0;
+    }
+
+    #sticky-playlist-section .mejs-sticky-playlist-container {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 75%;
+	    flex: 0 1 75%;
+	}
+
+	.playlist-content-wrapper .entry-container {
+		padding: 0 0 0 70px;
+	}
+
+    .scroll-down {
+        bottom: 36px;
+        height: 70px;
+        right: 36px;
+        width: 70px;
+    }
+
+
+	.app-section .entry-container {
+	    padding: 70px 50px;
+	}
+
+	    .events-section.single-layout .date-week-day  {
+        font-size: 56px;
+        font-size: 3.5rem;
+    }
+
+    #countdown-section .section-content-wrapper .entry-summary,
+	#countdown-section .section-content-wrapper .entry-content {
+	    margin-top: 15px;
+	}
+
+    #countdown-section .entry-container {
+        padding: 140px 50px 120px 50px;
+    }
+
+    .category-content-section .entry-container {
+	    bottom: 21px;
+	    left: 21px;
+	    right: 21px;
+	    width: calc(100% - 42px);
+	}
+}

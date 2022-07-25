@@ -1,0 +1,6 @@
+# See https://github.com/gdcorp-partners/pre-commit-hooks for more information
+repos:
+  - repo: git@github.com:gdcorp-partners/pre-commit-hooks.git
+    rev: HEAD
+    hooks:
+      - id: tartufo

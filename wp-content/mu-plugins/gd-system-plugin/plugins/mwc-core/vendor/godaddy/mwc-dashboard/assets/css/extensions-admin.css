@@ -1,0 +1,7 @@
+.nav-tab-wrapper {
+	margin: 1.5em 0 1em;
+}
+
+.nav-tab-wrapper:not(.mwc-dashboard-nav-tab-wrapper) {
+	display: none;
+}

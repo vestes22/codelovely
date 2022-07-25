@@ -1,0 +1,16 @@
+# Lock Files are not always in the root
+.*composer.lock
+.*package-lock.json
+.*yarn.lock
+
+# Ignore inline images
+.*\.ico$
+.*\.jpg$
+.*\.png$
+.*\.svg$
+
+# Ignore language po and mo files
+i18n
+
+# Tartufo configuration
+tool.tartufo

@@ -1,0 +1,119 @@
+@font-face {
+	font-family: gd-sage;
+	src: url(//img6.wsimg.com/ux/fonts/gd-sage/1.0/gd-sage-bold.woff2) format("woff2")
+	, url(//img6.wsimg.com/ux/fonts/gd-sage/1.0/gd-sage-bold.woff) format("woff");
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: gd-sherpa;
+	src: url(//img6.wsimg.com/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2)
+	format('woff2');
+	font-weight: 300 700;
+	font-display: swap;
+}
+
+/* The following rules use a :before pseudo-element to create an overlay on top of the
+ * WooCommerce Payments promotions blocks and increase the height of block to match the
+ * height of the promotion block for GoDaddy Payments.
+ *
+ * The goal is to reduce content jump when the new promotion block is inserted and to
+ * hide the WooCommerce Payments content that is about to be removed */
+.addons-banner-block.addons-promotion-block,
+.addons-shipping-methods .addons-wcs-banner-block {
+	position: relative;
+}
+
+#godaddy-payments-promotion-block-placeholder {
+	height: 290px;
+}
+
+.addons-wcs-banner-block a[href*="install-addon=woocommerce-payments"] {
+	height: 294px;
+}
+.addons-wcs-banner-block a[href*="install-addon=woocommerce-payments"]:hover {
+	opacity: 1;
+}
+.addons-wcs-banner-block a[href*="install-addon=woocommerce-payments"]:before {
+	pointer-events: none;
+}
+
+#godaddy-payments-promotion-block-placeholder:before,
+.addons-wcs-banner-block a[href*="install-addon=woocommerce-payments"]:before {
+	background: #f7f7f7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: "";
+}
+
+/* The following rules control the appearance of the GoDaddy Payments promotion block. */
+#godaddy-payments-promotion-block {
+	display: none;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../../../images/payments/godaddy-payments/admin/GD-Payments-FeatureHeadline-Large@2x.png);
+	border-radius: 4px;
+	padding: 20px;
+	margin: 0 0 1em 0;
+	background-size: cover;
+	height: max-content;
+}
+
+#godaddy-payments-title{
+	font-family: 'gd-sage';
+	font-size: 32px;
+	line-height: 40px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 65px 0 25px 0;
+}
+
+#godaddy-payments-logo {
+	padding: 4px;
+	margin-left: 5px;
+}
+
+#godaddy-payments-description-wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-basis: 540px;
+	margin-bottom: 25px;
+}
+
+#godaddy-payments-description {
+	font-family: 'gd-sherpa';
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	width: 550px;
+}
+
+#godaddy-payments-button-wrapper {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+#godaddy-payments-button {
+	font-family: 'gd-sherpa';
+	border: 2px solid #111111;
+	background: #FFFFFF;
+	font-size: 16px;
+	line-height: 24px;
+	width: 200px;
+	color: #111111;
+	padding: 8px 8px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#godaddy-payments-button:hover {
+	background: #F5F5F5;
+}

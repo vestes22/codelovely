@@ -1,0 +1,94 @@
+/**
+ * 15.10 - >= 1920px
+ */
+
+@media screen and (min-width: 120em) {
+
+	.section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+        margin-right: 90px;
+    }
+
+    .recent-blog-content .archive-post-wrap .entry-container,
+    .site-content .content-area .entry-container {
+	    padding: 303px 140px;
+	}
+
+	.color-scheme-music.home .header-media .section-title,
+    .color-scheme-music #feature-slider-section .entry-title,
+    .color-scheme-wedding.home .header-media .section-title,
+    .color-scheme-wedding #feature-slider-section .entry-title,
+	.color-scheme-corporate.home .header-media .section-title,
+	.color-scheme-corporate #feature-slider-section .entry-title,
+    .color-scheme-ecommerce.home .header-media .section-title,
+    .color-scheme-ecommerce #feature-slider-section .entry-title {
+		font-size: 80px;
+		font-size: 5rem;
+	}
+
+	.more-link + .more-link .solid-button {
+		margin-left: 20px;
+	}
+
+    #sticky-playlist-section .mejs-sticky-playlist-container {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 90%;
+	    flex: 0 1 90%;
+	}
+
+    .scroll-down {
+        bottom: 49px;
+        height: 80px;
+        right: 49px;
+        width: 80px;
+    }
+
+    #sticky-playlist-section .wp-playlist-current-item .wp-playlist-item-title {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .app-section .app-wrap {
+    	margin-top: 49px;
+    }
+
+    .events-section.single-layout .date-month-year {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    #timeline-section .hentry {
+        margin-bottom: 84px;
+    }
+
+    #timeline-section .hentry-inner {
+        margin: 0 -65px;
+    }
+
+    #timeline-section .post-thumbnail {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    #timeline-section .entry-container {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .category-content-section .entry-container {
+        bottom: 28px;
+        left: 28px;
+        right: 28px;
+        width: calc(100% - 56px);
+    }
+
+    .category-content-section .entry-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .woocommerce-posts-wrapper .entry-title {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+}

@@ -1,0 +1,38 @@
+.voucher-fields {
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.voucher-image-options {
+		margin-bottom: 1em;
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+
+	.voucher-image-option {
+		float: left;
+		margin: .5em .5em 0 0;
+		text-align: center;
+
+		img {
+			display: block;
+			width: 100px;
+		}
+	}
+}
+
+.voucher-fields-wrapper-variation {
+	display:none;
+}
+
+.wc-pdf-product-vouchers-order-item-voucher {
+	display: block;
+	margin-top: 1em;
+	font-size: .92em;
+}

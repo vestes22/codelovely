@@ -1,0 +1,140 @@
+.mwc-external-checkout-buttons {
+	margin: 10px auto;
+}
+
+.mwc-payments-apple-pay-button.apple-pay-button {
+	display: none;
+	cursor: pointer;
+	margin: 10px 0;
+	width: 100%;
+}
+
+.mwc-payments-apple-pay-button.apple-pay-button > button {
+	align-self: center;
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+	text-decoration: none !important;
+}
+
+.mwc-payments-apple-pay-button.apple-pay-button-black {
+	color: #000;
+}
+
+.mwc-payments-apple-pay-button.apple-pay-button > button,
+.mwc-payments-apple-pay-button.apple-pay-button-white-with-line > button {
+	color: #FFF;
+}
+
+.mwc-external-checkout-buttons-divider {
+	display: block;
+	margin: 10px auto 15px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+@supports (-webkit-appearance: -apple-pay-button) {
+	.mwc-payments-apple-pay-button.apple-pay-button {
+		-webkit-appearance: -apple-pay-button;
+		display: inline-block;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-black {
+		-apple-pay-button-style: black;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-white {
+		-apple-pay-button-style: white;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-white-with-line {
+		-apple-pay-button-style: white-outline;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-with-text > * {
+		display: none;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-plain {
+		-apple-pay-button-type: plain;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-book {
+		-apple-pay-button-type: book;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-buy {
+		-apple-pay-button-type: buy;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-checkout {
+		-apple-pay-button-type: check-out;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-continue {
+		-apple-pay-button-type: continue;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-contribute {
+		-apple-pay-button-type: contribute;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-donate {
+		-apple-pay-button-type: donate;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-order {
+		-apple-pay-button-type: order;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-pay {
+		-apple-pay-button-type: pay;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-rent {
+		-apple-pay-button-type: rent;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-support {
+		-apple-pay-button-type: support;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-tip {
+		-apple-pay-button-type: tip;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button .no-logo {
+		display: none;
+	}
+}
+
+@supports not (-webkit-appearance: -apple-pay-button) {
+	.mwc-payments-apple-pay-button.apple-pay-button {
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: 100% 60%;
+		border-radius: 5px;
+		box-sizing: border-box;
+		display: inline-block;
+		margin: 1em 0;
+		max-height: 64px;
+		min-height: 32px;
+		min-width: 100px;
+		padding: 0;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-black {
+		background-color: #000;
+		background-image: -webkit-named-image(apple-pay-logo-white);
+		color: #FFF;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-white {
+		background-color: #FFF;
+		background-image: -webkit-named-image(apple-pay-logo-black);
+		color: #000;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-white-with-line {
+		background-color: #FFF;
+		background-image: -webkit-named-image(apple-pay-logo-black);
+		border: .5px solid black;
+		color: #000;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-with-text {
+		--apple-pay-scale: 1; /* (height / 32) */
+		display: inline-flex;
+		font-family: -apple-system, sans-serif;
+		font-size: 12px;
+		font-weight: 300;
+		justify-content: center;
+	}
+	.mwc-payments-apple-pay-button.apple-pay-button-with-text > span {
+		align-self: center;
+		font-size: calc(1em * var(--apple-pay-scale));
+	}
+	.apple-pay-button-with-text > .logo {
+		display: none;
+	}
+}

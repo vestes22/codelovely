@@ -1,0 +1,32 @@
+<mj-column>
+  {{#if internal.header}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    {{{internal.header}}}
+  </mj-text>
+  {{/if}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    <p>{{internal.greeting}}</p>
+    {{{internal.content}}}
+  </mj-text>
+  {{#if internal.order_details}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    {{{internal.order_details}}}
+  </mj-text>
+  {{/if}} {{#if internal.order_meta}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    {{{internal.order_meta}}}
+  </mj-text>
+  {{/if}} {{#if internal.customer_details}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    {{{internal.customer_details}}}
+  </mj-text>
+  {{/if}} {{#if additionalContent}}
+  <mj-text mj-class="body-color body-font body-font-size">
+    {{{additionalContent}}}
+  </mj-text>
+  {{/if}} {{#if internal.footer}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    {{{internal.footer}}}
+  </mj-text>
+  {{/if}}
+</mj-column>

@@ -1,0 +1,43 @@
+#woocommerce_google_analytics_pro_oauth_button {
+	padding: 0;
+
+	+p.description {
+		display: inline-block;
+		.permission-priming {
+			display: inline-block;
+			margin-left: 1em
+		}
+	}
+}
+
+table.wc-google-analytics-pro-funnel-steps {
+	position: relative;
+
+	th {
+		padding: 9px 7px!important;
+		vertical-align: middle;
+
+		&.step {
+			width: 28px;
+		}
+	}
+
+	td {
+		vertical-align: middle;
+		padding: 7px;
+		line-height: 2em;
+	}
+
+	tr:nth-child(odd) td {
+		background: #f9f9f9;
+	}
+
+	.status {
+		text-align: center;
+	}
+
+	.status-enabled,
+	.status-disabled {
+		margin: 0 auto;
+	}
+}

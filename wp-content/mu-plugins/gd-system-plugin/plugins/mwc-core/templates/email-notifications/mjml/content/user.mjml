@@ -1,0 +1,19 @@
+<mj-column>
+  {{#if internal.header}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    {{{internal.header}}}
+  </mj-text>
+  {{/if}} {{#if internal.content}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    <p>{{{internal.content}}}</p>
+  </mj-text>
+  {{/if}} {{#if additionalContent}}
+  <mj-text mj-class="body-color body-font body-font-size">
+    {{{additionalContent}}}
+  </mj-text>
+  {{/if}} {{#if internal.footer}}
+  <mj-text mj-class="body-color body-font body-font-size no-padding">
+    {{{internal.footer}}}
+  </mj-text>
+  {{/if}}
+</mj-column>

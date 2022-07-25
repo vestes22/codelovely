@@ -1,0 +1,72 @@
+/**
+ * 14.9 - Contact Section
+ */
+
+.contact-details > div {
+    display: block;
+    float: none;
+    margin: 0 0 35px;
+    position: relative;
+    width: 100%;
+}
+.contact-details > .contact-address{
+    float: left;
+}
+
+.contact-details > div a {
+    display: block;
+}
+
+.contact-details .contact-details-icon-wrapper {
+    border: 1px solid;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: none;
+    margin: 0 auto 21px;
+    padding: 21px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+.contact-details .contact-details-icon-wrapper .icon {
+    width: 35px;
+    height: 35px;
+}
+
+.contact-details .contact-details-label,
+.contact-content-wrapper form p > label {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.contact-section .view-more {
+    padding: 0;
+    text-align: left;
+}
+
+.contact-section .contact-us-form,
+.contact-section .contact-info {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.contact-section #social-contact-navigation {
+    float: left;
+}
+
+.contact-section #social-contact-navigation .social-links-menu {
+    justify-content: left;
+}
+
+.contact-details .contact-info-wrap {
+    @include flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}

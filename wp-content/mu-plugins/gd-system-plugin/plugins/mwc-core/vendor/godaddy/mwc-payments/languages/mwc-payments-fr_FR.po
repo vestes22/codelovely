@@ -1,0 +1,105 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Payments\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-27T17:59:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mwc-payments\n"
+
+#: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php:117
+msgid "Debit"
+msgstr "Débit"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:17
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:17
+msgid "Completed"
+msgstr "Terminé"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:17
+msgid "Failed"
+msgstr "Échec"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:17
+#: src/Models/Transactions/Statuses/HeldTransactionStatus.php:25
+msgid "Held"
+msgstr "Retenu"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:17
+msgid "Pending payment"
+msgstr "Paiement en attente"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:17
+msgid "Processing"
+msgstr "En cours de traitement"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:17
+msgid "Refunded"
+msgstr "Remboursé"
+
+#: src/Models/PaymentMethods/BankAccounts/Types/CheckingBankAccountType.php:21
+msgid "Checking Account"
+msgstr "Compte-chèques"
+
+#: src/Models/PaymentMethods/BankAccounts/Types/SavingsBankAccountType.php:21
+msgid "Savings Account"
+msgstr "Compte d’épargne"
+
+#: src/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrand.php:21
+msgctxt "card brand name"
+msgid "American Express"
+msgstr "American Express"
+
+#: src/Models/PaymentMethods/Cards/Brands/CreditCardBrand.php:21
+msgid "Credit Card"
+msgstr "Carte de crédit"
+
+#: src/Models/PaymentMethods/Cards/Brands/DebitCardBrand.php:21
+msgid "Debit Card"
+msgstr "Carte de débit"
+
+#: src/Models/PaymentMethods/Cards/Brands/DinersClubCardBrand.php:21
+msgctxt "card brand name"
+msgid "Diners Club"
+msgstr "Diners Club"
+
+#: src/Models/PaymentMethods/Cards/Brands/DiscoverCardBrand.php:21
+msgctxt "card brand name"
+msgid "Discover"
+msgstr "Discover"
+
+#: src/Models/PaymentMethods/Cards/Brands/MaestroCardBrand.php:21
+msgctxt "card brand name"
+msgid "Maestro"
+msgstr "Maestro"
+
+#: src/Models/PaymentMethods/Cards/Brands/MastercardCardBrand.php:21
+msgctxt "card brand name"
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: src/Models/PaymentMethods/Cards/Brands/VisaCardBrand.php:21
+msgctxt "card brand name"
+msgid "Visa"
+msgstr "Visa"
+
+#: src/Models/Transactions/Statuses/ApprovedTransactionStatus.php:26
+msgid "Approved"
+msgstr "Approuvé"
+
+#: src/Models/Transactions/Statuses/DeclinedTransactionStatus.php:25
+msgid "Declined"
+msgstr "Refusé"
+
+#: src/Models/Transactions/Statuses/PendingTransactionStatus.php:25
+msgid "Pending"
+msgstr "En attente"

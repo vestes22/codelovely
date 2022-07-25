@@ -1,0 +1,766 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-11-16T20:16:39+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr "NextGen‏"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "تجربة ووردبريس الجيل القادم"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy‏"
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "العامة"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "فئة الصورة"
+
+#: includes/class-publish-guide.php:142
+msgid "Display Publish Guide."
+msgstr "عرض دليل النشر."
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "حدث خطأ في معالجة طلبك."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "يجب تمريرdesign_style‏."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "يجب تمريرdesign_style المتوفر."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "Go بواسطة %s"
+
+#: build/editorPreferenceModal.js:1
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "هل ترغب في الاستمرار في استخدام محرر GoDaddy للموقع؟"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"نريد أن نتأكد أنك لديك الأدوات المناسبة لإنشاء موقعك. أنت حاليًا تستخدم محرر "
+"GoDaddy للموقع، الذي يتيح لك كل شيء في ووردبريس بالإضافة إلى طريقة لتخصيص "
+"تصميمك وتحرير صفحاتك، وإدارة صفحاتك، كل ذلك من مكان واحد."
+
+#: build/editorPreferenceModal.js:1
+msgid "Yes, keep using it"
+msgstr "نعم، الاستمرار في الاستخدام"
+
+#: build/editorPreferenceModal.js:1
+msgid "No, I want to see other options"
+msgstr "لا، أريد رؤية خيارات أخرى"
+
+#: build/editorPreferenceModal.js:1
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "نأسف أنك لم تجد ذلك مناسبًا لك"
+
+#: build/editorPreferenceModal.js:1
+msgid "Could you tell us why?"
+msgstr "هل لك أن تخبرنا بالسبب؟"
+
+#: build/editorPreferenceModal.js:1
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "أخبرنا لماذا لم تجده مناسبًا لك..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "عودة"
+
+#: build/editorPreferenceModal.js:1
+msgid "Skip"
+msgstr "تجاوز"
+
+#: build/editorPreferenceModal.js:1
+msgid "Continue"
+msgstr "استمر"
+
+#: build/editorPreferenceModal.js:1
+msgid "Let’s find you a better fit"
+msgstr "دعنا نعثر لك على ما يناسبك أكثر"
+
+#: build/editorPreferenceModal.js:1
+msgid "Here are some other options to explore:"
+msgstr "إليك بعض الخيارات الأخرى لتستعرضها:"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to the default WordPress editor"
+msgstr "التحول إلى محرر ووردبريس التلقائي"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to a 3rd party page builder"
+msgstr "التحول إلى منشئ صفحات طرف ثالث"
+
+#: build/editorPreferenceModal.js:1
+msgid "Talk to someone about my options"
+msgstr "التحدث إلى شخص ما عن خياراتي"
+
+#: build/editorPreferenceModal.js:1
+msgid "Hire our experts to build your site for you"
+msgstr "استأجر خبرائنا لينشئوا لك موقعك"
+
+#: build/editorPreferenceModal.js:1
+msgid "Learn More"
+msgstr "اعرف المزيد"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to the default WordPress editor"
+msgstr "جارٍالتحول إلى محرر ووردبريس التلقائي"
+
+#: build/editorPreferenceModal.js:1
+msgid "You should switch to the default WordPress editor if:"
+msgstr "يجب أن تحول إلى محرر ووردبريس التلقائي إذا كنت:"
+
+#: build/editorPreferenceModal.js:1
+msgid "You want to use a different theme"
+msgstr "تريد استخدام مظهر مختلف"
+
+#: build/editorPreferenceModal.js:1
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr "على دراية بمحرر ووردبريس التلقائي و/أو تفضل استخدامه"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"بمجرد أن تحول، لن يعمل هذا الموقع بعد ذلك مع محرر GoDaddy للموقع، وبالتالي "
+"لن يمكنك العودة إلى المحرر والمواصلة."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr "هل أنت جاهز لتحول هذا الموقع إلى محرر ووردبريس التلقائي؟"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switch to Default"
+msgstr "تحول إلى التلقائي"
+
+#: build/editorPreferenceModal.js:1
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "جارٍ التحول إلى منشئ صفحات طرف ثالث"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"منشئ صفحات الطرف الثالث يكون إضافة لووردبريس تثبتها على موقعك، تتيح لك إنشاء "
+"وتصميم الصفحات."
+
+#: build/editorPreferenceModal.js:1
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr "هل أنت جاهز لتحول هذا الموقع إلى منشئ صفحات طرف ثالث؟"
+
+#: build/editorPreferenceModal.js:1
+msgid "View Plugins"
+msgstr "عرض الإضافات"
+
+#: build/editorPreferenceModal.js:1
+msgid "Expert help is on the way"
+msgstr "المساعدة الاحترافية قادمة"
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact our GoDaddy guides to get started."
+msgstr "اتصل بمرشدي GoDaddy لتبدأ."
+
+#: build/editorPreferenceModal.js:1
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr "سننشئ موقع ويب احترافيًا مذهلاً، يلبي متطلبات عملك"
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "جارٍ إعادة توجيهك إلى لوحة تحكم ووردبريس..."
+
+#: build/editorPreferenceModal.js:1
+msgid "Redirecting you to WordPress plugins…"
+msgstr "جارٍ إعادة توجيهك إلى إضافات ووردبريس..."
+
+#: build/editorPreferenceModal.js:1
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"نقدر لك تعليقاتك ونريد التأكد من أنك لديك الأدوات المناسبة لإنشاء موقعك. أنت "
+"حاليًا تستخدم محرر GoDaddy للموقع، الذي يتيح لك كل شيء في ووردبريس بالإضافة "
+"إلى طريقة لتخصيص تصميمك وتحرير صفحاتك، وإدارة صفحاتك، كل ذلك من مكان واحد."
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+msgid "Document"
+msgstr "الوثيقة"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+msgid "%s (selected)"
+msgstr "%s (تم اختيارها)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+msgid "Block (selected)"
+msgstr "كتلة (تم اختيارها)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+msgid "Block"
+msgstr "مكوّن"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+msgid "Visibility"
+msgstr "الرؤية"
+
+#: build/editSite.js:20
+msgid "Publish"
+msgstr "النشر"
+
+#: build/editSite.js:20 packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "هل تريد حقًا الحذف؟"
+
+#: build/editSite.js:20
+msgid "Delete this page"
+msgstr "حذف هذه الصفحة"
+
+#: build/editSite.js:20
+msgid "Title"
+msgstr "العنوان"
+
+#: build/editSite.js:20
+msgid "Display on page"
+msgstr "عرض في الصفحة"
+
+#: build/editSite.js:20
+msgid "Page details"
+msgstr "تفاصيل الصفحة"
+
+#: build/editSite.js:20
+msgid "Featured image"
+msgstr "صورة بارزة"
+
+#: build/editSite.js:20
+msgid "Settings"
+msgstr "إعدادات"
+
+#: build/editSite.js:20
+msgid "Close settings"
+msgstr "إغلاق الإعدادات"
+
+#: build/editSite.js:20
+msgid "Plugins"
+msgstr "المكونات الإضافية"
+
+#: build/editSite.js:20
+msgid "More"
+msgstr "المزيد"
+
+#: build/editSite.js:20
+msgid "More tools & options"
+msgstr "أدوات وخيارات أكثر"
+
+#: build/editSite.js:20
+msgid "Add"
+msgstr "إضافة"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15
+msgid "Cache cleared"
+msgstr "تم مسح ذاكرة التخزين المؤقت"
+
+#: build/logoMenu.js:15
+msgid "Site Editor"
+msgstr "محرر الموقع"
+
+#: build/logoMenu.js:15
+msgid "Main menu"
+msgstr "القائمة الرئيسية"
+
+#: build/logoMenu.js:15
+msgid "WordPress Management"
+msgstr "إدارة ووردبريس"
+
+#: build/logoMenu.js:15
+msgid "Manage Plugins"
+msgstr "إدارة الإضافات"
+
+#: build/logoMenu.js:15
+msgid "Manage Site Menus"
+msgstr "إدارة قوائم الموقع"
+
+#: build/logoMenu.js:15
+msgid "Customize Site Design"
+msgstr "تخصيص تصميم الموقع"
+
+#: build/logoMenu.js:15
+msgid "Manage Users"
+msgstr "إدارة المستخدمين"
+
+#: build/logoMenu.js:15
+msgid "Manage Comments"
+msgstr "إدارة التعليقات"
+
+#: build/logoMenu.js:15
+msgid "WordPress Admin"
+msgstr "مسؤول ووردبريس"
+
+#: build/logoMenu.js:15
+msgid "Hosting"
+msgstr "الاستضافة"
+
+#: build/logoMenu.js:15
+msgid "Hosting Overview"
+msgstr "نظرة عامة على الاستضافة"
+
+#: build/logoMenu.js:15
+msgid "Hosting Settings"
+msgstr "إعدادات الاستضافة"
+
+#: build/logoMenu.js:15
+msgid "Tools"
+msgstr "أدوات"
+
+#: build/logoMenu.js:15
+msgid "Editor Preference"
+msgstr "تفضيل المحرر"
+
+#: build/logoMenu.js:15
+msgid "Is this editor right for you?"
+msgstr "هل هذا المحرر مناسب لك؟"
+
+#: build/logoMenu.js:15
+msgid "Learn about other WordPress site building options here."
+msgstr "تعرف على خيارات إنشاء موقع ووردبريس الأخرى هنا."
+
+#: build/logoMenu.js:15
+msgid "Flush Cache"
+msgstr "مسح ذاكرة التخزين المؤقت"
+
+#: build/logoMenu.js:15
+msgid "Connection Management"
+msgstr "إدارة الاتصال"
+
+#: build/logoMenu.js:15
+msgid "Support"
+msgstr "الدعم"
+
+#: build/logoMenu.js:15
+msgid "Give Feedback"
+msgstr "تقديم تقييم"
+
+#: build/logoMenu.js:15
+msgid "Help & Support"
+msgstr "المساعدة والدعم"
+
+#: packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "معلومات"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "أخبرنا عن تجربتك… (اختياري)"
+
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "إرسال"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "شكرًا لمشاركة تقييمك معنا"
+
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "إغلاق"
+
+#: packages/feedback-modal/src/index.js:99
+#: packages/feedback-modal/src/index.js:107
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "تقديم تقييم"
+
+#: packages/feedback-modal/src/index.js:108
+msgid "How would you rate your experience?"
+msgstr "ما تقييمك لتجربتك؟"
+
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "موقعي عن:"
+
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "موضة"
+
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "ديكور منزل"
+
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "قهوة"
+
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "تشييد"
+
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "فن"
+
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "خبازة"
+
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "لياقة بدنية"
+
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "تنسيق مواقع"
+
+#: packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "بحث"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "أضف نطاقك"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"اظهر بشكل احترافي أكثر واجعل من السهل على العملاء العثور على موقع الويب."
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:39
+msgid "Change"
+msgstr "تغيير"
+
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "قم بإضافة مجال"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "معاينة وإضافة صفحات"
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr "وجدنا أنك بدأت بشيء قليل. أضف صفحات ومحتوى أكثر."
+
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "إدارة الصفحات"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "اجعل التصميم متكيفًا معك"
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "حدّث الألوان والخطوط وغير شكل وأسلوب عرض الموقع."
+
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "تخصيص"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "شعار موقع الويب"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "إضافة معلومات الموقع والعلامة التجارية"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr "ما اسم الموقع وما الغرض منه؟ أضف شعارًا إذا كنت لديك واحد."
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "تحرير"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "عنوان الموقع"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "وصف الموقع"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "تحميل شعار الموقع"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "استبدال الشعار"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "إزالة الشعار"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "حفظ"
+
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "عمل ذلك لاحقًا"
+
+#: packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "انطلق موقعك"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "وقت الاحتفال و"
+
+#: packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "مشاركة الأخبار الرائعة."
+
+#: packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "فحص موقع الويب الجديد!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr "لقد نشرت توًا موقعي على الويب على %1$s، تعال جربه وأخبرني ما رأيك!"
+
+#: packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "إخفاء هذا الدليل"
+
+#: packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "حدد إجراءً"
+
+#: packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "إعادة التسمية"
+
+#: packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "هل تريد حقًا تعيينه كصفحة رئيسية؟"
+
+#: packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "تعيينه كصفحة رئيسية"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "إلغاء تثبيت المنشور"
+
+#: packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "تثبيت المنشور"
+
+#: packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "تكرار"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "حذف الصفحة"
+
+#: packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "حذف المنشور"
+
+#: packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "ألوان"
+
+#: packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "لوحات الألوان"
+
+#: packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "مخصصة"
+
+#: packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "أساليب التصميمات"
+
+#: packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"استكشف بسهولة أساليب التصميمات المنتقاة بعناية، ثم خصص ألوانك وخطوطك للحصول "
+"على ما يناسبك تمامًا."
+
+#: packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "خيارات الخط المخصص"
+
+#: packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "العنوان"
+
+#: packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "الخط"
+
+#: packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "الوزن"
+
+#: packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "الحجم"
+
+#: packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "حجم خط العنوان"
+
+#: packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "النص الأساسي"
+
+#: packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "الخطوط"
+
+#: packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "اقترانات الخطوط"
+
+#: packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "الثعلب البني السريع قفز على الكلب الكسول."
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "إخفاء أحجام الخطوط"
+
+#: packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "تحرير أحجام الخطوط"
+
+#: packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "صغير"
+
+#: packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "عادي"
+
+#: packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "كبير"
+
+#: packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "حجم أساسي"
+
+#: packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "حجم الخط"
+
+#: packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "مقياس العنوان"
+
+#: packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "تصميم الموقع"
+
+#: packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "تصميم"
+
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "اكتمل التحديث."
+
+#: packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "جارٍ التحديث إلى الأحدث والأفضل"
+
+#: packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "يرجى الانتظار بينما نطبق آخر تحديث على محررك."
+
+#: packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "لن يستغرق هذا وقتًا طويلاً."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "سيغير ذلك محرر موقعك، أيضًا"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"أنت حاليًا تستخدم محرر GoDaddy للموقع مع قالب Go، الذي يتيح لك كل شيء في "
+"ووردبريس بالإضافة إلى طريقة لتخصيص تصميمك وتحرير صفحاتك، وإدارة صفحاتك، كل "
+"ذلك من مكان واحد."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"بمجرد تفعيل القالب الجديد، لن يعمل هذا الموقع بعد ذلك مع محرر GoDaddy "
+"للموقع. وسيتحول موقعك إلى محرر ووردبريس التلقائي بدلاً منه."
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr "هل أنت جاهز لتفعيل قالب جديد والتحول إلى محرر ووردبريس التلقائي؟"
+
+#: packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "تنشيط"
