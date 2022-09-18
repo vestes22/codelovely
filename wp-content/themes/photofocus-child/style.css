@@ -323,6 +323,10 @@ a.wp-block-button__link{
   .site-header-menu .main-navigation #primary-menu .sub-menu li a {
     color: #f9f1ec;
   }
+
+  .list-heading {
+    color: #7b7b7b;
+  }
   /*----------------------------------------------------
     About Me CSS
     -------------------------------------------------- */
@@ -381,11 +385,12 @@ a.wp-block-button__link{
   }
   
   .portfolio-header {
-    background-image: linear-gradient(45deg, #F1DDCF, #F4E4D9, #f9f1ec, #800000);
+    background-image: linear-gradient(45deg, #F1DDCF, #F4E4D9, #f9f1ec);
     background-color: #F1DDCF;
     font-family: serif;
     letter-spacing: 2px;
     padding: 15px;
+    color: #800000;
     text-decoration: none;
     border-bottom: solid 1px #ffffff;
   }
@@ -491,4 +496,8 @@ a.wp-block-button__link{
 
   .wp-block-ub-content-toggle-accordion-title-wrap .wp-block-ub-content-toggle-accordion-state-indicator {
     color: #f9f1ec;
+  }
+
+  a {
+    color: #800000;
   }
